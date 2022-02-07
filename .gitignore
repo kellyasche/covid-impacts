@@ -39,3 +39,7 @@ vignettes/*.pdf
 .Renviron
 
 Data/
+_site.yml
+index.Rmd
+styles.css
+
