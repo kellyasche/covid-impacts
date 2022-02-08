@@ -106,11 +106,11 @@ counties.regions <- read_csv("Data/Join docs/county_regions.csv") %>%
          mif = as.factor(mif),
          mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"))
 
-color.ruca <- c("Entirely rural" = "#009933", "Town/rural mix" = "#99CC33", "Urban/town/rural mix" = "#CC9966", "Entirely urban" = "#754C29", "Minnesota" = "black")
+color.ruca <- c("Entirely rural" = "#009933", "Town/rural mix" = "#99CC33", "Urban/town/rural mix" = "#CC9966", "Entirely urban" = "#754C29")
 
-color.pr <- c("Northwest" = 	"#4575b4", "Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59", "Minnesota" = "black")
+color.pr <- c("Northwest" = 	"#4575b4", "Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59")
 
-color.edr <- c("EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365", "Minnesota" = "black")
+color.edr <- c("EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
 
 color.pr.edr <- c ("Northwest" = "#4575b4","Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59", "Minnesota" = "black", "EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
 
@@ -124,50 +124,178 @@ mn_counties <- st_read("Data/Shapefiles/county shapefiles/MNCounties_MNDOT.shp",
 master.cases <- read_csv("Data/Cases/Master-covid-cases-counties.csv") %>%
   gather(key = "date", value = "cases", 3:645) %>%
   mutate(date = mdy(date),
+         cases = as.numeric(cases),
          Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
          edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
          planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
          mif = as.factor(mif),
-         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"))
+         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC")) %>%
+  drop_na(cases)
 
 
 
 master.deaths <- read_csv("Data/Cases/Master-covid-deaths-counties.csv") %>%
   gather(key = "date", value = "deaths", 3:645) %>%
   mutate(date = mdy(date),
+         deaths = as.numeric(deaths),
          Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
          edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
          planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
          mif = as.factor(mif),
-         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"))
+         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC")) %>%
+  drop_na(deaths)
+
 ```
 
 <br>
 
-# Cases{.tabset}
+# Cases
 
-Below are the trend lines for difference geographic regions. 
+Cases below
 
 <br>
+
+## Active cases{.tabset}
+
+Active cases are defined as the number of cumulative cases for each day minus the total cumulative cases from two weeks prior. 
+
+<br>
+
+```{r prep active cases, include=FALSE, cache=TRUE}
+active.cases.col <- master.cases %>%
+  group_by(county) %>%
+  mutate(active.cases = cases - cases[date == date-14]) %>%
+  ungroup()
+
+names(active.cases.county)
+```
+
+### RUCA
+
+<br>
+
+<br>
+
+### Planning Region
+
+<br>
+
+<br>
+
+### EDR
+
+<br>
+
+<br>
+
+
+
+## Cumulative cases{.tabset}
 
 ```{r prep cases, include=FALSE, cache=TRUE}
+cases.per.100000.ruca <- master.cases %>%
+  group_by(Dem_Desc, date) %>%
+  summarize(pop = sum(pop, na.rm = TRUE),
+            cases = sum(cases, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(cases.per.100000 = (cases / pop) * 100000,
+         data_id = seq(n()))
+
+cases.per.100000.pr <- master.cases %>%
+  group_by(planning.region, date) %>%
+  summarize(pop = sum(pop, na.rm = TRUE),
+            cases = sum(cases, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(cases.per.100000 = (cases / pop) * 100000,
+         data_id = seq(n()))
+
+cases.per.100000.edr <- master.cases %>%
+  group_by(edr, planning.region, date) %>%
+  summarize(pop = sum(pop, na.rm = TRUE),
+            cases = sum(cases, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(cases.per.100000 = (cases / pop) * 100000,
+         data_id = seq(n()))
+```
+
+### RUCA
+
+<br>
+
+```{r chart cases per 100000 ruca}
+cases.per.100000.ruca.plot <- ggplot(cases.per.100000.ruca, aes(date, cases.per.100000, color = Dem_Desc)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nDate: ", date, "\nCumulative cases: ", comma(cases, accuracy = 1), "\nCumulative cases per 100,000: ", comma(cases.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Cumulative cases per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(cases.per.100000.ruca, date == max(date)), aes(label = comma(cases.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cases.per.100000.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
 
 ```
 
-## RUCA
+<br>
+
+### Planning Region
 
 <br>
 
+```{r chart cases per 100000 pr}
+cases.per.100000.pr.plot <- ggplot(cases.per.100000.pr, aes(date, cases.per.100000, color = planning.region)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(planning.region, "\nDate: ", date, "\nCumulative cases: ", comma(cases, accuracy = 1), "\nCumulative cases per 100,000: ", comma(cases.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Cumulative cases per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(cases.per.100000.pr, date == max(date)), aes(label = comma(cases.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cases.per.100000.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
 <br>
 
-## Planning Region
+### EDR
 
 <br>
 
-<br>
+```{r chart cases per 100000 edr}
+cases.per.100000.edr.plot <- ggplot(cases.per.100000.edr, aes(date, cases.per.100000, color = edr)) +
+  facet_wrap(~planning.region, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(edr, "\nDate: ", date, "\nCumulative cases: ", comma(cases, accuracy = 1), "\nCumulative cases per 100,000: ", comma(cases.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Cumulative cases per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(cases.per.100000.edr, date == max(date)), aes(label = comma(cases.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
 
-## EDR
+  girafe(ggobj = cases.per.100000.edr.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
 
-<br>
+```
 
 <br>
