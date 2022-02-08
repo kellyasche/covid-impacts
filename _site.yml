@@ -1,0 +1,18 @@
+name: "Impacts of COVID-19"
+output_dir: docs
+navbar:
+  title: "Crosstabs"
+  left:
+    - text: "Summary and data overview"
+      href: index.html
+    - text: "Infection"
+      href: infection.html
+    - text: "Economic"
+      href: economic.html
+    - text: "Health Care"
+      href: health_care.html
+    - text: "Childcare"
+      href: childcare.html
+output:
+  html_document:
+    css: "styles.css"
