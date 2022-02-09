@@ -40,6 +40,5 @@ vignettes/*.pdf
 
 index_cache/
 infections_cache/
-site_libs/
 /docs/Data/**
 Data/Hospitals/**
