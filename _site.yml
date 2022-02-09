@@ -6,7 +6,7 @@ navbar:
     - text: "Summary and data overview"
       href: index.html
     - text: "Infection"
-      href: infection.html
+      href: infections.html
     - text: "Economic"
       href: economic.html
     - text: "Health Care"
