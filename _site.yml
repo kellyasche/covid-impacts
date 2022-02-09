@@ -1,7 +1,7 @@
 name: "Impacts of COVID-19"
 output_dir: docs
 navbar:
-  title: "Crosstabs"
+  title: "COVID Impacts"
   left:
     - text: "Summary and data overview"
       href: index.html
