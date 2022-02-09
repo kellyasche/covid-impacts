@@ -1,88 +1,88 @@
-County,People with at least one vaccine dose,People with completed vaccine series,reportedDate,webDate,countyfp,Dem_RUCA,Dem_Desc,edr,planning.region,mif,pop
-Aitkin,9553,9072,2/6/2022,2022-02-08,001,A,Entirely rural,EDR 3 - Arrowhead,Northeast,NE,15841
-Anoka,239932,225237,2/6/2022,2022-02-08,003,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,344861
-Becker,19159,18056,2/6/2022,2022-02-08,005,C,Urban/town/rural mix,EDR 4 - West Central,Northwest,WC,33552
-Beltrami,28201,25981,2/6/2022,2022-02-08,007,B,Town/rural mix,EDR 2 - Headwaters,Northwest,NW,45847
-Benton,21170,19898,2/6/2022,2022-02-08,009,C,Urban/town/rural mix,EDR 7W- Central,Central,EC,39360
-Big Stone,3096,2999,2/6/2022,2022-02-08,011,A,Entirely rural,EDR 6W- Upper Minnesota Valley,Southwest,SW,5039
-Blue Earth,42761,40177,2/6/2022,2022-02-08,013,D,Entirely urban,EDR 9 - South Central,Southwest,SE,65767
-Brown,16417,15697,2/6/2022,2022-02-08,015,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,25243
-Carlton,24930,23468,2/6/2022,2022-02-08,017,C,Urban/town/rural mix,EDR 3 - Arrowhead,Northeast,NE,35408
-Carver,77487,73224,2/6/2022,2022-02-08,019,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,98799
-Cass,17406,16231,2/6/2022,2022-02-08,021,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,28810
-Chippewa,6874,6490,2/6/2022,2022-02-08,023,B,Town/rural mix,EDR 6W- Upper Minnesota Valley,Southwest,SW,12040
-Chisago,31879,30203,2/6/2022,2022-02-08,025,D,Entirely urban,EDR 7E- East Central,Central,EC,54297
-Clay,38867,35740,2/6/2022,2022-02-08,027,D,Entirely urban,EDR 4 - West Central,Northwest,WC,62040
-Clearwater,3651,3421,2/6/2022,2022-02-08,029,B,Town/rural mix,EDR 2 - Headwaters,Northwest,NW,8824
-Cook,4608,4367,2/6/2022,2022-02-08,031,A,Entirely rural,EDR 3 - Arrowhead,Northeast,NE,5270
-Cottonwood,6586,6256,2/6/2022,2022-02-08,033,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,11437
-Crow Wing,37356,35158,2/6/2022,2022-02-08,035,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,63505
-Dakota,324956,305591,2/6/2022,2022-02-08,037,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,414655
-Dodge,13260,12624,2/6/2022,2022-02-08,039,D,Entirely urban,EDR 10 - Southeast,Southeast,SE,20485
-Douglas,22392,21197,2/6/2022,2022-02-08,041,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,36891
-Faribault,7816,7395,2/6/2022,2022-02-08,043,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,13966
-Fillmore,13241,12727,2/6/2022,2022-02-08,045,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,20825
-Freeborn,18645,17511,2/6/2022,2022-02-08,047,B,Town/rural mix,EDR 10 - Southeast,Southeast,SE,30619
-Goodhue,31097,29544,2/6/2022,2022-02-08,049,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,46138
-Grant,3298,3086,2/6/2022,2022-02-08,051,A,Entirely rural,EDR 4 - West Central,Northwest,WC,5923
-Hennepin,980387,912917,2/6/2022,2022-02-08,053,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,1224763
-Houston,12365,11784,2/6/2022,2022-02-08,055,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,18709
-Hubbard,11504,10760,2/6/2022,2022-02-08,057,B,Town/rural mix,EDR 2 - Headwaters,Northwest,NW,20743
-Isanti,19813,18589,2/6/2022,2022-02-08,059,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,38584
-Itasca,26557,25252,2/6/2022,2022-02-08,061,B,Town/rural mix,EDR 3 - Arrowhead,Northeast,NE,45237
-Jackson,5427,5187,2/6/2022,2022-02-08,063,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,10104
-Kanabec,7918,7444,2/6/2022,2022-02-08,065,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,15948
-Kandiyohi,24363,22887,2/6/2022,2022-02-08,067,B,Town/rural mix,EDR 6E- Southwest Central,Central,SW,42577
-Kittson,2528,2413,2/6/2022,2022-02-08,069,A,Entirely rural,EDR 1 - Northwest,Northwest,NW,4384
-Koochiching,7169,6843,2/6/2022,2022-02-08,071,B,Town/rural mix,EDR 3 - Arrowhead,Northeast,NE,12776
-Lac qui Parle,4181,3999,2/6/2022,2022-02-08,073,A,Entirely rural,EDR 6W- Upper Minnesota Valley,Southwest,SW,6840
-Lake,7548,7187,2/6/2022,2022-02-08,075,B,Town/rural mix,EDR 3 - Arrowhead,Northeast,NE,10578
-Lake of the Woods,2203,2078,2/6/2022,2022-02-08,077,A,Entirely rural,EDR 2 - Headwaters,Northwest,NW,3841
-Le Sueur,17401,16398,2/6/2022,2022-02-08,079,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,27810
-Lincoln,3166,3032,2/6/2022,2022-02-08,081,A,Entirely rural,EDR 8 - Southwest,Southwest,SW,5724
-Lyon,14646,13804,2/6/2022,2022-02-08,083,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,25789
-Mahnomen,3009,2807,2/6/2022,2022-02-08,087,A,Entirely rural,EDR 2 - Headwaters,Northwest,NW,5500
-Marshall,4848,4622,2/6/2022,2022-02-08,089,C,Urban/town/rural mix,EDR 1 - Northwest,Northwest,NW,9397
-Martin,11048,10483,2/6/2022,2022-02-08,091,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,20084
-McLeod,21464,20223,2/6/2022,2022-02-08,085,C,Urban/town/rural mix,EDR 6E- Southwest Central,Central,SW,35816
-Meeker,11765,11145,2/6/2022,2022-02-08,093,B,Town/rural mix,EDR 6E- Southwest Central,Central,SW,23105
-Mille Lacs,12902,11903,2/6/2022,2022-02-08,095,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,25635
-Morrison,16415,15432,2/6/2022,2022-02-08,097,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,32880
-Mower,25743,24090,2/6/2022,2022-02-08,099,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,39386
-Murray,4887,4641,2/6/2022,2022-02-08,101,A,Entirely rural,EDR 8 - Southwest,Southwest,SW,8394
-Nicollet,23035,21845,2/6/2022,2022-02-08,103,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,33477
-Nobles,13461,12620,2/6/2022,2022-02-08,105,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,21854
-Norman,3946,3750,2/6/2022,2022-02-08,107,A,Entirely rural,EDR 1 - Northwest,Northwest,NW,6589
-Olmsted,127040,120423,2/6/2022,2022-02-08,109,D,Entirely urban,EDR 10 - Southeast,Southeast,SE,151685
-Otter Tail,33599,31470,2/6/2022,2022-02-08,111,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,57790
-Pennington,8306,7867,2/6/2022,2022-02-08,113,B,Town/rural mix,EDR 1 - Northwest,Northwest,NW,14197
-Pine,14371,13408,2/6/2022,2022-02-08,115,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,29057
-Pipestone,4972,4648,2/6/2022,2022-02-08,117,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,9229
-Polk,17485,16324,2/6/2022,2022-02-08,119,C,Urban/town/rural mix,EDR 1 - Northwest,Northwest,NW,31564
-Pope,6464,6097,2/6/2022,2022-02-08,121,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,10932
-Ramsey,406651,377620,2/6/2022,2022-02-08,123,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,537893
-Red Lake,2316,2182,2/6/2022,2022-02-08,125,A,Entirely rural,EDR 1 - Northwest,Northwest,NW,4017
-Redwood,8524,8110,2/6/2022,2022-02-08,127,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,15430
-Renville,8176,7725,2/6/2022,2022-02-08,129,A,Entirely rural,EDR 6E- Southwest Central,Central,SW,14798
-Rice,42884,40203,2/6/2022,2022-02-08,131,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,65251
-Rock,4960,4586,2/6/2022,2022-02-08,133,C,Urban/town/rural mix,EDR 8 - Southwest,Southwest,SW,9433
-Roseau,8048,7623,2/6/2022,2022-02-08,135,B,Town/rural mix,EDR 1 - Northwest,Northwest,NW,15537
-Scott,105397,99060,2/6/2022,2022-02-08,139,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,141463
-Sherburne,50822,47767,2/6/2022,2022-02-08,141,D,Entirely urban,EDR 7W- Central,Central,EC,92024
-Sibley,8121,7649,2/6/2022,2022-02-08,143,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,14888
-St. Louis,137016,129119,2/6/2022,2022-02-08,137,C,Urban/town/rural mix,EDR 3 - Arrowhead,Northeast,NE,200294
-Stearns,88650,82787,2/6/2022,2022-02-08,145,C,Urban/town/rural mix,EDR 7W- Central,Central,EC,155300
-Steele,23144,21683,2/6/2022,2022-02-08,147,B,Town/rural mix,EDR 10 - Southeast,Southeast,SE,36612
-Stevens,5742,5423,2/6/2022,2022-02-08,149,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,9759
-Swift,5476,5216,2/6/2022,2022-02-08,151,B,Town/rural mix,EDR 6W- Upper Minnesota Valley,Southwest,SW,9448
-Todd,11327,10679,2/6/2022,2022-02-08,153,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,24423
-Traverse,2089,1983,2/6/2022,2022-02-08,155,A,Entirely rural,EDR 4 - West Central,Northwest,WC,3357
-Wabasha,14069,13406,2/6/2022,2022-02-08,157,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,21490
-Wadena,6438,6067,2/6/2022,2022-02-08,159,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,13626
-Waseca,10949,10361,2/6/2022,2022-02-08,161,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,18898
-Washington,201983,191038,2/6/2022,2022-02-08,163,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,250979
-Watonwan,6723,6250,2/6/2022,2022-02-08,165,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,10936
-Wilkin,3476,3233,2/6/2022,2022-02-08,167,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,6398
-Winona,32256,30660,2/6/2022,2022-02-08,169,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,50992
-Wright,79528,74572,2/6/2022,2022-02-08,171,C,Urban/town/rural mix,EDR 7W- Central,Central,EC,131130
-Yellow Medicine,5334,5052,2/6/2022,2022-02-08,173,B,Town/rural mix,EDR 6W- Upper Minnesota Valley,Southwest,SW,9930
+County,People with at least one vaccine dose,People with completed vaccine series,reportedDate,webDate,countyfp,Dem_RUCA,Dem_Desc,edr,planning.region,mif,age.5plu
+Aitkin,9553,9072,2/6/2022,2022-02-08,001,A,Entirely rural,EDR 3 - Arrowhead,Northeast,NE,15304
+Anoka,239932,225237,2/6/2022,2022-02-08,003,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,334619
+Becker,19159,18056,2/6/2022,2022-02-08,005,C,Urban/town/rural mix,EDR 4 - West Central,Northwest,WC,32303
+Beltrami,28201,25981,2/6/2022,2022-02-08,007,B,Town/rural mix,EDR 2 - Headwaters,Northwest,NW,43912
+Benton,21170,19898,2/6/2022,2022-02-08,009,C,Urban/town/rural mix,EDR 7W- Central,Central,EC,37996
+Big Stone,3096,2999,2/6/2022,2022-02-08,011,A,Entirely rural,EDR 6W- Upper Minnesota Valley,Southwest,SW,4692
+Blue Earth,42761,40177,2/6/2022,2022-02-08,013,D,Entirely urban,EDR 9 - South Central,Southwest,SE,64003
+Brown,16417,15697,2/6/2022,2022-02-08,015,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,23608
+Carlton,24930,23468,2/6/2022,2022-02-08,017,C,Urban/town/rural mix,EDR 3 - Arrowhead,Northeast,NE,33985
+Carver,77487,73224,2/6/2022,2022-02-08,019,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,98462
+Cass,17406,16231,2/6/2022,2022-02-08,021,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,28246
+Chippewa,6874,6490,2/6/2022,2022-02-08,023,B,Town/rural mix,EDR 6W- Upper Minnesota Valley,Southwest,SW,10984
+Chisago,31879,30203,2/6/2022,2022-02-08,025,D,Entirely urban,EDR 7E- East Central,Central,EC,53240
+Clay,38867,35740,2/6/2022,2022-02-08,027,D,Entirely urban,EDR 4 - West Central,Northwest,WC,59657
+Clearwater,3651,3421,2/6/2022,2022-02-08,029,B,Town/rural mix,EDR 2 - Headwaters,Northwest,NW,8260
+Cook,4608,4367,2/6/2022,2022-02-08,031,A,Entirely rural,EDR 3 - Arrowhead,Northeast,NE,5237
+Cottonwood,6586,6256,2/6/2022,2022-02-08,033,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,10455
+Crow Wing,37356,35158,2/6/2022,2022-02-08,035,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,61526
+Dakota,324956,305591,2/6/2022,2022-02-08,037,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,401596
+Dodge,13260,12624,2/6/2022,2022-02-08,039,D,Entirely urban,EDR 10 - Southeast,Southeast,SE,19654
+Douglas,22392,21197,2/6/2022,2022-02-08,041,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,35904
+Faribault,7816,7395,2/6/2022,2022-02-08,043,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,12867
+Fillmore,13241,12727,2/6/2022,2022-02-08,045,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,19713
+Freeborn,18645,17511,2/6/2022,2022-02-08,047,B,Town/rural mix,EDR 10 - Southeast,Southeast,SE,28615
+Goodhue,31097,29544,2/6/2022,2022-02-08,049,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,43720
+Grant,3298,3086,2/6/2022,2022-02-08,051,A,Entirely rural,EDR 4 - West Central,Northwest,WC,5633
+Hennepin,980387,912917,2/6/2022,2022-02-08,053,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,1185711
+Houston,12365,11784,2/6/2022,2022-02-08,055,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,17560
+Hubbard,11504,10760,2/6/2022,2022-02-08,057,B,Town/rural mix,EDR 2 - Headwaters,Northwest,NW,20360
+Isanti,19813,18589,2/6/2022,2022-02-08,059,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,38176
+Itasca,26557,25252,2/6/2022,2022-02-08,061,B,Town/rural mix,EDR 3 - Arrowhead,Northeast,NE,42756
+Jackson,5427,5187,2/6/2022,2022-02-08,063,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,9307
+Kanabec,7918,7444,2/6/2022,2022-02-08,065,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,15409
+Kandiyohi,24363,22887,2/6/2022,2022-02-08,067,B,Town/rural mix,EDR 6E- Southwest Central,Central,SW,40256
+Kittson,2528,2413,2/6/2022,2022-02-08,069,A,Entirely rural,EDR 1 - Northwest,Northwest,NW,4050
+Koochiching,7169,6843,2/6/2022,2022-02-08,071,B,Town/rural mix,EDR 3 - Arrowhead,Northeast,NE,11713
+Lac qui Parle,4181,3999,2/6/2022,2022-02-08,073,A,Entirely rural,EDR 6W- Upper Minnesota Valley,Southwest,SW,6303
+Lake,7548,7187,2/6/2022,2022-02-08,075,B,Town/rural mix,EDR 3 - Arrowhead,Northeast,NE,10126
+Lake of the Woods,2203,2078,2/6/2022,2022-02-08,077,A,Entirely rural,EDR 2 - Headwaters,Northwest,NW,3561
+Le Sueur,17401,16398,2/6/2022,2022-02-08,079,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,27100
+Lincoln,3166,3032,2/6/2022,2022-02-08,081,A,Entirely rural,EDR 8 - Southwest,Southwest,SW,5288
+Lyon,14646,13804,2/6/2022,2022-02-08,083,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,23632
+Mahnomen,3009,2807,2/6/2022,2022-02-08,087,A,Entirely rural,EDR 2 - Headwaters,Northwest,NW,5050
+Marshall,4848,4622,2/6/2022,2022-02-08,089,C,Urban/town/rural mix,EDR 1 - Northwest,Northwest,NW,8754
+Martin,11048,10483,2/6/2022,2022-02-08,091,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,18539
+McLeod,21464,20223,2/6/2022,2022-02-08,085,C,Urban/town/rural mix,EDR 6E- Southwest Central,Central,SW,33840
+Meeker,11765,11145,2/6/2022,2022-02-08,093,B,Town/rural mix,EDR 6E- Southwest Central,Central,SW,21798
+Mille Lacs,12902,11903,2/6/2022,2022-02-08,095,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,24634
+Morrison,16415,15432,2/6/2022,2022-02-08,097,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,31431
+Mower,25743,24090,2/6/2022,2022-02-08,099,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,37396
+Murray,4887,4641,2/6/2022,2022-02-08,101,A,Entirely rural,EDR 8 - Southwest,Southwest,SW,7742
+Nicollet,23035,21845,2/6/2022,2022-02-08,103,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,32353
+Nobles,13461,12620,2/6/2022,2022-02-08,105,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,19773
+Norman,3946,3750,2/6/2022,2022-02-08,107,A,Entirely rural,EDR 1 - Northwest,Northwest,NW,6001
+Olmsted,127040,120423,2/6/2022,2022-02-08,109,D,Entirely urban,EDR 10 - Southeast,Southeast,SE,147583
+Otter Tail,33599,31470,2/6/2022,2022-02-08,111,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,55307
+Pennington,8306,7867,2/6/2022,2022-02-08,113,B,Town/rural mix,EDR 1 - Northwest,Northwest,NW,13222
+Pine,14371,13408,2/6/2022,2022-02-08,115,C,Urban/town/rural mix,EDR 7E- East Central,Central,EC,28226
+Pipestone,4972,4648,2/6/2022,2022-02-08,117,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,8477
+Polk,17485,16324,2/6/2022,2022-02-08,119,C,Urban/town/rural mix,EDR 1 - Northwest,Northwest,NW,29186
+Pope,6464,6097,2/6/2022,2022-02-08,121,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,10625
+Ramsey,406651,377620,2/6/2022,2022-02-08,123,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,512658
+Red Lake,2316,2182,2/6/2022,2022-02-08,125,A,Entirely rural,EDR 1 - Northwest,Northwest,NW,3810
+Redwood,8524,8110,2/6/2022,2022-02-08,127,B,Town/rural mix,EDR 8 - Southwest,Southwest,SW,14192
+Renville,8176,7725,2/6/2022,2022-02-08,129,A,Entirely rural,EDR 6E- Southwest Central,Central,SW,13617
+Rice,42884,40203,2/6/2022,2022-02-08,131,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,63094
+Rock,4960,4586,2/6/2022,2022-02-08,133,C,Urban/town/rural mix,EDR 8 - Southwest,Southwest,SW,8794
+Roseau,8048,7623,2/6/2022,2022-02-08,135,B,Town/rural mix,EDR 1 - Northwest,Northwest,NW,14291
+Scott,105397,99060,2/6/2022,2022-02-08,139,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,139139
+Sherburne,50822,47767,2/6/2022,2022-02-08,141,D,Entirely urban,EDR 7W- Central,Central,EC,90672
+Sibley,8121,7649,2/6/2022,2022-02-08,143,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,14027
+St. Louis,137016,129119,2/6/2022,2022-02-08,137,C,Urban/town/rural mix,EDR 3 - Arrowhead,Northeast,NE,189132
+Stearns,88650,82787,2/6/2022,2022-02-08,145,C,Urban/town/rural mix,EDR 7W- Central,Central,EC,150596
+Steele,23144,21683,2/6/2022,2022-02-08,147,B,Town/rural mix,EDR 10 - Southeast,Southeast,SE,34504
+Stevens,5742,5423,2/6/2022,2022-02-08,149,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,9204
+Swift,5476,5216,2/6/2022,2022-02-08,151,B,Town/rural mix,EDR 6W- Upper Minnesota Valley,Southwest,SW,8674
+Todd,11327,10679,2/6/2022,2022-02-08,153,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,23012
+Traverse,2089,1983,2/6/2022,2022-02-08,155,A,Entirely rural,EDR 4 - West Central,Northwest,WC,3065
+Wabasha,14069,13406,2/6/2022,2022-02-08,157,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,20423
+Wadena,6438,6067,2/6/2022,2022-02-08,159,B,Town/rural mix,EDR 5 - North Central,Northwest,EC,12753
+Waseca,10949,10361,2/6/2022,2022-02-08,161,C,Urban/town/rural mix,EDR 9 - South Central,Southwest,SE,17546
+Washington,201983,191038,2/6/2022,2022-02-08,163,D,Entirely urban,EDR 11 - 7 County Twin Cities,Seven County Mpls-St Paul,TC,247272
+Watonwan,6723,6250,2/6/2022,2022-02-08,165,B,Town/rural mix,EDR 9 - South Central,Southwest,SE,10104
+Wilkin,3476,3233,2/6/2022,2022-02-08,167,B,Town/rural mix,EDR 4 - West Central,Northwest,WC,5830
+Winona,32256,30660,2/6/2022,2022-02-08,169,C,Urban/town/rural mix,EDR 10 - Southeast,Southeast,SE,48103
+Wright,79528,74572,2/6/2022,2022-02-08,171,C,Urban/town/rural mix,EDR 7W- Central,Central,EC,128913
+Yellow Medicine,5334,5052,2/6/2022,2022-02-08,173,B,Town/rural mix,EDR 6W- Upper Minnesota Valley,Southwest,SW,9149

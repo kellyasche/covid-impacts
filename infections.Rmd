@@ -536,74 +536,93 @@ deaths.edr.plot <- ggplot(deaths.edr, aes(date, deaths.per.100000, color = edr))
 
 <br>
 
-# Vaccinations
+# Vaccinations{.tabset}
 
-Summary here.
+Below is a map and charts with the percentage of the population 5 or older that has had at least one vaccination dose.
 
-<br>
+Vaccinations lag behind significantly in more rural areas, not surprisingly considering the case and death rates. The lowest vaccination percentage is in our town/rural mix counties with 61% followed by entirely rural and urban/town/rural mix county group with 64% each. Our entirely urban county group is near 80% of their population 5 and older with at least one vaccine dose.
 
-## At least one does{.tabset}
+When broken down by region, the lowest vaccination are a combination of rural and larger towns in Greater Minnesota. The lowest rate is actually in Central Minnesota with 58%. EDR 7E - East Central had the lowest in that planning region with 54.4%.
 
-Below is a map and charts with the percentage of the population that has had one vaccination.
+The next lowest percentage was Northwest Minnesota 60%. The EDR with the lowest was EDR 5 - North Central at 56.7%.
+
+Interestingly, Southwest and Northeast Minnesota which contain some of our most rural counties in the state had relatively high rates. Northeast had nearly 71% of their population age 5+ vaccinated with at least one dose. Southwest had nearly 65% of their population vaccinated with one dose with EDR 9 - South Central leading the way with 65.5%.
+
+The county map shows that the lowest vaccination rates are actually occurring relatively close the seven county metro. Counties North of that region had the lowest percentages in the state. But, counties along the western border also had relatively low percentages as well. 
+  
 
 <br>
 
 ```{r prep vaccine one dose, include=FALSE, cache=TRUE}
 vaccine.county.map <- master.vaccinations %>%
-  mutate(one.dose.pct = `People with at least one vaccine dose` / pop,
-         complete.vaccine.pct = `People with completed vaccine series` / pop,
+  mutate(one.dose.pct = `People with at least one vaccine dose` / age.5plu,
+         complete.dose.pct = `People with completed vaccine series` / age.5plu,
          one.dose.pct.bins = cut(one.dose.pct,
                                  breaks = c(0, .55, .6, .65, .7, 1),
-                                 labels = c("Between 40% and 55%", "55% to 60%", "60% to 65%", "65% to 70%", "More than 70% vaccinated"))) %>%
+                                 labels = c("Between 40% and 55%", "55% to 60%", "60% to 65%", "65% to 70%", "More than 70% vaccinated")),
+         complete.dose.pct.bins = cut(complete.dose.pct,
+                                      breaks = c(0, .55, .6, .65, .7, 1),
+                                      labels = c("Between 40% and 55%", "55% to 60%", "60% to 65%", "65% to 70%", "More than 70% vaccinated"))) %>%
+  gather(key = "dose", value = "pct", 15, 16) %>%
+  mutate(dose = ifelse(dose == "one.dose.pct.bins", "At least one dose", "Fully vaccinated"),
+         pct = as.factor(pct),
+         pct = fct_relevel(pct, "Between 40% and 55%", "55% to 60%", "60% to 65%", "65% to 70%", "More than 70% vaccinated")) %>%
   left_join(mn_counties[,c(4,7)], by = "countyfp")
+
 
 vaccine.ruca <- master.vaccinations %>%
   group_by(Dem_Desc) %>%
   summarise(one.dose = sum(`People with at least one vaccine dose`, na.rm = TRUE),
             complete.dose = sum(`People with completed vaccine series`, na.rm = TRUE),
-            pop = sum(pop)) %>%
+            pop = sum(age.5plu)) %>%
   ungroup() %>%
   mutate(one.dose.pct = one.dose / pop,
-         complete.dose.pct = complete.dose / pop,
-         data_id = seq(n()))
+         complete.dose.pct = complete.dose / pop) %>%
+  gather(key = "dose", value = "pct", 5,6) %>%
+  mutate(dose = ifelse(dose == "one.dose.pct", "At least one dose", "Full vaccinated")) %>%
+  mutate(data_id = seq(n()))
 
 vaccine.pr <- master.vaccinations %>%
   group_by(planning.region) %>%
   summarise(one.dose = sum(`People with at least one vaccine dose`, na.rm = TRUE),
             complete.dose = sum(`People with completed vaccine series`, na.rm = TRUE),
-            pop = sum(pop)) %>%
+            pop = sum(age.5plu)) %>%
   ungroup() %>%
   mutate(one.dose.pct = one.dose / pop,
-         complete.dose.pct = complete.dose / pop,
+         complete.dose.pct = complete.dose / pop) %>%
+  gather(key = "dose", value = "pct", 5,6) %>%
+  mutate(dose = ifelse(dose == "one.dose.pct", "At least one dose", "Fully vaccinated"),
          data_id = seq(n()))
 
 vaccine.edr <- master.vaccinations %>%
   group_by(edr, planning.region) %>%
   summarise(one.dose = sum(`People with at least one vaccine dose`, na.rm = TRUE),
             complete.dose = sum(`People with completed vaccine series`, na.rm = TRUE),
-            pop = sum(pop)) %>%
+            pop = sum(age.5plu)) %>%
   ungroup() %>%
   mutate(one.dose.pct = one.dose / pop,
-         complete.dose.pct = complete.dose / pop,
+         complete.dose.pct = complete.dose / pop) %>%
+  gather(key = "dose", value = "pct", 6,7) %>%
+  mutate(dose = ifelse(dose == "one.dose.pct", "At least one dose", "Fully vaccinated"),
          data_id = seq(n()))
 
 ```
 
-### RUCA
+## RUCA
 
 <br>
 
 ```{r chart one dose pct ruca}
-vaccine.ruca.plot <- ggplot(vaccine.ruca, aes(Dem_Desc, one.dose.pct, fill = Dem_Desc, group = Dem_Desc)) +
-    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(Dem_Desc, "\n", "Number of people with at least one dose of vaccine: ", comma(one.dose, accuracy = 1), "\nPercent of population with at least one dose: ", percent(one.dose.pct, accuracy = .1), sep = ""))) +
-    geom_label(aes(label = percent(one.dose.pct, accuracy = .1)), show.legend = FALSE, color = "white", size = 5) +
-    labs(x="", y = "", color="", title = "Percent of population with at least one dose of vaccine", caption = "MN Dept. of Health")+
+vaccine.ruca.plot <- ggplot(vaccine.ruca, aes(Dem_Desc, pct, fill = dose, group = dose)) +
+    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = ifelse(dose == "At least one dose", paste(Dem_Desc, "\nNumber of people with at least on dose: ", comma(one.dose, accuracy = 1), "\nPercent of population 5+ with at least one dose: ", percent(pct, accuracy = .1), sep = ""), paste(Dem_Desc, "\nNumber of people fully vaccinated: ", comma(complete.dose, accuracy = 1), "\nPercent of population 5+ fully vaccinated: ", percent(pct, accuracy = .1), sep = "")))) +
+    geom_label(aes(label = percent(pct, accuracy = .1)), show.legend = FALSE, color = "black", size = 5, position = position_dodge(width = .9)) +
+    labs(x="", y = "", color="", title = "Percent of population age 5+ vaccine status", caption = "MN Dept. of Health")+
     scale_y_continuous(labels=scales::percent)+
     scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
     theme_bar+
-    scale_fill_manual(values= color.ruca,
+    scale_fill_manual(values = brewer.pal(n = 2, "PuBu"),
                        guide = guide_legend(ncol = 3)) +
-    theme(legend.position = "none",
+    theme(legend.position = "bottom",
           text = element_text(size = 18))
 
 
@@ -615,21 +634,21 @@ girafe(ggobj = vaccine.ruca.plot, width_svg = 10, height_svg = 7) %>%
 
 <br>
 
-### Planning Region
+## Planning Region
 
 <br>
 
 ```{r chart one dose pct pr}
-vaccine.pr.plot <- ggplot(vaccine.pr, aes(planning.region, one.dose.pct, fill = planning.region, group = planning.region)) +
-    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(planning.region, "\n", "Number of people with at least one dose of vaccine: ", comma(one.dose, accuracy = 1), "\nPercent of population with at least one dose: ", percent(one.dose.pct, accuracy = .1), sep = ""))) +
-    geom_label(aes(label = percent(one.dose.pct, accuracy = .1)), show.legend = FALSE, color = "white", size = 5) +
-    labs(x="", y = "", color="", title = "Percent of population with at least one dose of vaccine", caption = "MN Dept. of Health")+
+vaccine.pr.plot <- ggplot(vaccine.pr, aes(planning.region, pct, fill = dose, group = dose)) +
+    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = ifelse(dose == "At least one dose", paste(planning.region, "\nNumber of people with at least on dose: ", comma(one.dose, accuracy = 1), "\nPercent of population 5+ with at least one dose: ", percent(pct, accuracy = .1), sep = ""), paste(planning.region, "\nNumber of people fully vaccinated: ", comma(complete.dose, accuracy = 1), "\nPercent of population 5+ fully vaccinated: ", percent(pct, accuracy = .1), sep = "")))) +
+    geom_label(aes(label = percent(pct, accuracy = .1)), show.legend = FALSE, color = "black", size = 5, position = position_dodge(width = .9)) +
+    labs(x="", y = "", color="", title = "Percent of population age 5+ vaccine status", caption = "MN Dept. of Health")+
     scale_y_continuous(labels=scales::percent)+
     scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
     theme_bar+
-    scale_fill_manual(values= color.pr,
+    scale_fill_manual(values = brewer.pal(n = 2, "PuBu"),
                        guide = guide_legend(ncol = 3)) +
-    theme(legend.position = "none",
+    theme(legend.position = "bottom",
           text = element_text(size = 18))
 
 
@@ -641,37 +660,51 @@ girafe(ggobj = vaccine.pr.plot, width_svg = 10, height_svg = 7) %>%
 
 <br>
 
-### EDR
+## EDR
 
 <br>
 
 ```{r chart one dose pct edr}
-vaccine.edr.plot <- ggplot(vaccine.edr, aes(edr, one.dose.pct, fill = edr, group = edr)) +
+vaccine.edr.plot <- ggplot(vaccine.edr, aes(edr, pct, fill = dose, group = dose)) +
   facet_wrap(~planning.region, ncol = 2, scales = "free_x") +
-    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(edr, "\n", "Number of people with at least one dose of vaccine: ", comma(one.dose, accuracy = 1), "\nPercent of population with at least one dose: ", percent(one.dose.pct, accuracy = .1), sep = ""))) +
-    geom_label(aes(label = percent(one.dose.pct, accuracy = .1)), show.legend = FALSE, color = "white", size = 5) +
-    labs(x="", y = "", color="", title = "Percent of population with at least one dose of vaccine", caption = "MN Dept. of Health")+
+    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = ifelse(dose == "At least one dose", paste(edr, "\nNumber of people with at least on dose: ", comma(one.dose, accuracy = 1), "\nPercent of population 5+ with at least one dose: ", percent(pct, accuracy = .1), sep = ""), paste(edr, "\nNumber of people fully vaccinated: ", comma(complete.dose, accuracy = 1), "\nPercent of population 5+ fully vaccinated: ", percent(pct, accuracy = .1), sep = "")))) +
+    geom_label(aes(label = percent(pct, accuracy = .1)), show.legend = FALSE, color = "black", size = 5, position = position_dodge(width = .9)) +
+    labs(x="", y = "", color="", title = "Percent of population age 5+ vaccine status", caption = "MN Dept. of Health")+
     scale_y_continuous(labels=scales::percent)+
     scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
     theme_bar+
-    scale_fill_manual(values= color.edr,
+    scale_fill_manual(values = brewer.pal(n = 2, "PuBu"),
                        guide = guide_legend(ncol = 3)) +
-    theme(legend.position = "none",
-          text = element_text(size = 18),
-          axis.text.x = element_text(size = 10))
+    theme(legend.position = "bottom",
+          text = element_text(size = 18))
 
 
 girafe(ggobj = vaccine.edr.plot, width_svg = 10, height_svg = 10) %>%
   girafe_options(opts_selection(type = "none"),
                  opts_sizing(rescale = FALSE))
-
 ```
 
 <br>
 
-### County map
+## County map
 
-<br> n
+<br> 
+
+```{r map one dose pct county}
+vaccine.county.map.plot <- ggplot(vaccine.county.map) +
+  facet_wrap(~dose, ncol = 2) +
+  geom_sf_interactive(color = "grey85", aes(geometry = geometry, fill = pct, data_id = County, tooltip = ifelse(dose == "At least one dose", paste(County, "\nVaccine status as of ", reportedDate, "\nNumber of people with at least one dose: ", comma(`People with at least one vaccine dose`, accuracy = 1), "\nPercent of population age 5+ with at least one dose: ", percent(one.dose.pct, accuracy = .1), sep = ""), paste(County, "\nNumber of people fully vaccinated: ", comma(`People with completed vaccine series`, accuracy = 1), "\nPercent of population age 5+ fully vaccinated: ", percent(complete.dose.pct, accuracy = .1), sep = "")))) +
+  theme_sf+
+  scale_fill_manual(values = brewer.pal(n = 6, "PuBu")) +
+  labs(title = paste("Percent of population age 5+ with at least one vaccine dose as of ", vaccine.county.map$reportedDate, sep = ""), caption = "MN Department of Health") +
+  theme(legend.box.margin = margin(50, 0, 0, -100),
+        text = element_text(size = 18))
+
+girafe(ggobj = vaccine.county.map.plot, height_svg = 10, width_svg = 10) %>%
+  girafe_options(opts_sizing(rescale = FALSE))
+
+```
+
 
 <br>
 

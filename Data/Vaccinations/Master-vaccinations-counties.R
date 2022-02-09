@@ -19,8 +19,14 @@ counties.regions <- read_csv("Data/Join docs/county_regions.csv") %>%
 
 # Prep pop data -----------------------------------------------------------
 
-pop <- read_csv("Data/Cases/Master-covid-cases-counties.csv") %>%
-  select(countyfp, pop)
+pop <- read_csv("Data/Population/cc-est2019-agesex-27.csv") %>%
+  filter(YEAR == 12) %>%
+  select(COUNTY, 13, 16, 25) %>%
+  rename(countyfp = 1) %>%
+  mutate(age.5plu = AGE513_TOT + AGE1417_TOT + AGE18PLUS_TOT) %>%
+  select(1,5)
+
+names(pop)
 
 # Prep vaccination data ---------------------------------------------------
 
