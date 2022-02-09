@@ -132,10 +132,8 @@ master.cases <- read_csv("Data/Cases/Master-covid-cases-counties.csv") %>%
          mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC")) %>%
   drop_na(cases)
 
-
-
 master.deaths <- read_csv("Data/Cases/Master-covid-deaths-counties.csv") %>%
-  gather(key = "date", value = "deaths", 3:645) %>%
+  gather(key = "date", value = "deaths", 3:643) %>% 
   mutate(date = mdy(date),
          deaths = as.numeric(deaths),
          Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
@@ -144,6 +142,16 @@ master.deaths <- read_csv("Data/Cases/Master-covid-deaths-counties.csv") %>%
          mif = as.factor(mif),
          mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC")) %>%
   drop_na(deaths)
+
+```
+
+```{r master vaccinations, include=FALSE, cache=TRUE}
+master.vaccinations <- read_csv("Data/Vaccinations/Master-vaccinations-counties.csv") %>%
+  mutate(Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         mif = as.factor(mif),
+         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"))
 
 ```
 
@@ -157,22 +165,71 @@ Cases below
 
 ## Active cases{.tabset}
 
-Active cases are defined as the number of cumulative cases for each day minus the total cumulative cases from two weeks prior. 
+Active cases are estimates of the current number of people currently infected with COVID-19. This estimate is calculated by subtracting the number of cumulative cases for each day minus the total cumulative cases from two weeks prior. 
+
+The trend lines of active cases per 100,000 show a wave like pattern as we would expect in a pandemic, with the first wave occurring during the 2020-2021 fall, then the delta wave, and the most recent omicron wave. 
+
+Although all regions and county groups follow this trend, counties and regions in rural areas of the state had higher peaks throughout the pandemic, particularly in the 2020-2021 fall wave. The urban/town/rural mix and town/rural mix had some of the highest rates in the state. However, the most recent omicron wave has been slightly lower in our entirely rural and town/rural mix counties compared to the other county groups.
+
+This trend follows into regional breakdowns where our more rural areas of the state had higher peak rates compared to the seven county metro. The most recent omicron wave has hit the Southeast particularly hard. 
 
 <br>
 
 ```{r prep active cases, include=FALSE, cache=TRUE}
-active.cases.col <- master.cases %>%
+active.cases <- master.cases %>%
   group_by(county) %>%
-  mutate(active.cases = cases - cases[date == date-14]) %>%
+  mutate(active.cases = ifelse(date < as_date("2020-05-16"), 0, cases - lag(cases, n = 14))) %>%
   ungroup()
 
-names(active.cases.county)
+active.cases.ruca <- active.cases %>%
+  group_by(Dem_Desc, date) %>%
+  summarise(pop = sum(pop),
+            active.cases = sum(active.cases, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(active.cases.per.100000 = (active.cases / pop) * 100000,
+         data_id = seq(n()))
+
+active.cases.pr <- active.cases %>%
+  group_by(planning.region, date) %>%
+  summarise(pop = sum(pop),
+            active.cases = sum(active.cases, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(active.cases.per.100000 = (active.cases / pop) * 100000,
+         data_id = seq(n()))
+
+active.cases.edr <- active.cases %>%
+  group_by(edr, planning.region, date) %>%
+  summarise(pop = sum(pop),
+            active.cases = sum(active.cases, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(active.cases.per.100000 = (active.cases / pop) * 100000,
+         data_id = seq(n()))
 ```
 
 ### RUCA
 
 <br>
+
+```{r chart active cases per 100000 ruca}
+active.cases.ruca.plot <- ggplot(active.cases.ruca, aes(date, active.cases.per.100000, color = Dem_Desc)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nDate: ", date, "\nActive cases: ", comma(active.cases, accuracy = 1), "\nActive cases per 100,000: ", comma(active.cases.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Active cases per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(active.cases.ruca, date == max(date)), aes(label = comma(active.cases.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = active.cases.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
 
 <br>
 
@@ -180,17 +237,70 @@ names(active.cases.county)
 
 <br>
 
+```{r chart active cases per 100000 pr}
+active.cases.pr.plot <- ggplot(active.cases.pr, aes(date, active.cases.per.100000, color = planning.region)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(planning.region, "\nDate: ", date, "\nActive cases: ", comma(active.cases, accuracy = 1), "\nActive cases per 100,000: ", comma(active.cases.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Active cases per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(active.cases.pr, date == max(date)), aes(label = comma(active.cases.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = active.cases.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
 <br>
 
 ### EDR
 
 <br>
 
+```{r chart active cases per 100000 edr}
+active.cases.edr.plot <- ggplot(active.cases.edr, aes(date, active.cases.per.100000, color = edr)) +
+  facet_wrap(~planning.region, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(edr, "\nDate: ", date, "\nActive cases: ", comma(active.cases, accuracy = 1), "\nActive cases per 100,000: ", comma(active.cases.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Active cases per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(active.cases.edr, date == max(date)), aes(label = comma(active.cases.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = active.cases.edr.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
 <br>
 
 
 
 ## Cumulative cases{.tabset}
+
+<br>
+
+The charts below are the cumulative COVID cases.
+
+The urban/town/rural mix and town/rural mix county groups have the highest cumulative case rate in the state with 22,424 and 21,998 per 100,000 as of February 1st, 2022. Our entirely rural county group has remained slightly below compared to the other county groups As of February 1st, 2022, they had a cumulative COVID case rate of 18,569 per 100,000 which was the lowest out of all the RUCA groups.
+
+When broken down by region, the Central and Southeast planning regions have the highest cumulative cases per 100,000 with 24,432 and 24,058 respectively. The lowest rates have been in the seven county metro and Northeast Minneapolis.
+
+<br>
 
 ```{r prep cases, include=FALSE, cache=TRUE}
 cases.per.100000.ruca <- master.cases %>%
@@ -299,3 +409,269 @@ cases.per.100000.edr.plot <- ggplot(cases.per.100000.edr, aes(date, cases.per.10
 ```
 
 <br>
+
+# Hospitalizations
+
+Summary here.
+
+<br>
+
+# Deaths{.tabset}
+
+The charts below provide the cumulative deaths where COVID-19 is a contributing factor per 100,000. 
+
+The deaths per 100,000 by RUCA show a very different story compared to the cases per 100,000. Using these metrics, the more rural a county is the higher the death per 100,000. The entirely rural county group had the highest deaths per 100,000 with 275, followed closed by our town/rural county group which was 262 deaths per 100,000.
+
+When broken down by region, the highest deaths per 100,000 was in Northwest MN with 253 followed by Central with 250 and Southwest at 231.
+
+Even more interesting is by EDR. This very much shows that the more rural a region is, the higher the deaths per 100,000. For example in the Southwest planning region, EDR 6W had the highest deaths per 100,000 with a whopping 323 deaths per 100,000 compared to the more "metro" EDR 9 - South Central which had a 195 deaths per 100,000.
+
+<br>
+
+```{r prep covid deaths, include=FALSE, cache=TRUE}
+deaths.ruca <- master.deaths %>%
+  group_by(Dem_Desc, date) %>%
+  summarize(pop = sum(pop, na.rm = TRUE),
+            deaths = sum(deaths, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(deaths.per.100000 = (deaths / pop) * 100000,
+         data_id = seq(n()))
+
+deaths.pr <- master.deaths %>%
+  group_by(planning.region, date) %>%
+  summarize(pop = sum(pop, na.rm = TRUE),
+            deaths = sum(deaths, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(deaths.per.100000 = (deaths / pop) * 100000,
+         data_id = seq(n()))
+
+deaths.edr <- master.deaths %>%
+  group_by(edr, planning.region, date) %>%
+  summarize(pop = sum(pop, na.rm = TRUE),
+            deaths = sum(deaths, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(deaths.per.100000 = (deaths / pop) * 100000,
+         data_id = seq(n()))
+```
+
+## RUCA
+
+<br>
+
+```{r chart deaths per 100000 ruca}
+deaths.ruca.plot <- ggplot(deaths.ruca, aes(date, deaths.per.100000, color = Dem_Desc)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nDate: ", date, "\nCumulative deaths: ", comma(deaths, accuracy = 1), "\nCumulative deaths per 100,000: ", comma(deaths.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Cumulative deaths per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(deaths.ruca, date == max(date)), aes(label = comma(deaths.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = deaths.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## Planning Regions
+
+<br>
+
+```{r chart deaths per 100000 pr}
+deaths.pr.plot <- ggplot(deaths.pr, aes(date, deaths.per.100000, color = planning.region)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(planning.region, "\nDate: ", date, "\nCumulative deaths: ", comma(deaths, accuracy = 1), "\nCumulative deaths per 100,000: ", comma(deaths.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Cumulative deaths per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(deaths.pr, date == max(date)), aes(label = comma(deaths.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = deaths.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## EDR
+
+<br>
+
+```{r chart deaths per 100000 edr}
+deaths.edr.plot <- ggplot(deaths.edr, aes(date, deaths.per.100000, color = edr)) +
+  facet_wrap(~planning.region, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(edr, "\nDate: ", date, "\nCumulative deaths: ", comma(deaths, accuracy = 1), "\nCumulative deaths per 100,000: ", comma(deaths.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Cumulative deaths per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(deaths.edr, date == max(date)), aes(label = comma(deaths.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = deaths.edr.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+# Vaccinations
+
+Summary here.
+
+<br>
+
+## At least one does{.tabset}
+
+Below is a map and charts with the percentage of the population that has had one vaccination.
+
+<br>
+
+```{r prep vaccine one dose, include=FALSE, cache=TRUE}
+vaccine.county.map <- master.vaccinations %>%
+  mutate(one.dose.pct = `People with at least one vaccine dose` / pop,
+         complete.vaccine.pct = `People with completed vaccine series` / pop,
+         one.dose.pct.bins = cut(one.dose.pct,
+                                 breaks = c(0, .55, .6, .65, .7, 1),
+                                 labels = c("Between 40% and 55%", "55% to 60%", "60% to 65%", "65% to 70%", "More than 70% vaccinated"))) %>%
+  left_join(mn_counties[,c(4,7)], by = "countyfp")
+
+vaccine.ruca <- master.vaccinations %>%
+  group_by(Dem_Desc) %>%
+  summarise(one.dose = sum(`People with at least one vaccine dose`, na.rm = TRUE),
+            complete.dose = sum(`People with completed vaccine series`, na.rm = TRUE),
+            pop = sum(pop)) %>%
+  ungroup() %>%
+  mutate(one.dose.pct = one.dose / pop,
+         complete.dose.pct = complete.dose / pop,
+         data_id = seq(n()))
+
+vaccine.pr <- master.vaccinations %>%
+  group_by(planning.region) %>%
+  summarise(one.dose = sum(`People with at least one vaccine dose`, na.rm = TRUE),
+            complete.dose = sum(`People with completed vaccine series`, na.rm = TRUE),
+            pop = sum(pop)) %>%
+  ungroup() %>%
+  mutate(one.dose.pct = one.dose / pop,
+         complete.dose.pct = complete.dose / pop,
+         data_id = seq(n()))
+
+vaccine.edr <- master.vaccinations %>%
+  group_by(edr, planning.region) %>%
+  summarise(one.dose = sum(`People with at least one vaccine dose`, na.rm = TRUE),
+            complete.dose = sum(`People with completed vaccine series`, na.rm = TRUE),
+            pop = sum(pop)) %>%
+  ungroup() %>%
+  mutate(one.dose.pct = one.dose / pop,
+         complete.dose.pct = complete.dose / pop,
+         data_id = seq(n()))
+
+```
+
+### RUCA
+
+<br>
+
+```{r chart one dose pct ruca}
+vaccine.ruca.plot <- ggplot(vaccine.ruca, aes(Dem_Desc, one.dose.pct, fill = Dem_Desc, group = Dem_Desc)) +
+    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(Dem_Desc, "\n", "Number of people with at least one dose of vaccine: ", comma(one.dose, accuracy = 1), "\nPercent of population with at least one dose: ", percent(one.dose.pct, accuracy = .1), sep = ""))) +
+    geom_label(aes(label = percent(one.dose.pct, accuracy = .1)), show.legend = FALSE, color = "white", size = 5) +
+    labs(x="", y = "", color="", title = "Percent of population with at least one dose of vaccine", caption = "MN Dept. of Health")+
+    scale_y_continuous(labels=scales::percent)+
+    scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
+    theme_bar+
+    scale_fill_manual(values= color.ruca,
+                       guide = guide_legend(ncol = 3)) +
+    theme(legend.position = "none",
+          text = element_text(size = 18))
+
+
+girafe(ggobj = vaccine.ruca.plot, width_svg = 10, height_svg = 7) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+### Planning Region
+
+<br>
+
+```{r chart one dose pct pr}
+vaccine.pr.plot <- ggplot(vaccine.pr, aes(planning.region, one.dose.pct, fill = planning.region, group = planning.region)) +
+    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(planning.region, "\n", "Number of people with at least one dose of vaccine: ", comma(one.dose, accuracy = 1), "\nPercent of population with at least one dose: ", percent(one.dose.pct, accuracy = .1), sep = ""))) +
+    geom_label(aes(label = percent(one.dose.pct, accuracy = .1)), show.legend = FALSE, color = "white", size = 5) +
+    labs(x="", y = "", color="", title = "Percent of population with at least one dose of vaccine", caption = "MN Dept. of Health")+
+    scale_y_continuous(labels=scales::percent)+
+    scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
+    theme_bar+
+    scale_fill_manual(values= color.pr,
+                       guide = guide_legend(ncol = 3)) +
+    theme(legend.position = "none",
+          text = element_text(size = 18))
+
+
+girafe(ggobj = vaccine.pr.plot, width_svg = 10, height_svg = 7) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+### EDR
+
+<br>
+
+```{r chart one dose pct edr}
+vaccine.edr.plot <- ggplot(vaccine.edr, aes(edr, one.dose.pct, fill = edr, group = edr)) +
+  facet_wrap(~planning.region, ncol = 2, scales = "free_x") +
+    geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(edr, "\n", "Number of people with at least one dose of vaccine: ", comma(one.dose, accuracy = 1), "\nPercent of population with at least one dose: ", percent(one.dose.pct, accuracy = .1), sep = ""))) +
+    geom_label(aes(label = percent(one.dose.pct, accuracy = .1)), show.legend = FALSE, color = "white", size = 5) +
+    labs(x="", y = "", color="", title = "Percent of population with at least one dose of vaccine", caption = "MN Dept. of Health")+
+    scale_y_continuous(labels=scales::percent)+
+    scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
+    theme_bar+
+    scale_fill_manual(values= color.edr,
+                       guide = guide_legend(ncol = 3)) +
+    theme(legend.position = "none",
+          text = element_text(size = 18),
+          axis.text.x = element_text(size = 10))
+
+
+girafe(ggobj = vaccine.edr.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+### County map
+
+<br> n
+
+<br>
+

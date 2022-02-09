@@ -21,12 +21,11 @@ counties.regions <- read_csv("Data/Join docs/county_regions.csv") %>%
 
 
 # Organize cases ----------------------------------------------------------
-
 deaths <- read_csv("Data/Cases/covid-deaths-counties.csv") %>%
   slice(1:87) %>%
   rename(county = 1,
          pop = 2) %>%
   left_join(counties.regions, by = c("county" = "Name"))
 
-write_csv(cases, "Data/Cases/Master-covid-deaths-counties.csv")
+write_csv(deaths, "Data/Cases/Master-covid-deaths-counties.csv")
 

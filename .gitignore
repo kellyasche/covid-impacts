@@ -38,3 +38,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+index_cache/
+infections_cache/
+site_libs/
+/docs/Data/**
+/docs/site_libs/**
+Data/Hospitals/**
