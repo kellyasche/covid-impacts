@@ -1,0 +1,275 @@
+---
+title: "Economic"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+runtime: shiny
+resource_files:
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.cpg
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.dbf
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.prj
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.sbn
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.sbx
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.shp.xml
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.shx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(sf)
+library(ggrepel)
+library(scales)
+library(shiny)
+library(shinycssloaders)
+library(ggiraph)
+library(kableExtra)
+library(rmapshaper)
+library(cowplot)
+library(DT)
+library(htmlwidgets)
+library(RColorBrewer)
+library(extrafont)
+library(readxl)
+library(janitor)
+library(lubridate)
+
+loadfonts()
+```
+
+```{r loading jon docs and shapefiles, cache=TRUE, include=FALSE}
+theme_bar <- theme_bw() +
+  theme(panel.grid.major = element_line(color = "grey70", size = 0.1),
+        panel.grid.minor = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_text(face = "bold"),
+        panel.border = element_blank(),
+        legend.background = element_rect(fill = "transparent", color = "transparent"),
+        legend.key = element_rect(fill = "transparent"),
+        legend.key.size = unit(1, "lines"),
+        legend.margin = margin(0,0,0,0),
+        legend.title = element_blank(),
+        legend.text = element_text(margin = margin(l = 2)),
+        text = element_text(family = "Arial"))
+
+theme_line <- theme_bw() +
+  theme(legend.background = element_rect(fill = "transparent", color = "transparent"),
+        legend.key = element_rect(fill = "transparent"),
+        legend.text = element_text(margin = margin(l = 2)),
+        panel.grid.minor = element_blank(),
+        panel.grid.major = element_line(color = "grey70", size = 0.1),
+        axis.ticks = element_blank(),
+        axis.text = element_text(face = "bold"),
+        panel.border = element_blank(),
+        legend.margin = margin(0,0,0,0),
+        legend.key.size = unit(1, "lines"),
+        text = element_text(family = "Arial"))
+
+
+theme_sf <- theme_bw() +
+  theme(axis.text.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks=element_blank(),
+        panel.background = element_blank(),
+        panel.grid.major = element_line(color = "white"),
+        panel.border = element_blank(),
+        plot.title = element_text(hjust = 0.5),
+        legend.title = element_blank(),
+        legend.text = element_text(margin = margin(l = 2)),
+        legend.margin = margin(0,0,0,0),
+        legend.key.size = unit(1, "lines"),
+        text = element_text(family = "Arial"))
+
+regions <- read_csv("Data/Join docs/county_regions.csv") %>%
+    select(5,6) %>%
+    unique() %>%
+    mutate(edr = str_replace(edr, "  ", " "),
+           planning.region = str_replace(planning.region, " Minnesota", ""),
+           planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+           edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"))
+
+counties.regions <- read_csv("Data/Join docs/county_regions.csv") %>%
+  rename(mif = `MIF Region`) %>%
+  mutate(countyfp = formatC(countyfp, width = 3, flag = "0"),
+         Name = str_to_title(Name),
+         Name = str_replace(Name, "Q", "q"),
+         Name = str_replace(Name, "Of The", "of the"),
+         Name = str_replace(Name, "Mcleod", "McLeod"),
+         Dem_Desc = ifelse(Name == "Minnesota", "Minnesota", Dem_Desc) ,
+         edr = str_replace(edr, "  ", " "),
+         planning.region = str_replace(planning.region, " Minnesota", ""),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
+         mif = ifelse(is.na(mif), "TC", mif),
+         mif = as.factor(mif),
+         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"))
+
+color.ruca <- c("Entirely rural" = "#009933", "Town/rural mix" = "#99CC33", "Urban/town/rural mix" = "#CC9966", "Entirely urban" = "#754C29")
+
+color.pr <- c("Northwest" = 	"#4575b4", "Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59")
+
+color.edr <- c("EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
+
+color.pr.edr <- c ("Northwest" = "#4575b4","Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59", "Minnesota" = "black", "EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
+
+mn_counties <- st_read("Data/Shapefiles/county shapefiles/MNCounties_MNDOT.shp", quiet = TRUE) %>%
+  ms_simplify(keep = .01, keep_shapes = TRUE) %>%
+  rename(countyfp = FIPS_CODE)
+
+```
+
+```{r master job vacancies, include=FALSE, cache=TRUE}
+master.jv.pr <- read_csv("Data/Job vacancies/Master-job-vacancies-pr.csv") %>%
+  mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast")) %>%
+  mutate(vacanrate = vacanrate / 100,
+         data_id = seq(n()))
+
+master.jv.2021.2q.pr <- read_csv("Data/Job vacancies/job-vacancies-2021-2q-pr.csv") %>%
+  rename(planning.region = 1) %>%
+  filter(soclevel == 0) %>%
+  mutate(planning.region = str_replace(planning.region, " Minnesota", ""),
+         planning.region = str_replace(planning.region, ", MN", ""),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         vacanrate = vacanrate / 100) %>%
+  select(1:23) %>%
+  mutate(data_id = seq(n()))
+
+```
+
+```{r master laborforce, include=FALSE, cache=TRUE}
+master.lf.pr <- read_csv("Data/Workforce/Master-laborforce-pr.csv") %>%
+  mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"))
+
+```
+
+<br>
+
+# Job vacancies
+
+The charts below provide the job vacancy rate for each planning region in Minnesota. The job vacancy rate is the average number of job vacancies for the 2nd and 4th quarter of each year divided by the average number of annual filled jobs in the region.
+
+We consider a 3% job vacancy rate to be relatively healthy - it means that there are enough jobs to create healthy opportunity for individuals while also not being too many jobs where employers have an applicant pool.
+
+The job vacancy rate has been increasing across rural Minnesota ever since the Great Recession. In fact, the job vacancy rate in rural Minnesota is the highest in the state - higher than the seven county metro, particularly in Southwest and Northwest Minnesota.
+
+Although the vacancy rate dipped a bit during COVID-19, it isn't enough for it to be a significant issue. The vacancy rate was still significantly higher than 3% across rural Minnesota throughout all of 2020.
+
+
+
+<br>
+
+```{r chart job vacancy rate}
+jv.rate.trendline.plot <- ggplot(master.jv.pr, aes(year, vacanrate, color = planning.region)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nAverage quarterly job vacancies: ", comma(vacancies, accuracy = 1), "\nJob vacancy rate: ", percent(vacanrate, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Job vacancy rate", caption = "\nMN DEED - Job Vacancy Survey") +
+  geom_label_repel(data = filter(master.jv.pr, year == max(year)), aes(label = percent(vacanrate, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent)+
+  scale_x_continuous(breaks = seq(1900, 2050, 2),
+                     guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_color_manual(values = color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = jv.rate.trendline.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+We don't currently have the full 2021 data but we do have the data for the first half and as the chart below shows the job vacancy was CRAZY high. Every region is aboe 7% job vacancy rate. The highest was in Northeast Minnesota at nearly 10%, followed by Southeast at 9.4%. 
+
+Interestingly, the Southwest was the lowest with 7.3% however this region was also the least impacted by COVID-19 due to it having a significant number of "essential" businesses and continued to work/operate even during the state mandated shutdown. This means less people left the workforce and once businesses began opening again they weren't searching for so many workers.
+
+<br>
+
+```{r chart job vacancies 2021 2nd quarter}
+
+jv.2021.2q.pr.plot <- ggplot(master.jv.2021.2q.pr, aes(planning.region, vacanrate, fill = planning.region, group = planning.region)) +
+    geom_col_interactive(position = "dodge", aes(data_id = planning.region, tooltip = paste(planning.region, "\nYear: ", periodyear, "\nQuarter: Second quarter", "\nAverage number of job vacancies: ", comma(vacancies, accuracy = 1), "\nJob vacancy rate: ", percent(vacanrate, accuracy = .1), sep = ""))) +
+    geom_label(aes(label = percent(vacanrate, accuracy = .1)), show.legend = FALSE, color = "black", size = 5) +
+    labs(x="", y = "", color="", title = "Job vacancy rate - 2021 2nd quarter", caption = "MN DEED - Job Vacancy Survey")+
+    scale_y_continuous(labels=scales::percent)+
+    scale_x_discrete(guide = guide_axis(n.dodge = 3)) +
+    theme_bar+
+    scale_fill_manual(values= color.pr,
+                       guide = guide_legend(ncol = 3)) +
+    theme(legend.position = "none",
+          text = element_text(size = 18))
+
+  girafe(ggobj = jv.2021.2q.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+# Changes in laborforce
+
+The chart below provides the trend lines for the number of people participating in the labor force. 
+
+<br>
+
+```{r prep changes in laborforce, include=FALSE, cache=TRUE}
+lf.pr <- master.lf.pr %>%
+  mutate(`Year/Month` = ym(`Year/Month`)) %>%
+  group_by(planning.region) %>%
+  mutate(lf.index = (labor.force - labor.force[`Year/Month` == min(`Year/Month`)]) / labor.force[`Year/Month` == min(`Year/Month`)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))
+
+lf.avg.pr <- master.lf.pr %>%
+  mutate(year = str_sub(`Year/Month`, 1, 4),
+         year = as.numeric(year))  %>%
+  group_by(planning.region, year) %>%
+  summarize(avg.lf = mean(labor.force)) %>%
+  ungroup() %>%
+  group_by(planning.region) %>%
+  mutate(avg.lf.index = (avg.lf - avg.lf[year == min(year)]) / avg.lf[year == min(year)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))
+
+lf.annual.change.pr <- master.lf.pr %>%
+   mutate(year = str_sub(`Year/Month`, 1, 4),
+         year = as.numeric(year))  %>%
+    filter(year %in% c(2017,2018, 2019, 2020, 2021)) %>%
+  group_by(planning.region, year) %>%
+  summarize(avg.lf = mean(labor.force)) %>%
+  ungroup() %>%
+  group_by(planning.region) %>%
+  mutate(annual.change = (avg.lf - lag(avg.lf)) / lag(avg.lf)) %>%
+  ungroup()
+
+names(lf.annual.change.pr)
+
+```
+
+```{r chart laborforce trends}
+lf.annual.change.pr.plot <- ggplot(lf.annual.change.pr, aes(year, annual.change, color = planning.region, group = planning.region)) +
+  geom_col_interactive(size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nAverage labor force: ", comma(avg.lf, accuracy = 1), "\nChange in average labor force since 2010: ", percent(avg.lf.index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in average labor force since 2010")+
+  geom_label_repel(data = filter(lf.avg.pr, year == max(year)), aes(label = percent(avg.lf.index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent) +
+  scale_x_continuous(breaks = seq(2010, 2021, 2)) +
+  theme_line +
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = lf.avg.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
