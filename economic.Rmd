@@ -248,26 +248,28 @@ lf.annual.change.pr <- master.lf.pr %>%
   ungroup() %>%
   group_by(planning.region) %>%
   mutate(annual.change = (avg.lf - lag(avg.lf)) / lag(avg.lf)) %>%
-  ungroup()
+  ungroup() %>%
+  mutate(data_id = as.character(seq(n())),
+         year = as.character(year))
 
-names(lf.annual.change.pr)
+class(lf.annual.change.pr$year)
 
 ```
 
 ```{r chart laborforce trends}
-lf.annual.change.pr.plot <- ggplot(lf.annual.change.pr, aes(year, annual.change, color = planning.region, group = planning.region)) +
-  geom_col_interactive(size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nAverage labor force: ", comma(avg.lf, accuracy = 1), "\nChange in average labor force since 2010: ", percent(avg.lf.index, accuracy = .1), sep = ""))) +
-  labs(x="", y = "", color="", title = "Change in average labor force since 2010")+
-  geom_label_repel(data = filter(lf.avg.pr, year == max(year)), aes(label = percent(avg.lf.index, accuracy = .1)), show.legend = FALSE, size = 5) +
+lf.annual.change.pr.plot <- ggplot(filter(lf.annual.change.pr, year != 2017), aes(year, annual.change, fill = planning.region, group = planning.region)) +
+  facet_wrap(~planning.region, ncol = 3) +
+  geom_col_interactive(position = "dodge", size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nAverage labor force: ", comma(avg.lf, accuracy = 1), "\nChange in average labor force from previous year: ", percent(annual.change, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", fill="", title = "Annual change in labor force", caption = "MN DEED - Local Area Unemployment Statistics")+
+  geom_label_repel(data = filter(lf.annual.change.pr, year == max(year)), aes(label = percent(annual.change, accuracy = .1)), show.legend = FALSE, size = 5, position = position_dodge(width = .9)) +
   scale_y_continuous(labels=scales::percent) +
-  scale_x_continuous(breaks = seq(2010, 2021, 2)) +
-  theme_line +
-  scale_color_manual(values= color.pr,
+  scale_fill_manual(values = color.pr,
                      guide = guide_legend(ncol = 3)) +
+  theme_line +
   theme(legend.position = "bottom",
         text = element_text(size = 18))
 
-  girafe(ggobj = lf.avg.pr.plot, width_svg = 10, height_svg = 7) %>%
+  girafe(ggobj = lf.annual.change.pr.plot, width_svg = 10, height_svg = 7) %>%
     girafe_options(opts_selection(type = "none"),
                    opts_toolbar(saveaspng = FALSE),
                    opts_sizing(rescale = FALSE))
