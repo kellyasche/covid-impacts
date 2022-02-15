@@ -139,8 +139,19 @@ master.jv.2021.2q.pr <- read_csv("Data/Job vacancies/job-vacancies-2021-2q-pr.cs
 ```
 
 ```{r master laborforce, include=FALSE, cache=TRUE}
-master.lf.pr <- read_csv("Data/Workforce/Master-laborforce-pr.csv") %>%
+master.lf.pr <- read_csv("Data/Workforce/Master-annual-labor-force-pr.csv") %>%
   mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"))
+
+master.lf.edr <- read_csv("Data/Workforce/Master-annual-labor-force-edr.csv") %>%
+  mutate(EDR = fct_relevel(EDR, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota")) %>%
+  left_join(regions, by = c("EDR" = "edr"))
+
+```
+
+```{r master employment}
+
+master.emp.gender.county <- read_csv("Data/Workforce/Gender/Master-lf-gender-pr.csv") %>%
+  mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast")) 
 
 ```
 
@@ -214,64 +225,102 @@ jv.2021.2q.pr.plot <- ggplot(master.jv.2021.2q.pr, aes(planning.region, vacanrat
 
 <br>
 
-# Changes in laborforce
+# Changes in the labor force{.tabset}
 
-The chart below provides the trend lines for the number of people participating in the labor force. 
+The chart below provides the trend lines for the number of people participating in the labor force since 2012.
 
-<br>
+In a healthy labor force the trendlines should show a gradual increase each year as more people enter the workforce. However, this isn't always the case, particularly in rural areas where the number of people entering the workforce may not keep up with the number of people leaving the workforce due to retirements.
 
-```{r prep changes in laborforce, include=FALSE, cache=TRUE}
+Before the pandemic, this was the trend we saw across Minnesota. Planning regions with larger, metropolitan cities saw gradual increases in the number of people participating in the workforce. In 2019, the seven county metro had 8% more people participating in the workforce than in 2012 while Central had 6% more.
+
+As planning regions get more rural the less of a increase experienced. For example, in 2019 Southwest Minnesota only had 1% more people in the workforce than in 2012. 
+
+However, once the pandemic hit all regions experienced significant declines and 2021 didn't see much of a recovery. The seven county metro peaked at 10% and dropped to have 4.8% more people participating in the workforce compared to 2012. Central was at 2.6% more, Southeast at 1.3% more and Northwest at .9% more. Southwest and Northeast had less people participating in the workforce in 2021 than they did in 2012 - Northeast had -2.8% less and Southwest had -4.4% less. 
+
+The numbers broken down by EDR shows that the more rural a region is the larger the decrease in the labor force since 2012. For example, EDR 1 - Northwest and EDR 6W - Upper MN Valley show significant drops in their labor force compared to the surrounding EDRs in that planning region.
+
+```{r prep labor force, include=FALSE, cache=TRUE}
 lf.pr <- master.lf.pr %>%
-  mutate(`Year/Month` = ym(`Year/Month`)) %>%
   group_by(planning.region) %>%
-  mutate(lf.index = (labor.force - labor.force[`Year/Month` == min(`Year/Month`)]) / labor.force[`Year/Month` == min(`Year/Month`)]) %>%
+  mutate(lf.index = (labor.force - labor.force[year == min(.$year)]) / labor.force[year == min(.$year)]) %>%
   ungroup() %>%
   mutate(data_id = seq(n()))
 
-lf.avg.pr <- master.lf.pr %>%
-  mutate(year = str_sub(`Year/Month`, 1, 4),
-         year = as.numeric(year))  %>%
-  group_by(planning.region, year) %>%
-  summarize(avg.lf = mean(labor.force)) %>%
-  ungroup() %>%
-  group_by(planning.region) %>%
-  mutate(avg.lf.index = (avg.lf - avg.lf[year == min(year)]) / avg.lf[year == min(year)]) %>%
+lf.edr <- master.lf.edr %>%
+  group_by(EDR, planning.region) %>%
+  mutate(lf.index = (labor.force - labor.force[year == min(.$year)]) / labor.force[year == min(.$year)]) %>%
   ungroup() %>%
   mutate(data_id = seq(n()))
-
-lf.annual.change.pr <- master.lf.pr %>%
-   mutate(year = str_sub(`Year/Month`, 1, 4),
-         year = as.numeric(year))  %>%
-    filter(year %in% c(2017,2018, 2019, 2020, 2021)) %>%
-  group_by(planning.region, year) %>%
-  summarize(avg.lf = mean(labor.force)) %>%
-  ungroup() %>%
-  group_by(planning.region) %>%
-  mutate(annual.change = (avg.lf - lag(avg.lf)) / lag(avg.lf)) %>%
-  ungroup() %>%
-  mutate(data_id = as.character(seq(n())),
-         year = as.character(year))
-
-class(lf.annual.change.pr$year)
 
 ```
 
-```{r chart laborforce trends}
-lf.annual.change.pr.plot <- ggplot(filter(lf.annual.change.pr, year != 2017), aes(year, annual.change, fill = planning.region, group = planning.region)) +
-  facet_wrap(~planning.region, ncol = 3) +
-  geom_col_interactive(position = "dodge", size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nAverage labor force: ", comma(avg.lf, accuracy = 1), "\nChange in average labor force from previous year: ", percent(annual.change, accuracy = .1), sep = ""))) +
-  labs(x="", y = "", fill="", title = "Annual change in labor force", caption = "MN DEED - Local Area Unemployment Statistics")+
-  geom_label_repel(data = filter(lf.annual.change.pr, year == max(year)), aes(label = percent(annual.change, accuracy = .1)), show.legend = FALSE, size = 5, position = position_dodge(width = .9)) +
-  scale_y_continuous(labels=scales::percent) +
-  scale_fill_manual(values = color.pr,
+
+<br>
+
+## Planning Region
+
+<br>
+
+```{r chart laborforce trends pr}
+lf.pr.plot <- ggplot(lf.pr, aes(year, lf.index, color = planning.region)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nLabor force: ", comma(labor.force, accuracy = 1), "\nPercent change in labor force since ", min(lf.pr$year), ": ", percent(lf.index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = paste("Change in labor force since ", min(lf.pr$year), sep = "")) +
+  geom_label(data = filter(lf.pr, year == max(lf.pr$year)), aes(label = percent(lf.index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent)+
+  scale_x_continuous(breaks = seq(1900, 2050, 2),
+                     guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_color_manual(values = color.pr,
                      guide = guide_legend(ncol = 3)) +
-  theme_line +
   theme(legend.position = "bottom",
         text = element_text(size = 18))
 
-  girafe(ggobj = lf.annual.change.pr.plot, width_svg = 10, height_svg = 7) %>%
+  girafe(ggobj = lf.pr.plot, width_svg = 10, height_svg = 7) %>%
     girafe_options(opts_selection(type = "none"),
                    opts_toolbar(saveaspng = FALSE),
                    opts_sizing(rescale = FALSE))
 
 ```
+
+<br>
+
+## EDR
+
+<br>
+
+```{r chart laborforce trends edr}
+lf.edr.plot <- ggplot(lf.edr, aes(year, lf.index, color = EDR)) +
+  facet_wrap(~planning.region, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(EDR, "\nYear: ", year, "\nLabor force: ", comma(labor.force, accuracy = 1), "\nPercent change in labor force since ", min(lf.pr$year), ": ", percent(lf.index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = paste("Change in labor force since ", min(lf.edr$year), sep = "")) +
+  geom_label(data = filter(lf.edr, year == max(lf.edr$year)), aes(label = percent(lf.index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent)+
+  scale_x_continuous(breaks = seq(1900, 2050, 2),
+                     guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_color_manual(values = color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = lf.edr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+
+
+
+Summary of labor force by gender
+
+<br>
+
+
