@@ -1,0 +1,703 @@
+periodyear,planning.region,key,value,quarter,year.quarter
+2021,Central,avgemp,259390,1,2021.1
+2020,Central,avgemp,272345,1,2020.1
+2019,Central,avgemp,271110,1,2019.1
+2018,Central,avgemp,268749,1,2018.1
+2017,Central,avgemp,267730,1,2017.1
+2016,Central,avgemp,262544,1,2016.1
+2015,Central,avgemp,259549,1,2015.1
+2014,Central,avgemp,254596,1,2014.1
+2013,Central,avgemp,249529,1,2013.1
+2012,Central,avgemp,245180,1,2012.1
+2021,Northeast,avgemp,129155,1,2021.1
+2020,Northeast,avgemp,139919,1,2020.1
+2019,Northeast,avgemp,140549,1,2019.1
+2018,Northeast,avgemp,140336,1,2018.1
+2017,Northeast,avgemp,139893,1,2017.1
+2016,Northeast,avgemp,137849,1,2016.1
+2015,Northeast,avgemp,138980,1,2015.1
+2014,Northeast,avgemp,137082,1,2014.1
+2013,Northeast,avgemp,136475,1,2013.1
+2012,Northeast,avgemp,133932,1,2012.1
+2021,Northwest,avgemp,208511,1,2021.1
+2020,Northwest,avgemp,215390,1,2020.1
+2019,Northwest,avgemp,214521,1,2019.1
+2018,Northwest,avgemp,213764,1,2018.1
+2017,Northwest,avgemp,212688,1,2017.1
+2016,Northwest,avgemp,210163,1,2016.1
+2015,Northwest,avgemp,208230,1,2015.1
+2014,Northwest,avgemp,206526,1,2014.1
+2013,Northwest,avgemp,204142,1,2013.1
+2012,Northwest,avgemp,200073,1,2012.1
+2021,Seven County Mpls-St Paul,avgemp,1631459,1,2021.1
+2020,Seven County Mpls-St Paul,avgemp,1757368,1,2020.1
+2019,Seven County Mpls-St Paul,avgemp,1747831,1,2019.1
+2018,Seven County Mpls-St Paul,avgemp,1735840,1,2018.1
+2017,Seven County Mpls-St Paul,avgemp,1709766,1,2017.1
+2016,Seven County Mpls-St Paul,avgemp,1667780,1,2016.1
+2015,Seven County Mpls-St Paul,avgemp,1638051,1,2015.1
+2014,Seven County Mpls-St Paul,avgemp,1607516,1,2014.1
+2013,Seven County Mpls-St Paul,avgemp,1586784,1,2013.1
+2012,Seven County Mpls-St Paul,avgemp,1555131,1,2012.1
+2021,Southeast,avgemp,231451,1,2021.1
+2020,Southeast,avgemp,243320,1,2020.1
+2019,Southeast,avgemp,241908,1,2019.1
+2018,Southeast,avgemp,239991,1,2018.1
+2017,Southeast,avgemp,237724,1,2017.1
+2016,Southeast,avgemp,235833,1,2016.1
+2015,Southeast,avgemp,231217,1,2015.1
+2014,Southeast,avgemp,229874,1,2014.1
+2013,Southeast,avgemp,230054,1,2013.1
+2012,Southeast,avgemp,226730,1,2012.1
+2021,Southwest,avgemp,163696,1,2021.1
+2020,Southwest,avgemp,172342,1,2020.1
+2019,Southwest,avgemp,172303,1,2019.1
+2018,Southwest,avgemp,172891,1,2018.1
+2017,Southwest,avgemp,173554,1,2017.1
+2016,Southwest,avgemp,172806,1,2016.1
+2015,Southwest,avgemp,171237,1,2015.1
+2014,Southwest,avgemp,170494,1,2014.1
+2013,Southwest,avgemp,169966,1,2013.1
+2012,Southwest,avgemp,169433,1,2012.1
+2021,Central,avgemp,271359,2,2021.2
+2020,Central,avgemp,251167,2,2020.2
+2019,Central,avgemp,281221,2,2019.2
+2018,Central,avgemp,279197,2,2018.2
+2017,Central,avgemp,278206,2,2017.2
+2016,Central,avgemp,272978,2,2016.2
+2015,Central,avgemp,271397,2,2015.2
+2014,Central,avgemp,266045,2,2014.2
+2013,Central,avgemp,260420,2,2013.2
+2012,Central,avgemp,256804,2,2012.2
+2021,Northeast,avgemp,135365,2,2021.2
+2020,Northeast,avgemp,123519,2,2020.2
+2019,Northeast,avgemp,145575,2,2019.2
+2018,Northeast,avgemp,144968,2,2018.2
+2017,Northeast,avgemp,144412,2,2017.2
+2016,Northeast,avgemp,142976,2,2016.2
+2015,Northeast,avgemp,144466,2,2015.2
+2014,Northeast,avgemp,142556,2,2014.2
+2013,Northeast,avgemp,141373,2,2013.2
+2012,Northeast,avgemp,139413,2,2012.2
+2021,Northwest,avgemp,220526,2,2021.2
+2020,Northwest,avgemp,201543,2,2020.2
+2019,Northwest,avgemp,226774,2,2019.2
+2018,Northwest,avgemp,225764,2,2018.2
+2017,Northwest,avgemp,224660,2,2017.2
+2016,Northwest,avgemp,222564,2,2016.2
+2015,Northwest,avgemp,221514,2,2015.2
+2014,Northwest,avgemp,219961,2,2014.2
+2013,Northwest,avgemp,216650,2,2013.2
+2012,Northwest,avgemp,214029,2,2012.2
+2021,Seven County Mpls-St Paul,avgemp,1680067,2,2021.2
+2020,Seven County Mpls-St Paul,avgemp,1550012,2,2020.2
+2019,Seven County Mpls-St Paul,avgemp,1783447,2,2019.2
+2018,Seven County Mpls-St Paul,avgemp,1765642,2,2018.2
+2017,Seven County Mpls-St Paul,avgemp,1743797,2,2017.2
+2016,Seven County Mpls-St Paul,avgemp,1709247,2,2016.2
+2015,Seven County Mpls-St Paul,avgemp,1684951,2,2015.2
+2014,Seven County Mpls-St Paul,avgemp,1649932,2,2014.2
+2013,Seven County Mpls-St Paul,avgemp,1626683,2,2013.2
+2012,Seven County Mpls-St Paul,avgemp,1598991,2,2012.2
+2021,Southeast,avgemp,239278,2,2021.2
+2020,Southeast,avgemp,221110,2,2020.2
+2019,Southeast,avgemp,247738,2,2019.2
+2018,Southeast,avgemp,245950,2,2018.2
+2017,Southeast,avgemp,244802,2,2017.2
+2016,Southeast,avgemp,242479,2,2016.2
+2015,Southeast,avgemp,239018,2,2015.2
+2014,Southeast,avgemp,237004,2,2014.2
+2013,Southeast,avgemp,236363,2,2013.2
+2012,Southeast,avgemp,234142,2,2012.2
+2021,Southwest,avgemp,169830,2,2021.2
+2020,Southwest,avgemp,160768,2,2020.2
+2019,Southwest,avgemp,177971,2,2019.2
+2018,Southwest,avgemp,178334,2,2018.2
+2017,Southwest,avgemp,179022,2,2017.2
+2016,Southwest,avgemp,178933,2,2016.2
+2015,Southwest,avgemp,177832,2,2015.2
+2014,Southwest,avgemp,176178,2,2014.2
+2013,Southwest,avgemp,175903,2,2013.2
+2012,Southwest,avgemp,175129,2,2012.2
+2021,Central,avgemp,270859,3,2021.3
+2020,Central,avgemp,263913,3,2020.3
+2019,Central,avgemp,280629,3,2019.3
+2018,Central,avgemp,278944,3,2018.3
+2017,Central,avgemp,276396,3,2017.3
+2016,Central,avgemp,272569,3,2016.3
+2015,Central,avgemp,270363,3,2015.3
+2014,Central,avgemp,266519,3,2014.3
+2013,Central,avgemp,261412,3,2013.3
+2012,Central,avgemp,255791,3,2012.3
+2021,Northeast,avgemp,136500,3,2021.3
+2020,Northeast,avgemp,131906,3,2020.3
+2019,Northeast,avgemp,144994,3,2019.3
+2018,Northeast,avgemp,145332,3,2018.3
+2017,Northeast,avgemp,145404,3,2017.3
+2016,Northeast,avgemp,144176,3,2016.3
+2015,Northeast,avgemp,145201,3,2015.3
+2014,Northeast,avgemp,144431,3,2014.3
+2013,Northeast,avgemp,142529,3,2013.3
+2012,Northeast,avgemp,140822,3,2012.3
+2021,Northwest,avgemp,224302,3,2021.3
+2020,Northwest,avgemp,214484,3,2020.3
+2019,Northwest,avgemp,227590,3,2019.3
+2018,Northwest,avgemp,227378,3,2018.3
+2017,Northwest,avgemp,225506,3,2017.3
+2016,Northwest,avgemp,224283,3,2016.3
+2015,Northwest,avgemp,221806,3,2015.3
+2014,Northwest,avgemp,221322,3,2014.3
+2013,Northwest,avgemp,218286,3,2013.3
+2012,Northwest,avgemp,215420,3,2012.3
+2021,Seven County Mpls-St Paul,avgemp,1684839,3,2021.3
+2020,Seven County Mpls-St Paul,avgemp,1619247,3,2020.3
+2019,Seven County Mpls-St Paul,avgemp,1780901,3,2019.3
+2018,Seven County Mpls-St Paul,avgemp,1766209,3,2018.3
+2017,Seven County Mpls-St Paul,avgemp,1742648,3,2017.3
+2016,Seven County Mpls-St Paul,avgemp,1714535,3,2016.3
+2015,Seven County Mpls-St Paul,avgemp,1680550,3,2015.3
+2014,Seven County Mpls-St Paul,avgemp,1648535,3,2014.3
+2013,Seven County Mpls-St Paul,avgemp,1623990,3,2013.3
+2012,Seven County Mpls-St Paul,avgemp,1594686,3,2012.3
+2021,Southeast,avgemp,239798,3,2021.3
+2020,Southeast,avgemp,232583,3,2020.3
+2019,Southeast,avgemp,248200,3,2019.3
+2018,Southeast,avgemp,246232,3,2018.3
+2017,Southeast,avgemp,244136,3,2017.3
+2016,Southeast,avgemp,242234,3,2016.3
+2015,Southeast,avgemp,239193,3,2015.3
+2014,Southeast,avgemp,236356,3,2014.3
+2013,Southeast,avgemp,236289,3,2013.3
+2012,Southeast,avgemp,234780,3,2012.3
+2021,Southwest,avgemp,168781,3,2021.3
+2020,Southwest,avgemp,166045,3,2020.3
+2019,Southwest,avgemp,176626,3,2019.3
+2018,Southwest,avgemp,177291,3,2018.3
+2017,Southwest,avgemp,177121,3,2017.3
+2016,Southwest,avgemp,177629,3,2016.3
+2015,Southwest,avgemp,175967,3,2015.3
+2014,Southwest,avgemp,174370,3,2014.3
+2013,Southwest,avgemp,174044,3,2013.3
+2012,Southwest,avgemp,172936,3,2012.3
+2020,Central,avgemp,266251,4,2020.4
+2019,Central,avgemp,280951,4,2019.4
+2018,Central,avgemp,279741,4,2018.4
+2017,Central,avgemp,277377,4,2017.4
+2016,Central,avgemp,274152,4,2016.4
+2015,Central,avgemp,271451,4,2015.4
+2014,Central,avgemp,267633,4,2014.4
+2013,Central,avgemp,263852,4,2013.4
+2012,Central,avgemp,258155,4,2012.4
+2020,Northeast,avgemp,132345,4,2020.4
+2019,Northeast,avgemp,143612,4,2019.4
+2018,Northeast,avgemp,144057,4,2018.4
+2017,Northeast,avgemp,143737,4,2017.4
+2016,Northeast,avgemp,142492,4,2016.4
+2015,Northeast,avgemp,142277,4,2015.4
+2014,Northeast,avgemp,142370,4,2014.4
+2013,Northeast,avgemp,140906,4,2013.4
+2012,Northeast,avgemp,139840,4,2012.4
+2020,Northwest,avgemp,213027,4,2020.4
+2019,Northwest,avgemp,224054,4,2019.4
+2018,Northwest,avgemp,223867,4,2018.4
+2017,Northwest,avgemp,222508,4,2017.4
+2016,Northwest,avgemp,220175,4,2016.4
+2015,Northwest,avgemp,219905,4,2015.4
+2014,Northwest,avgemp,217768,4,2014.4
+2013,Northwest,avgemp,215837,4,2013.4
+2012,Northwest,avgemp,212726,4,2012.4
+2020,Seven County Mpls-St Paul,avgemp,1654181,4,2020.4
+2019,Seven County Mpls-St Paul,avgemp,1793578,4,2019.4
+2018,Seven County Mpls-St Paul,avgemp,1783608,4,2018.4
+2017,Seven County Mpls-St Paul,avgemp,1762014,4,2017.4
+2016,Seven County Mpls-St Paul,avgemp,1732541,4,2016.4
+2015,Seven County Mpls-St Paul,avgemp,1697615,4,2015.4
+2014,Seven County Mpls-St Paul,avgemp,1667501,4,2014.4
+2013,Seven County Mpls-St Paul,avgemp,1644989,4,2013.4
+2012,Seven County Mpls-St Paul,avgemp,1615105,4,2012.4
+2020,Southeast,avgemp,235528,4,2020.4
+2019,Southeast,avgemp,249385,4,2019.4
+2018,Southeast,avgemp,246247,4,2018.4
+2017,Southeast,avgemp,244344,4,2017.4
+2016,Southeast,avgemp,243652,4,2016.4
+2015,Southeast,avgemp,241140,4,2015.4
+2014,Southeast,avgemp,238293,4,2014.4
+2013,Southeast,avgemp,237932,4,2013.4
+2012,Southeast,avgemp,236934,4,2012.4
+2020,Southwest,avgemp,169701,4,2020.4
+2019,Southwest,avgemp,179514,4,2019.4
+2018,Southwest,avgemp,179737,4,2018.4
+2017,Southwest,avgemp,180073,4,2017.4
+2016,Southwest,avgemp,179596,4,2016.4
+2015,Southwest,avgemp,178520,4,2015.4
+2014,Southwest,avgemp,177001,4,2014.4
+2013,Southwest,avgemp,177299,4,2013.4
+2012,Southwest,avgemp,175916,4,2012.4
+2021,Central,avg_estab,18328,1,2021.1
+2020,Central,avg_estab,18208,1,2020.1
+2019,Central,avg_estab,17815,1,2019.1
+2018,Central,avg_estab,17546,1,2018.1
+2017,Central,avg_estab,16862,1,2017.1
+2016,Central,avg_estab,16407,1,2016.1
+2015,Central,avg_estab,16749,1,2015.1
+2014,Central,avg_estab,17035,1,2014.1
+2013,Central,avg_estab,17056,1,2013.1
+2012,Central,avg_estab,17305,1,2012.1
+2021,Northeast,avg_estab,8788,1,2021.1
+2020,Northeast,avg_estab,8824,1,2020.1
+2019,Northeast,avg_estab,8730,1,2019.1
+2018,Northeast,avg_estab,8711,1,2018.1
+2017,Northeast,avg_estab,8505,1,2017.1
+2016,Northeast,avg_estab,8372,1,2016.1
+2015,Northeast,avg_estab,8547,1,2015.1
+2014,Northeast,avg_estab,8629,1,2014.1
+2013,Northeast,avg_estab,8820,1,2013.1
+2012,Northeast,avg_estab,9098,1,2012.1
+2021,Northwest,avg_estab,17080,1,2021.1
+2020,Northwest,avg_estab,17098,1,2020.1
+2019,Northwest,avg_estab,16826,1,2019.1
+2018,Northwest,avg_estab,16791,1,2018.1
+2017,Northwest,avg_estab,16286,1,2017.1
+2016,Northwest,avg_estab,15946,1,2016.1
+2015,Northwest,avg_estab,16358,1,2015.1
+2014,Northwest,avg_estab,16457,1,2014.1
+2013,Northwest,avg_estab,16834,1,2013.1
+2012,Northwest,avg_estab,17148,1,2012.1
+2021,Seven County Mpls-St Paul,avg_estab,85268,1,2021.1
+2020,Seven County Mpls-St Paul,avg_estab,84762,1,2020.1
+2019,Seven County Mpls-St Paul,avg_estab,82823,1,2019.1
+2018,Seven County Mpls-St Paul,avg_estab,81303,1,2018.1
+2017,Seven County Mpls-St Paul,avg_estab,77648,1,2017.1
+2016,Seven County Mpls-St Paul,avg_estab,75110,1,2016.1
+2015,Seven County Mpls-St Paul,avg_estab,77280,1,2015.1
+2014,Seven County Mpls-St Paul,avg_estab,78109,1,2014.1
+2013,Seven County Mpls-St Paul,avg_estab,78161,1,2013.1
+2012,Seven County Mpls-St Paul,avg_estab,80295,1,2012.1
+2021,Southeast,avg_estab,12682,1,2021.1
+2020,Southeast,avg_estab,12695,1,2020.1
+2019,Southeast,avg_estab,12407,1,2019.1
+2018,Southeast,avg_estab,12254,1,2018.1
+2017,Southeast,avg_estab,11894,1,2017.1
+2016,Southeast,avg_estab,11638,1,2016.1
+2015,Southeast,avg_estab,11888,1,2015.1
+2014,Southeast,avg_estab,12044,1,2014.1
+2013,Southeast,avg_estab,12112,1,2013.1
+2012,Southeast,avg_estab,12330,1,2012.1
+2021,Southwest,avg_estab,12239,1,2021.1
+2020,Southwest,avg_estab,12271,1,2020.1
+2019,Southwest,avg_estab,12115,1,2019.1
+2018,Southwest,avg_estab,12137,1,2018.1
+2017,Southwest,avg_estab,11839,1,2017.1
+2016,Southwest,avg_estab,11605,1,2016.1
+2015,Southwest,avg_estab,11830,1,2015.1
+2014,Southwest,avg_estab,11905,1,2014.1
+2013,Southwest,avg_estab,12080,1,2013.1
+2012,Southwest,avg_estab,12202,1,2012.1
+2021,Central,avg_estab,18625,2,2021.2
+2020,Central,avg_estab,18449,2,2020.2
+2019,Central,avg_estab,18068,2,2019.2
+2018,Central,avg_estab,17811,2,2018.2
+2017,Central,avg_estab,17209,2,2017.2
+2016,Central,avg_estab,16580,2,2016.2
+2015,Central,avg_estab,16739,2,2015.2
+2014,Central,avg_estab,16981,2,2014.2
+2013,Central,avg_estab,17218,2,2013.2
+2012,Central,avg_estab,16935,2,2012.2
+2021,Northeast,avg_estab,8898,2,2021.2
+2020,Northeast,avg_estab,8904,2,2020.2
+2019,Northeast,avg_estab,8801,2,2019.2
+2018,Northeast,avg_estab,8816,2,2018.2
+2017,Northeast,avg_estab,8640,2,2017.2
+2016,Northeast,avg_estab,8421,2,2016.2
+2015,Northeast,avg_estab,8496,2,2015.2
+2014,Northeast,avg_estab,8637,2,2014.2
+2013,Northeast,avg_estab,8870,2,2013.2
+2012,Northeast,avg_estab,8923,2,2012.2
+2021,Northwest,avg_estab,17376,2,2021.2
+2020,Northwest,avg_estab,17305,2,2020.2
+2019,Northwest,avg_estab,17076,2,2019.2
+2018,Northwest,avg_estab,17026,2,2018.2
+2017,Northwest,avg_estab,16558,2,2017.2
+2016,Northwest,avg_estab,16111,2,2016.2
+2015,Northwest,avg_estab,16370,2,2015.2
+2014,Northwest,avg_estab,16550,2,2014.2
+2013,Northwest,avg_estab,16939,2,2013.2
+2012,Northwest,avg_estab,16898,2,2012.2
+2021,Seven County Mpls-St Paul,avg_estab,86825,2,2021.2
+2020,Seven County Mpls-St Paul,avg_estab,85820,2,2020.2
+2019,Seven County Mpls-St Paul,avg_estab,84120,2,2019.2
+2018,Seven County Mpls-St Paul,avg_estab,82738,2,2018.2
+2017,Seven County Mpls-St Paul,avg_estab,79292,2,2017.2
+2016,Seven County Mpls-St Paul,avg_estab,75767,2,2016.2
+2015,Seven County Mpls-St Paul,avg_estab,77044,2,2015.2
+2014,Seven County Mpls-St Paul,avg_estab,77981,2,2014.2
+2013,Seven County Mpls-St Paul,avg_estab,78736,2,2013.2
+2012,Seven County Mpls-St Paul,avg_estab,78291,2,2012.2
+2021,Southeast,avg_estab,12853,2,2021.2
+2020,Southeast,avg_estab,12827,2,2020.2
+2019,Southeast,avg_estab,12610,2,2019.2
+2018,Southeast,avg_estab,12440,2,2018.2
+2017,Southeast,avg_estab,12078,2,2017.2
+2016,Southeast,avg_estab,11695,2,2016.2
+2015,Southeast,avg_estab,11872,2,2015.2
+2014,Southeast,avg_estab,12041,2,2014.2
+2013,Southeast,avg_estab,12211,2,2013.2
+2012,Southeast,avg_estab,12112,2,2012.2
+2021,Southwest,avg_estab,12366,2,2021.2
+2020,Southwest,avg_estab,12356,2,2020.2
+2019,Southwest,avg_estab,12249,2,2019.2
+2018,Southwest,avg_estab,12281,2,2018.2
+2017,Southwest,avg_estab,11990,2,2017.2
+2016,Southwest,avg_estab,11689,2,2016.2
+2015,Southwest,avg_estab,11834,2,2015.2
+2014,Southwest,avg_estab,11901,2,2014.2
+2013,Southwest,avg_estab,12168,2,2013.2
+2012,Southwest,avg_estab,12059,2,2012.2
+2021,Central,avg_estab,18843,3,2021.3
+2020,Central,avg_estab,18668,3,2020.3
+2019,Central,avg_estab,18263,3,2019.3
+2018,Central,avg_estab,17975,3,2018.3
+2017,Central,avg_estab,17359,3,2017.3
+2016,Central,avg_estab,16651,3,2016.3
+2015,Central,avg_estab,16426,3,2015.3
+2014,Central,avg_estab,16965,3,2014.3
+2013,Central,avg_estab,17323,3,2013.3
+2012,Central,avg_estab,16997,3,2012.3
+2021,Northeast,avg_estab,8968,3,2021.3
+2020,Northeast,avg_estab,8989,3,2020.3
+2019,Northeast,avg_estab,8868,3,2019.3
+2018,Northeast,avg_estab,8879,3,2018.3
+2017,Northeast,avg_estab,8665,3,2017.3
+2016,Northeast,avg_estab,8464,3,2016.3
+2015,Northeast,avg_estab,8376,3,2015.3
+2014,Northeast,avg_estab,8608,3,2014.3
+2013,Northeast,avg_estab,8898,3,2013.3
+2012,Northeast,avg_estab,8903,3,2012.3
+2021,Northwest,avg_estab,17529,3,2021.3
+2020,Northwest,avg_estab,17440,3,2020.3
+2019,Northwest,avg_estab,17213,3,2019.3
+2018,Northwest,avg_estab,17183,3,2018.3
+2017,Northwest,avg_estab,16675,3,2017.3
+2016,Northwest,avg_estab,16177,3,2016.3
+2015,Northwest,avg_estab,16083,3,2015.3
+2014,Northwest,avg_estab,16529,3,2014.3
+2013,Northwest,avg_estab,17027,3,2013.3
+2012,Northwest,avg_estab,16936,3,2012.3
+2021,Seven County Mpls-St Paul,avg_estab,87786,3,2021.3
+2020,Seven County Mpls-St Paul,avg_estab,87368,3,2020.3
+2019,Seven County Mpls-St Paul,avg_estab,85210,3,2019.3
+2018,Seven County Mpls-St Paul,avg_estab,83828,3,2018.3
+2017,Seven County Mpls-St Paul,avg_estab,80133,3,2017.3
+2016,Seven County Mpls-St Paul,avg_estab,76250,3,2016.3
+2015,Seven County Mpls-St Paul,avg_estab,75328,3,2015.3
+2014,Seven County Mpls-St Paul,avg_estab,77913,3,2014.3
+2013,Seven County Mpls-St Paul,avg_estab,79404,3,2013.3
+2012,Seven County Mpls-St Paul,avg_estab,78540,3,2012.3
+2021,Southeast,avg_estab,12988,3,2021.3
+2020,Southeast,avg_estab,12984,3,2020.3
+2019,Southeast,avg_estab,12737,3,2019.3
+2018,Southeast,avg_estab,12598,3,2018.3
+2017,Southeast,avg_estab,12151,3,2017.3
+2016,Southeast,avg_estab,11749,3,2016.3
+2015,Southeast,avg_estab,11663,3,2015.3
+2014,Southeast,avg_estab,12019,3,2014.3
+2013,Southeast,avg_estab,12290,3,2013.3
+2012,Southeast,avg_estab,12117,3,2012.3
+2021,Southwest,avg_estab,12489,3,2021.3
+2020,Southwest,avg_estab,12457,3,2020.3
+2019,Southwest,avg_estab,12340,3,2019.3
+2018,Southwest,avg_estab,12321,3,2018.3
+2017,Southwest,avg_estab,12045,3,2017.3
+2016,Southwest,avg_estab,11730,3,2016.3
+2015,Southwest,avg_estab,11653,3,2015.3
+2014,Southwest,avg_estab,11909,3,2014.3
+2013,Southwest,avg_estab,12219,3,2013.3
+2012,Southwest,avg_estab,12110,3,2012.3
+2020,Central,avg_estab,18828,4,2020.4
+2019,Central,avg_estab,18447,4,2019.4
+2018,Central,avg_estab,18138,4,2018.4
+2017,Central,avg_estab,17491,4,2017.4
+2016,Central,avg_estab,16735,4,2016.4
+2015,Central,avg_estab,16505,4,2015.4
+2014,Central,avg_estab,16934,4,2014.4
+2013,Central,avg_estab,17041,4,2013.4
+2012,Central,avg_estab,17098,4,2012.4
+2020,Northeast,avg_estab,9061,4,2020.4
+2019,Northeast,avg_estab,8931,4,2019.4
+2018,Northeast,avg_estab,8916,4,2018.4
+2017,Northeast,avg_estab,8712,4,2017.4
+2016,Northeast,avg_estab,8500,4,2016.4
+2015,Northeast,avg_estab,8405,4,2015.4
+2014,Northeast,avg_estab,8606,4,2014.4
+2013,Northeast,avg_estab,8696,4,2013.4
+2012,Northeast,avg_estab,8918,4,2012.4
+2020,Northwest,avg_estab,17610,4,2020.4
+2019,Northwest,avg_estab,17330,4,2019.4
+2018,Northwest,avg_estab,17208,4,2018.4
+2017,Northwest,avg_estab,16770,4,2017.4
+2016,Northwest,avg_estab,16232,4,2016.4
+2015,Northwest,avg_estab,16066,4,2015.4
+2014,Northwest,avg_estab,16486,4,2014.4
+2013,Northwest,avg_estab,16530,4,2013.4
+2012,Northwest,avg_estab,16946,4,2012.4
+2020,Seven County Mpls-St Paul,avg_estab,88575,4,2020.4
+2019,Seven County Mpls-St Paul,avg_estab,86236,4,2019.4
+2018,Seven County Mpls-St Paul,avg_estab,84683,4,2018.4
+2017,Seven County Mpls-St Paul,avg_estab,81046,4,2017.4
+2016,Seven County Mpls-St Paul,avg_estab,76850,4,2016.4
+2015,Seven County Mpls-St Paul,avg_estab,75467,4,2015.4
+2014,Seven County Mpls-St Paul,avg_estab,77881,4,2014.4
+2013,Seven County Mpls-St Paul,avg_estab,78207,4,2013.4
+2012,Seven County Mpls-St Paul,avg_estab,78850,4,2012.4
+2020,Southeast,avg_estab,13119,4,2020.4
+2019,Southeast,avg_estab,12841,4,2019.4
+2018,Southeast,avg_estab,12697,4,2018.4
+2017,Southeast,avg_estab,12253,4,2017.4
+2016,Southeast,avg_estab,11806,4,2016.4
+2015,Southeast,avg_estab,11687,4,2015.4
+2014,Southeast,avg_estab,11988,4,2014.4
+2013,Southeast,avg_estab,12111,4,2013.4
+2012,Southeast,avg_estab,12146,4,2012.4
+2020,Southwest,avg_estab,12585,4,2020.4
+2019,Southwest,avg_estab,12427,4,2019.4
+2018,Southwest,avg_estab,12402,4,2018.4
+2017,Southwest,avg_estab,12126,4,2017.4
+2016,Southwest,avg_estab,11780,4,2016.4
+2015,Southwest,avg_estab,11660,4,2015.4
+2014,Southwest,avg_estab,11903,4,2014.4
+2013,Southwest,avg_estab,11952,4,2013.4
+2012,Southwest,avg_estab,12112,4,2012.4
+2021,Central,totwage,3128432423,1,2021.1
+2020,Central,totwage,3128324284,1,2020.1
+2019,Central,totwage,2981762219,1,2019.1
+2018,Central,totwage,2926261608,1,2018.1
+2017,Central,totwage,2834533215,1,2017.1
+2016,Central,totwage,2570298471,1,2016.1
+2015,Central,totwage,2508626548,1,2015.1
+2014,Central,totwage,2355883862,1,2014.1
+2013,Central,totwage,2259878991,1,2013.1
+2012,Central,totwage,2196337559,1,2012.1
+2021,Northeast,totwage,1572345273,1,2021.1
+2020,Northeast,totwage,1644644548,1,2020.1
+2019,Northeast,totwage,1618836280,1,2019.1
+2018,Northeast,totwage,1551148406,1,2018.1
+2017,Northeast,totwage,1478191415,1,2017.1
+2016,Northeast,totwage,1373151496,1,2016.1
+2015,Northeast,totwage,1451929521,1,2015.1
+2014,Northeast,totwage,1397074587,1,2014.1
+2013,Northeast,totwage,1354954113,1,2013.1
+2012,Northeast,totwage,1308366563,1,2012.1
+2021,Northwest,totwage,2392238629,1,2021.1
+2020,Northwest,totwage,2291986441,1,2020.1
+2019,Northwest,totwage,2203402289,1,2019.1
+2018,Northwest,totwage,2157128324,1,2018.1
+2017,Northwest,totwage,2059921887,1,2017.1
+2016,Northwest,totwage,1913744940,1,2016.1
+2015,Northwest,totwage,1880548754,1,2015.1
+2014,Northwest,totwage,1810184378,1,2014.1
+2013,Northwest,totwage,1734825666,1,2013.1
+2012,Northwest,totwage,1689010562,1,2012.1
+2021,Seven County Mpls-St Paul,totwage,30909428003,1,2021.1
+2020,Seven County Mpls-St Paul,totwage,31947838063,1,2020.1
+2019,Seven County Mpls-St Paul,totwage,31139913800,1,2019.1
+2018,Seven County Mpls-St Paul,totwage,30202921101,1,2018.1
+2017,Seven County Mpls-St Paul,totwage,29303059260,1,2017.1
+2016,Seven County Mpls-St Paul,totwage,26400906420,1,2016.1
+2015,Seven County Mpls-St Paul,totwage,26422255461,1,2015.1
+2014,Seven County Mpls-St Paul,totwage,24879678871,1,2014.1
+2013,Seven County Mpls-St Paul,totwage,23758817886,1,2013.1
+2012,Seven County Mpls-St Paul,totwage,23083039503,1,2012.1
+2021,Southeast,totwage,3259485584,1,2021.1
+2020,Southeast,totwage,3254896439,1,2020.1
+2019,Southeast,totwage,3167805001,1,2019.1
+2018,Southeast,totwage,3190061805,1,2018.1
+2017,Southeast,totwage,3055183920,1,2017.1
+2016,Southeast,totwage,2860657323,1,2016.1
+2015,Southeast,totwage,2742624991,1,2015.1
+2014,Southeast,totwage,2558227386,1,2014.1
+2013,Southeast,totwage,2488183456,1,2013.1
+2012,Southeast,totwage,2432881748,1,2012.1
+2021,Southwest,totwage,1864869257,1,2021.1
+2020,Southwest,totwage,1885746833,1,2020.1
+2019,Southwest,totwage,1821103631,1,2019.1
+2018,Southwest,totwage,1791079263,1,2018.1
+2017,Southwest,totwage,1757168458,1,2017.1
+2016,Southwest,totwage,1598490484,1,2016.1
+2015,Southwest,totwage,1598728970,1,2015.1
+2014,Southwest,totwage,1515908542,1,2014.1
+2013,Southwest,totwage,1463965166,1,2013.1
+2012,Southwest,totwage,1442489112,1,2012.1
+2021,Central,totwage,3299720349,2,2021.2
+2020,Central,totwage,2979415244,2,2020.2
+2019,Central,totwage,3062877716,2,2019.2
+2018,Central,totwage,2962337971,2,2018.2
+2017,Central,totwage,2843774431,2,2017.2
+2016,Central,totwage,2717039440,2,2016.2
+2015,Central,totwage,2615986221,2,2015.2
+2014,Central,totwage,2460812795,2,2014.2
+2013,Central,totwage,2353217290,2,2013.2
+2012,Central,totwage,2269827907,2,2012.2
+2021,Northeast,totwage,1717640199,2,2021.2
+2020,Northeast,totwage,1521431122,2,2020.2
+2019,Northeast,totwage,1664624996,2,2019.2
+2018,Northeast,totwage,1606823303,2,2018.2
+2017,Northeast,totwage,1545718555,2,2017.2
+2016,Northeast,totwage,1420008142,2,2016.2
+2015,Northeast,totwage,1432521179,2,2015.2
+2014,Northeast,totwage,1367741388,2,2014.2
+2013,Northeast,totwage,1350509061,2,2013.2
+2012,Northeast,totwage,1287027764,2,2012.2
+2021,Northwest,totwage,2541506408,2,2021.2
+2020,Northwest,totwage,2240857685,2,2020.2
+2019,Northwest,totwage,2310986308,2,2019.2
+2018,Northwest,totwage,2253680135,2,2018.2
+2017,Northwest,totwage,2158352179,2,2017.2
+2016,Northwest,totwage,2056919774,2,2016.2
+2015,Northwest,totwage,1964184322,2,2015.2
+2014,Northwest,totwage,1895897606,2,2014.2
+2013,Northwest,totwage,1817556218,2,2013.2
+2012,Northwest,totwage,1743422960,2,2012.2
+2021,Seven County Mpls-St Paul,totwage,30045777645,2,2021.2
+2020,Seven County Mpls-St Paul,totwage,26861995968,2,2020.2
+2019,Seven County Mpls-St Paul,totwage,28376645829,2,2019.2
+2018,Seven County Mpls-St Paul,totwage,27452235776,2,2018.2
+2017,Seven County Mpls-St Paul,totwage,26342624409,2,2017.2
+2016,Seven County Mpls-St Paul,totwage,24810481854,2,2016.2
+2015,Seven County Mpls-St Paul,totwage,24077389854,2,2015.2
+2014,Seven County Mpls-St Paul,totwage,22773861930,2,2014.2
+2013,Seven County Mpls-St Paul,totwage,22040609509,2,2013.2
+2012,Seven County Mpls-St Paul,totwage,21264635907,2,2012.2
+2021,Southeast,totwage,3479087003,2,2021.2
+2020,Southeast,totwage,3137544762,2,2020.2
+2019,Southeast,totwage,3150319422,2,2019.2
+2018,Southeast,totwage,3037839573,2,2018.2
+2017,Southeast,totwage,2888480762,2,2017.2
+2016,Southeast,totwage,2753825615,2,2016.2
+2015,Southeast,totwage,2644818093,2,2015.2
+2014,Southeast,totwage,2643400810,2,2014.2
+2013,Southeast,totwage,2601265181,2,2013.2
+2012,Southeast,totwage,2506615093,2,2012.2
+2021,Southwest,totwage,1965108709,2,2021.2
+2020,Southwest,totwage,1820959375,2,2020.2
+2019,Southwest,totwage,1852495885,2,2019.2
+2018,Southwest,totwage,1794418115,2,2018.2
+2017,Southwest,totwage,1753231909,2,2017.2
+2016,Southwest,totwage,1687109942,2,2016.2
+2015,Southwest,totwage,1639317195,2,2015.2
+2014,Southwest,totwage,1569519682,2,2014.2
+2013,Southwest,totwage,1508869846,2,2013.2
+2012,Southwest,totwage,1473703928,2,2012.2
+2021,Central,totwage,3449532800,3,2021.3
+2020,Central,totwage,3175693950,3,2020.3
+2019,Central,totwage,3159988064,3,2019.3
+2018,Central,totwage,3046602755,3,2018.3
+2017,Central,totwage,2909063411,3,2017.3
+2016,Central,totwage,2892722431,3,2016.3
+2015,Central,totwage,2668164583,3,2015.3
+2014,Central,totwage,2531958777,3,2014.3
+2013,Central,totwage,2392719082,3,2013.3
+2012,Central,totwage,2302546124,3,2012.3
+2021,Northeast,totwage,1789151425,3,2021.3
+2020,Northeast,totwage,1585203792,3,2020.3
+2019,Northeast,totwage,1675968793,3,2019.3
+2018,Northeast,totwage,1622546947,3,2018.3
+2017,Northeast,totwage,1551754642,3,2017.3
+2016,Northeast,totwage,1580536506,3,2016.3
+2015,Northeast,totwage,1522476591,3,2015.3
+2014,Northeast,totwage,1485781882,3,2014.3
+2013,Northeast,totwage,1416704589,3,2013.3
+2012,Northeast,totwage,1364273328,3,2012.3
+2021,Northwest,totwage,2696947288,3,2021.3
+2020,Northwest,totwage,2361662244,3,2020.3
+2019,Northwest,totwage,2341368673,3,2019.3
+2018,Northwest,totwage,2275115924,3,2018.3
+2017,Northwest,totwage,2172290069,3,2017.3
+2016,Northwest,totwage,2171375862,3,2016.3
+2015,Northwest,totwage,2027751054,3,2015.3
+2014,Northwest,totwage,1963712679,3,2014.3
+2013,Northwest,totwage,1876411091,3,2013.3
+2012,Northwest,totwage,1783171422,3,2012.3
+2021,Seven County Mpls-St Paul,totwage,30075114654,3,2021.3
+2020,Seven County Mpls-St Paul,totwage,27498970938,3,2020.3
+2019,Seven County Mpls-St Paul,totwage,28192799693,3,2019.3
+2018,Seven County Mpls-St Paul,totwage,27216139320,3,2018.3
+2017,Seven County Mpls-St Paul,totwage,25748573354,3,2017.3
+2016,Seven County Mpls-St Paul,totwage,26010225976,3,2016.3
+2015,Seven County Mpls-St Paul,totwage,24018314405,3,2015.3
+2014,Seven County Mpls-St Paul,totwage,23014316498,3,2014.3
+2013,Seven County Mpls-St Paul,totwage,22269124696,3,2013.3
+2012,Seven County Mpls-St Paul,totwage,21309229573,3,2012.3
+2021,Southeast,totwage,3403441408,3,2021.3
+2020,Southeast,totwage,3131043626,3,2020.3
+2019,Southeast,totwage,3317673087,3,2019.3
+2018,Southeast,totwage,3206355667,3,2018.3
+2017,Southeast,totwage,3059555712,3,2017.3
+2016,Southeast,totwage,2978899003,3,2016.3
+2015,Southeast,totwage,2831819088,3,2015.3
+2014,Southeast,totwage,2679335111,3,2014.3
+2013,Southeast,totwage,2482115253,3,2013.3
+2012,Southeast,totwage,2402019260,3,2012.3
+2021,Southwest,totwage,2017500789,3,2021.3
+2020,Southwest,totwage,1887144096,3,2020.3
+2019,Southwest,totwage,1903959314,3,2019.3
+2018,Southwest,totwage,1848553731,3,2018.3
+2017,Southwest,totwage,1779327626,3,2017.3
+2016,Southwest,totwage,1786186265,3,2016.3
+2015,Southwest,totwage,1656240847,3,2015.3
+2014,Southwest,totwage,1643679311,3,2014.3
+2013,Southwest,totwage,1547879359,3,2013.3
+2012,Southwest,totwage,1491824147,3,2012.3
+2020,Central,totwage,3495430788,4,2020.4
+2019,Central,totwage,3277796744,4,2019.4
+2018,Central,totwage,3167013457,4,2018.4
+2017,Central,totwage,3056589708,4,2017.4
+2016,Central,totwage,2915624664,4,2016.4
+2015,Central,totwage,2915603601,4,2015.4
+2014,Central,totwage,2695014271,4,2014.4
+2013,Central,totwage,2579357721,4,2013.4
+2012,Central,totwage,2497368904,4,2012.4
+2020,Northeast,totwage,1773271101,4,2020.4
+2019,Northeast,totwage,1754861734,4,2019.4
+2018,Northeast,totwage,1710308994,4,2018.4
+2017,Northeast,totwage,1614775494,4,2017.4
+2016,Northeast,totwage,1558374086,4,2016.4
+2015,Northeast,totwage,1561572991,4,2015.4
+2014,Northeast,totwage,1488254036,4,2014.4
+2013,Northeast,totwage,1424254012,4,2013.4
+2012,Northeast,totwage,1368996995,4,2012.4
+2020,Northwest,totwage,2643740155,4,2020.4
+2019,Northwest,totwage,2460279709,4,2019.4
+2018,Northwest,totwage,2402019801,4,2018.4
+2017,Northwest,totwage,2300960579,4,2017.4
+2016,Northwest,totwage,2191880455,4,2016.4
+2015,Northwest,totwage,2197206790,4,2015.4
+2014,Northwest,totwage,2079736280,4,2014.4
+2013,Northwest,totwage,1960191317,4,2013.4
+2012,Northwest,totwage,1894745876,4,2012.4
+2020,Seven County Mpls-St Paul,totwage,31525553226,4,2020.4
+2019,Seven County Mpls-St Paul,totwage,30352777931,4,2019.4
+2018,Seven County Mpls-St Paul,totwage,29237297477,4,2018.4
+2017,Seven County Mpls-St Paul,totwage,28063610479,4,2017.4
+2016,Seven County Mpls-St Paul,totwage,26664360910,4,2016.4
+2015,Seven County Mpls-St Paul,totwage,26547479726,4,2015.4
+2014,Seven County Mpls-St Paul,totwage,24930739112,4,2014.4
+2013,Seven County Mpls-St Paul,totwage,23570203657,4,2013.4
+2012,Seven County Mpls-St Paul,totwage,23357339798,4,2012.4
+2020,Southeast,totwage,3694114403,4,2020.4
+2019,Southeast,totwage,3499486270,4,2019.4
+2018,Southeast,totwage,3352954226,4,2018.4
+2017,Southeast,totwage,3081100316,4,2017.4
+2016,Southeast,totwage,2974784570,4,2016.4
+2015,Southeast,totwage,2945320611,4,2015.4
+2014,Southeast,totwage,2717904133,4,2014.4
+2013,Southeast,totwage,2746511854,4,2013.4
+2012,Southeast,totwage,2689033649,4,2012.4
+2020,Southwest,totwage,2155615788,4,2020.4
+2019,Southwest,totwage,2014780302,4,2019.4
+2018,Southwest,totwage,1962605803,4,2018.4
+2017,Southwest,totwage,1897407443,4,2017.4
+2016,Southwest,totwage,1811048120,4,2016.4
+2015,Southwest,totwage,1818636139,4,2015.4
+2014,Southwest,totwage,1728826081,4,2014.4
+2013,Southwest,totwage,1695159099,4,2013.4
+2012,Southwest,totwage,1590620222,4,2012.4

@@ -1,0 +1,1522 @@
+periodyear,edr,key,value,quarter,year.quarter,planning.region
+2021,EDR 1 - Northwest,avgemp,34338,1,2021.1,Northwest
+2020,EDR 1 - Northwest,avgemp,35428,1,2020.1,Northwest
+2019,EDR 1 - Northwest,avgemp,35777,1,2019.1,Northwest
+2018,EDR 1 - Northwest,avgemp,35980,1,2018.1,Northwest
+2017,EDR 1 - Northwest,avgemp,36166,1,2017.1,Northwest
+2016,EDR 1 - Northwest,avgemp,36456,1,2016.1,Northwest
+2015,EDR 1 - Northwest,avgemp,36804,1,2015.1,Northwest
+2014,EDR 1 - Northwest,avgemp,36485,1,2014.1,Northwest
+2013,EDR 1 - Northwest,avgemp,36043,1,2013.1,Northwest
+2012,EDR 1 - Northwest,avgemp,35603,1,2012.1,Northwest
+2021,EDR 2 - Headwaters,avgemp,30011,1,2021.1,Northwest
+2020,EDR 2 - Headwaters,avgemp,31616,1,2020.1,Northwest
+2019,EDR 2 - Headwaters,avgemp,31556,1,2019.1,Northwest
+2018,EDR 2 - Headwaters,avgemp,31275,1,2018.1,Northwest
+2017,EDR 2 - Headwaters,avgemp,30728,1,2017.1,Northwest
+2016,EDR 2 - Headwaters,avgemp,30480,1,2016.1,Northwest
+2015,EDR 2 - Headwaters,avgemp,29863,1,2015.1,Northwest
+2014,EDR 2 - Headwaters,avgemp,29488,1,2014.1,Northwest
+2013,EDR 2 - Headwaters,avgemp,29044,1,2013.1,Northwest
+2012,EDR 2 - Headwaters,avgemp,28228,1,2012.1,Northwest
+2021,EDR 3 - Arrowhead,avgemp,129155,1,2021.1,Northeast
+2020,EDR 3 - Arrowhead,avgemp,139919,1,2020.1,Northeast
+2019,EDR 3 - Arrowhead,avgemp,140549,1,2019.1,Northeast
+2018,EDR 3 - Arrowhead,avgemp,140336,1,2018.1,Northeast
+2017,EDR 3 - Arrowhead,avgemp,139893,1,2017.1,Northeast
+2016,EDR 3 - Arrowhead,avgemp,137849,1,2016.1,Northeast
+2015,EDR 3 - Arrowhead,avgemp,138980,1,2015.1,Northeast
+2014,EDR 3 - Arrowhead,avgemp,137082,1,2014.1,Northeast
+2013,EDR 3 - Arrowhead,avgemp,136475,1,2013.1,Northeast
+2012,EDR 3 - Arrowhead,avgemp,133932,1,2012.1,Northeast
+2021,EDR 4 - West Central,avgemp,84170,1,2021.1,Northwest
+2020,EDR 4 - West Central,avgemp,87991,1,2020.1,Northwest
+2019,EDR 4 - West Central,avgemp,87315,1,2019.1,Northwest
+2018,EDR 4 - West Central,avgemp,86584,1,2018.1,Northwest
+2017,EDR 4 - West Central,avgemp,86353,1,2017.1,Northwest
+2016,EDR 4 - West Central,avgemp,84951,1,2016.1,Northwest
+2015,EDR 4 - West Central,avgemp,83891,1,2015.1,Northwest
+2014,EDR 4 - West Central,avgemp,83271,1,2014.1,Northwest
+2013,EDR 4 - West Central,avgemp,82087,1,2013.1,Northwest
+2012,EDR 4 - West Central,avgemp,80881,1,2012.1,Northwest
+2021,EDR 5 - North Central,avgemp,59992,1,2021.1,Northwest
+2020,EDR 5 - North Central,avgemp,60354,1,2020.1,Northwest
+2019,EDR 5 - North Central,avgemp,59873,1,2019.1,Northwest
+2018,EDR 5 - North Central,avgemp,59924,1,2018.1,Northwest
+2017,EDR 5 - North Central,avgemp,59440,1,2017.1,Northwest
+2016,EDR 5 - North Central,avgemp,58275,1,2016.1,Northwest
+2015,EDR 5 - North Central,avgemp,57671,1,2015.1,Northwest
+2014,EDR 5 - North Central,avgemp,57281,1,2014.1,Northwest
+2013,EDR 5 - North Central,avgemp,56968,1,2013.1,Northwest
+2012,EDR 5 - North Central,avgemp,55359,1,2012.1,Northwest
+2021,EDR 6E- Southwest Central,avgemp,49094,1,2021.1,Central
+2020,EDR 6E- Southwest Central,avgemp,51634,1,2020.1,Central
+2019,EDR 6E- Southwest Central,avgemp,52161,1,2019.1,Central
+2018,EDR 6E- Southwest Central,avgemp,52666,1,2018.1,Central
+2017,EDR 6E- Southwest Central,avgemp,52433,1,2017.1,Central
+2016,EDR 6E- Southwest Central,avgemp,51206,1,2016.1,Central
+2015,EDR 6E- Southwest Central,avgemp,51569,1,2015.1,Central
+2014,EDR 6E- Southwest Central,avgemp,50105,1,2014.1,Central
+2013,EDR 6E- Southwest Central,avgemp,49743,1,2013.1,Central
+2012,EDR 6E- Southwest Central,avgemp,49239,1,2012.1,Central
+2021,EDR 6W- Upper Minnesota Valley,avgemp,15738,1,2021.1,Southwest
+2020,EDR 6W- Upper Minnesota Valley,avgemp,16616,1,2020.1,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avgemp,16898,1,2019.1,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avgemp,16910,1,2018.1,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avgemp,17001,1,2017.1,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avgemp,16839,1,2016.1,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avgemp,16837,1,2015.1,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avgemp,16906,1,2014.1,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avgemp,17016,1,2013.1,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avgemp,17576,1,2012.1,Southwest
+2021,EDR 7E- East Central,avgemp,45506,1,2021.1,Central
+2020,EDR 7E- East Central,avgemp,47846,1,2020.1,Central
+2019,EDR 7E- East Central,avgemp,47297,1,2019.1,Central
+2018,EDR 7E- East Central,avgemp,46948,1,2018.1,Central
+2017,EDR 7E- East Central,avgemp,46970,1,2017.1,Central
+2016,EDR 7E- East Central,avgemp,46402,1,2016.1,Central
+2015,EDR 7E- East Central,avgemp,45515,1,2015.1,Central
+2014,EDR 7E- East Central,avgemp,45392,1,2014.1,Central
+2013,EDR 7E- East Central,avgemp,44803,1,2013.1,Central
+2012,EDR 7E- East Central,avgemp,43965,1,2012.1,Central
+2021,EDR 7W- Central,avgemp,164789,1,2021.1,Central
+2020,EDR 7W- Central,avgemp,172865,1,2020.1,Central
+2019,EDR 7W- Central,avgemp,171650,1,2019.1,Central
+2018,EDR 7W- Central,avgemp,169134,1,2018.1,Central
+2017,EDR 7W- Central,avgemp,168327,1,2017.1,Central
+2016,EDR 7W- Central,avgemp,164935,1,2016.1,Central
+2015,EDR 7W- Central,avgemp,162464,1,2015.1,Central
+2014,EDR 7W- Central,avgemp,159098,1,2014.1,Central
+2013,EDR 7W- Central,avgemp,154982,1,2013.1,Central
+2012,EDR 7W- Central,avgemp,151975,1,2012.1,Central
+2021,EDR 8 - Southwest,avgemp,50806,1,2021.1,Southwest
+2020,EDR 8 - Southwest,avgemp,52050,1,2020.1,Southwest
+2019,EDR 8 - Southwest,avgemp,52284,1,2019.1,Southwest
+2018,EDR 8 - Southwest,avgemp,52444,1,2018.1,Southwest
+2017,EDR 8 - Southwest,avgemp,52716,1,2017.1,Southwest
+2016,EDR 8 - Southwest,avgemp,52907,1,2016.1,Southwest
+2015,EDR 8 - Southwest,avgemp,53428,1,2015.1,Southwest
+2014,EDR 8 - Southwest,avgemp,53370,1,2014.1,Southwest
+2013,EDR 8 - Southwest,avgemp,52893,1,2013.1,Southwest
+2012,EDR 8 - Southwest,avgemp,52424,1,2012.1,Southwest
+2021,EDR 9 - South Central,avgemp,97151,1,2021.1,Southwest
+2020,EDR 9 - South Central,avgemp,103675,1,2020.1,Southwest
+2019,EDR 9 - South Central,avgemp,103120,1,2019.1,Southwest
+2018,EDR 9 - South Central,avgemp,103537,1,2018.1,Southwest
+2017,EDR 9 - South Central,avgemp,103836,1,2017.1,Southwest
+2016,EDR 9 - South Central,avgemp,103060,1,2016.1,Southwest
+2015,EDR 9 - South Central,avgemp,100972,1,2015.1,Southwest
+2014,EDR 9 - South Central,avgemp,100217,1,2014.1,Southwest
+2013,EDR 9 - South Central,avgemp,100056,1,2013.1,Southwest
+2012,EDR 9 - South Central,avgemp,99433,1,2012.1,Southwest
+2021,EDR 10 - Southeast,avgemp,231451,1,2021.1,Southeast
+2020,EDR 10 - Southeast,avgemp,243320,1,2020.1,Southeast
+2019,EDR 10 - Southeast,avgemp,241908,1,2019.1,Southeast
+2018,EDR 10 - Southeast,avgemp,239991,1,2018.1,Southeast
+2017,EDR 10 - Southeast,avgemp,237724,1,2017.1,Southeast
+2016,EDR 10 - Southeast,avgemp,235833,1,2016.1,Southeast
+2015,EDR 10 - Southeast,avgemp,231217,1,2015.1,Southeast
+2014,EDR 10 - Southeast,avgemp,229874,1,2014.1,Southeast
+2013,EDR 10 - Southeast,avgemp,230054,1,2013.1,Southeast
+2012,EDR 10 - Southeast,avgemp,226730,1,2012.1,Southeast
+2021,EDR 11 - 7 County Twin Cities,avgemp,1631459,1,2021.1,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,avgemp,1757368,1,2020.1,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avgemp,1747831,1,2019.1,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avgemp,1735840,1,2018.1,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avgemp,1709766,1,2017.1,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avgemp,1667780,1,2016.1,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avgemp,1638051,1,2015.1,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avgemp,1607516,1,2014.1,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avgemp,1586784,1,2013.1,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avgemp,1555131,1,2012.1,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,avgemp,35469,2,2021.2,Northwest
+2020,EDR 1 - Northwest,avgemp,33404,2,2020.2,Northwest
+2019,EDR 1 - Northwest,avgemp,36825,2,2019.2,Northwest
+2018,EDR 1 - Northwest,avgemp,37246,2,2018.2,Northwest
+2017,EDR 1 - Northwest,avgemp,37224,2,2017.2,Northwest
+2016,EDR 1 - Northwest,avgemp,37722,2,2016.2,Northwest
+2015,EDR 1 - Northwest,avgemp,38109,2,2015.2,Northwest
+2014,EDR 1 - Northwest,avgemp,38374,2,2014.2,Northwest
+2013,EDR 1 - Northwest,avgemp,37635,2,2013.2,Northwest
+2012,EDR 1 - Northwest,avgemp,37170,2,2012.2,Northwest
+2021,EDR 2 - Headwaters,avgemp,31700,2,2021.2,Northwest
+2020,EDR 2 - Headwaters,avgemp,28934,2,2020.2,Northwest
+2019,EDR 2 - Headwaters,avgemp,32803,2,2019.2,Northwest
+2018,EDR 2 - Headwaters,avgemp,32506,2,2018.2,Northwest
+2017,EDR 2 - Headwaters,avgemp,32106,2,2017.2,Northwest
+2016,EDR 2 - Headwaters,avgemp,31917,2,2016.2,Northwest
+2015,EDR 2 - Headwaters,avgemp,31382,2,2015.2,Northwest
+2014,EDR 2 - Headwaters,avgemp,30965,2,2014.2,Northwest
+2013,EDR 2 - Headwaters,avgemp,30367,2,2013.2,Northwest
+2012,EDR 2 - Headwaters,avgemp,29977,2,2012.2,Northwest
+2021,EDR 3 - Arrowhead,avgemp,135365,2,2021.2,Northeast
+2020,EDR 3 - Arrowhead,avgemp,123519,2,2020.2,Northeast
+2019,EDR 3 - Arrowhead,avgemp,145575,2,2019.2,Northeast
+2018,EDR 3 - Arrowhead,avgemp,144968,2,2018.2,Northeast
+2017,EDR 3 - Arrowhead,avgemp,144412,2,2017.2,Northeast
+2016,EDR 3 - Arrowhead,avgemp,142976,2,2016.2,Northeast
+2015,EDR 3 - Arrowhead,avgemp,144466,2,2015.2,Northeast
+2014,EDR 3 - Arrowhead,avgemp,142556,2,2014.2,Northeast
+2013,EDR 3 - Arrowhead,avgemp,141373,2,2013.2,Northeast
+2012,EDR 3 - Arrowhead,avgemp,139413,2,2012.2,Northeast
+2021,EDR 4 - West Central,avgemp,89642,2,2021.2,Northwest
+2020,EDR 4 - West Central,avgemp,83066,2,2020.2,Northwest
+2019,EDR 4 - West Central,avgemp,92820,2,2019.2,Northwest
+2018,EDR 4 - West Central,avgemp,91834,2,2018.2,Northwest
+2017,EDR 4 - West Central,avgemp,91281,2,2017.2,Northwest
+2016,EDR 4 - West Central,avgemp,89714,2,2016.2,Northwest
+2015,EDR 4 - West Central,avgemp,89367,2,2015.2,Northwest
+2014,EDR 4 - West Central,avgemp,88768,2,2014.2,Northwest
+2013,EDR 4 - West Central,avgemp,87427,2,2013.2,Northwest
+2012,EDR 4 - West Central,avgemp,86298,2,2012.2,Northwest
+2021,EDR 5 - North Central,avgemp,63714,2,2021.2,Northwest
+2020,EDR 5 - North Central,avgemp,56138,2,2020.2,Northwest
+2019,EDR 5 - North Central,avgemp,64324,2,2019.2,Northwest
+2018,EDR 5 - North Central,avgemp,64176,2,2018.2,Northwest
+2017,EDR 5 - North Central,avgemp,64049,2,2017.2,Northwest
+2016,EDR 5 - North Central,avgemp,63211,2,2016.2,Northwest
+2015,EDR 5 - North Central,avgemp,62656,2,2015.2,Northwest
+2014,EDR 5 - North Central,avgemp,61854,2,2014.2,Northwest
+2013,EDR 5 - North Central,avgemp,61220,2,2013.2,Northwest
+2012,EDR 5 - North Central,avgemp,60583,2,2012.2,Northwest
+2021,EDR 6E- Southwest Central,avgemp,51014,2,2021.2,Central
+2020,EDR 6E- Southwest Central,avgemp,48838,2,2020.2,Central
+2019,EDR 6E- Southwest Central,avgemp,53639,2,2019.2,Central
+2018,EDR 6E- Southwest Central,avgemp,54334,2,2018.2,Central
+2017,EDR 6E- Southwest Central,avgemp,54377,2,2017.2,Central
+2016,EDR 6E- Southwest Central,avgemp,52956,2,2016.2,Central
+2015,EDR 6E- Southwest Central,avgemp,53924,2,2015.2,Central
+2014,EDR 6E- Southwest Central,avgemp,52552,2,2014.2,Central
+2013,EDR 6E- Southwest Central,avgemp,51971,2,2013.2,Central
+2012,EDR 6E- Southwest Central,avgemp,51620,2,2012.2,Central
+2021,EDR 6W- Upper Minnesota Valley,avgemp,16390,2,2021.2,Southwest
+2020,EDR 6W- Upper Minnesota Valley,avgemp,15746,2,2020.2,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avgemp,17460,2,2019.2,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avgemp,17657,2,2018.2,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avgemp,17597,2,2017.2,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avgemp,17612,2,2016.2,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avgemp,17646,2,2015.2,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avgemp,17597,2,2014.2,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avgemp,17825,2,2013.2,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avgemp,18332,2,2012.2,Southwest
+2021,EDR 7E- East Central,avgemp,47782,2,2021.2,Central
+2020,EDR 7E- East Central,avgemp,42712,2,2020.2,Central
+2019,EDR 7E- East Central,avgemp,49208,2,2019.2,Central
+2018,EDR 7E- East Central,avgemp,48970,2,2018.2,Central
+2017,EDR 7E- East Central,avgemp,48851,2,2017.2,Central
+2016,EDR 7E- East Central,avgemp,48342,2,2016.2,Central
+2015,EDR 7E- East Central,avgemp,47948,2,2015.2,Central
+2014,EDR 7E- East Central,avgemp,47132,2,2014.2,Central
+2013,EDR 7E- East Central,avgemp,46778,2,2013.2,Central
+2012,EDR 7E- East Central,avgemp,46165,2,2012.2,Central
+2021,EDR 7W- Central,avgemp,172562,2,2021.2,Central
+2020,EDR 7W- Central,avgemp,159617,2,2020.2,Central
+2019,EDR 7W- Central,avgemp,178373,2,2019.2,Central
+2018,EDR 7W- Central,avgemp,175892,2,2018.2,Central
+2017,EDR 7W- Central,avgemp,174977,2,2017.2,Central
+2016,EDR 7W- Central,avgemp,171679,2,2016.2,Central
+2015,EDR 7W- Central,avgemp,169524,2,2015.2,Central
+2014,EDR 7W- Central,avgemp,166360,2,2014.2,Central
+2013,EDR 7W- Central,avgemp,161670,2,2013.2,Central
+2012,EDR 7W- Central,avgemp,159019,2,2012.2,Central
+2021,EDR 8 - Southwest,avgemp,52811,2,2021.2,Southwest
+2020,EDR 8 - Southwest,avgemp,50359,2,2020.2,Southwest
+2019,EDR 8 - Southwest,avgemp,54034,2,2019.2,Southwest
+2018,EDR 8 - Southwest,avgemp,54324,2,2018.2,Southwest
+2017,EDR 8 - Southwest,avgemp,54467,2,2017.2,Southwest
+2016,EDR 8 - Southwest,avgemp,55101,2,2016.2,Southwest
+2015,EDR 8 - Southwest,avgemp,55499,2,2015.2,Southwest
+2014,EDR 8 - Southwest,avgemp,55386,2,2014.2,Southwest
+2013,EDR 8 - Southwest,avgemp,55088,2,2013.2,Southwest
+2012,EDR 8 - Southwest,avgemp,54217,2,2012.2,Southwest
+2021,EDR 9 - South Central,avgemp,100628,2,2021.2,Southwest
+2020,EDR 9 - South Central,avgemp,94662,2,2020.2,Southwest
+2019,EDR 9 - South Central,avgemp,106477,2,2019.2,Southwest
+2018,EDR 9 - South Central,avgemp,106352,2,2018.2,Southwest
+2017,EDR 9 - South Central,avgemp,106958,2,2017.2,Southwest
+2016,EDR 9 - South Central,avgemp,106220,2,2016.2,Southwest
+2015,EDR 9 - South Central,avgemp,104686,2,2015.2,Southwest
+2014,EDR 9 - South Central,avgemp,103194,2,2014.2,Southwest
+2013,EDR 9 - South Central,avgemp,102989,2,2013.2,Southwest
+2012,EDR 9 - South Central,avgemp,102580,2,2012.2,Southwest
+2021,EDR 10 - Southeast,avgemp,239278,2,2021.2,Southeast
+2020,EDR 10 - Southeast,avgemp,221110,2,2020.2,Southeast
+2019,EDR 10 - Southeast,avgemp,247738,2,2019.2,Southeast
+2018,EDR 10 - Southeast,avgemp,245950,2,2018.2,Southeast
+2017,EDR 10 - Southeast,avgemp,244802,2,2017.2,Southeast
+2016,EDR 10 - Southeast,avgemp,242479,2,2016.2,Southeast
+2015,EDR 10 - Southeast,avgemp,239018,2,2015.2,Southeast
+2014,EDR 10 - Southeast,avgemp,237004,2,2014.2,Southeast
+2013,EDR 10 - Southeast,avgemp,236363,2,2013.2,Southeast
+2012,EDR 10 - Southeast,avgemp,234142,2,2012.2,Southeast
+2021,EDR 11 - 7 County Twin Cities,avgemp,1680067,2,2021.2,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,avgemp,1550012,2,2020.2,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avgemp,1783447,2,2019.2,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avgemp,1765642,2,2018.2,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avgemp,1743797,2,2017.2,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avgemp,1709247,2,2016.2,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avgemp,1684951,2,2015.2,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avgemp,1649932,2,2014.2,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avgemp,1626683,2,2013.2,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avgemp,1598991,2,2012.2,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,avgemp,35386,3,2021.3,Northwest
+2020,EDR 1 - Northwest,avgemp,34602,3,2020.3,Northwest
+2019,EDR 1 - Northwest,avgemp,36330,3,2019.3,Northwest
+2018,EDR 1 - Northwest,avgemp,36699,3,2018.3,Northwest
+2017,EDR 1 - Northwest,avgemp,36565,3,2017.3,Northwest
+2016,EDR 1 - Northwest,avgemp,36955,3,2016.3,Northwest
+2015,EDR 1 - Northwest,avgemp,37278,3,2015.3,Northwest
+2014,EDR 1 - Northwest,avgemp,38086,3,2014.3,Northwest
+2013,EDR 1 - Northwest,avgemp,37091,3,2013.3,Northwest
+2012,EDR 1 - Northwest,avgemp,36864,3,2012.3,Northwest
+2021,EDR 2 - Headwaters,avgemp,32605,3,2021.3,Northwest
+2020,EDR 2 - Headwaters,avgemp,31491,3,2020.3,Northwest
+2019,EDR 2 - Headwaters,avgemp,33225,3,2019.3,Northwest
+2018,EDR 2 - Headwaters,avgemp,33055,3,2018.3,Northwest
+2017,EDR 2 - Headwaters,avgemp,32234,3,2017.3,Northwest
+2016,EDR 2 - Headwaters,avgemp,32308,3,2016.3,Northwest
+2015,EDR 2 - Headwaters,avgemp,31620,3,2015.3,Northwest
+2014,EDR 2 - Headwaters,avgemp,31243,3,2014.3,Northwest
+2013,EDR 2 - Headwaters,avgemp,30708,3,2013.3,Northwest
+2012,EDR 2 - Headwaters,avgemp,30183,3,2012.3,Northwest
+2021,EDR 3 - Arrowhead,avgemp,136500,3,2021.3,Northeast
+2020,EDR 3 - Arrowhead,avgemp,131906,3,2020.3,Northeast
+2019,EDR 3 - Arrowhead,avgemp,144994,3,2019.3,Northeast
+2018,EDR 3 - Arrowhead,avgemp,145332,3,2018.3,Northeast
+2017,EDR 3 - Arrowhead,avgemp,145404,3,2017.3,Northeast
+2016,EDR 3 - Arrowhead,avgemp,144176,3,2016.3,Northeast
+2015,EDR 3 - Arrowhead,avgemp,145201,3,2015.3,Northeast
+2014,EDR 3 - Arrowhead,avgemp,144431,3,2014.3,Northeast
+2013,EDR 3 - Arrowhead,avgemp,142529,3,2013.3,Northeast
+2012,EDR 3 - Arrowhead,avgemp,140822,3,2012.3,Northeast
+2021,EDR 4 - West Central,avgemp,90495,3,2021.3,Northwest
+2020,EDR 4 - West Central,avgemp,87775,3,2020.3,Northwest
+2019,EDR 4 - West Central,avgemp,92989,3,2019.3,Northwest
+2018,EDR 4 - West Central,avgemp,92403,3,2018.3,Northwest
+2017,EDR 4 - West Central,avgemp,92006,3,2017.3,Northwest
+2016,EDR 4 - West Central,avgemp,90729,3,2016.3,Northwest
+2015,EDR 4 - West Central,avgemp,89698,3,2015.3,Northwest
+2014,EDR 4 - West Central,avgemp,89284,3,2014.3,Northwest
+2013,EDR 4 - West Central,avgemp,88364,3,2013.3,Northwest
+2012,EDR 4 - West Central,avgemp,87175,3,2012.3,Northwest
+2021,EDR 5 - North Central,avgemp,65815,3,2021.3,Northwest
+2020,EDR 5 - North Central,avgemp,60614,3,2020.3,Northwest
+2019,EDR 5 - North Central,avgemp,65046,3,2019.3,Northwest
+2018,EDR 5 - North Central,avgemp,65220,3,2018.3,Northwest
+2017,EDR 5 - North Central,avgemp,64700,3,2017.3,Northwest
+2016,EDR 5 - North Central,avgemp,64290,3,2016.3,Northwest
+2015,EDR 5 - North Central,avgemp,63209,3,2015.3,Northwest
+2014,EDR 5 - North Central,avgemp,62708,3,2014.3,Northwest
+2013,EDR 5 - North Central,avgemp,62123,3,2013.3,Northwest
+2012,EDR 5 - North Central,avgemp,61197,3,2012.3,Northwest
+2021,EDR 6E- Southwest Central,avgemp,50993,3,2021.3,Central
+2020,EDR 6E- Southwest Central,avgemp,51025,3,2020.3,Central
+2019,EDR 6E- Southwest Central,avgemp,53629,3,2019.3,Central
+2018,EDR 6E- Southwest Central,avgemp,54397,3,2018.3,Central
+2017,EDR 6E- Southwest Central,avgemp,54371,3,2017.3,Central
+2016,EDR 6E- Southwest Central,avgemp,53164,3,2016.3,Central
+2015,EDR 6E- Southwest Central,avgemp,54009,3,2015.3,Central
+2014,EDR 6E- Southwest Central,avgemp,53261,3,2014.3,Central
+2013,EDR 6E- Southwest Central,avgemp,53023,3,2013.3,Central
+2012,EDR 6E- Southwest Central,avgemp,52016,3,2012.3,Central
+2021,EDR 6W- Upper Minnesota Valley,avgemp,16163,3,2021.3,Southwest
+2020,EDR 6W- Upper Minnesota Valley,avgemp,15994,3,2020.3,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avgemp,17157,3,2019.3,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avgemp,17329,3,2018.3,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avgemp,17186,3,2017.3,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avgemp,17182,3,2016.3,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avgemp,17072,3,2015.3,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avgemp,17221,3,2014.3,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avgemp,17420,3,2013.3,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avgemp,17782,3,2012.3,Southwest
+2021,EDR 7E- East Central,avgemp,47829,3,2021.3,Central
+2020,EDR 7E- East Central,avgemp,45805,3,2020.3,Central
+2019,EDR 7E- East Central,avgemp,49356,3,2019.3,Central
+2018,EDR 7E- East Central,avgemp,48689,3,2018.3,Central
+2017,EDR 7E- East Central,avgemp,48356,3,2017.3,Central
+2016,EDR 7E- East Central,avgemp,48020,3,2016.3,Central
+2015,EDR 7E- East Central,avgemp,47479,3,2015.3,Central
+2014,EDR 7E- East Central,avgemp,46900,3,2014.3,Central
+2013,EDR 7E- East Central,avgemp,46420,3,2013.3,Central
+2012,EDR 7E- East Central,avgemp,45540,3,2012.3,Central
+2021,EDR 7W- Central,avgemp,172036,3,2021.3,Central
+2020,EDR 7W- Central,avgemp,167082,3,2020.3,Central
+2019,EDR 7W- Central,avgemp,177644,3,2019.3,Central
+2018,EDR 7W- Central,avgemp,175858,3,2018.3,Central
+2017,EDR 7W- Central,avgemp,173669,3,2017.3,Central
+2016,EDR 7W- Central,avgemp,171384,3,2016.3,Central
+2015,EDR 7W- Central,avgemp,168875,3,2015.3,Central
+2014,EDR 7W- Central,avgemp,166357,3,2014.3,Central
+2013,EDR 7W- Central,avgemp,161968,3,2013.3,Central
+2012,EDR 7W- Central,avgemp,158234,3,2012.3,Central
+2021,EDR 8 - Southwest,avgemp,51926,3,2021.3,Southwest
+2020,EDR 8 - Southwest,avgemp,50988,3,2020.3,Southwest
+2019,EDR 8 - Southwest,avgemp,52934,3,2019.3,Southwest
+2018,EDR 8 - Southwest,avgemp,53552,3,2018.3,Southwest
+2017,EDR 8 - Southwest,avgemp,53408,3,2017.3,Southwest
+2016,EDR 8 - Southwest,avgemp,53950,3,2016.3,Southwest
+2015,EDR 8 - Southwest,avgemp,54784,3,2015.3,Southwest
+2014,EDR 8 - Southwest,avgemp,54810,3,2014.3,Southwest
+2013,EDR 8 - Southwest,avgemp,54294,3,2013.3,Southwest
+2012,EDR 8 - Southwest,avgemp,53526,3,2012.3,Southwest
+2021,EDR 9 - South Central,avgemp,100690,3,2021.3,Southwest
+2020,EDR 9 - South Central,avgemp,99063,3,2020.3,Southwest
+2019,EDR 9 - South Central,avgemp,106534,3,2019.3,Southwest
+2018,EDR 9 - South Central,avgemp,106409,3,2018.3,Southwest
+2017,EDR 9 - South Central,avgemp,106526,3,2017.3,Southwest
+2016,EDR 9 - South Central,avgemp,106496,3,2016.3,Southwest
+2015,EDR 9 - South Central,avgemp,104111,3,2015.3,Southwest
+2014,EDR 9 - South Central,avgemp,102338,3,2014.3,Southwest
+2013,EDR 9 - South Central,avgemp,102330,3,2013.3,Southwest
+2012,EDR 9 - South Central,avgemp,101628,3,2012.3,Southwest
+2021,EDR 10 - Southeast,avgemp,239798,3,2021.3,Southeast
+2020,EDR 10 - Southeast,avgemp,232583,3,2020.3,Southeast
+2019,EDR 10 - Southeast,avgemp,248200,3,2019.3,Southeast
+2018,EDR 10 - Southeast,avgemp,246232,3,2018.3,Southeast
+2017,EDR 10 - Southeast,avgemp,244136,3,2017.3,Southeast
+2016,EDR 10 - Southeast,avgemp,242234,3,2016.3,Southeast
+2015,EDR 10 - Southeast,avgemp,239193,3,2015.3,Southeast
+2014,EDR 10 - Southeast,avgemp,236356,3,2014.3,Southeast
+2013,EDR 10 - Southeast,avgemp,236289,3,2013.3,Southeast
+2012,EDR 10 - Southeast,avgemp,234780,3,2012.3,Southeast
+2021,EDR 11 - 7 County Twin Cities,avgemp,1684839,3,2021.3,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,avgemp,1619247,3,2020.3,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avgemp,1780901,3,2019.3,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avgemp,1766209,3,2018.3,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avgemp,1742648,3,2017.3,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avgemp,1714535,3,2016.3,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avgemp,1680550,3,2015.3,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avgemp,1648535,3,2014.3,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avgemp,1623990,3,2013.3,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avgemp,1594686,3,2012.3,Seven County Mpls-St Paul
+2020,EDR 1 - Northwest,avgemp,35505,4,2020.4,Northwest
+2019,EDR 1 - Northwest,avgemp,37058,4,2019.4,Northwest
+2018,EDR 1 - Northwest,avgemp,37683,4,2018.4,Northwest
+2017,EDR 1 - Northwest,avgemp,37558,4,2017.4,Northwest
+2016,EDR 1 - Northwest,avgemp,37782,4,2016.4,Northwest
+2015,EDR 1 - Northwest,avgemp,39220,4,2015.4,Northwest
+2014,EDR 1 - Northwest,avgemp,39081,4,2014.4,Northwest
+2013,EDR 1 - Northwest,avgemp,38477,4,2013.4,Northwest
+2012,EDR 1 - Northwest,avgemp,37945,4,2012.4,Northwest
+2020,EDR 2 - Headwaters,avgemp,30607,4,2020.4,Northwest
+2019,EDR 2 - Headwaters,avgemp,32643,4,2019.4,Northwest
+2018,EDR 2 - Headwaters,avgemp,32538,4,2018.4,Northwest
+2017,EDR 2 - Headwaters,avgemp,31961,4,2017.4,Northwest
+2016,EDR 2 - Headwaters,avgemp,31670,4,2016.4,Northwest
+2015,EDR 2 - Headwaters,avgemp,31327,4,2015.4,Northwest
+2014,EDR 2 - Headwaters,avgemp,30925,4,2014.4,Northwest
+2013,EDR 2 - Headwaters,avgemp,30288,4,2013.4,Northwest
+2012,EDR 2 - Headwaters,avgemp,29936,4,2012.4,Northwest
+2020,EDR 3 - Arrowhead,avgemp,132345,4,2020.4,Northeast
+2019,EDR 3 - Arrowhead,avgemp,143612,4,2019.4,Northeast
+2018,EDR 3 - Arrowhead,avgemp,144057,4,2018.4,Northeast
+2017,EDR 3 - Arrowhead,avgemp,143737,4,2017.4,Northeast
+2016,EDR 3 - Arrowhead,avgemp,142492,4,2016.4,Northeast
+2015,EDR 3 - Arrowhead,avgemp,142277,4,2015.4,Northeast
+2014,EDR 3 - Arrowhead,avgemp,142370,4,2014.4,Northeast
+2013,EDR 3 - Arrowhead,avgemp,140906,4,2013.4,Northeast
+2012,EDR 3 - Arrowhead,avgemp,139840,4,2012.4,Northeast
+2020,EDR 4 - West Central,avgemp,87131,4,2020.4,Northwest
+2019,EDR 4 - West Central,avgemp,91545,4,2019.4,Northwest
+2018,EDR 4 - West Central,avgemp,91116,4,2018.4,Northwest
+2017,EDR 4 - West Central,avgemp,90505,4,2017.4,Northwest
+2016,EDR 4 - West Central,avgemp,89151,4,2016.4,Northwest
+2015,EDR 4 - West Central,avgemp,88482,4,2015.4,Northwest
+2014,EDR 4 - West Central,avgemp,87432,4,2014.4,Northwest
+2013,EDR 4 - West Central,avgemp,87419,4,2013.4,Northwest
+2012,EDR 4 - West Central,avgemp,85766,4,2012.4,Northwest
+2020,EDR 5 - North Central,avgemp,59783,4,2020.4,Northwest
+2019,EDR 5 - North Central,avgemp,62807,4,2019.4,Northwest
+2018,EDR 5 - North Central,avgemp,62529,4,2018.4,Northwest
+2017,EDR 5 - North Central,avgemp,62484,4,2017.4,Northwest
+2016,EDR 5 - North Central,avgemp,61570,4,2016.4,Northwest
+2015,EDR 5 - North Central,avgemp,60876,4,2015.4,Northwest
+2014,EDR 5 - North Central,avgemp,60328,4,2014.4,Northwest
+2013,EDR 5 - North Central,avgemp,59652,4,2013.4,Northwest
+2012,EDR 5 - North Central,avgemp,59079,4,2012.4,Northwest
+2020,EDR 6E- Southwest Central,avgemp,51462,4,2020.4,Central
+2019,EDR 6E- Southwest Central,avgemp,53954,4,2019.4,Central
+2018,EDR 6E- Southwest Central,avgemp,54541,4,2018.4,Central
+2017,EDR 6E- Southwest Central,avgemp,54660,4,2017.4,Central
+2016,EDR 6E- Southwest Central,avgemp,53232,4,2016.4,Central
+2015,EDR 6E- Southwest Central,avgemp,53548,4,2015.4,Central
+2014,EDR 6E- Southwest Central,avgemp,53404,4,2014.4,Central
+2013,EDR 6E- Southwest Central,avgemp,52555,4,2013.4,Central
+2012,EDR 6E- Southwest Central,avgemp,51536,4,2012.4,Central
+2020,EDR 6W- Upper Minnesota Valley,avgemp,16299,4,2020.4,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avgemp,17477,4,2019.4,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avgemp,17724,4,2018.4,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avgemp,17611,4,2017.4,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avgemp,17661,4,2016.4,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avgemp,17575,4,2015.4,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avgemp,17517,4,2014.4,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avgemp,17754,4,2013.4,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avgemp,18059,4,2012.4,Southwest
+2020,EDR 7E- East Central,avgemp,46385,4,2020.4,Central
+2019,EDR 7E- East Central,avgemp,49190,4,2019.4,Central
+2018,EDR 7E- East Central,avgemp,48883,4,2018.4,Central
+2017,EDR 7E- East Central,avgemp,48303,4,2017.4,Central
+2016,EDR 7E- East Central,avgemp,48296,4,2016.4,Central
+2015,EDR 7E- East Central,avgemp,48240,4,2015.4,Central
+2014,EDR 7E- East Central,avgemp,46838,4,2014.4,Central
+2013,EDR 7E- East Central,avgemp,47093,4,2013.4,Central
+2012,EDR 7E- East Central,avgemp,46181,4,2012.4,Central
+2020,EDR 7W- Central,avgemp,168403,4,2020.4,Central
+2019,EDR 7W- Central,avgemp,177807,4,2019.4,Central
+2018,EDR 7W- Central,avgemp,176316,4,2018.4,Central
+2017,EDR 7W- Central,avgemp,174413,4,2017.4,Central
+2016,EDR 7W- Central,avgemp,172623,4,2016.4,Central
+2015,EDR 7W- Central,avgemp,169663,4,2015.4,Central
+2014,EDR 7W- Central,avgemp,167391,4,2014.4,Central
+2013,EDR 7W- Central,avgemp,164204,4,2013.4,Central
+2012,EDR 7W- Central,avgemp,160437,4,2012.4,Central
+2020,EDR 8 - Southwest,avgemp,52250,4,2020.4,Southwest
+2019,EDR 8 - Southwest,avgemp,53681,4,2019.4,Southwest
+2018,EDR 8 - Southwest,avgemp,54306,4,2018.4,Southwest
+2017,EDR 8 - Southwest,avgemp,54448,4,2017.4,Southwest
+2016,EDR 8 - Southwest,avgemp,54739,4,2016.4,Southwest
+2015,EDR 8 - Southwest,avgemp,55018,4,2015.4,Southwest
+2014,EDR 8 - Southwest,avgemp,55176,4,2014.4,Southwest
+2013,EDR 8 - Southwest,avgemp,55009,4,2013.4,Southwest
+2012,EDR 8 - Southwest,avgemp,54409,4,2012.4,Southwest
+2020,EDR 9 - South Central,avgemp,101151,4,2020.4,Southwest
+2019,EDR 9 - South Central,avgemp,108355,4,2019.4,Southwest
+2018,EDR 9 - South Central,avgemp,107706,4,2018.4,Southwest
+2017,EDR 9 - South Central,avgemp,108013,4,2017.4,Southwest
+2016,EDR 9 - South Central,avgemp,107195,4,2016.4,Southwest
+2015,EDR 9 - South Central,avgemp,105927,4,2015.4,Southwest
+2014,EDR 9 - South Central,avgemp,104308,4,2014.4,Southwest
+2013,EDR 9 - South Central,avgemp,104535,4,2013.4,Southwest
+2012,EDR 9 - South Central,avgemp,103447,4,2012.4,Southwest
+2020,EDR 10 - Southeast,avgemp,235528,4,2020.4,Southeast
+2019,EDR 10 - Southeast,avgemp,249385,4,2019.4,Southeast
+2018,EDR 10 - Southeast,avgemp,246247,4,2018.4,Southeast
+2017,EDR 10 - Southeast,avgemp,244344,4,2017.4,Southeast
+2016,EDR 10 - Southeast,avgemp,243652,4,2016.4,Southeast
+2015,EDR 10 - Southeast,avgemp,241140,4,2015.4,Southeast
+2014,EDR 10 - Southeast,avgemp,238293,4,2014.4,Southeast
+2013,EDR 10 - Southeast,avgemp,237932,4,2013.4,Southeast
+2012,EDR 10 - Southeast,avgemp,236934,4,2012.4,Southeast
+2020,EDR 11 - 7 County Twin Cities,avgemp,1654181,4,2020.4,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avgemp,1793578,4,2019.4,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avgemp,1783608,4,2018.4,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avgemp,1762014,4,2017.4,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avgemp,1732541,4,2016.4,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avgemp,1697615,4,2015.4,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avgemp,1667501,4,2014.4,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avgemp,1644989,4,2013.4,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avgemp,1615105,4,2012.4,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,avg_estab,2708,1,2021.1,Northwest
+2020,EDR 1 - Northwest,avg_estab,2729,1,2020.1,Northwest
+2019,EDR 1 - Northwest,avg_estab,2704,1,2019.1,Northwest
+2018,EDR 1 - Northwest,avg_estab,2711,1,2018.1,Northwest
+2017,EDR 1 - Northwest,avg_estab,2643,1,2017.1,Northwest
+2016,EDR 1 - Northwest,avg_estab,2599,1,2016.1,Northwest
+2015,EDR 1 - Northwest,avg_estab,2683,1,2015.1,Northwest
+2014,EDR 1 - Northwest,avg_estab,2679,1,2014.1,Northwest
+2013,EDR 1 - Northwest,avg_estab,2722,1,2013.1,Northwest
+2012,EDR 1 - Northwest,avg_estab,2799,1,2012.1,Northwest
+2021,EDR 2 - Headwaters,avg_estab,2357,1,2021.1,Northwest
+2020,EDR 2 - Headwaters,avg_estab,2364,1,2020.1,Northwest
+2019,EDR 2 - Headwaters,avg_estab,2338,1,2019.1,Northwest
+2018,EDR 2 - Headwaters,avg_estab,2309,1,2018.1,Northwest
+2017,EDR 2 - Headwaters,avg_estab,2262,1,2017.1,Northwest
+2016,EDR 2 - Headwaters,avg_estab,2214,1,2016.1,Northwest
+2015,EDR 2 - Headwaters,avg_estab,2252,1,2015.1,Northwest
+2014,EDR 2 - Headwaters,avg_estab,2278,1,2014.1,Northwest
+2013,EDR 2 - Headwaters,avg_estab,2344,1,2013.1,Northwest
+2012,EDR 2 - Headwaters,avg_estab,2387,1,2012.1,Northwest
+2021,EDR 3 - Arrowhead,avg_estab,8788,1,2021.1,Northeast
+2020,EDR 3 - Arrowhead,avg_estab,8824,1,2020.1,Northeast
+2019,EDR 3 - Arrowhead,avg_estab,8730,1,2019.1,Northeast
+2018,EDR 3 - Arrowhead,avg_estab,8711,1,2018.1,Northeast
+2017,EDR 3 - Arrowhead,avg_estab,8505,1,2017.1,Northeast
+2016,EDR 3 - Arrowhead,avg_estab,8372,1,2016.1,Northeast
+2015,EDR 3 - Arrowhead,avg_estab,8547,1,2015.1,Northeast
+2014,EDR 3 - Arrowhead,avg_estab,8629,1,2014.1,Northeast
+2013,EDR 3 - Arrowhead,avg_estab,8820,1,2013.1,Northeast
+2012,EDR 3 - Arrowhead,avg_estab,9098,1,2012.1,Northeast
+2021,EDR 4 - West Central,avg_estab,6920,1,2021.1,Northwest
+2020,EDR 4 - West Central,avg_estab,6945,1,2020.1,Northwest
+2019,EDR 4 - West Central,avg_estab,6823,1,2019.1,Northwest
+2018,EDR 4 - West Central,avg_estab,6830,1,2018.1,Northwest
+2017,EDR 4 - West Central,avg_estab,6634,1,2017.1,Northwest
+2016,EDR 4 - West Central,avg_estab,6483,1,2016.1,Northwest
+2015,EDR 4 - West Central,avg_estab,6655,1,2015.1,Northwest
+2014,EDR 4 - West Central,avg_estab,6708,1,2014.1,Northwest
+2013,EDR 4 - West Central,avg_estab,6934,1,2013.1,Northwest
+2012,EDR 4 - West Central,avg_estab,7033,1,2012.1,Northwest
+2021,EDR 5 - North Central,avg_estab,5095,1,2021.1,Northwest
+2020,EDR 5 - North Central,avg_estab,5060,1,2020.1,Northwest
+2019,EDR 5 - North Central,avg_estab,4961,1,2019.1,Northwest
+2018,EDR 5 - North Central,avg_estab,4941,1,2018.1,Northwest
+2017,EDR 5 - North Central,avg_estab,4747,1,2017.1,Northwest
+2016,EDR 5 - North Central,avg_estab,4650,1,2016.1,Northwest
+2015,EDR 5 - North Central,avg_estab,4768,1,2015.1,Northwest
+2014,EDR 5 - North Central,avg_estab,4792,1,2014.1,Northwest
+2013,EDR 5 - North Central,avg_estab,4834,1,2013.1,Northwest
+2012,EDR 5 - North Central,avg_estab,4929,1,2012.1,Northwest
+2021,EDR 6E- Southwest Central,avg_estab,3536,1,2021.1,Central
+2020,EDR 6E- Southwest Central,avg_estab,3541,1,2020.1,Central
+2019,EDR 6E- Southwest Central,avg_estab,3516,1,2019.1,Central
+2018,EDR 6E- Southwest Central,avg_estab,3500,1,2018.1,Central
+2017,EDR 6E- Southwest Central,avg_estab,3382,1,2017.1,Central
+2016,EDR 6E- Southwest Central,avg_estab,3324,1,2016.1,Central
+2015,EDR 6E- Southwest Central,avg_estab,3416,1,2015.1,Central
+2014,EDR 6E- Southwest Central,avg_estab,3498,1,2014.1,Central
+2013,EDR 6E- Southwest Central,avg_estab,3520,1,2013.1,Central
+2012,EDR 6E- Southwest Central,avg_estab,3544,1,2012.1,Central
+2021,EDR 6W- Upper Minnesota Valley,avg_estab,1540,1,2021.1,Southwest
+2020,EDR 6W- Upper Minnesota Valley,avg_estab,1546,1,2020.1,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avg_estab,1546,1,2019.1,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avg_estab,1546,1,2018.1,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avg_estab,1524,1,2017.1,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avg_estab,1515,1,2016.1,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avg_estab,1517,1,2015.1,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avg_estab,1526,1,2014.1,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avg_estab,1560,1,2013.1,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avg_estab,1582,1,2012.1,Southwest
+2021,EDR 7E- East Central,avg_estab,3790,1,2021.1,Central
+2020,EDR 7E- East Central,avg_estab,3747,1,2020.1,Central
+2019,EDR 7E- East Central,avg_estab,3659,1,2019.1,Central
+2018,EDR 7E- East Central,avg_estab,3567,1,2018.1,Central
+2017,EDR 7E- East Central,avg_estab,3424,1,2017.1,Central
+2016,EDR 7E- East Central,avg_estab,3314,1,2016.1,Central
+2015,EDR 7E- East Central,avg_estab,3393,1,2015.1,Central
+2014,EDR 7E- East Central,avg_estab,3473,1,2014.1,Central
+2013,EDR 7E- East Central,avg_estab,3499,1,2013.1,Central
+2012,EDR 7E- East Central,avg_estab,3589,1,2012.1,Central
+2021,EDR 7W- Central,avg_estab,11002,1,2021.1,Central
+2020,EDR 7W- Central,avg_estab,10920,1,2020.1,Central
+2019,EDR 7W- Central,avg_estab,10640,1,2019.1,Central
+2018,EDR 7W- Central,avg_estab,10479,1,2018.1,Central
+2017,EDR 7W- Central,avg_estab,10056,1,2017.1,Central
+2016,EDR 7W- Central,avg_estab,9769,1,2016.1,Central
+2015,EDR 7W- Central,avg_estab,9940,1,2015.1,Central
+2014,EDR 7W- Central,avg_estab,10064,1,2014.1,Central
+2013,EDR 7W- Central,avg_estab,10037,1,2013.1,Central
+2012,EDR 7W- Central,avg_estab,10172,1,2012.1,Central
+2021,EDR 8 - Southwest,avg_estab,3934,1,2021.1,Southwest
+2020,EDR 8 - Southwest,avg_estab,3957,1,2020.1,Southwest
+2019,EDR 8 - Southwest,avg_estab,3914,1,2019.1,Southwest
+2018,EDR 8 - Southwest,avg_estab,3939,1,2018.1,Southwest
+2017,EDR 8 - Southwest,avg_estab,3845,1,2017.1,Southwest
+2016,EDR 8 - Southwest,avg_estab,3812,1,2016.1,Southwest
+2015,EDR 8 - Southwest,avg_estab,3903,1,2015.1,Southwest
+2014,EDR 8 - Southwest,avg_estab,3950,1,2014.1,Southwest
+2013,EDR 8 - Southwest,avg_estab,3985,1,2013.1,Southwest
+2012,EDR 8 - Southwest,avg_estab,4024,1,2012.1,Southwest
+2021,EDR 9 - South Central,avg_estab,6765,1,2021.1,Southwest
+2020,EDR 9 - South Central,avg_estab,6768,1,2020.1,Southwest
+2019,EDR 9 - South Central,avg_estab,6655,1,2019.1,Southwest
+2018,EDR 9 - South Central,avg_estab,6652,1,2018.1,Southwest
+2017,EDR 9 - South Central,avg_estab,6470,1,2017.1,Southwest
+2016,EDR 9 - South Central,avg_estab,6278,1,2016.1,Southwest
+2015,EDR 9 - South Central,avg_estab,6410,1,2015.1,Southwest
+2014,EDR 9 - South Central,avg_estab,6429,1,2014.1,Southwest
+2013,EDR 9 - South Central,avg_estab,6535,1,2013.1,Southwest
+2012,EDR 9 - South Central,avg_estab,6596,1,2012.1,Southwest
+2021,EDR 10 - Southeast,avg_estab,12682,1,2021.1,Southeast
+2020,EDR 10 - Southeast,avg_estab,12695,1,2020.1,Southeast
+2019,EDR 10 - Southeast,avg_estab,12407,1,2019.1,Southeast
+2018,EDR 10 - Southeast,avg_estab,12254,1,2018.1,Southeast
+2017,EDR 10 - Southeast,avg_estab,11894,1,2017.1,Southeast
+2016,EDR 10 - Southeast,avg_estab,11638,1,2016.1,Southeast
+2015,EDR 10 - Southeast,avg_estab,11888,1,2015.1,Southeast
+2014,EDR 10 - Southeast,avg_estab,12044,1,2014.1,Southeast
+2013,EDR 10 - Southeast,avg_estab,12112,1,2013.1,Southeast
+2012,EDR 10 - Southeast,avg_estab,12330,1,2012.1,Southeast
+2021,EDR 11 - 7 County Twin Cities,avg_estab,85268,1,2021.1,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,avg_estab,84762,1,2020.1,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avg_estab,82823,1,2019.1,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avg_estab,81303,1,2018.1,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avg_estab,77648,1,2017.1,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avg_estab,75110,1,2016.1,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avg_estab,77280,1,2015.1,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avg_estab,78109,1,2014.1,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avg_estab,78161,1,2013.1,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avg_estab,80295,1,2012.1,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,avg_estab,2735,2,2021.2,Northwest
+2020,EDR 1 - Northwest,avg_estab,2765,2,2020.2,Northwest
+2019,EDR 1 - Northwest,avg_estab,2739,2,2019.2,Northwest
+2018,EDR 1 - Northwest,avg_estab,2736,2,2018.2,Northwest
+2017,EDR 1 - Northwest,avg_estab,2672,2,2017.2,Northwest
+2016,EDR 1 - Northwest,avg_estab,2618,2,2016.2,Northwest
+2015,EDR 1 - Northwest,avg_estab,2674,2,2015.2,Northwest
+2014,EDR 1 - Northwest,avg_estab,2697,2,2014.2,Northwest
+2013,EDR 1 - Northwest,avg_estab,2735,2,2013.2,Northwest
+2012,EDR 1 - Northwest,avg_estab,2749,2,2012.2,Northwest
+2021,EDR 2 - Headwaters,avg_estab,2387,2,2021.2,Northwest
+2020,EDR 2 - Headwaters,avg_estab,2389,2,2020.2,Northwest
+2019,EDR 2 - Headwaters,avg_estab,2368,2,2019.2,Northwest
+2018,EDR 2 - Headwaters,avg_estab,2348,2,2018.2,Northwest
+2017,EDR 2 - Headwaters,avg_estab,2297,2,2017.2,Northwest
+2016,EDR 2 - Headwaters,avg_estab,2226,2,2016.2,Northwest
+2015,EDR 2 - Headwaters,avg_estab,2262,2,2015.2,Northwest
+2014,EDR 2 - Headwaters,avg_estab,2283,2,2014.2,Northwest
+2013,EDR 2 - Headwaters,avg_estab,2339,2,2013.2,Northwest
+2012,EDR 2 - Headwaters,avg_estab,2345,2,2012.2,Northwest
+2021,EDR 3 - Arrowhead,avg_estab,8898,2,2021.2,Northeast
+2020,EDR 3 - Arrowhead,avg_estab,8904,2,2020.2,Northeast
+2019,EDR 3 - Arrowhead,avg_estab,8801,2,2019.2,Northeast
+2018,EDR 3 - Arrowhead,avg_estab,8816,2,2018.2,Northeast
+2017,EDR 3 - Arrowhead,avg_estab,8640,2,2017.2,Northeast
+2016,EDR 3 - Arrowhead,avg_estab,8421,2,2016.2,Northeast
+2015,EDR 3 - Arrowhead,avg_estab,8496,2,2015.2,Northeast
+2014,EDR 3 - Arrowhead,avg_estab,8637,2,2014.2,Northeast
+2013,EDR 3 - Arrowhead,avg_estab,8870,2,2013.2,Northeast
+2012,EDR 3 - Arrowhead,avg_estab,8923,2,2012.2,Northeast
+2021,EDR 4 - West Central,avg_estab,7056,2,2021.2,Northwest
+2020,EDR 4 - West Central,avg_estab,7032,2,2020.2,Northwest
+2019,EDR 4 - West Central,avg_estab,6936,2,2019.2,Northwest
+2018,EDR 4 - West Central,avg_estab,6928,2,2018.2,Northwest
+2017,EDR 4 - West Central,avg_estab,6729,2,2017.2,Northwest
+2016,EDR 4 - West Central,avg_estab,6561,2,2016.2,Northwest
+2015,EDR 4 - West Central,avg_estab,6675,2,2015.2,Northwest
+2014,EDR 4 - West Central,avg_estab,6747,2,2014.2,Northwest
+2013,EDR 4 - West Central,avg_estab,6979,2,2013.2,Northwest
+2012,EDR 4 - West Central,avg_estab,6957,2,2012.2,Northwest
+2021,EDR 5 - North Central,avg_estab,5198,2,2021.2,Northwest
+2020,EDR 5 - North Central,avg_estab,5119,2,2020.2,Northwest
+2019,EDR 5 - North Central,avg_estab,5033,2,2019.2,Northwest
+2018,EDR 5 - North Central,avg_estab,5014,2,2018.2,Northwest
+2017,EDR 5 - North Central,avg_estab,4860,2,2017.2,Northwest
+2016,EDR 5 - North Central,avg_estab,4706,2,2016.2,Northwest
+2015,EDR 5 - North Central,avg_estab,4759,2,2015.2,Northwest
+2014,EDR 5 - North Central,avg_estab,4823,2,2014.2,Northwest
+2013,EDR 5 - North Central,avg_estab,4886,2,2013.2,Northwest
+2012,EDR 5 - North Central,avg_estab,4847,2,2012.2,Northwest
+2021,EDR 6E- Southwest Central,avg_estab,3576,2,2021.2,Central
+2020,EDR 6E- Southwest Central,avg_estab,3580,2,2020.2,Central
+2019,EDR 6E- Southwest Central,avg_estab,3563,2,2019.2,Central
+2018,EDR 6E- Southwest Central,avg_estab,3535,2,2018.2,Central
+2017,EDR 6E- Southwest Central,avg_estab,3428,2,2017.2,Central
+2016,EDR 6E- Southwest Central,avg_estab,3352,2,2016.2,Central
+2015,EDR 6E- Southwest Central,avg_estab,3404,2,2015.2,Central
+2014,EDR 6E- Southwest Central,avg_estab,3482,2,2014.2,Central
+2013,EDR 6E- Southwest Central,avg_estab,3545,2,2013.2,Central
+2012,EDR 6E- Southwest Central,avg_estab,3506,2,2012.2,Central
+2021,EDR 6W- Upper Minnesota Valley,avg_estab,1557,2,2021.2,Southwest
+2020,EDR 6W- Upper Minnesota Valley,avg_estab,1556,2,2020.2,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avg_estab,1556,2,2019.2,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avg_estab,1553,2,2018.2,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avg_estab,1538,2,2017.2,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avg_estab,1517,2,2016.2,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avg_estab,1519,2,2015.2,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avg_estab,1512,2,2014.2,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avg_estab,1575,2,2013.2,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avg_estab,1561,2,2012.2,Southwest
+2021,EDR 7E- East Central,avg_estab,3853,2,2021.2,Central
+2020,EDR 7E- East Central,avg_estab,3797,2,2020.2,Central
+2019,EDR 7E- East Central,avg_estab,3715,2,2019.2,Central
+2018,EDR 7E- East Central,avg_estab,3626,2,2018.2,Central
+2017,EDR 7E- East Central,avg_estab,3494,2,2017.2,Central
+2016,EDR 7E- East Central,avg_estab,3366,2,2016.2,Central
+2015,EDR 7E- East Central,avg_estab,3402,2,2015.2,Central
+2014,EDR 7E- East Central,avg_estab,3471,2,2014.2,Central
+2013,EDR 7E- East Central,avg_estab,3536,2,2013.2,Central
+2012,EDR 7E- East Central,avg_estab,3479,2,2012.2,Central
+2021,EDR 7W- Central,avg_estab,11196,2,2021.2,Central
+2020,EDR 7W- Central,avg_estab,11072,2,2020.2,Central
+2019,EDR 7W- Central,avg_estab,10790,2,2019.2,Central
+2018,EDR 7W- Central,avg_estab,10650,2,2018.2,Central
+2017,EDR 7W- Central,avg_estab,10287,2,2017.2,Central
+2016,EDR 7W- Central,avg_estab,9862,2,2016.2,Central
+2015,EDR 7W- Central,avg_estab,9933,2,2015.2,Central
+2014,EDR 7W- Central,avg_estab,10028,2,2014.2,Central
+2013,EDR 7W- Central,avg_estab,10137,2,2013.2,Central
+2012,EDR 7W- Central,avg_estab,9950,2,2012.2,Central
+2021,EDR 8 - Southwest,avg_estab,3973,2,2021.2,Southwest
+2020,EDR 8 - Southwest,avg_estab,3976,2,2020.2,Southwest
+2019,EDR 8 - Southwest,avg_estab,3949,2,2019.2,Southwest
+2018,EDR 8 - Southwest,avg_estab,3991,2,2018.2,Southwest
+2017,EDR 8 - Southwest,avg_estab,3873,2,2017.2,Southwest
+2016,EDR 8 - Southwest,avg_estab,3826,2,2016.2,Southwest
+2015,EDR 8 - Southwest,avg_estab,3891,2,2015.2,Southwest
+2014,EDR 8 - Southwest,avg_estab,3943,2,2014.2,Southwest
+2013,EDR 8 - Southwest,avg_estab,4016,2,2013.2,Southwest
+2012,EDR 8 - Southwest,avg_estab,3980,2,2012.2,Southwest
+2021,EDR 9 - South Central,avg_estab,6836,2,2021.2,Southwest
+2020,EDR 9 - South Central,avg_estab,6824,2,2020.2,Southwest
+2019,EDR 9 - South Central,avg_estab,6744,2,2019.2,Southwest
+2018,EDR 9 - South Central,avg_estab,6737,2,2018.2,Southwest
+2017,EDR 9 - South Central,avg_estab,6579,2,2017.2,Southwest
+2016,EDR 9 - South Central,avg_estab,6346,2,2016.2,Southwest
+2015,EDR 9 - South Central,avg_estab,6424,2,2015.2,Southwest
+2014,EDR 9 - South Central,avg_estab,6446,2,2014.2,Southwest
+2013,EDR 9 - South Central,avg_estab,6577,2,2013.2,Southwest
+2012,EDR 9 - South Central,avg_estab,6518,2,2012.2,Southwest
+2021,EDR 10 - Southeast,avg_estab,12853,2,2021.2,Southeast
+2020,EDR 10 - Southeast,avg_estab,12827,2,2020.2,Southeast
+2019,EDR 10 - Southeast,avg_estab,12610,2,2019.2,Southeast
+2018,EDR 10 - Southeast,avg_estab,12440,2,2018.2,Southeast
+2017,EDR 10 - Southeast,avg_estab,12078,2,2017.2,Southeast
+2016,EDR 10 - Southeast,avg_estab,11695,2,2016.2,Southeast
+2015,EDR 10 - Southeast,avg_estab,11872,2,2015.2,Southeast
+2014,EDR 10 - Southeast,avg_estab,12041,2,2014.2,Southeast
+2013,EDR 10 - Southeast,avg_estab,12211,2,2013.2,Southeast
+2012,EDR 10 - Southeast,avg_estab,12112,2,2012.2,Southeast
+2021,EDR 11 - 7 County Twin Cities,avg_estab,86825,2,2021.2,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,avg_estab,85820,2,2020.2,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avg_estab,84120,2,2019.2,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avg_estab,82738,2,2018.2,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avg_estab,79292,2,2017.2,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avg_estab,75767,2,2016.2,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avg_estab,77044,2,2015.2,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avg_estab,77981,2,2014.2,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avg_estab,78736,2,2013.2,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avg_estab,78291,2,2012.2,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,avg_estab,2760,3,2021.3,Northwest
+2020,EDR 1 - Northwest,avg_estab,2776,3,2020.3,Northwest
+2019,EDR 1 - Northwest,avg_estab,2750,3,2019.3,Northwest
+2018,EDR 1 - Northwest,avg_estab,2757,3,2018.3,Northwest
+2017,EDR 1 - Northwest,avg_estab,2686,3,2017.3,Northwest
+2016,EDR 1 - Northwest,avg_estab,2629,3,2016.3,Northwest
+2015,EDR 1 - Northwest,avg_estab,2637,3,2015.3,Northwest
+2014,EDR 1 - Northwest,avg_estab,2687,3,2014.3,Northwest
+2013,EDR 1 - Northwest,avg_estab,2744,3,2013.3,Northwest
+2012,EDR 1 - Northwest,avg_estab,2746,3,2012.3,Northwest
+2021,EDR 2 - Headwaters,avg_estab,2411,3,2021.3,Northwest
+2020,EDR 2 - Headwaters,avg_estab,2412,3,2020.3,Northwest
+2019,EDR 2 - Headwaters,avg_estab,2382,3,2019.3,Northwest
+2018,EDR 2 - Headwaters,avg_estab,2374,3,2018.3,Northwest
+2017,EDR 2 - Headwaters,avg_estab,2304,3,2017.3,Northwest
+2016,EDR 2 - Headwaters,avg_estab,2246,3,2016.3,Northwest
+2015,EDR 2 - Headwaters,avg_estab,2203,3,2015.3,Northwest
+2014,EDR 2 - Headwaters,avg_estab,2276,3,2014.3,Northwest
+2013,EDR 2 - Headwaters,avg_estab,2355,3,2013.3,Northwest
+2012,EDR 2 - Headwaters,avg_estab,2341,3,2012.3,Northwest
+2021,EDR 3 - Arrowhead,avg_estab,8968,3,2021.3,Northeast
+2020,EDR 3 - Arrowhead,avg_estab,8989,3,2020.3,Northeast
+2019,EDR 3 - Arrowhead,avg_estab,8868,3,2019.3,Northeast
+2018,EDR 3 - Arrowhead,avg_estab,8879,3,2018.3,Northeast
+2017,EDR 3 - Arrowhead,avg_estab,8665,3,2017.3,Northeast
+2016,EDR 3 - Arrowhead,avg_estab,8464,3,2016.3,Northeast
+2015,EDR 3 - Arrowhead,avg_estab,8376,3,2015.3,Northeast
+2014,EDR 3 - Arrowhead,avg_estab,8608,3,2014.3,Northeast
+2013,EDR 3 - Arrowhead,avg_estab,8898,3,2013.3,Northeast
+2012,EDR 3 - Arrowhead,avg_estab,8903,3,2012.3,Northeast
+2021,EDR 4 - West Central,avg_estab,7125,3,2021.3,Northwest
+2020,EDR 4 - West Central,avg_estab,7081,3,2020.3,Northwest
+2019,EDR 4 - West Central,avg_estab,6992,3,2019.3,Northwest
+2018,EDR 4 - West Central,avg_estab,6995,3,2018.3,Northwest
+2017,EDR 4 - West Central,avg_estab,6790,3,2017.3,Northwest
+2016,EDR 4 - West Central,avg_estab,6592,3,2016.3,Northwest
+2015,EDR 4 - West Central,avg_estab,6577,3,2015.3,Northwest
+2014,EDR 4 - West Central,avg_estab,6738,3,2014.3,Northwest
+2013,EDR 4 - West Central,avg_estab,7013,3,2013.3,Northwest
+2012,EDR 4 - West Central,avg_estab,6978,3,2012.3,Northwest
+2021,EDR 5 - North Central,avg_estab,5233,3,2021.3,Northwest
+2020,EDR 5 - North Central,avg_estab,5171,3,2020.3,Northwest
+2019,EDR 5 - North Central,avg_estab,5089,3,2019.3,Northwest
+2018,EDR 5 - North Central,avg_estab,5057,3,2018.3,Northwest
+2017,EDR 5 - North Central,avg_estab,4895,3,2017.3,Northwest
+2016,EDR 5 - North Central,avg_estab,4710,3,2016.3,Northwest
+2015,EDR 5 - North Central,avg_estab,4666,3,2015.3,Northwest
+2014,EDR 5 - North Central,avg_estab,4828,3,2014.3,Northwest
+2013,EDR 5 - North Central,avg_estab,4915,3,2013.3,Northwest
+2012,EDR 5 - North Central,avg_estab,4871,3,2012.3,Northwest
+2021,EDR 6E- Southwest Central,avg_estab,3609,3,2021.3,Central
+2020,EDR 6E- Southwest Central,avg_estab,3618,3,2020.3,Central
+2019,EDR 6E- Southwest Central,avg_estab,3590,3,2019.3,Central
+2018,EDR 6E- Southwest Central,avg_estab,3572,3,2018.3,Central
+2017,EDR 6E- Southwest Central,avg_estab,3456,3,2017.3,Central
+2016,EDR 6E- Southwest Central,avg_estab,3348,3,2016.3,Central
+2015,EDR 6E- Southwest Central,avg_estab,3349,3,2015.3,Central
+2014,EDR 6E- Southwest Central,avg_estab,3472,3,2014.3,Central
+2013,EDR 6E- Southwest Central,avg_estab,3569,3,2013.3,Central
+2012,EDR 6E- Southwest Central,avg_estab,3520,3,2012.3,Central
+2021,EDR 6W- Upper Minnesota Valley,avg_estab,1571,3,2021.3,Southwest
+2020,EDR 6W- Upper Minnesota Valley,avg_estab,1565,3,2020.3,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avg_estab,1567,3,2019.3,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avg_estab,1562,3,2018.3,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avg_estab,1538,3,2017.3,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avg_estab,1513,3,2016.3,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avg_estab,1492,3,2015.3,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avg_estab,1523,3,2014.3,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avg_estab,1582,3,2013.3,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avg_estab,1558,3,2012.3,Southwest
+2021,EDR 7E- East Central,avg_estab,3916,3,2021.3,Central
+2020,EDR 7E- East Central,avg_estab,3857,3,2020.3,Central
+2019,EDR 7E- East Central,avg_estab,3769,3,2019.3,Central
+2018,EDR 7E- East Central,avg_estab,3668,3,2018.3,Central
+2017,EDR 7E- East Central,avg_estab,3540,3,2017.3,Central
+2016,EDR 7E- East Central,avg_estab,3396,3,2016.3,Central
+2015,EDR 7E- East Central,avg_estab,3333,3,2015.3,Central
+2014,EDR 7E- East Central,avg_estab,3467,3,2014.3,Central
+2013,EDR 7E- East Central,avg_estab,3558,3,2013.3,Central
+2012,EDR 7E- East Central,avg_estab,3487,3,2012.3,Central
+2021,EDR 7W- Central,avg_estab,11318,3,2021.3,Central
+2020,EDR 7W- Central,avg_estab,11193,3,2020.3,Central
+2019,EDR 7W- Central,avg_estab,10904,3,2019.3,Central
+2018,EDR 7W- Central,avg_estab,10735,3,2018.3,Central
+2017,EDR 7W- Central,avg_estab,10363,3,2017.3,Central
+2016,EDR 7W- Central,avg_estab,9907,3,2016.3,Central
+2015,EDR 7W- Central,avg_estab,9744,3,2015.3,Central
+2014,EDR 7W- Central,avg_estab,10026,3,2014.3,Central
+2013,EDR 7W- Central,avg_estab,10196,3,2013.3,Central
+2012,EDR 7W- Central,avg_estab,9990,3,2012.3,Central
+2021,EDR 8 - Southwest,avg_estab,4008,3,2021.3,Southwest
+2020,EDR 8 - Southwest,avg_estab,4001,3,2020.3,Southwest
+2019,EDR 8 - Southwest,avg_estab,3982,3,2019.3,Southwest
+2018,EDR 8 - Southwest,avg_estab,3999,3,2018.3,Southwest
+2017,EDR 8 - Southwest,avg_estab,3891,3,2017.3,Southwest
+2016,EDR 8 - Southwest,avg_estab,3828,3,2016.3,Southwest
+2015,EDR 8 - Southwest,avg_estab,3845,3,2015.3,Southwest
+2014,EDR 8 - Southwest,avg_estab,3943,3,2014.3,Southwest
+2013,EDR 8 - Southwest,avg_estab,4024,3,2013.3,Southwest
+2012,EDR 8 - Southwest,avg_estab,3999,3,2012.3,Southwest
+2021,EDR 9 - South Central,avg_estab,6910,3,2021.3,Southwest
+2020,EDR 9 - South Central,avg_estab,6891,3,2020.3,Southwest
+2019,EDR 9 - South Central,avg_estab,6791,3,2019.3,Southwest
+2018,EDR 9 - South Central,avg_estab,6760,3,2018.3,Southwest
+2017,EDR 9 - South Central,avg_estab,6616,3,2017.3,Southwest
+2016,EDR 9 - South Central,avg_estab,6389,3,2016.3,Southwest
+2015,EDR 9 - South Central,avg_estab,6316,3,2015.3,Southwest
+2014,EDR 9 - South Central,avg_estab,6443,3,2014.3,Southwest
+2013,EDR 9 - South Central,avg_estab,6613,3,2013.3,Southwest
+2012,EDR 9 - South Central,avg_estab,6553,3,2012.3,Southwest
+2021,EDR 10 - Southeast,avg_estab,12988,3,2021.3,Southeast
+2020,EDR 10 - Southeast,avg_estab,12984,3,2020.3,Southeast
+2019,EDR 10 - Southeast,avg_estab,12737,3,2019.3,Southeast
+2018,EDR 10 - Southeast,avg_estab,12598,3,2018.3,Southeast
+2017,EDR 10 - Southeast,avg_estab,12151,3,2017.3,Southeast
+2016,EDR 10 - Southeast,avg_estab,11749,3,2016.3,Southeast
+2015,EDR 10 - Southeast,avg_estab,11663,3,2015.3,Southeast
+2014,EDR 10 - Southeast,avg_estab,12019,3,2014.3,Southeast
+2013,EDR 10 - Southeast,avg_estab,12290,3,2013.3,Southeast
+2012,EDR 10 - Southeast,avg_estab,12117,3,2012.3,Southeast
+2021,EDR 11 - 7 County Twin Cities,avg_estab,87786,3,2021.3,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,avg_estab,87368,3,2020.3,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avg_estab,85210,3,2019.3,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avg_estab,83828,3,2018.3,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avg_estab,80133,3,2017.3,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avg_estab,76250,3,2016.3,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avg_estab,75328,3,2015.3,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avg_estab,77913,3,2014.3,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avg_estab,79404,3,2013.3,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avg_estab,78540,3,2012.3,Seven County Mpls-St Paul
+2020,EDR 1 - Northwest,avg_estab,2802,4,2020.4,Northwest
+2019,EDR 1 - Northwest,avg_estab,2762,4,2019.4,Northwest
+2018,EDR 1 - Northwest,avg_estab,2759,4,2018.4,Northwest
+2017,EDR 1 - Northwest,avg_estab,2710,4,2017.4,Northwest
+2016,EDR 1 - Northwest,avg_estab,2632,4,2016.4,Northwest
+2015,EDR 1 - Northwest,avg_estab,2639,4,2015.4,Northwest
+2014,EDR 1 - Northwest,avg_estab,2691,4,2014.4,Northwest
+2013,EDR 1 - Northwest,avg_estab,2681,4,2013.4,Northwest
+2012,EDR 1 - Northwest,avg_estab,2738,4,2012.4,Northwest
+2020,EDR 2 - Headwaters,avg_estab,2428,4,2020.4,Northwest
+2019,EDR 2 - Headwaters,avg_estab,2406,4,2019.4,Northwest
+2018,EDR 2 - Headwaters,avg_estab,2380,4,2018.4,Northwest
+2017,EDR 2 - Headwaters,avg_estab,2322,4,2017.4,Northwest
+2016,EDR 2 - Headwaters,avg_estab,2250,4,2016.4,Northwest
+2015,EDR 2 - Headwaters,avg_estab,2206,4,2015.4,Northwest
+2014,EDR 2 - Headwaters,avg_estab,2266,4,2014.4,Northwest
+2013,EDR 2 - Headwaters,avg_estab,2290,4,2013.4,Northwest
+2012,EDR 2 - Headwaters,avg_estab,2357,4,2012.4,Northwest
+2020,EDR 3 - Arrowhead,avg_estab,9061,4,2020.4,Northeast
+2019,EDR 3 - Arrowhead,avg_estab,8931,4,2019.4,Northeast
+2018,EDR 3 - Arrowhead,avg_estab,8916,4,2018.4,Northeast
+2017,EDR 3 - Arrowhead,avg_estab,8712,4,2017.4,Northeast
+2016,EDR 3 - Arrowhead,avg_estab,8500,4,2016.4,Northeast
+2015,EDR 3 - Arrowhead,avg_estab,8405,4,2015.4,Northeast
+2014,EDR 3 - Arrowhead,avg_estab,8606,4,2014.4,Northeast
+2013,EDR 3 - Arrowhead,avg_estab,8696,4,2013.4,Northeast
+2012,EDR 3 - Arrowhead,avg_estab,8918,4,2012.4,Northeast
+2020,EDR 4 - West Central,avg_estab,7148,4,2020.4,Northwest
+2019,EDR 4 - West Central,avg_estab,7030,4,2019.4,Northwest
+2018,EDR 4 - West Central,avg_estab,6999,4,2018.4,Northwest
+2017,EDR 4 - West Central,avg_estab,6808,4,2017.4,Northwest
+2016,EDR 4 - West Central,avg_estab,6613,4,2016.4,Northwest
+2015,EDR 4 - West Central,avg_estab,6549,4,2015.4,Northwest
+2014,EDR 4 - West Central,avg_estab,6709,4,2014.4,Northwest
+2013,EDR 4 - West Central,avg_estab,6761,4,2013.4,Northwest
+2012,EDR 4 - West Central,avg_estab,7004,4,2012.4,Northwest
+2020,EDR 5 - North Central,avg_estab,5232,4,2020.4,Northwest
+2019,EDR 5 - North Central,avg_estab,5132,4,2019.4,Northwest
+2018,EDR 5 - North Central,avg_estab,5070,4,2018.4,Northwest
+2017,EDR 5 - North Central,avg_estab,4930,4,2017.4,Northwest
+2016,EDR 5 - North Central,avg_estab,4737,4,2016.4,Northwest
+2015,EDR 5 - North Central,avg_estab,4672,4,2015.4,Northwest
+2014,EDR 5 - North Central,avg_estab,4820,4,2014.4,Northwest
+2013,EDR 5 - North Central,avg_estab,4798,4,2013.4,Northwest
+2012,EDR 5 - North Central,avg_estab,4847,4,2012.4,Northwest
+2020,EDR 6E- Southwest Central,avg_estab,3638,4,2020.4,Central
+2019,EDR 6E- Southwest Central,avg_estab,3603,4,2019.4,Central
+2018,EDR 6E- Southwest Central,avg_estab,3601,4,2018.4,Central
+2017,EDR 6E- Southwest Central,avg_estab,3481,4,2017.4,Central
+2016,EDR 6E- Southwest Central,avg_estab,3365,4,2016.4,Central
+2015,EDR 6E- Southwest Central,avg_estab,3339,4,2015.4,Central
+2014,EDR 6E- Southwest Central,avg_estab,3464,4,2014.4,Central
+2013,EDR 6E- Southwest Central,avg_estab,3495,4,2013.4,Central
+2012,EDR 6E- Southwest Central,avg_estab,3533,4,2012.4,Central
+2020,EDR 6W- Upper Minnesota Valley,avg_estab,1572,4,2020.4,Southwest
+2019,EDR 6W- Upper Minnesota Valley,avg_estab,1574,4,2019.4,Southwest
+2018,EDR 6W- Upper Minnesota Valley,avg_estab,1580,4,2018.4,Southwest
+2017,EDR 6W- Upper Minnesota Valley,avg_estab,1542,4,2017.4,Southwest
+2016,EDR 6W- Upper Minnesota Valley,avg_estab,1525,4,2016.4,Southwest
+2015,EDR 6W- Upper Minnesota Valley,avg_estab,1493,4,2015.4,Southwest
+2014,EDR 6W- Upper Minnesota Valley,avg_estab,1525,4,2014.4,Southwest
+2013,EDR 6W- Upper Minnesota Valley,avg_estab,1537,4,2013.4,Southwest
+2012,EDR 6W- Upper Minnesota Valley,avg_estab,1574,4,2012.4,Southwest
+2020,EDR 7E- East Central,avg_estab,3898,4,2020.4,Central
+2019,EDR 7E- East Central,avg_estab,3795,4,2019.4,Central
+2018,EDR 7E- East Central,avg_estab,3720,4,2018.4,Central
+2017,EDR 7E- East Central,avg_estab,3578,4,2017.4,Central
+2016,EDR 7E- East Central,avg_estab,3411,4,2016.4,Central
+2015,EDR 7E- East Central,avg_estab,3336,4,2015.4,Central
+2014,EDR 7E- East Central,avg_estab,3454,4,2014.4,Central
+2013,EDR 7E- East Central,avg_estab,3481,4,2013.4,Central
+2012,EDR 7E- East Central,avg_estab,3495,4,2012.4,Central
+2020,EDR 7W- Central,avg_estab,11292,4,2020.4,Central
+2019,EDR 7W- Central,avg_estab,11049,4,2019.4,Central
+2018,EDR 7W- Central,avg_estab,10817,4,2018.4,Central
+2017,EDR 7W- Central,avg_estab,10432,4,2017.4,Central
+2016,EDR 7W- Central,avg_estab,9959,4,2016.4,Central
+2015,EDR 7W- Central,avg_estab,9830,4,2015.4,Central
+2014,EDR 7W- Central,avg_estab,10016,4,2014.4,Central
+2013,EDR 7W- Central,avg_estab,10065,4,2013.4,Central
+2012,EDR 7W- Central,avg_estab,10070,4,2012.4,Central
+2020,EDR 8 - Southwest,avg_estab,4037,4,2020.4,Southwest
+2019,EDR 8 - Southwest,avg_estab,3986,4,2019.4,Southwest
+2018,EDR 8 - Southwest,avg_estab,4015,4,2018.4,Southwest
+2017,EDR 8 - Southwest,avg_estab,3927,4,2017.4,Southwest
+2016,EDR 8 - Southwest,avg_estab,3843,4,2016.4,Southwest
+2015,EDR 8 - Southwest,avg_estab,3831,4,2015.4,Southwest
+2014,EDR 8 - Southwest,avg_estab,3925,4,2014.4,Southwest
+2013,EDR 8 - Southwest,avg_estab,3943,4,2013.4,Southwest
+2012,EDR 8 - Southwest,avg_estab,3991,4,2012.4,Southwest
+2020,EDR 9 - South Central,avg_estab,6976,4,2020.4,Southwest
+2019,EDR 9 - South Central,avg_estab,6867,4,2019.4,Southwest
+2018,EDR 9 - South Central,avg_estab,6807,4,2018.4,Southwest
+2017,EDR 9 - South Central,avg_estab,6657,4,2017.4,Southwest
+2016,EDR 9 - South Central,avg_estab,6412,4,2016.4,Southwest
+2015,EDR 9 - South Central,avg_estab,6336,4,2015.4,Southwest
+2014,EDR 9 - South Central,avg_estab,6453,4,2014.4,Southwest
+2013,EDR 9 - South Central,avg_estab,6472,4,2013.4,Southwest
+2012,EDR 9 - South Central,avg_estab,6547,4,2012.4,Southwest
+2020,EDR 10 - Southeast,avg_estab,13119,4,2020.4,Southeast
+2019,EDR 10 - Southeast,avg_estab,12841,4,2019.4,Southeast
+2018,EDR 10 - Southeast,avg_estab,12697,4,2018.4,Southeast
+2017,EDR 10 - Southeast,avg_estab,12253,4,2017.4,Southeast
+2016,EDR 10 - Southeast,avg_estab,11806,4,2016.4,Southeast
+2015,EDR 10 - Southeast,avg_estab,11687,4,2015.4,Southeast
+2014,EDR 10 - Southeast,avg_estab,11988,4,2014.4,Southeast
+2013,EDR 10 - Southeast,avg_estab,12111,4,2013.4,Southeast
+2012,EDR 10 - Southeast,avg_estab,12146,4,2012.4,Southeast
+2020,EDR 11 - 7 County Twin Cities,avg_estab,88575,4,2020.4,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,avg_estab,86236,4,2019.4,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,avg_estab,84683,4,2018.4,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,avg_estab,81046,4,2017.4,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,avg_estab,76850,4,2016.4,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,avg_estab,75467,4,2015.4,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,avg_estab,77881,4,2014.4,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,avg_estab,78207,4,2013.4,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,avg_estab,78850,4,2012.4,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,totwage,444766875,1,2021.1,Northwest
+2020,EDR 1 - Northwest,totwage,417752010,1,2020.1,Northwest
+2019,EDR 1 - Northwest,totwage,400030689,1,2019.1,Northwest
+2018,EDR 1 - Northwest,totwage,402190567,1,2018.1,Northwest
+2017,EDR 1 - Northwest,totwage,376520647,1,2017.1,Northwest
+2016,EDR 1 - Northwest,totwage,354324182,1,2016.1,Northwest
+2015,EDR 1 - Northwest,totwage,355999102,1,2015.1,Northwest
+2014,EDR 1 - Northwest,totwage,357245296,1,2014.1,Northwest
+2013,EDR 1 - Northwest,totwage,337380652,1,2013.1,Northwest
+2012,EDR 1 - Northwest,totwage,354918265,1,2012.1,Northwest
+2021,EDR 2 - Headwaters,totwage,335000033,1,2021.1,Northwest
+2020,EDR 2 - Headwaters,totwage,331658357,1,2020.1,Northwest
+2019,EDR 2 - Headwaters,totwage,321420268,1,2019.1,Northwest
+2018,EDR 2 - Headwaters,totwage,312590860,1,2018.1,Northwest
+2017,EDR 2 - Headwaters,totwage,298199479,1,2017.1,Northwest
+2016,EDR 2 - Headwaters,totwage,272442628,1,2016.1,Northwest
+2015,EDR 2 - Headwaters,totwage,265167848,1,2015.1,Northwest
+2014,EDR 2 - Headwaters,totwage,248376774,1,2014.1,Northwest
+2013,EDR 2 - Headwaters,totwage,238942722,1,2013.1,Northwest
+2012,EDR 2 - Headwaters,totwage,225604446,1,2012.1,Northwest
+2021,EDR 3 - Arrowhead,totwage,1572345273,1,2021.1,Northeast
+2020,EDR 3 - Arrowhead,totwage,1644644548,1,2020.1,Northeast
+2019,EDR 3 - Arrowhead,totwage,1618836280,1,2019.1,Northeast
+2018,EDR 3 - Arrowhead,totwage,1551148406,1,2018.1,Northeast
+2017,EDR 3 - Arrowhead,totwage,1478191415,1,2017.1,Northeast
+2016,EDR 3 - Arrowhead,totwage,1373151496,1,2016.1,Northeast
+2015,EDR 3 - Arrowhead,totwage,1451929521,1,2015.1,Northeast
+2014,EDR 3 - Arrowhead,totwage,1397074587,1,2014.1,Northeast
+2013,EDR 3 - Arrowhead,totwage,1354954113,1,2013.1,Northeast
+2012,EDR 3 - Arrowhead,totwage,1308366563,1,2012.1,Northeast
+2021,EDR 4 - West Central,totwage,935619538,1,2021.1,Northwest
+2020,EDR 4 - West Central,totwage,935641348,1,2020.1,Northwest
+2019,EDR 4 - West Central,totwage,903277513,1,2019.1,Northwest
+2018,EDR 4 - West Central,totwage,878213703,1,2018.1,Northwest
+2017,EDR 4 - West Central,totwage,840800055,1,2017.1,Northwest
+2016,EDR 4 - West Central,totwage,780873919,1,2016.1,Northwest
+2015,EDR 4 - West Central,totwage,772331185,1,2015.1,Northwest
+2014,EDR 4 - West Central,totwage,737651221,1,2014.1,Northwest
+2013,EDR 4 - West Central,totwage,708595417,1,2013.1,Northwest
+2012,EDR 4 - West Central,totwage,673777937,1,2012.1,Northwest
+2021,EDR 5 - North Central,totwage,676852183,1,2021.1,Northwest
+2020,EDR 5 - North Central,totwage,606934726,1,2020.1,Northwest
+2019,EDR 5 - North Central,totwage,578673819,1,2019.1,Northwest
+2018,EDR 5 - North Central,totwage,564133194,1,2018.1,Northwest
+2017,EDR 5 - North Central,totwage,544401706,1,2017.1,Northwest
+2016,EDR 5 - North Central,totwage,506104211,1,2016.1,Northwest
+2015,EDR 5 - North Central,totwage,487050619,1,2015.1,Northwest
+2014,EDR 5 - North Central,totwage,466911087,1,2014.1,Northwest
+2013,EDR 5 - North Central,totwage,449906875,1,2013.1,Northwest
+2012,EDR 5 - North Central,totwage,434709914,1,2012.1,Northwest
+2021,EDR 6E- Southwest Central,totwage,539814723,1,2021.1,Central
+2020,EDR 6E- Southwest Central,totwage,548954352,1,2020.1,Central
+2019,EDR 6E- Southwest Central,totwage,540797300,1,2019.1,Central
+2018,EDR 6E- Southwest Central,totwage,536446327,1,2018.1,Central
+2017,EDR 6E- Southwest Central,totwage,521123574,1,2017.1,Central
+2016,EDR 6E- Southwest Central,totwage,477424628,1,2016.1,Central
+2015,EDR 6E- Southwest Central,totwage,482407046,1,2015.1,Central
+2014,EDR 6E- Southwest Central,totwage,453943887,1,2014.1,Central
+2013,EDR 6E- Southwest Central,totwage,431945291,1,2013.1,Central
+2012,EDR 6E- Southwest Central,totwage,427566254,1,2012.1,Central
+2021,EDR 6W- Upper Minnesota Valley,totwage,160570561,1,2021.1,Southwest
+2020,EDR 6W- Upper Minnesota Valley,totwage,161108628,1,2020.1,Southwest
+2019,EDR 6W- Upper Minnesota Valley,totwage,160349654,1,2019.1,Southwest
+2018,EDR 6W- Upper Minnesota Valley,totwage,162027062,1,2018.1,Southwest
+2017,EDR 6W- Upper Minnesota Valley,totwage,154532888,1,2017.1,Southwest
+2016,EDR 6W- Upper Minnesota Valley,totwage,143396483,1,2016.1,Southwest
+2015,EDR 6W- Upper Minnesota Valley,totwage,145074179,1,2015.1,Southwest
+2014,EDR 6W- Upper Minnesota Valley,totwage,141555442,1,2014.1,Southwest
+2013,EDR 6W- Upper Minnesota Valley,totwage,136563839,1,2013.1,Southwest
+2012,EDR 6W- Upper Minnesota Valley,totwage,144216315,1,2012.1,Southwest
+2021,EDR 7E- East Central,totwage,503913486,1,2021.1,Central
+2020,EDR 7E- East Central,totwage,492764846,1,2020.1,Central
+2019,EDR 7E- East Central,totwage,470249470,1,2019.1,Central
+2018,EDR 7E- East Central,totwage,459918398,1,2018.1,Central
+2017,EDR 7E- East Central,totwage,442284784,1,2017.1,Central
+2016,EDR 7E- East Central,totwage,410670800,1,2016.1,Central
+2015,EDR 7E- East Central,totwage,405309393,1,2015.1,Central
+2014,EDR 7E- East Central,totwage,370987449,1,2014.1,Central
+2013,EDR 7E- East Central,totwage,359244148,1,2013.1,Central
+2012,EDR 7E- East Central,totwage,350007892,1,2012.1,Central
+2021,EDR 7W- Central,totwage,2084704214,1,2021.1,Central
+2020,EDR 7W- Central,totwage,2086605086,1,2020.1,Central
+2019,EDR 7W- Central,totwage,1970715449,1,2019.1,Central
+2018,EDR 7W- Central,totwage,1929896883,1,2018.1,Central
+2017,EDR 7W- Central,totwage,1871124857,1,2017.1,Central
+2016,EDR 7W- Central,totwage,1682203043,1,2016.1,Central
+2015,EDR 7W- Central,totwage,1620910109,1,2015.1,Central
+2014,EDR 7W- Central,totwage,1530952526,1,2014.1,Central
+2013,EDR 7W- Central,totwage,1468689552,1,2013.1,Central
+2012,EDR 7W- Central,totwage,1418763413,1,2012.1,Central
+2021,EDR 8 - Southwest,totwage,582350128,1,2021.1,Southwest
+2020,EDR 8 - Southwest,totwage,577309831,1,2020.1,Southwest
+2019,EDR 8 - Southwest,totwage,550585755,1,2019.1,Southwest
+2018,EDR 8 - Southwest,totwage,533270409,1,2018.1,Southwest
+2017,EDR 8 - Southwest,totwage,534110394,1,2017.1,Southwest
+2016,EDR 8 - Southwest,totwage,487504676,1,2016.1,Southwest
+2015,EDR 8 - Southwest,totwage,494242532,1,2015.1,Southwest
+2014,EDR 8 - Southwest,totwage,463176788,1,2014.1,Southwest
+2013,EDR 8 - Southwest,totwage,451738867,1,2013.1,Southwest
+2012,EDR 8 - Southwest,totwage,437616399,1,2012.1,Southwest
+2021,EDR 9 - South Central,totwage,1121948568,1,2021.1,Southwest
+2020,EDR 9 - South Central,totwage,1147328374,1,2020.1,Southwest
+2019,EDR 9 - South Central,totwage,1110168222,1,2019.1,Southwest
+2018,EDR 9 - South Central,totwage,1095781792,1,2018.1,Southwest
+2017,EDR 9 - South Central,totwage,1068525176,1,2017.1,Southwest
+2016,EDR 9 - South Central,totwage,967589325,1,2016.1,Southwest
+2015,EDR 9 - South Central,totwage,959412259,1,2015.1,Southwest
+2014,EDR 9 - South Central,totwage,911176312,1,2014.1,Southwest
+2013,EDR 9 - South Central,totwage,875662460,1,2013.1,Southwest
+2012,EDR 9 - South Central,totwage,860656398,1,2012.1,Southwest
+2021,EDR 10 - Southeast,totwage,3259485584,1,2021.1,Southeast
+2020,EDR 10 - Southeast,totwage,3254896439,1,2020.1,Southeast
+2019,EDR 10 - Southeast,totwage,3167805001,1,2019.1,Southeast
+2018,EDR 10 - Southeast,totwage,3190061805,1,2018.1,Southeast
+2017,EDR 10 - Southeast,totwage,3055183920,1,2017.1,Southeast
+2016,EDR 10 - Southeast,totwage,2860657323,1,2016.1,Southeast
+2015,EDR 10 - Southeast,totwage,2742624991,1,2015.1,Southeast
+2014,EDR 10 - Southeast,totwage,2558227386,1,2014.1,Southeast
+2013,EDR 10 - Southeast,totwage,2488183456,1,2013.1,Southeast
+2012,EDR 10 - Southeast,totwage,2432881748,1,2012.1,Southeast
+2021,EDR 11 - 7 County Twin Cities,totwage,30909428003,1,2021.1,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,totwage,31947838063,1,2020.1,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,totwage,31139913800,1,2019.1,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,totwage,30202921101,1,2018.1,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,totwage,29303059260,1,2017.1,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,totwage,26400906420,1,2016.1,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,totwage,26422255461,1,2015.1,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,totwage,24879678871,1,2014.1,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,totwage,23758817886,1,2013.1,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,totwage,23083039503,1,2012.1,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,totwage,426158717,2,2021.2,Northwest
+2020,EDR 1 - Northwest,totwage,371682133,2,2020.2,Northwest
+2019,EDR 1 - Northwest,totwage,390847909,2,2019.2,Northwest
+2018,EDR 1 - Northwest,totwage,397344696,2,2018.2,Northwest
+2017,EDR 1 - Northwest,totwage,379321612,2,2017.2,Northwest
+2016,EDR 1 - Northwest,totwage,362561315,2,2016.2,Northwest
+2015,EDR 1 - Northwest,totwage,353575485,2,2015.2,Northwest
+2014,EDR 1 - Northwest,totwage,362870786,2,2014.2,Northwest
+2013,EDR 1 - Northwest,totwage,346434516,2,2013.2,Northwest
+2012,EDR 1 - Northwest,totwage,329344190,2,2012.2,Northwest
+2021,EDR 2 - Headwaters,totwage,370508245,2,2021.2,Northwest
+2020,EDR 2 - Headwaters,totwage,329568024,2,2020.2,Northwest
+2019,EDR 2 - Headwaters,totwage,341173018,2,2019.2,Northwest
+2018,EDR 2 - Headwaters,totwage,324178081,2,2018.2,Northwest
+2017,EDR 2 - Headwaters,totwage,309606429,2,2017.2,Northwest
+2016,EDR 2 - Headwaters,totwage,292168898,2,2016.2,Northwest
+2015,EDR 2 - Headwaters,totwage,280073401,2,2015.2,Northwest
+2014,EDR 2 - Headwaters,totwage,259850835,2,2014.2,Northwest
+2013,EDR 2 - Headwaters,totwage,249133588,2,2013.2,Northwest
+2012,EDR 2 - Headwaters,totwage,239392801,2,2012.2,Northwest
+2021,EDR 3 - Arrowhead,totwage,1717640199,2,2021.2,Northeast
+2020,EDR 3 - Arrowhead,totwage,1521431122,2,2020.2,Northeast
+2019,EDR 3 - Arrowhead,totwage,1664624996,2,2019.2,Northeast
+2018,EDR 3 - Arrowhead,totwage,1606823303,2,2018.2,Northeast
+2017,EDR 3 - Arrowhead,totwage,1545718555,2,2017.2,Northeast
+2016,EDR 3 - Arrowhead,totwage,1420008142,2,2016.2,Northeast
+2015,EDR 3 - Arrowhead,totwage,1432521179,2,2015.2,Northeast
+2014,EDR 3 - Arrowhead,totwage,1367741388,2,2014.2,Northeast
+2013,EDR 3 - Arrowhead,totwage,1350509061,2,2013.2,Northeast
+2012,EDR 3 - Arrowhead,totwage,1287027764,2,2012.2,Northeast
+2021,EDR 4 - West Central,totwage,1035237885,2,2021.2,Northwest
+2020,EDR 4 - West Central,totwage,937973869,2,2020.2,Northwest
+2019,EDR 4 - West Central,totwage,953044603,2,2019.2,Northwest
+2018,EDR 4 - West Central,totwage,925692844,2,2018.2,Northwest
+2017,EDR 4 - West Central,totwage,883134395,2,2017.2,Northwest
+2016,EDR 4 - West Central,totwage,844746712,2,2016.2,Northwest
+2015,EDR 4 - West Central,totwage,804973240,2,2015.2,Northwest
+2014,EDR 4 - West Central,totwage,771681815,2,2014.2,Northwest
+2013,EDR 4 - West Central,totwage,735034472,2,2013.2,Northwest
+2012,EDR 4 - West Central,totwage,708233294,2,2012.2,Northwest
+2021,EDR 5 - North Central,totwage,709601561,2,2021.2,Northwest
+2020,EDR 5 - North Central,totwage,601633659,2,2020.2,Northwest
+2019,EDR 5 - North Central,totwage,625920778,2,2019.2,Northwest
+2018,EDR 5 - North Central,totwage,606464514,2,2018.2,Northwest
+2017,EDR 5 - North Central,totwage,586289743,2,2017.2,Northwest
+2016,EDR 5 - North Central,totwage,557442849,2,2016.2,Northwest
+2015,EDR 5 - North Central,totwage,525562196,2,2015.2,Northwest
+2014,EDR 5 - North Central,totwage,501494170,2,2014.2,Northwest
+2013,EDR 5 - North Central,totwage,486953642,2,2013.2,Northwest
+2012,EDR 5 - North Central,totwage,466452675,2,2012.2,Northwest
+2021,EDR 6E- Southwest Central,totwage,589157040,2,2021.2,Central
+2020,EDR 6E- Southwest Central,totwage,553427099,2,2020.2,Central
+2019,EDR 6E- Southwest Central,totwage,561818300,2,2019.2,Central
+2018,EDR 6E- Southwest Central,totwage,563071294,2,2018.2,Central
+2017,EDR 6E- Southwest Central,totwage,540482848,2,2017.2,Central
+2016,EDR 6E- Southwest Central,totwage,505269455,2,2016.2,Central
+2015,EDR 6E- Southwest Central,totwage,492977278,2,2015.2,Central
+2014,EDR 6E- Southwest Central,totwage,466669811,2,2014.2,Central
+2013,EDR 6E- Southwest Central,totwage,447026530,2,2013.2,Central
+2012,EDR 6E- Southwest Central,totwage,437006852,2,2012.2,Central
+2021,EDR 6W- Upper Minnesota Valley,totwage,179956395,2,2021.2,Southwest
+2020,EDR 6W- Upper Minnesota Valley,totwage,161935436,2,2020.2,Southwest
+2019,EDR 6W- Upper Minnesota Valley,totwage,168981109,2,2019.2,Southwest
+2018,EDR 6W- Upper Minnesota Valley,totwage,168658004,2,2018.2,Southwest
+2017,EDR 6W- Upper Minnesota Valley,totwage,162760487,2,2017.2,Southwest
+2016,EDR 6W- Upper Minnesota Valley,totwage,156891070,2,2016.2,Southwest
+2015,EDR 6W- Upper Minnesota Valley,totwage,149746737,2,2015.2,Southwest
+2014,EDR 6W- Upper Minnesota Valley,totwage,147297776,2,2014.2,Southwest
+2013,EDR 6W- Upper Minnesota Valley,totwage,143017344,2,2013.2,Southwest
+2012,EDR 6W- Upper Minnesota Valley,totwage,144798758,2,2012.2,Southwest
+2021,EDR 7E- East Central,totwage,522675524,2,2021.2,Central
+2020,EDR 7E- East Central,totwage,469202294,2,2020.2,Central
+2019,EDR 7E- East Central,totwage,490254518,2,2019.2,Central
+2018,EDR 7E- East Central,totwage,475521728,2,2018.2,Central
+2017,EDR 7E- East Central,totwage,456821438,2,2017.2,Central
+2016,EDR 7E- East Central,totwage,437968490,2,2016.2,Central
+2015,EDR 7E- East Central,totwage,419998718,2,2015.2,Central
+2014,EDR 7E- East Central,totwage,391393256,2,2014.2,Central
+2013,EDR 7E- East Central,totwage,381859850,2,2013.2,Central
+2012,EDR 7E- East Central,totwage,374466307,2,2012.2,Central
+2021,EDR 7W- Central,totwage,2187887785,2,2021.2,Central
+2020,EDR 7W- Central,totwage,1956785851,2,2020.2,Central
+2019,EDR 7W- Central,totwage,2010804898,2,2019.2,Central
+2018,EDR 7W- Central,totwage,1923744949,2,2018.2,Central
+2017,EDR 7W- Central,totwage,1846470145,2,2017.2,Central
+2016,EDR 7W- Central,totwage,1773801495,2,2016.2,Central
+2015,EDR 7W- Central,totwage,1703010225,2,2015.2,Central
+2014,EDR 7W- Central,totwage,1602749728,2,2014.2,Central
+2013,EDR 7W- Central,totwage,1524330910,2,2013.2,Central
+2012,EDR 7W- Central,totwage,1458354748,2,2012.2,Central
+2021,EDR 8 - Southwest,totwage,593438262,2,2021.2,Southwest
+2020,EDR 8 - Southwest,totwage,556460854,2,2020.2,Southwest
+2019,EDR 8 - Southwest,totwage,549336426,2,2019.2,Southwest
+2018,EDR 8 - Southwest,totwage,531521385,2,2018.2,Southwest
+2017,EDR 8 - Southwest,totwage,519136559,2,2017.2,Southwest
+2016,EDR 8 - Southwest,totwage,502948256,2,2016.2,Southwest
+2015,EDR 8 - Southwest,totwage,495258521,2,2015.2,Southwest
+2014,EDR 8 - Southwest,totwage,478723769,2,2014.2,Southwest
+2013,EDR 8 - Southwest,totwage,462288530,2,2013.2,Southwest
+2012,EDR 8 - Southwest,totwage,444286804,2,2012.2,Southwest
+2021,EDR 9 - South Central,totwage,1191714052,2,2021.2,Southwest
+2020,EDR 9 - South Central,totwage,1102563085,2,2020.2,Southwest
+2019,EDR 9 - South Central,totwage,1134178350,2,2019.2,Southwest
+2018,EDR 9 - South Central,totwage,1094238726,2,2018.2,Southwest
+2017,EDR 9 - South Central,totwage,1071334863,2,2017.2,Southwest
+2016,EDR 9 - South Central,totwage,1027270616,2,2016.2,Southwest
+2015,EDR 9 - South Central,totwage,994311937,2,2015.2,Southwest
+2014,EDR 9 - South Central,totwage,943498137,2,2014.2,Southwest
+2013,EDR 9 - South Central,totwage,903563972,2,2013.2,Southwest
+2012,EDR 9 - South Central,totwage,884618366,2,2012.2,Southwest
+2021,EDR 10 - Southeast,totwage,3479087003,2,2021.2,Southeast
+2020,EDR 10 - Southeast,totwage,3137544762,2,2020.2,Southeast
+2019,EDR 10 - Southeast,totwage,3150319422,2,2019.2,Southeast
+2018,EDR 10 - Southeast,totwage,3037839573,2,2018.2,Southeast
+2017,EDR 10 - Southeast,totwage,2888480762,2,2017.2,Southeast
+2016,EDR 10 - Southeast,totwage,2753825615,2,2016.2,Southeast
+2015,EDR 10 - Southeast,totwage,2644818093,2,2015.2,Southeast
+2014,EDR 10 - Southeast,totwage,2643400810,2,2014.2,Southeast
+2013,EDR 10 - Southeast,totwage,2601265181,2,2013.2,Southeast
+2012,EDR 10 - Southeast,totwage,2506615093,2,2012.2,Southeast
+2021,EDR 11 - 7 County Twin Cities,totwage,30045777645,2,2021.2,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,totwage,26861995968,2,2020.2,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,totwage,28376645829,2,2019.2,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,totwage,27452235776,2,2018.2,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,totwage,26342624409,2,2017.2,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,totwage,24810481854,2,2016.2,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,totwage,24077389854,2,2015.2,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,totwage,22773861930,2,2014.2,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,totwage,22040609509,2,2013.2,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,totwage,21264635907,2,2012.2,Seven County Mpls-St Paul
+2021,EDR 1 - Northwest,totwage,435396754,3,2021.3,Northwest
+2020,EDR 1 - Northwest,totwage,403023023,3,2020.3,Northwest
+2019,EDR 1 - Northwest,totwage,396854657,3,2019.3,Northwest
+2018,EDR 1 - Northwest,totwage,388809337,3,2018.3,Northwest
+2017,EDR 1 - Northwest,totwage,369997557,3,2017.3,Northwest
+2016,EDR 1 - Northwest,totwage,369199879,3,2016.3,Northwest
+2015,EDR 1 - Northwest,totwage,353485669,3,2015.3,Northwest
+2014,EDR 1 - Northwest,totwage,359295644,3,2014.3,Northwest
+2013,EDR 1 - Northwest,totwage,352333298,3,2013.3,Northwest
+2012,EDR 1 - Northwest,totwage,327720888,3,2012.3,Northwest
+2021,EDR 2 - Headwaters,totwage,401244861,3,2021.3,Northwest
+2020,EDR 2 - Headwaters,totwage,353993178,3,2020.3,Northwest
+2019,EDR 2 - Headwaters,totwage,348422895,3,2019.3,Northwest
+2018,EDR 2 - Headwaters,totwage,338925295,3,2018.3,Northwest
+2017,EDR 2 - Headwaters,totwage,320522336,3,2017.3,Northwest
+2016,EDR 2 - Headwaters,totwage,321687110,3,2016.3,Northwest
+2015,EDR 2 - Headwaters,totwage,295522290,3,2015.3,Northwest
+2014,EDR 2 - Headwaters,totwage,274810871,3,2014.3,Northwest
+2013,EDR 2 - Headwaters,totwage,263464461,3,2013.3,Northwest
+2012,EDR 2 - Headwaters,totwage,252599203,3,2012.3,Northwest
+2021,EDR 3 - Arrowhead,totwage,1789151425,3,2021.3,Northeast
+2020,EDR 3 - Arrowhead,totwage,1585203792,3,2020.3,Northeast
+2019,EDR 3 - Arrowhead,totwage,1675968793,3,2019.3,Northeast
+2018,EDR 3 - Arrowhead,totwage,1622546947,3,2018.3,Northeast
+2017,EDR 3 - Arrowhead,totwage,1551754642,3,2017.3,Northeast
+2016,EDR 3 - Arrowhead,totwage,1580536506,3,2016.3,Northeast
+2015,EDR 3 - Arrowhead,totwage,1522476591,3,2015.3,Northeast
+2014,EDR 3 - Arrowhead,totwage,1485781882,3,2014.3,Northeast
+2013,EDR 3 - Arrowhead,totwage,1416704589,3,2013.3,Northeast
+2012,EDR 3 - Arrowhead,totwage,1364273328,3,2012.3,Northeast
+2021,EDR 4 - West Central,totwage,1054932091,3,2021.3,Northwest
+2020,EDR 4 - West Central,totwage,966928668,3,2020.3,Northwest
+2019,EDR 4 - West Central,totwage,958005232,3,2019.3,Northwest
+2018,EDR 4 - West Central,totwage,928062827,3,2018.3,Northwest
+2017,EDR 4 - West Central,totwage,892095686,3,2017.3,Northwest
+2016,EDR 4 - West Central,totwage,890756371,3,2016.3,Northwest
+2015,EDR 4 - West Central,totwage,838654887,3,2015.3,Northwest
+2014,EDR 4 - West Central,totwage,811728556,3,2014.3,Northwest
+2013,EDR 4 - West Central,totwage,766329171,3,2013.3,Northwest
+2012,EDR 4 - West Central,totwage,729345985,3,2012.3,Northwest
+2021,EDR 5 - North Central,totwage,805373582,3,2021.3,Northwest
+2020,EDR 5 - North Central,totwage,637717375,3,2020.3,Northwest
+2019,EDR 5 - North Central,totwage,638085889,3,2019.3,Northwest
+2018,EDR 5 - North Central,totwage,619318465,3,2018.3,Northwest
+2017,EDR 5 - North Central,totwage,589674490,3,2017.3,Northwest
+2016,EDR 5 - North Central,totwage,589732502,3,2016.3,Northwest
+2015,EDR 5 - North Central,totwage,540088208,3,2015.3,Northwest
+2014,EDR 5 - North Central,totwage,517877608,3,2014.3,Northwest
+2013,EDR 5 - North Central,totwage,494284161,3,2013.3,Northwest
+2012,EDR 5 - North Central,totwage,473505346,3,2012.3,Northwest
+2021,EDR 6E- Southwest Central,totwage,601928705,3,2021.3,Central
+2020,EDR 6E- Southwest Central,totwage,574075332,3,2020.3,Central
+2019,EDR 6E- Southwest Central,totwage,563733734,3,2019.3,Central
+2018,EDR 6E- Southwest Central,totwage,558174119,3,2018.3,Central
+2017,EDR 6E- Southwest Central,totwage,534351616,3,2017.3,Central
+2016,EDR 6E- Southwest Central,totwage,531352357,3,2016.3,Central
+2015,EDR 6E- Southwest Central,totwage,507635302,3,2015.3,Central
+2014,EDR 6E- Southwest Central,totwage,488659295,3,2014.3,Central
+2013,EDR 6E- Southwest Central,totwage,467228997,3,2013.3,Central
+2012,EDR 6E- Southwest Central,totwage,447704838,3,2012.3,Central
+2021,EDR 6W- Upper Minnesota Valley,totwage,176919068,3,2021.3,Southwest
+2020,EDR 6W- Upper Minnesota Valley,totwage,160458864,3,2020.3,Southwest
+2019,EDR 6W- Upper Minnesota Valley,totwage,163325493,3,2019.3,Southwest
+2018,EDR 6W- Upper Minnesota Valley,totwage,168630161,3,2018.3,Southwest
+2017,EDR 6W- Upper Minnesota Valley,totwage,156975017,3,2017.3,Southwest
+2016,EDR 6W- Upper Minnesota Valley,totwage,158073806,3,2016.3,Southwest
+2015,EDR 6W- Upper Minnesota Valley,totwage,147695669,3,2015.3,Southwest
+2014,EDR 6W- Upper Minnesota Valley,totwage,145631902,3,2014.3,Southwest
+2013,EDR 6W- Upper Minnesota Valley,totwage,141355992,3,2013.3,Southwest
+2012,EDR 6W- Upper Minnesota Valley,totwage,141829814,3,2012.3,Southwest
+2021,EDR 7E- East Central,totwage,550469232,3,2021.3,Central
+2020,EDR 7E- East Central,totwage,502039369,3,2020.3,Central
+2019,EDR 7E- East Central,totwage,501476378,3,2019.3,Central
+2018,EDR 7E- East Central,totwage,481417942,3,2018.3,Central
+2017,EDR 7E- East Central,totwage,468331409,3,2017.3,Central
+2016,EDR 7E- East Central,totwage,468117202,3,2016.3,Central
+2015,EDR 7E- East Central,totwage,427506372,3,2015.3,Central
+2014,EDR 7E- East Central,totwage,400447507,3,2014.3,Central
+2013,EDR 7E- East Central,totwage,389419500,3,2013.3,Central
+2012,EDR 7E- East Central,totwage,376614094,3,2012.3,Central
+2021,EDR 7W- Central,totwage,2297134863,3,2021.3,Central
+2020,EDR 7W- Central,totwage,2099579249,3,2020.3,Central
+2019,EDR 7W- Central,totwage,2094777952,3,2019.3,Central
+2018,EDR 7W- Central,totwage,2007010694,3,2018.3,Central
+2017,EDR 7W- Central,totwage,1906380386,3,2017.3,Central
+2016,EDR 7W- Central,totwage,1893252872,3,2016.3,Central
+2015,EDR 7W- Central,totwage,1733022909,3,2015.3,Central
+2014,EDR 7W- Central,totwage,1642851975,3,2014.3,Central
+2013,EDR 7W- Central,totwage,1536070585,3,2013.3,Central
+2012,EDR 7W- Central,totwage,1478227192,3,2012.3,Central
+2021,EDR 8 - Southwest,totwage,595696882,3,2021.3,Southwest
+2020,EDR 8 - Southwest,totwage,566918507,3,2020.3,Southwest
+2019,EDR 8 - Southwest,totwage,549250468,3,2019.3,Southwest
+2018,EDR 8 - Southwest,totwage,534353876,3,2018.3,Southwest
+2017,EDR 8 - Southwest,totwage,517183367,3,2017.3,Southwest
+2016,EDR 8 - Southwest,totwage,520295830,3,2016.3,Southwest
+2015,EDR 8 - Southwest,totwage,496692504,3,2015.3,Southwest
+2014,EDR 8 - Southwest,totwage,471143446,3,2014.3,Southwest
+2013,EDR 8 - Southwest,totwage,457657718,3,2013.3,Southwest
+2012,EDR 8 - Southwest,totwage,433614791,3,2012.3,Southwest
+2021,EDR 9 - South Central,totwage,1244884839,3,2021.3,Southwest
+2020,EDR 9 - South Central,totwage,1159766725,3,2020.3,Southwest
+2019,EDR 9 - South Central,totwage,1191383353,3,2019.3,Southwest
+2018,EDR 9 - South Central,totwage,1145569694,3,2018.3,Southwest
+2017,EDR 9 - South Central,totwage,1105169242,3,2017.3,Southwest
+2016,EDR 9 - South Central,totwage,1107816629,3,2016.3,Southwest
+2015,EDR 9 - South Central,totwage,1011852674,3,2015.3,Southwest
+2014,EDR 9 - South Central,totwage,1026903963,3,2014.3,Southwest
+2013,EDR 9 - South Central,totwage,948865649,3,2013.3,Southwest
+2012,EDR 9 - South Central,totwage,916379542,3,2012.3,Southwest
+2021,EDR 10 - Southeast,totwage,3403441408,3,2021.3,Southeast
+2020,EDR 10 - Southeast,totwage,3131043626,3,2020.3,Southeast
+2019,EDR 10 - Southeast,totwage,3317673087,3,2019.3,Southeast
+2018,EDR 10 - Southeast,totwage,3206355667,3,2018.3,Southeast
+2017,EDR 10 - Southeast,totwage,3059555712,3,2017.3,Southeast
+2016,EDR 10 - Southeast,totwage,2978899003,3,2016.3,Southeast
+2015,EDR 10 - Southeast,totwage,2831819088,3,2015.3,Southeast
+2014,EDR 10 - Southeast,totwage,2679335111,3,2014.3,Southeast
+2013,EDR 10 - Southeast,totwage,2482115253,3,2013.3,Southeast
+2012,EDR 10 - Southeast,totwage,2402019260,3,2012.3,Southeast
+2021,EDR 11 - 7 County Twin Cities,totwage,30075114654,3,2021.3,Seven County Mpls-St Paul
+2020,EDR 11 - 7 County Twin Cities,totwage,27498970938,3,2020.3,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,totwage,28192799693,3,2019.3,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,totwage,27216139320,3,2018.3,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,totwage,25748573354,3,2017.3,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,totwage,26010225976,3,2016.3,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,totwage,24018314405,3,2015.3,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,totwage,23014316498,3,2014.3,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,totwage,22269124696,3,2013.3,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,totwage,21309229573,3,2012.3,Seven County Mpls-St Paul
+2020,EDR 1 - Northwest,totwage,457623294,4,2020.4,Northwest
+2019,EDR 1 - Northwest,totwage,421026589,4,2019.4,Northwest
+2018,EDR 1 - Northwest,totwage,422530838,4,2018.4,Northwest
+2017,EDR 1 - Northwest,totwage,408554236,4,2017.4,Northwest
+2016,EDR 1 - Northwest,totwage,388951843,4,2016.4,Northwest
+2015,EDR 1 - Northwest,totwage,400331521,4,2015.4,Northwest
+2014,EDR 1 - Northwest,totwage,405495853,4,2014.4,Northwest
+2013,EDR 1 - Northwest,totwage,385223190,4,2013.4,Northwest
+2012,EDR 1 - Northwest,totwage,362808452,4,2012.4,Northwest
+2020,EDR 2 - Headwaters,totwage,379758126,4,2020.4,Northwest
+2019,EDR 2 - Headwaters,totwage,355235670,4,2019.4,Northwest
+2018,EDR 2 - Headwaters,totwage,346974320,4,2018.4,Northwest
+2017,EDR 2 - Headwaters,totwage,325693294,4,2017.4,Northwest
+2016,EDR 2 - Headwaters,totwage,311053725,4,2016.4,Northwest
+2015,EDR 2 - Headwaters,totwage,311898408,4,2015.4,Northwest
+2014,EDR 2 - Headwaters,totwage,287081950,4,2014.4,Northwest
+2013,EDR 2 - Headwaters,totwage,264409939,4,2013.4,Northwest
+2012,EDR 2 - Headwaters,totwage,256481770,4,2012.4,Northwest
+2020,EDR 3 - Arrowhead,totwage,1773271101,4,2020.4,Northeast
+2019,EDR 3 - Arrowhead,totwage,1754861734,4,2019.4,Northeast
+2018,EDR 3 - Arrowhead,totwage,1710308994,4,2018.4,Northeast
+2017,EDR 3 - Arrowhead,totwage,1614775494,4,2017.4,Northeast
+2016,EDR 3 - Arrowhead,totwage,1558374086,4,2016.4,Northeast
+2015,EDR 3 - Arrowhead,totwage,1561572991,4,2015.4,Northeast
+2014,EDR 3 - Arrowhead,totwage,1488254036,4,2014.4,Northeast
+2013,EDR 3 - Arrowhead,totwage,1424254012,4,2013.4,Northeast
+2012,EDR 3 - Arrowhead,totwage,1368996995,4,2012.4,Northeast
+2020,EDR 4 - West Central,totwage,1095014774,4,2020.4,Northwest
+2019,EDR 4 - West Central,totwage,1031323470,4,2019.4,Northwest
+2018,EDR 4 - West Central,totwage,996645701,4,2018.4,Northwest
+2017,EDR 4 - West Central,totwage,962375481,4,2017.4,Northwest
+2016,EDR 4 - West Central,totwage,913232244,4,2016.4,Northwest
+2015,EDR 4 - West Central,totwage,909999638,4,2015.4,Northwest
+2014,EDR 4 - West Central,totwage,857411988,4,2014.4,Northwest
+2013,EDR 4 - West Central,totwage,808517682,4,2013.4,Northwest
+2012,EDR 4 - West Central,totwage,783376108,4,2012.4,Northwest
+2020,EDR 5 - North Central,totwage,711343961,4,2020.4,Northwest
+2019,EDR 5 - North Central,totwage,652693980,4,2019.4,Northwest
+2018,EDR 5 - North Central,totwage,635868942,4,2018.4,Northwest
+2017,EDR 5 - North Central,totwage,604337568,4,2017.4,Northwest
+2016,EDR 5 - North Central,totwage,578642643,4,2016.4,Northwest
+2015,EDR 5 - North Central,totwage,574977223,4,2015.4,Northwest
+2014,EDR 5 - North Central,totwage,529746489,4,2014.4,Northwest
+2013,EDR 5 - North Central,totwage,502040506,4,2013.4,Northwest
+2012,EDR 5 - North Central,totwage,492079546,4,2012.4,Northwest
+2020,EDR 6E- Southwest Central,totwage,644811867,4,2020.4,Central
+2019,EDR 6E- Southwest Central,totwage,615925533,4,2019.4,Central
+2018,EDR 6E- Southwest Central,totwage,609295680,4,2018.4,Central
+2017,EDR 6E- Southwest Central,totwage,596906845,4,2017.4,Central
+2016,EDR 6E- Southwest Central,totwage,564216019,4,2016.4,Central
+2015,EDR 6E- Southwest Central,totwage,559098094,4,2015.4,Central
+2014,EDR 6E- Southwest Central,totwage,532570371,4,2014.4,Central
+2013,EDR 6E- Southwest Central,totwage,507529501,4,2013.4,Central
+2012,EDR 6E- Southwest Central,totwage,489904479,4,2012.4,Central
+2020,EDR 6W- Upper Minnesota Valley,totwage,189420533,4,2020.4,Southwest
+2019,EDR 6W- Upper Minnesota Valley,totwage,179141993,4,2019.4,Southwest
+2018,EDR 6W- Upper Minnesota Valley,totwage,185720065,4,2018.4,Southwest
+2017,EDR 6W- Upper Minnesota Valley,totwage,179423768,4,2017.4,Southwest
+2016,EDR 6W- Upper Minnesota Valley,totwage,172090017,4,2016.4,Southwest
+2015,EDR 6W- Upper Minnesota Valley,totwage,170451742,4,2015.4,Southwest
+2014,EDR 6W- Upper Minnesota Valley,totwage,160792073,4,2014.4,Southwest
+2013,EDR 6W- Upper Minnesota Valley,totwage,158066755,4,2013.4,Southwest
+2012,EDR 6W- Upper Minnesota Valley,totwage,159362436,4,2012.4,Southwest
+2020,EDR 7E- East Central,totwage,546336323,4,2020.4,Central
+2019,EDR 7E- East Central,totwage,513716895,4,2019.4,Central
+2018,EDR 7E- East Central,totwage,494079342,4,2018.4,Central
+2017,EDR 7E- East Central,totwage,475359480,4,2017.4,Central
+2016,EDR 7E- East Central,totwage,456491523,4,2016.4,Central
+2015,EDR 7E- East Central,totwage,463693243,4,2015.4,Central
+2014,EDR 7E- East Central,totwage,411898402,4,2014.4,Central
+2013,EDR 7E- East Central,totwage,401150890,4,2013.4,Central
+2012,EDR 7E- East Central,totwage,386697341,4,2012.4,Central
+2020,EDR 7W- Central,totwage,2304282598,4,2020.4,Central
+2019,EDR 7W- Central,totwage,2148154316,4,2019.4,Central
+2018,EDR 7W- Central,totwage,2063638435,4,2018.4,Central
+2017,EDR 7W- Central,totwage,1984323383,4,2017.4,Central
+2016,EDR 7W- Central,totwage,1894917122,4,2016.4,Central
+2015,EDR 7W- Central,totwage,1892812264,4,2015.4,Central
+2014,EDR 7W- Central,totwage,1750545498,4,2014.4,Central
+2013,EDR 7W- Central,totwage,1670677330,4,2013.4,Central
+2012,EDR 7W- Central,totwage,1620767084,4,2012.4,Central
+2020,EDR 8 - Southwest,totwage,645588400,4,2020.4,Southwest
+2019,EDR 8 - Southwest,totwage,585768419,4,2019.4,Southwest
+2018,EDR 8 - Southwest,totwage,567842687,4,2018.4,Southwest
+2017,EDR 8 - Southwest,totwage,553774124,4,2017.4,Southwest
+2016,EDR 8 - Southwest,totwage,535843117,4,2016.4,Southwest
+2015,EDR 8 - Southwest,totwage,545835536,4,2015.4,Southwest
+2014,EDR 8 - Southwest,totwage,510030781,4,2014.4,Southwest
+2013,EDR 8 - Southwest,totwage,497367994,4,2013.4,Southwest
+2012,EDR 8 - Southwest,totwage,471819799,4,2012.4,Southwest
+2020,EDR 9 - South Central,totwage,1320606855,4,2020.4,Southwest
+2019,EDR 9 - South Central,totwage,1249869890,4,2019.4,Southwest
+2018,EDR 9 - South Central,totwage,1209043051,4,2018.4,Southwest
+2017,EDR 9 - South Central,totwage,1164209551,4,2017.4,Southwest
+2016,EDR 9 - South Central,totwage,1103114986,4,2016.4,Southwest
+2015,EDR 9 - South Central,totwage,1102348861,4,2015.4,Southwest
+2014,EDR 9 - South Central,totwage,1058003227,4,2014.4,Southwest
+2013,EDR 9 - South Central,totwage,1039724350,4,2013.4,Southwest
+2012,EDR 9 - South Central,totwage,959437987,4,2012.4,Southwest
+2020,EDR 10 - Southeast,totwage,3694114403,4,2020.4,Southeast
+2019,EDR 10 - Southeast,totwage,3499486270,4,2019.4,Southeast
+2018,EDR 10 - Southeast,totwage,3352954226,4,2018.4,Southeast
+2017,EDR 10 - Southeast,totwage,3081100316,4,2017.4,Southeast
+2016,EDR 10 - Southeast,totwage,2974784570,4,2016.4,Southeast
+2015,EDR 10 - Southeast,totwage,2945320611,4,2015.4,Southeast
+2014,EDR 10 - Southeast,totwage,2717904133,4,2014.4,Southeast
+2013,EDR 10 - Southeast,totwage,2746511854,4,2013.4,Southeast
+2012,EDR 10 - Southeast,totwage,2689033649,4,2012.4,Southeast
+2020,EDR 11 - 7 County Twin Cities,totwage,31525553226,4,2020.4,Seven County Mpls-St Paul
+2019,EDR 11 - 7 County Twin Cities,totwage,30352777931,4,2019.4,Seven County Mpls-St Paul
+2018,EDR 11 - 7 County Twin Cities,totwage,29237297477,4,2018.4,Seven County Mpls-St Paul
+2017,EDR 11 - 7 County Twin Cities,totwage,28063610479,4,2017.4,Seven County Mpls-St Paul
+2016,EDR 11 - 7 County Twin Cities,totwage,26664360910,4,2016.4,Seven County Mpls-St Paul
+2015,EDR 11 - 7 County Twin Cities,totwage,26547479726,4,2015.4,Seven County Mpls-St Paul
+2014,EDR 11 - 7 County Twin Cities,totwage,24930739112,4,2014.4,Seven County Mpls-St Paul
+2013,EDR 11 - 7 County Twin Cities,totwage,23570203657,4,2013.4,Seven County Mpls-St Paul
+2012,EDR 11 - 7 County Twin Cities,totwage,23357339798,4,2012.4,Seven County Mpls-St Paul

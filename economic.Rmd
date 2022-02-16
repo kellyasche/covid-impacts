@@ -97,7 +97,7 @@ counties.regions <- read_csv("Data/Join docs/county_regions.csv") %>%
          Name = str_replace(Name, "Q", "q"),
          Name = str_replace(Name, "Of The", "of the"),
          Name = str_replace(Name, "Mcleod", "McLeod"),
-         Dem_Desc = ifelse(Name == "Minnesota", "Minnesota", Dem_Desc) ,
+         edr = ifelse(Name == "Minnesota", "Minnesota", edr) ,
          edr = str_replace(edr, "  ", " "),
          planning.region = str_replace(planning.region, " Minnesota", ""),
          planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
@@ -152,13 +152,28 @@ master.lf.edr <- read_csv("Data/Workforce/Master-annual-labor-force-edr.csv") %>
 
 master.emp.gender.county <- read_csv("Data/Workforce/Gender/Master-lf-gender-pr.csv") %>%
   mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
-         Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
+         edr = fct_relevel(edr, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
          edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
          sex = ifelse(sex == 1, "Male", "Female")) 
 
 ```
 
 ```{r master qcew, include=FALSE, cache=TRUE}
+master.qcew.county <- read_csv("Data/QCEW/Master-qcew-county.csv") %>%
+  mutate(key = as.factor(key))
+
+master.qcew.ruca <- read_csv("Data/QCEW/Master-qcew-ruca.csv") %>%
+  mutate(Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
+         key = as.factor(key))
+
+master.qcew.pr <- read_csv("Data/QCEW/Master-qcew-pr.csv") %>%
+  mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         key = as.factor(key))
+
+master.qcew.edr <- read_csv("Data/QCEW/Master-qcew-edr.csv") %>%
+  mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
+         key = as.factor(key))
 
 ```
 
@@ -502,9 +517,74 @@ Summary here
 
 <br>
 
+```{r prep employment and wages, include=FALSE, cache=TRUE}
+qcew.index.county <- master.qcew.county %>%
+  filter(key %in% c("avgemp", "totwage")) %>%
+  droplevels() %>%
+  group_by(countyfp, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(key = ifelse(key == "avgemp", "Avg employment", "Total wages"))
+
+qcew.index.county.map <- qcew.index.county %>%
+  filter(year.quarter == max(year.quarter)) %>%
+  left_join(mn_counties[,c(4,7)], by = "countyfp")
+
+qcew.index.ruca <- master.qcew.ruca %>%
+  filter(key %in% c("avgemp", "totwage")) %>%
+  droplevels() %>%
+  group_by(Dem_Desc, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))%>%
+  mutate(key = ifelse(key == "avgemp", "Avg employment", "Total wages"))
+
+qcew.index.pr <- master.qcew.pr %>%
+  filter(key %in% c("avgemp", "totwage")) %>%
+  droplevels() %>%
+  group_by(planning.region, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))%>%
+  mutate(key = ifelse(key == "avgemp", "Avg employment", "Total wages"))
+
+qcew.index.edr <- master.qcew.edr %>%
+  filter(key %in% c("avgemp", "totwage")) %>%
+  droplevels() %>%
+  group_by(edr, planning.region, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))%>%
+  mutate(key = ifelse(key == "avgemp", "Avg employment", "Total wages"))
+
+```
+
 ## RUCA
 
 <br>
+
+```{r chart wage and emp index ruca}
+qcew.index.ruca.plot <- ggplot(qcew.index.ruca, aes(year.quarter, index, color = Dem_Desc)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nYear and quarter: ", year.quarter, "\nCategory: ", key, "\nValue: ", comma(value), "\nIndex to 2012: ", percent(index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in employment and wages since 2012", caption = "MN DEED - QCEW")+
+  geom_label(data = filter(qcew.index.ruca, year.quarter == max(year.quarter)), aes(label = percent(index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = qcew.index.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
 
 <br>
 
@@ -512,16 +592,58 @@ Summary here
 
 <br>
 
+```{r chart wage and emp index pr}
+qcew.index.pr.plot <- ggplot(qcew.index.pr, aes(year.quarter, index, color = planning.region)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear and quarter: ", year.quarter, "\nCategory: ", key, "\nValue: ", comma(value), "\nIndex to 2012: ", percent(index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in employment and wages since 2012", caption = "MN DEED - QCEW")+
+  geom_label(data = filter(qcew.index.pr, year.quarter == max(year.quarter)), aes(label = percent(index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = qcew.index.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
+
 <br>
 
 ## EDR
 
 <br>
 
+```{r chart wage and emp index edr}
+qcew.index.edr.plot <- ggplot(qcew.index.edr, aes(year.quarter, index, color = edr)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(edr, "\nYear and quarter: ", year.quarter, "\nCategory: ", key, "\nValue: ", comma(value), "\nIndex to 2012: ", percent(index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in employment and wages since 2012", caption = "MN DEED - QCEW")+
+  geom_label(data = filter(qcew.index.edr, year.quarter == max(year.quarter)), aes(label = percent(index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = qcew.index.edr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
+
 <br>
 
-## County map
 
-<br>
-
-<br>
