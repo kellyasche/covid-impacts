@@ -513,7 +513,13 @@ girafe(ggobj = emp.gender.index.county.map.plot, height_svg = 10, width_svg = 10
 
 # Wages{.tabset}
 
-Summary here
+During a typical economic downturn where employment decreases total wages earned will follow suit - it will either decrease with employment or at a minimum flatten a bit.
+
+The charts below compare the average quarterly employment and total wages earned across Minnesota. Surprisingsly, the decrease in employment due to the pandemic did not translate into a decrease in wages earned. This was a very different animal. 
+
+What the trend lines show is that while employment grew modestly between 2012 and 2019, wages really took off, largely due to the increasing workforce shortage. When 2020 hit and the pandemic induced shutdowns, employment dropped. Surprisingly, wages continued to increase. This is due to the employment decreases not being caused by an economic downturn where people were spending less but rather people either choosing not to work or couldn't work. However, the economy continued to roar.
+
+Even more interesting is seeing the lowest employment growth occuring in our most rural areas of Minnesota while those same areas experiencing the largest increases in total wages.
 
 <br>
 
@@ -645,5 +651,109 @@ qcew.index.edr.plot <- ggplot(qcew.index.edr, aes(year.quarter, index, color = e
 ```
 
 <br>
+
+# Remote work
+
+MN DEED wrote an [article]("https://mn.gov/deed/newscenter/publications/trends/december-2021/remote-work.jsp") explaining the change in job openings now being offered as remote. The table is taken directly from their report.
+
+It's interesting to see how large of a difference there is between rural and urban areas. There's about a ten percentage point difference between our most rural and most urban regions.
+
+<br>
+
+```{r tabme for remote work}
+remote.work.table <- read_xlsx("Data/Telework/telework-table.xlsx") %>%
+  mutate(`Share allowing Telework, Jan-Oct 2021` = percent(`Share allowing Telework, Jan-Oct 2021`, accuracy = .1))
+
+kable(format = "html", remote.work.table, escape = F, align = "c") %>%
+  kable_styling(bootstrap_options = "striped", full_width = FALSE, position = "left") %>%
+  scroll_box(width = "100%") 
+
+
+```
+
+<br>
+
+# Number of establishments{.tabset}
+
+Summary here
+
+<br>
+
+```{r prep qcew estab data, include=FALSE, cache=TRUE}
+qcew.estab.county <- master.qcew.county %>%
+  filter(key == "avg_estab") %>%
+  droplevels() %>%
+  group_by(countyfp, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))
+
+qcew.estab.ruca <- master.qcew.ruca %>%
+  filter(key == "avg_estab") %>%
+  droplevels() %>%
+  group_by(Dem_Desc, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))
+
+qcew.estab.pr <- master.qcew.pr %>%
+  filter(key == "avg_estab") %>%
+  droplevels() %>%
+  group_by(planning.region, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))
+
+qcew.estab.edr <- master.qcew.edr %>%
+  filter(key == "avg_estab") %>%
+  droplevels() %>%
+  group_by(edr, planning.region, key) %>%
+  mutate(index = (value - value[year.quarter == min(.$year.quarter)]) / value[year.quarter == min(.$year.quarter)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()))
+
+```
+
+## RUCA
+
+<br>
+
+```{r chart establishment index ruca}
+qcew.estab.ruca.plot <- ggplot(qcew.estab.ruca, aes(year.quarter, index, color = Dem_Desc)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nYear and quarter: ", year, "\nTotal acres: ", comma(Total.acres, accuracy = 1.0), "\nTotal estimated value of ag land: ", dollar(Total.estimated.value), "\nEstimated value per acre: ", dollar(Estimated.value.per.acre), "\nTotal farm net income: ", dollar(farm.net.income), "\nFarm net income per acre: ", dollar(farm.net.income.acre), "\n", index.type, ": ", percent(index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in values since 2000")+
+  geom_label(data = filter(farm.net.inc.land.values.index.ruca, Year == 2019), aes(label = percent(index)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent)+
+  scale_x_continuous(breaks = seq(1900, 2050, 2),
+                     guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_color_manual(values= brewer.pal(n = 6, "RdYlBu"),
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = ag.pct.prop.rev.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## Plannig Region
+
+<br>
+
+<br>
+
+## EDR
+
+<br>
+
+<br>
+
 
 
