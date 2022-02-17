@@ -9,6 +9,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avgemp,254596,1,2014.1
 2013,Central,avgemp,249529,1,2013.1
 2012,Central,avgemp,245180,1,2012.1
+2011,Central,avgemp,241263,1,2011.1
+2010,Central,avgemp,236003,1,2010.1
+2009,Central,avgemp,243367,1,2009.1
+2008,Central,avgemp,253169,1,2008.1
+2007,Central,avgemp,252668,1,2007.1
+2006,Central,avgemp,249673,1,2006.1
+2005,Central,avgemp,240713,1,2005.1
+2004,Central,avgemp,236402,1,2004.1
+2003,Central,avgemp,234156,1,2003.1
+2002,Central,avgemp,232748,1,2002.1
+2001,Central,avgemp,230023,1,2001.1
 2021,Northeast,avgemp,129155,1,2021.1
 2020,Northeast,avgemp,139919,1,2020.1
 2019,Northeast,avgemp,140549,1,2019.1
@@ -19,6 +30,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avgemp,137082,1,2014.1
 2013,Northeast,avgemp,136475,1,2013.1
 2012,Northeast,avgemp,133932,1,2012.1
+2011,Northeast,avgemp,133813,1,2011.1
+2010,Northeast,avgemp,132836,1,2010.1
+2009,Northeast,avgemp,134914,1,2009.1
+2008,Northeast,avgemp,139169,1,2008.1
+2007,Northeast,avgemp,137990,1,2007.1
+2006,Northeast,avgemp,138126,1,2006.1
+2005,Northeast,avgemp,134780,1,2005.1
+2004,Northeast,avgemp,134008,1,2004.1
+2003,Northeast,avgemp,134855,1,2003.1
+2002,Northeast,avgemp,134144,1,2002.1
+2001,Northeast,avgemp,136256,1,2001.1
 2021,Northwest,avgemp,208511,1,2021.1
 2020,Northwest,avgemp,215390,1,2020.1
 2019,Northwest,avgemp,214521,1,2019.1
@@ -29,6 +51,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avgemp,206526,1,2014.1
 2013,Northwest,avgemp,204142,1,2013.1
 2012,Northwest,avgemp,200073,1,2012.1
+2011,Northwest,avgemp,198722,1,2011.1
+2010,Northwest,avgemp,197576,1,2010.1
+2009,Northwest,avgemp,200918,1,2009.1
+2008,Northwest,avgemp,206046,1,2008.1
+2007,Northwest,avgemp,204150,1,2007.1
+2006,Northwest,avgemp,207089,1,2006.1
+2005,Northwest,avgemp,201229,1,2005.1
+2004,Northwest,avgemp,199411,1,2004.1
+2003,Northwest,avgemp,198635,1,2003.1
+2002,Northwest,avgemp,196273,1,2002.1
+2001,Northwest,avgemp,194939,1,2001.1
 2021,Seven County Mpls-St Paul,avgemp,1631459,1,2021.1
 2020,Seven County Mpls-St Paul,avgemp,1757368,1,2020.1
 2019,Seven County Mpls-St Paul,avgemp,1747831,1,2019.1
@@ -39,6 +72,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avgemp,1607516,1,2014.1
 2013,Seven County Mpls-St Paul,avgemp,1586784,1,2013.1
 2012,Seven County Mpls-St Paul,avgemp,1555131,1,2012.1
+2011,Seven County Mpls-St Paul,avgemp,1526363,1,2011.1
+2010,Seven County Mpls-St Paul,avgemp,1499885,1,2010.1
+2009,Seven County Mpls-St Paul,avgemp,1542570,1,2009.1
+2008,Seven County Mpls-St Paul,avgemp,1596258,1,2008.1
+2007,Seven County Mpls-St Paul,avgemp,1594648,1,2007.1
+2006,Seven County Mpls-St Paul,avgemp,1586436,1,2006.1
+2005,Seven County Mpls-St Paul,avgemp,1553776,1,2005.1
+2004,Seven County Mpls-St Paul,avgemp,1535707,1,2004.1
+2003,Seven County Mpls-St Paul,avgemp,1537546,1,2003.1
+2002,Seven County Mpls-St Paul,avgemp,1547183,1,2002.1
+2001,Seven County Mpls-St Paul,avgemp,1588687,1,2001.1
 2021,Southeast,avgemp,231451,1,2021.1
 2020,Southeast,avgemp,243320,1,2020.1
 2019,Southeast,avgemp,241908,1,2019.1
@@ -49,6 +93,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avgemp,229874,1,2014.1
 2013,Southeast,avgemp,230054,1,2013.1
 2012,Southeast,avgemp,226730,1,2012.1
+2011,Southeast,avgemp,221638,1,2011.1
+2010,Southeast,avgemp,219015,1,2010.1
+2009,Southeast,avgemp,225195,1,2009.1
+2008,Southeast,avgemp,229569,1,2008.1
+2007,Southeast,avgemp,228239,1,2007.1
+2006,Southeast,avgemp,228325,1,2006.1
+2005,Southeast,avgemp,222606,1,2005.1
+2004,Southeast,avgemp,221420,1,2004.1
+2003,Southeast,avgemp,221626,1,2003.1
+2002,Southeast,avgemp,221409,1,2002.1
+2001,Southeast,avgemp,224276,1,2001.1
 2021,Southwest,avgemp,163696,1,2021.1
 2020,Southwest,avgemp,172342,1,2020.1
 2019,Southwest,avgemp,172303,1,2019.1
@@ -59,6 +114,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avgemp,170494,1,2014.1
 2013,Southwest,avgemp,169966,1,2013.1
 2012,Southwest,avgemp,169433,1,2012.1
+2011,Southwest,avgemp,168063,1,2011.1
+2010,Southwest,avgemp,166106,1,2010.1
+2009,Southwest,avgemp,171143,1,2009.1
+2008,Southwest,avgemp,174674,1,2008.1
+2007,Southwest,avgemp,173521,1,2007.1
+2006,Southwest,avgemp,174470,1,2006.1
+2005,Southwest,avgemp,170059,1,2005.1
+2004,Southwest,avgemp,168610,1,2004.1
+2003,Southwest,avgemp,170073,1,2003.1
+2002,Southwest,avgemp,169879,1,2002.1
+2001,Southwest,avgemp,172478,1,2001.1
 2021,Central,avgemp,271359,2,2021.2
 2020,Central,avgemp,251167,2,2020.2
 2019,Central,avgemp,281221,2,2019.2
@@ -69,6 +135,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avgemp,266045,2,2014.2
 2013,Central,avgemp,260420,2,2013.2
 2012,Central,avgemp,256804,2,2012.2
+2011,Central,avgemp,252118,2,2011.2
+2010,Central,avgemp,248362,2,2010.2
+2009,Central,avgemp,249602,2,2009.2
+2008,Central,avgemp,262008,2,2008.2
+2007,Central,avgemp,263633,2,2007.2
+2006,Central,avgemp,261027,2,2006.2
+2005,Central,avgemp,253173,2,2005.2
+2004,Central,avgemp,250032,2,2004.2
+2003,Central,avgemp,245261,2,2003.2
+2002,Central,avgemp,242656,2,2002.2
+2001,Central,avgemp,239236,2,2001.2
 2021,Northeast,avgemp,135365,2,2021.2
 2020,Northeast,avgemp,123519,2,2020.2
 2019,Northeast,avgemp,145575,2,2019.2
@@ -79,6 +156,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avgemp,142556,2,2014.2
 2013,Northeast,avgemp,141373,2,2013.2
 2012,Northeast,avgemp,139413,2,2012.2
+2011,Northeast,avgemp,139590,2,2011.2
+2010,Northeast,avgemp,138821,2,2010.2
+2009,Northeast,avgemp,137404,2,2009.2
+2008,Northeast,avgemp,143909,2,2008.2
+2007,Northeast,avgemp,143620,2,2007.2
+2006,Northeast,avgemp,142556,2,2006.2
+2005,Northeast,avgemp,140917,2,2005.2
+2004,Northeast,avgemp,139897,2,2004.2
+2003,Northeast,avgemp,138848,2,2003.2
+2002,Northeast,avgemp,139331,2,2002.2
+2001,Northeast,avgemp,139819,2,2001.2
 2021,Northwest,avgemp,220526,2,2021.2
 2020,Northwest,avgemp,201543,2,2020.2
 2019,Northwest,avgemp,226774,2,2019.2
@@ -89,6 +177,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avgemp,219961,2,2014.2
 2013,Northwest,avgemp,216650,2,2013.2
 2012,Northwest,avgemp,214029,2,2012.2
+2011,Northwest,avgemp,211882,2,2011.2
+2010,Northwest,avgemp,211172,2,2010.2
+2009,Northwest,avgemp,210888,2,2009.2
+2008,Northwest,avgemp,216781,2,2008.2
+2007,Northwest,avgemp,216215,2,2007.2
+2006,Northwest,avgemp,217308,2,2006.2
+2005,Northwest,avgemp,215258,2,2005.2
+2004,Northwest,avgemp,216041,2,2004.2
+2003,Northwest,avgemp,211832,2,2003.2
+2002,Northwest,avgemp,209443,2,2002.2
+2001,Northwest,avgemp,206923,2,2001.2
 2021,Seven County Mpls-St Paul,avgemp,1680067,2,2021.2
 2020,Seven County Mpls-St Paul,avgemp,1550012,2,2020.2
 2019,Seven County Mpls-St Paul,avgemp,1783447,2,2019.2
@@ -99,6 +198,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avgemp,1649932,2,2014.2
 2013,Seven County Mpls-St Paul,avgemp,1626683,2,2013.2
 2012,Seven County Mpls-St Paul,avgemp,1598991,2,2012.2
+2011,Seven County Mpls-St Paul,avgemp,1572390,2,2011.2
+2010,Seven County Mpls-St Paul,avgemp,1547799,2,2010.2
+2009,Seven County Mpls-St Paul,avgemp,1553261,2,2009.2
+2008,Seven County Mpls-St Paul,avgemp,1624198,2,2008.2
+2007,Seven County Mpls-St Paul,avgemp,1632008,2,2007.2
+2006,Seven County Mpls-St Paul,avgemp,1626475,2,2006.2
+2005,Seven County Mpls-St Paul,avgemp,1598825,2,2005.2
+2004,Seven County Mpls-St Paul,avgemp,1585091,2,2004.2
+2003,Seven County Mpls-St Paul,avgemp,1573551,2,2003.2
+2002,Seven County Mpls-St Paul,avgemp,1573538,2,2002.2
+2001,Seven County Mpls-St Paul,avgemp,1612162,2,2001.2
 2021,Southeast,avgemp,239278,2,2021.2
 2020,Southeast,avgemp,221110,2,2020.2
 2019,Southeast,avgemp,247738,2,2019.2
@@ -109,6 +219,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avgemp,237004,2,2014.2
 2013,Southeast,avgemp,236363,2,2013.2
 2012,Southeast,avgemp,234142,2,2012.2
+2011,Southeast,avgemp,229821,2,2011.2
+2010,Southeast,avgemp,226784,2,2010.2
+2009,Southeast,avgemp,228703,2,2009.2
+2008,Southeast,avgemp,235599,2,2008.2
+2007,Southeast,avgemp,235479,2,2007.2
+2006,Southeast,avgemp,235003,2,2006.2
+2005,Southeast,avgemp,230872,2,2005.2
+2004,Southeast,avgemp,229645,2,2004.2
+2003,Southeast,avgemp,227591,2,2003.2
+2002,Southeast,avgemp,227470,2,2002.2
+2001,Southeast,avgemp,228398,2,2001.2
 2021,Southwest,avgemp,169830,2,2021.2
 2020,Southwest,avgemp,160768,2,2020.2
 2019,Southwest,avgemp,177971,2,2019.2
@@ -119,6 +240,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avgemp,176178,2,2014.2
 2013,Southwest,avgemp,175903,2,2013.2
 2012,Southwest,avgemp,175129,2,2012.2
+2011,Southwest,avgemp,174477,2,2011.2
+2010,Southwest,avgemp,172966,2,2010.2
+2009,Southwest,avgemp,175272,2,2009.2
+2008,Southwest,avgemp,180205,2,2008.2
+2007,Southwest,avgemp,179976,2,2007.2
+2006,Southwest,avgemp,180088,2,2006.2
+2005,Southwest,avgemp,177745,2,2005.2
+2004,Southwest,avgemp,176823,2,2004.2
+2003,Southwest,avgemp,175947,2,2003.2
+2002,Southwest,avgemp,176545,2,2002.2
+2001,Southwest,avgemp,177408,2,2001.2
 2021,Central,avgemp,270859,3,2021.3
 2020,Central,avgemp,263913,3,2020.3
 2019,Central,avgemp,280629,3,2019.3
@@ -129,6 +261,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avgemp,266519,3,2014.3
 2013,Central,avgemp,261412,3,2013.3
 2012,Central,avgemp,255791,3,2012.3
+2011,Central,avgemp,251612,3,2011.3
+2010,Central,avgemp,247192,3,2010.3
+2009,Central,avgemp,246545,3,2009.3
+2008,Central,avgemp,259946,3,2008.3
+2007,Central,avgemp,261864,3,2007.3
+2006,Central,avgemp,259186,3,2006.3
+2005,Central,avgemp,255432,3,2005.3
+2004,Central,avgemp,248237,3,2004.3
+2003,Central,avgemp,243478,3,2003.3
+2002,Central,avgemp,242163,3,2002.3
+2001,Central,avgemp,237590,3,2001.3
 2021,Northeast,avgemp,136500,3,2021.3
 2020,Northeast,avgemp,131906,3,2020.3
 2019,Northeast,avgemp,144994,3,2019.3
@@ -139,6 +282,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avgemp,144431,3,2014.3
 2013,Northeast,avgemp,142529,3,2013.3
 2012,Northeast,avgemp,140822,3,2012.3
+2011,Northeast,avgemp,139958,3,2011.3
+2010,Northeast,avgemp,139644,3,2010.3
+2009,Northeast,avgemp,137765,3,2009.3
+2008,Northeast,avgemp,144527,3,2008.3
+2007,Northeast,avgemp,144488,3,2007.3
+2006,Northeast,avgemp,143635,3,2006.3
+2005,Northeast,avgemp,142755,3,2005.3
+2004,Northeast,avgemp,140652,3,2004.3
+2003,Northeast,avgemp,139060,3,2003.3
+2002,Northeast,avgemp,141631,3,2002.3
+2001,Northeast,avgemp,140817,3,2001.3
 2021,Northwest,avgemp,224302,3,2021.3
 2020,Northwest,avgemp,214484,3,2020.3
 2019,Northwest,avgemp,227590,3,2019.3
@@ -149,6 +303,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avgemp,221322,3,2014.3
 2013,Northwest,avgemp,218286,3,2013.3
 2012,Northwest,avgemp,215420,3,2012.3
+2011,Northwest,avgemp,212613,3,2011.3
+2010,Northwest,avgemp,211923,3,2010.3
+2009,Northwest,avgemp,210769,3,2009.3
+2008,Northwest,avgemp,217660,3,2008.3
+2007,Northwest,avgemp,217454,3,2007.3
+2006,Northwest,avgemp,217099,3,2006.3
+2005,Northwest,avgemp,217117,3,2005.3
+2004,Northwest,avgemp,214554,3,2004.3
+2003,Northwest,avgemp,211007,3,2003.3
+2002,Northwest,avgemp,210320,3,2002.3
+2001,Northwest,avgemp,206955,3,2001.3
 2021,Seven County Mpls-St Paul,avgemp,1684839,3,2021.3
 2020,Seven County Mpls-St Paul,avgemp,1619247,3,2020.3
 2019,Seven County Mpls-St Paul,avgemp,1780901,3,2019.3
@@ -159,6 +324,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avgemp,1648535,3,2014.3
 2013,Seven County Mpls-St Paul,avgemp,1623990,3,2013.3
 2012,Seven County Mpls-St Paul,avgemp,1594686,3,2012.3
+2011,Seven County Mpls-St Paul,avgemp,1569777,3,2011.3
+2010,Seven County Mpls-St Paul,avgemp,1541447,3,2010.3
+2009,Seven County Mpls-St Paul,avgemp,1530193,3,2009.3
+2008,Seven County Mpls-St Paul,avgemp,1616344,3,2008.3
+2007,Seven County Mpls-St Paul,avgemp,1626056,3,2007.3
+2006,Seven County Mpls-St Paul,avgemp,1617248,3,2006.3
+2005,Seven County Mpls-St Paul,avgemp,1601745,3,2005.3
+2004,Seven County Mpls-St Paul,avgemp,1574796,3,2004.3
+2003,Seven County Mpls-St Paul,avgemp,1556304,3,2003.3
+2002,Seven County Mpls-St Paul,avgemp,1560003,3,2002.3
+2001,Seven County Mpls-St Paul,avgemp,1591833,3,2001.3
 2021,Southeast,avgemp,239798,3,2021.3
 2020,Southeast,avgemp,232583,3,2020.3
 2019,Southeast,avgemp,248200,3,2019.3
@@ -169,6 +345,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avgemp,236356,3,2014.3
 2013,Southeast,avgemp,236289,3,2013.3
 2012,Southeast,avgemp,234780,3,2012.3
+2011,Southeast,avgemp,230814,3,2011.3
+2010,Southeast,avgemp,226674,3,2010.3
+2009,Southeast,avgemp,226542,3,2009.3
+2008,Southeast,avgemp,236103,3,2008.3
+2007,Southeast,avgemp,236247,3,2007.3
+2006,Southeast,avgemp,234503,3,2006.3
+2005,Southeast,avgemp,232016,3,2005.3
+2004,Southeast,avgemp,228561,3,2004.3
+2003,Southeast,avgemp,226057,3,2003.3
+2002,Southeast,avgemp,227780,3,2002.3
+2001,Southeast,avgemp,227861,3,2001.3
 2021,Southwest,avgemp,168781,3,2021.3
 2020,Southwest,avgemp,166045,3,2020.3
 2019,Southwest,avgemp,176626,3,2019.3
@@ -179,6 +366,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avgemp,174370,3,2014.3
 2013,Southwest,avgemp,174044,3,2013.3
 2012,Southwest,avgemp,172936,3,2012.3
+2011,Southwest,avgemp,172761,3,2011.3
+2010,Southwest,avgemp,171227,3,2010.3
+2009,Southwest,avgemp,171140,3,2009.3
+2008,Southwest,avgemp,177701,3,2008.3
+2007,Southwest,avgemp,178060,3,2007.3
+2006,Southwest,avgemp,177738,3,2006.3
+2005,Southwest,avgemp,177346,3,2005.3
+2004,Southwest,avgemp,174059,3,2004.3
+2003,Southwest,avgemp,173166,3,2003.3
+2002,Southwest,avgemp,174953,3,2002.3
+2001,Southwest,avgemp,173843,3,2001.3
 2020,Central,avgemp,266251,4,2020.4
 2019,Central,avgemp,280951,4,2019.4
 2018,Central,avgemp,279741,4,2018.4
@@ -188,6 +386,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avgemp,267633,4,2014.4
 2013,Central,avgemp,263852,4,2013.4
 2012,Central,avgemp,258155,4,2012.4
+2011,Central,avgemp,253519,4,2011.4
+2010,Central,avgemp,249682,4,2010.4
+2009,Central,avgemp,247556,4,2009.4
+2008,Central,avgemp,259635,4,2008.4
+2007,Central,avgemp,263786,4,2007.4
+2006,Central,avgemp,260835,4,2006.4
+2005,Central,avgemp,256749,4,2005.4
+2004,Central,avgemp,252134,4,2004.4
+2003,Central,avgemp,245173,4,2003.4
+2002,Central,avgemp,242910,4,2002.4
+2001,Central,avgemp,240187,4,2001.4
 2020,Northeast,avgemp,132345,4,2020.4
 2019,Northeast,avgemp,143612,4,2019.4
 2018,Northeast,avgemp,144057,4,2018.4
@@ -197,6 +406,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avgemp,142370,4,2014.4
 2013,Northeast,avgemp,140906,4,2013.4
 2012,Northeast,avgemp,139840,4,2012.4
+2011,Northeast,avgemp,137931,4,2011.4
+2010,Northeast,avgemp,138450,4,2010.4
+2009,Northeast,avgemp,136892,4,2009.4
+2008,Northeast,avgemp,141867,4,2008.4
+2007,Northeast,avgemp,143603,4,2007.4
+2006,Northeast,avgemp,142229,4,2006.4
+2005,Northeast,avgemp,141645,4,2005.4
+2004,Northeast,avgemp,139978,4,2004.4
+2003,Northeast,avgemp,137332,4,2003.4
+2002,Northeast,avgemp,139604,4,2002.4
+2001,Northeast,avgemp,139175,4,2001.4
 2020,Northwest,avgemp,213027,4,2020.4
 2019,Northwest,avgemp,224054,4,2019.4
 2018,Northwest,avgemp,223867,4,2018.4
@@ -206,6 +426,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avgemp,217768,4,2014.4
 2013,Northwest,avgemp,215837,4,2013.4
 2012,Northwest,avgemp,212726,4,2012.4
+2011,Northwest,avgemp,209643,4,2011.4
+2010,Northwest,avgemp,209561,4,2010.4
+2009,Northwest,avgemp,209071,4,2009.4
+2008,Northwest,avgemp,214077,4,2008.4
+2007,Northwest,avgemp,214428,4,2007.4
+2006,Northwest,avgemp,214057,4,2006.4
+2005,Northwest,avgemp,214091,4,2005.4
+2004,Northwest,avgemp,212410,4,2004.4
+2003,Northwest,avgemp,208783,4,2003.4
+2002,Northwest,avgemp,207750,4,2002.4
+2001,Northwest,avgemp,204742,4,2001.4
 2020,Seven County Mpls-St Paul,avgemp,1654181,4,2020.4
 2019,Seven County Mpls-St Paul,avgemp,1793578,4,2019.4
 2018,Seven County Mpls-St Paul,avgemp,1783608,4,2018.4
@@ -215,6 +446,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avgemp,1667501,4,2014.4
 2013,Seven County Mpls-St Paul,avgemp,1644989,4,2013.4
 2012,Seven County Mpls-St Paul,avgemp,1615105,4,2012.4
+2011,Seven County Mpls-St Paul,avgemp,1590132,4,2011.4
+2010,Seven County Mpls-St Paul,avgemp,1559032,4,2010.4
+2009,Seven County Mpls-St Paul,avgemp,1541215,4,2009.4
+2008,Seven County Mpls-St Paul,avgemp,1614384,4,2008.4
+2007,Seven County Mpls-St Paul,avgemp,1638037,4,2007.4
+2006,Seven County Mpls-St Paul,avgemp,1630926,4,2006.4
+2005,Seven County Mpls-St Paul,avgemp,1621500,4,2005.4
+2004,Seven County Mpls-St Paul,avgemp,1598772,4,2004.4
+2003,Seven County Mpls-St Paul,avgemp,1576834,4,2003.4
+2002,Seven County Mpls-St Paul,avgemp,1581433,4,2002.4
+2001,Seven County Mpls-St Paul,avgemp,1600265,4,2001.4
 2020,Southeast,avgemp,235528,4,2020.4
 2019,Southeast,avgemp,249385,4,2019.4
 2018,Southeast,avgemp,246247,4,2018.4
@@ -224,6 +466,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avgemp,238293,4,2014.4
 2013,Southeast,avgemp,237932,4,2013.4
 2012,Southeast,avgemp,236934,4,2012.4
+2011,Southeast,avgemp,231801,4,2011.4
+2010,Southeast,avgemp,227885,4,2010.4
+2009,Southeast,avgemp,227228,4,2009.4
+2008,Southeast,avgemp,235685,4,2008.4
+2007,Southeast,avgemp,236993,4,2007.4
+2006,Southeast,avgemp,235464,4,2006.4
+2005,Southeast,avgemp,233094,4,2005.4
+2004,Southeast,avgemp,230280,4,2004.4
+2003,Southeast,avgemp,226858,4,2003.4
+2002,Southeast,avgemp,228490,4,2002.4
+2001,Southeast,avgemp,227382,4,2001.4
 2020,Southwest,avgemp,169701,4,2020.4
 2019,Southwest,avgemp,179514,4,2019.4
 2018,Southwest,avgemp,179737,4,2018.4
@@ -233,6 +486,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avgemp,177001,4,2014.4
 2013,Southwest,avgemp,177299,4,2013.4
 2012,Southwest,avgemp,175916,4,2012.4
+2011,Southwest,avgemp,174946,4,2011.4
+2010,Southwest,avgemp,173868,4,2010.4
+2009,Southwest,avgemp,172912,4,2009.4
+2008,Southwest,avgemp,179784,4,2008.4
+2007,Southwest,avgemp,179835,4,2007.4
+2006,Southwest,avgemp,179639,4,2006.4
+2005,Southwest,avgemp,178804,4,2005.4
+2004,Southwest,avgemp,176579,4,2004.4
+2003,Southwest,avgemp,174554,4,2003.4
+2002,Southwest,avgemp,176425,4,2002.4
+2001,Southwest,avgemp,175242,4,2001.4
 2021,Central,avg_estab,18328,1,2021.1
 2020,Central,avg_estab,18208,1,2020.1
 2019,Central,avg_estab,17815,1,2019.1
@@ -243,6 +507,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avg_estab,17035,1,2014.1
 2013,Central,avg_estab,17056,1,2013.1
 2012,Central,avg_estab,17305,1,2012.1
+2011,Central,avg_estab,17119,1,2011.1
+2010,Central,avg_estab,17061,1,2010.1
+2009,Central,avg_estab,17377,1,2009.1
+2008,Central,avg_estab,17888,1,2008.1
+2007,Central,avg_estab,17913,1,2007.1
+2006,Central,avg_estab,18482,1,2006.1
+2005,Central,avg_estab,17400,1,2005.1
+2004,Central,avg_estab,16978,1,2004.1
+2003,Central,avg_estab,16436,1,2003.1
+2002,Central,avg_estab,15944,1,2002.1
+2001,Central,avg_estab,15698,1,2001.1
 2021,Northeast,avg_estab,8788,1,2021.1
 2020,Northeast,avg_estab,8824,1,2020.1
 2019,Northeast,avg_estab,8730,1,2019.1
@@ -253,6 +528,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avg_estab,8629,1,2014.1
 2013,Northeast,avg_estab,8820,1,2013.1
 2012,Northeast,avg_estab,9098,1,2012.1
+2011,Northeast,avg_estab,9211,1,2011.1
+2010,Northeast,avg_estab,9243,1,2010.1
+2009,Northeast,avg_estab,9390,1,2009.1
+2008,Northeast,avg_estab,9582,1,2008.1
+2007,Northeast,avg_estab,9615,1,2007.1
+2006,Northeast,avg_estab,9878,1,2006.1
+2005,Northeast,avg_estab,9482,1,2005.1
+2004,Northeast,avg_estab,9336,1,2004.1
+2003,Northeast,avg_estab,9309,1,2003.1
+2002,Northeast,avg_estab,9215,1,2002.1
+2001,Northeast,avg_estab,9281,1,2001.1
 2021,Northwest,avg_estab,17080,1,2021.1
 2020,Northwest,avg_estab,17098,1,2020.1
 2019,Northwest,avg_estab,16826,1,2019.1
@@ -263,6 +549,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avg_estab,16457,1,2014.1
 2013,Northwest,avg_estab,16834,1,2013.1
 2012,Northwest,avg_estab,17148,1,2012.1
+2011,Northwest,avg_estab,17055,1,2011.1
+2010,Northwest,avg_estab,16913,1,2010.1
+2009,Northwest,avg_estab,17116,1,2009.1
+2008,Northwest,avg_estab,17428,1,2008.1
+2007,Northwest,avg_estab,17325,1,2007.1
+2006,Northwest,avg_estab,17845,1,2006.1
+2005,Northwest,avg_estab,16882,1,2005.1
+2004,Northwest,avg_estab,16735,1,2004.1
+2003,Northwest,avg_estab,16445,1,2003.1
+2002,Northwest,avg_estab,16105,1,2002.1
+2001,Northwest,avg_estab,15990,1,2001.1
 2021,Seven County Mpls-St Paul,avg_estab,85268,1,2021.1
 2020,Seven County Mpls-St Paul,avg_estab,84762,1,2020.1
 2019,Seven County Mpls-St Paul,avg_estab,82823,1,2019.1
@@ -273,6 +570,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avg_estab,78109,1,2014.1
 2013,Seven County Mpls-St Paul,avg_estab,78161,1,2013.1
 2012,Seven County Mpls-St Paul,avg_estab,80295,1,2012.1
+2011,Seven County Mpls-St Paul,avg_estab,79682,1,2011.1
+2010,Seven County Mpls-St Paul,avg_estab,79787,1,2010.1
+2009,Seven County Mpls-St Paul,avg_estab,82548,1,2009.1
+2008,Seven County Mpls-St Paul,avg_estab,85421,1,2008.1
+2007,Seven County Mpls-St Paul,avg_estab,85800,1,2007.1
+2006,Seven County Mpls-St Paul,avg_estab,89552,1,2006.1
+2005,Seven County Mpls-St Paul,avg_estab,84293,1,2005.1
+2004,Seven County Mpls-St Paul,avg_estab,82998,1,2004.1
+2003,Seven County Mpls-St Paul,avg_estab,82033,1,2003.1
+2002,Seven County Mpls-St Paul,avg_estab,81219,1,2002.1
+2001,Seven County Mpls-St Paul,avg_estab,81492,1,2001.1
 2021,Southeast,avg_estab,12682,1,2021.1
 2020,Southeast,avg_estab,12695,1,2020.1
 2019,Southeast,avg_estab,12407,1,2019.1
@@ -283,6 +591,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avg_estab,12044,1,2014.1
 2013,Southeast,avg_estab,12112,1,2013.1
 2012,Southeast,avg_estab,12330,1,2012.1
+2011,Southeast,avg_estab,12279,1,2011.1
+2010,Southeast,avg_estab,12186,1,2010.1
+2009,Southeast,avg_estab,12446,1,2009.1
+2008,Southeast,avg_estab,12715,1,2008.1
+2007,Southeast,avg_estab,12702,1,2007.1
+2006,Southeast,avg_estab,13348,1,2006.1
+2005,Southeast,avg_estab,12640,1,2005.1
+2004,Southeast,avg_estab,12354,1,2004.1
+2003,Southeast,avg_estab,12218,1,2003.1
+2002,Southeast,avg_estab,12026,1,2002.1
+2001,Southeast,avg_estab,11945,1,2001.1
 2021,Southwest,avg_estab,12239,1,2021.1
 2020,Southwest,avg_estab,12271,1,2020.1
 2019,Southwest,avg_estab,12115,1,2019.1
@@ -293,6 +612,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avg_estab,11905,1,2014.1
 2013,Southwest,avg_estab,12080,1,2013.1
 2012,Southwest,avg_estab,12202,1,2012.1
+2011,Southwest,avg_estab,12126,1,2011.1
+2010,Southwest,avg_estab,12036,1,2010.1
+2009,Southwest,avg_estab,12259,1,2009.1
+2008,Southwest,avg_estab,12523,1,2008.1
+2007,Southwest,avg_estab,12500,1,2007.1
+2006,Southwest,avg_estab,13034,1,2006.1
+2005,Southwest,avg_estab,12418,1,2005.1
+2004,Southwest,avg_estab,12229,1,2004.1
+2003,Southwest,avg_estab,12266,1,2003.1
+2002,Southwest,avg_estab,12196,1,2002.1
+2001,Southwest,avg_estab,12189,1,2001.1
 2021,Central,avg_estab,18625,2,2021.2
 2020,Central,avg_estab,18449,2,2020.2
 2019,Central,avg_estab,18068,2,2019.2
@@ -303,6 +633,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avg_estab,16981,2,2014.2
 2013,Central,avg_estab,17218,2,2013.2
 2012,Central,avg_estab,16935,2,2012.2
+2011,Central,avg_estab,17269,2,2011.2
+2010,Central,avg_estab,17159,2,2010.2
+2009,Central,avg_estab,17203,2,2009.2
+2008,Central,avg_estab,18054,2,2008.2
+2007,Central,avg_estab,18107,2,2007.2
+2006,Central,avg_estab,18742,2,2006.2
+2005,Central,avg_estab,18022,2,2005.2
+2004,Central,avg_estab,17187,2,2004.2
+2003,Central,avg_estab,16681,2,2003.2
+2002,Central,avg_estab,16226,2,2002.2
+2001,Central,avg_estab,15853,2,2001.2
 2021,Northeast,avg_estab,8898,2,2021.2
 2020,Northeast,avg_estab,8904,2,2020.2
 2019,Northeast,avg_estab,8801,2,2019.2
@@ -313,6 +654,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avg_estab,8637,2,2014.2
 2013,Northeast,avg_estab,8870,2,2013.2
 2012,Northeast,avg_estab,8923,2,2012.2
+2011,Northeast,avg_estab,9255,2,2011.2
+2010,Northeast,avg_estab,9299,2,2010.2
+2009,Northeast,avg_estab,9345,2,2009.2
+2008,Northeast,avg_estab,9643,2,2008.2
+2007,Northeast,avg_estab,9709,2,2007.2
+2006,Northeast,avg_estab,9949,2,2006.2
+2005,Northeast,avg_estab,9754,2,2005.2
+2004,Northeast,avg_estab,9446,2,2004.2
+2003,Northeast,avg_estab,9391,2,2003.2
+2002,Northeast,avg_estab,9336,2,2002.2
+2001,Northeast,avg_estab,9346,2,2001.2
 2021,Northwest,avg_estab,17376,2,2021.2
 2020,Northwest,avg_estab,17305,2,2020.2
 2019,Northwest,avg_estab,17076,2,2019.2
@@ -323,6 +675,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avg_estab,16550,2,2014.2
 2013,Northwest,avg_estab,16939,2,2013.2
 2012,Northwest,avg_estab,16898,2,2012.2
+2011,Northwest,avg_estab,17258,2,2011.2
+2010,Northwest,avg_estab,17044,2,2010.2
+2009,Northwest,avg_estab,17087,2,2009.2
+2008,Northwest,avg_estab,17604,2,2008.2
+2007,Northwest,avg_estab,17569,2,2007.2
+2006,Northwest,avg_estab,18062,2,2006.2
+2005,Northwest,avg_estab,17513,2,2005.2
+2004,Northwest,avg_estab,16974,2,2004.2
+2003,Northwest,avg_estab,16654,2,2003.2
+2002,Northwest,avg_estab,16395,2,2002.2
+2001,Northwest,avg_estab,16124,2,2001.2
 2021,Seven County Mpls-St Paul,avg_estab,86825,2,2021.2
 2020,Seven County Mpls-St Paul,avg_estab,85820,2,2020.2
 2019,Seven County Mpls-St Paul,avg_estab,84120,2,2019.2
@@ -333,6 +696,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avg_estab,77981,2,2014.2
 2013,Seven County Mpls-St Paul,avg_estab,78736,2,2013.2
 2012,Seven County Mpls-St Paul,avg_estab,78291,2,2012.2
+2011,Seven County Mpls-St Paul,avg_estab,80537,2,2011.2
+2010,Seven County Mpls-St Paul,avg_estab,80280,2,2010.2
+2009,Seven County Mpls-St Paul,avg_estab,81513,2,2009.2
+2008,Seven County Mpls-St Paul,avg_estab,86027,2,2008.2
+2007,Seven County Mpls-St Paul,avg_estab,86559,2,2007.2
+2006,Seven County Mpls-St Paul,avg_estab,89985,2,2006.2
+2005,Seven County Mpls-St Paul,avg_estab,87269,2,2005.2
+2004,Seven County Mpls-St Paul,avg_estab,83957,2,2004.2
+2003,Seven County Mpls-St Paul,avg_estab,83191,2,2003.2
+2002,Seven County Mpls-St Paul,avg_estab,82322,2,2002.2
+2001,Seven County Mpls-St Paul,avg_estab,81884,2,2001.2
 2021,Southeast,avg_estab,12853,2,2021.2
 2020,Southeast,avg_estab,12827,2,2020.2
 2019,Southeast,avg_estab,12610,2,2019.2
@@ -343,6 +717,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avg_estab,12041,2,2014.2
 2013,Southeast,avg_estab,12211,2,2013.2
 2012,Southeast,avg_estab,12112,2,2012.2
+2011,Southeast,avg_estab,12370,2,2011.2
+2010,Southeast,avg_estab,12261,2,2010.2
+2009,Southeast,avg_estab,12387,2,2009.2
+2008,Southeast,avg_estab,12808,2,2008.2
+2007,Southeast,avg_estab,12806,2,2007.2
+2006,Southeast,avg_estab,13421,2,2006.2
+2005,Southeast,avg_estab,13059,2,2005.2
+2004,Southeast,avg_estab,12459,2,2004.2
+2003,Southeast,avg_estab,12323,2,2003.2
+2002,Southeast,avg_estab,12212,2,2002.2
+2001,Southeast,avg_estab,12010,2,2001.2
 2021,Southwest,avg_estab,12366,2,2021.2
 2020,Southwest,avg_estab,12356,2,2020.2
 2019,Southwest,avg_estab,12249,2,2019.2
@@ -353,6 +738,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avg_estab,11901,2,2014.2
 2013,Southwest,avg_estab,12168,2,2013.2
 2012,Southwest,avg_estab,12059,2,2012.2
+2011,Southwest,avg_estab,12224,2,2011.2
+2010,Southwest,avg_estab,12094,2,2010.2
+2009,Southwest,avg_estab,12190,2,2009.2
+2008,Southwest,avg_estab,12580,2,2008.2
+2007,Southwest,avg_estab,12613,2,2007.2
+2006,Southwest,avg_estab,13120,2,2006.2
+2005,Southwest,avg_estab,12771,2,2005.2
+2004,Southwest,avg_estab,12348,2,2004.2
+2003,Southwest,avg_estab,12325,2,2003.2
+2002,Southwest,avg_estab,12328,2,2002.2
+2001,Southwest,avg_estab,12228,2,2001.2
 2021,Central,avg_estab,18843,3,2021.3
 2020,Central,avg_estab,18668,3,2020.3
 2019,Central,avg_estab,18263,3,2019.3
@@ -363,6 +759,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avg_estab,16965,3,2014.3
 2013,Central,avg_estab,17323,3,2013.3
 2012,Central,avg_estab,16997,3,2012.3
+2011,Central,avg_estab,17368,3,2011.3
+2010,Central,avg_estab,17240,3,2010.3
+2009,Central,avg_estab,17175,3,2009.3
+2008,Central,avg_estab,17815,3,2008.3
+2007,Central,avg_estab,18014,3,2007.3
+2006,Central,avg_estab,18281,3,2006.3
+2005,Central,avg_estab,18257,3,2005.3
+2004,Central,avg_estab,17311,3,2004.3
+2003,Central,avg_estab,16723,3,2003.3
+2002,Central,avg_estab,16357,3,2002.3
+2001,Central,avg_estab,16007,3,2001.3
 2021,Northeast,avg_estab,8968,3,2021.3
 2020,Northeast,avg_estab,8989,3,2020.3
 2019,Northeast,avg_estab,8868,3,2019.3
@@ -373,6 +780,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avg_estab,8608,3,2014.3
 2013,Northeast,avg_estab,8898,3,2013.3
 2012,Northeast,avg_estab,8903,3,2012.3
+2011,Northeast,avg_estab,9248,3,2011.3
+2010,Northeast,avg_estab,9304,3,2010.3
+2009,Northeast,avg_estab,9333,3,2009.3
+2008,Northeast,avg_estab,9563,3,2008.3
+2007,Northeast,avg_estab,9613,3,2007.3
+2006,Northeast,avg_estab,9734,3,2006.3
+2005,Northeast,avg_estab,9868,3,2005.3
+2004,Northeast,avg_estab,9452,3,2004.3
+2003,Northeast,avg_estab,9404,3,2003.3
+2002,Northeast,avg_estab,9333,3,2002.3
+2001,Northeast,avg_estab,9387,3,2001.3
 2021,Northwest,avg_estab,17529,3,2021.3
 2020,Northwest,avg_estab,17440,3,2020.3
 2019,Northwest,avg_estab,17213,3,2019.3
@@ -383,6 +801,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avg_estab,16529,3,2014.3
 2013,Northwest,avg_estab,17027,3,2013.3
 2012,Northwest,avg_estab,16936,3,2012.3
+2011,Northwest,avg_estab,17307,3,2011.3
+2010,Northwest,avg_estab,17106,3,2010.3
+2009,Northwest,avg_estab,17062,3,2009.3
+2008,Northwest,avg_estab,17479,3,2008.3
+2007,Northwest,avg_estab,17477,3,2007.3
+2006,Northwest,avg_estab,17614,3,2006.3
+2005,Northwest,avg_estab,17762,3,2005.3
+2004,Northwest,avg_estab,17013,3,2004.3
+2003,Northwest,avg_estab,16679,3,2003.3
+2002,Northwest,avg_estab,16459,3,2002.3
+2001,Northwest,avg_estab,16263,3,2001.3
 2021,Seven County Mpls-St Paul,avg_estab,87786,3,2021.3
 2020,Seven County Mpls-St Paul,avg_estab,87368,3,2020.3
 2019,Seven County Mpls-St Paul,avg_estab,85210,3,2019.3
@@ -393,6 +822,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avg_estab,77913,3,2014.3
 2013,Seven County Mpls-St Paul,avg_estab,79404,3,2013.3
 2012,Seven County Mpls-St Paul,avg_estab,78540,3,2012.3
+2011,Seven County Mpls-St Paul,avg_estab,80969,3,2011.3
+2010,Seven County Mpls-St Paul,avg_estab,80481,3,2010.3
+2009,Seven County Mpls-St Paul,avg_estab,81266,3,2009.3
+2008,Seven County Mpls-St Paul,avg_estab,84595,3,2008.3
+2007,Seven County Mpls-St Paul,avg_estab,86021,3,2007.3
+2006,Seven County Mpls-St Paul,avg_estab,87413,3,2006.3
+2005,Seven County Mpls-St Paul,avg_estab,88599,3,2005.3
+2004,Seven County Mpls-St Paul,avg_estab,84224,3,2004.3
+2003,Seven County Mpls-St Paul,avg_estab,83209,3,2003.3
+2002,Seven County Mpls-St Paul,avg_estab,82729,3,2002.3
+2001,Seven County Mpls-St Paul,avg_estab,82686,3,2001.3
 2021,Southeast,avg_estab,12988,3,2021.3
 2020,Southeast,avg_estab,12984,3,2020.3
 2019,Southeast,avg_estab,12737,3,2019.3
@@ -403,6 +843,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avg_estab,12019,3,2014.3
 2013,Southeast,avg_estab,12290,3,2013.3
 2012,Southeast,avg_estab,12117,3,2012.3
+2011,Southeast,avg_estab,12394,3,2011.3
+2010,Southeast,avg_estab,12309,3,2010.3
+2009,Southeast,avg_estab,12362,3,2009.3
+2008,Southeast,avg_estab,12694,3,2008.3
+2007,Southeast,avg_estab,12762,3,2007.3
+2006,Southeast,avg_estab,13094,3,2006.3
+2005,Southeast,avg_estab,13221,3,2005.3
+2004,Southeast,avg_estab,12528,3,2004.3
+2003,Southeast,avg_estab,12320,3,2003.3
+2002,Southeast,avg_estab,12249,3,2002.3
+2001,Southeast,avg_estab,12109,3,2001.3
 2021,Southwest,avg_estab,12489,3,2021.3
 2020,Southwest,avg_estab,12457,3,2020.3
 2019,Southwest,avg_estab,12340,3,2019.3
@@ -413,6 +864,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avg_estab,11909,3,2014.3
 2013,Southwest,avg_estab,12219,3,2013.3
 2012,Southwest,avg_estab,12110,3,2012.3
+2011,Southwest,avg_estab,12249,3,2011.3
+2010,Southwest,avg_estab,12123,3,2010.3
+2009,Southwest,avg_estab,12175,3,2009.3
+2008,Southwest,avg_estab,12483,3,2008.3
+2007,Southwest,avg_estab,12564,3,2007.3
+2006,Southwest,avg_estab,12848,3,2006.3
+2005,Southwest,avg_estab,12888,3,2005.3
+2004,Southwest,avg_estab,12382,3,2004.3
+2003,Southwest,avg_estab,12310,3,2003.3
+2002,Southwest,avg_estab,12379,3,2002.3
+2001,Southwest,avg_estab,12280,3,2001.3
 2020,Central,avg_estab,18828,4,2020.4
 2019,Central,avg_estab,18447,4,2019.4
 2018,Central,avg_estab,18138,4,2018.4
@@ -422,6 +884,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,avg_estab,16934,4,2014.4
 2013,Central,avg_estab,17041,4,2013.4
 2012,Central,avg_estab,17098,4,2012.4
+2011,Central,avg_estab,17356,4,2011.4
+2010,Central,avg_estab,17214,4,2010.4
+2009,Central,avg_estab,17197,4,2009.4
+2008,Central,avg_estab,17833,4,2008.4
+2007,Central,avg_estab,18011,4,2007.4
+2006,Central,avg_estab,18384,4,2006.4
+2005,Central,avg_estab,18308,4,2005.4
+2004,Central,avg_estab,17436,4,2004.4
+2003,Central,avg_estab,16866,4,2003.4
+2002,Central,avg_estab,16363,4,2002.4
+2001,Central,avg_estab,16025,4,2001.4
 2020,Northeast,avg_estab,9061,4,2020.4
 2019,Northeast,avg_estab,8931,4,2019.4
 2018,Northeast,avg_estab,8916,4,2018.4
@@ -431,6 +904,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,avg_estab,8606,4,2014.4
 2013,Northeast,avg_estab,8696,4,2013.4
 2012,Northeast,avg_estab,8918,4,2012.4
+2011,Northeast,avg_estab,9225,4,2011.4
+2010,Northeast,avg_estab,9278,4,2010.4
+2009,Northeast,avg_estab,9324,4,2009.4
+2008,Northeast,avg_estab,9560,4,2008.4
+2007,Northeast,avg_estab,9623,4,2007.4
+2006,Northeast,avg_estab,9747,4,2006.4
+2005,Northeast,avg_estab,9848,4,2005.4
+2004,Northeast,avg_estab,9500,4,2004.4
+2003,Northeast,avg_estab,9400,4,2003.4
+2002,Northeast,avg_estab,9311,4,2002.4
+2001,Northeast,avg_estab,9336,4,2001.4
 2020,Northwest,avg_estab,17610,4,2020.4
 2019,Northwest,avg_estab,17330,4,2019.4
 2018,Northwest,avg_estab,17208,4,2018.4
@@ -440,6 +924,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,avg_estab,16486,4,2014.4
 2013,Northwest,avg_estab,16530,4,2013.4
 2012,Northwest,avg_estab,16946,4,2012.4
+2011,Northwest,avg_estab,17308,4,2011.4
+2010,Northwest,avg_estab,17097,4,2010.4
+2009,Northwest,avg_estab,17058,4,2009.4
+2008,Northwest,avg_estab,17477,4,2008.4
+2007,Northwest,avg_estab,17495,4,2007.4
+2006,Northwest,avg_estab,17707,4,2006.4
+2005,Northwest,avg_estab,17753,4,2005.4
+2004,Northwest,avg_estab,17078,4,2004.4
+2003,Northwest,avg_estab,16674,4,2003.4
+2002,Northwest,avg_estab,16440,4,2002.4
+2001,Northwest,avg_estab,16221,4,2001.4
 2020,Seven County Mpls-St Paul,avg_estab,88575,4,2020.4
 2019,Seven County Mpls-St Paul,avg_estab,86236,4,2019.4
 2018,Seven County Mpls-St Paul,avg_estab,84683,4,2018.4
@@ -449,6 +944,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,avg_estab,77881,4,2014.4
 2013,Seven County Mpls-St Paul,avg_estab,78207,4,2013.4
 2012,Seven County Mpls-St Paul,avg_estab,78850,4,2012.4
+2011,Seven County Mpls-St Paul,avg_estab,80938,4,2011.4
+2010,Seven County Mpls-St Paul,avg_estab,80409,4,2010.4
+2009,Seven County Mpls-St Paul,avg_estab,81116,4,2009.4
+2008,Seven County Mpls-St Paul,avg_estab,84745,4,2008.4
+2007,Seven County Mpls-St Paul,avg_estab,86281,4,2007.4
+2006,Seven County Mpls-St Paul,avg_estab,88086,4,2006.4
+2005,Seven County Mpls-St Paul,avg_estab,89002,4,2005.4
+2004,Seven County Mpls-St Paul,avg_estab,84930,4,2004.4
+2003,Seven County Mpls-St Paul,avg_estab,83798,4,2003.4
+2002,Seven County Mpls-St Paul,avg_estab,82702,4,2002.4
+2001,Seven County Mpls-St Paul,avg_estab,82670,4,2001.4
 2020,Southeast,avg_estab,13119,4,2020.4
 2019,Southeast,avg_estab,12841,4,2019.4
 2018,Southeast,avg_estab,12697,4,2018.4
@@ -458,6 +964,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,avg_estab,11988,4,2014.4
 2013,Southeast,avg_estab,12111,4,2013.4
 2012,Southeast,avg_estab,12146,4,2012.4
+2011,Southeast,avg_estab,12387,4,2011.4
+2010,Southeast,avg_estab,12293,4,2010.4
+2009,Southeast,avg_estab,12360,4,2009.4
+2008,Southeast,avg_estab,12707,4,2008.4
+2007,Southeast,avg_estab,12776,4,2007.4
+2006,Southeast,avg_estab,13135,4,2006.4
+2005,Southeast,avg_estab,13232,4,2005.4
+2004,Southeast,avg_estab,12617,4,2004.4
+2003,Southeast,avg_estab,12365,4,2003.4
+2002,Southeast,avg_estab,12217,4,2002.4
+2001,Southeast,avg_estab,12097,4,2001.4
 2020,Southwest,avg_estab,12585,4,2020.4
 2019,Southwest,avg_estab,12427,4,2019.4
 2018,Southwest,avg_estab,12402,4,2018.4
@@ -467,6 +984,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,avg_estab,11903,4,2014.4
 2013,Southwest,avg_estab,11952,4,2013.4
 2012,Southwest,avg_estab,12112,4,2012.4
+2011,Southwest,avg_estab,12242,4,2011.4
+2010,Southwest,avg_estab,12110,4,2010.4
+2009,Southwest,avg_estab,12166,4,2009.4
+2008,Southwest,avg_estab,12503,4,2008.4
+2007,Southwest,avg_estab,12582,4,2007.4
+2006,Southwest,avg_estab,12850,4,2006.4
+2005,Southwest,avg_estab,12896,4,2005.4
+2004,Southwest,avg_estab,12422,4,2004.4
+2003,Southwest,avg_estab,12320,4,2003.4
+2002,Southwest,avg_estab,12352,4,2002.4
+2001,Southwest,avg_estab,12287,4,2001.4
 2021,Central,totwage,3128432423,1,2021.1
 2020,Central,totwage,3128324284,1,2020.1
 2019,Central,totwage,2981762219,1,2019.1
@@ -477,6 +1005,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,totwage,2355883862,1,2014.1
 2013,Central,totwage,2259878991,1,2013.1
 2012,Central,totwage,2196337559,1,2012.1
+2011,Central,totwage,2047047430,1,2011.1
+2010,Central,totwage,1935693089,1,2010.1
+2009,Central,totwage,2030028987,1,2009.1
+2008,Central,totwage,2115976538,1,2008.1
+2007,Central,totwage,2051523092,1,2007.1
+2006,Central,totwage,1956954651,1,2006.1
+2005,Central,totwage,1740445908,1,2005.1
+2004,Central,totwage,1718173687,1,2004.1
+2003,Central,totwage,1660122160,1,2003.1
+2002,Central,totwage,1594680852,1,2002.1
+2001,Central,totwage,1533443367,1,2001.1
 2021,Northeast,totwage,1572345273,1,2021.1
 2020,Northeast,totwage,1644644548,1,2020.1
 2019,Northeast,totwage,1618836280,1,2019.1
@@ -487,6 +1026,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,totwage,1397074587,1,2014.1
 2013,Northeast,totwage,1354954113,1,2013.1
 2012,Northeast,totwage,1308366563,1,2012.1
+2011,Northeast,totwage,1219561600,1,2011.1
+2010,Northeast,totwage,1156623873,1,2010.1
+2009,Northeast,totwage,1206661077,1,2009.1
+2008,Northeast,totwage,1226558456,1,2008.1
+2007,Northeast,totwage,1175468193,1,2007.1
+2006,Northeast,totwage,1140122850,1,2006.1
+2005,Northeast,totwage,1059170657,1,2005.1
+2004,Northeast,totwage,1071074451,1,2004.1
+2003,Northeast,totwage,1042430035,1,2003.1
+2002,Northeast,totwage,1012309990,1,2002.1
+2001,Northeast,totwage,1000392523,1,2001.1
 2021,Northwest,totwage,2392238629,1,2021.1
 2020,Northwest,totwage,2291986441,1,2020.1
 2019,Northwest,totwage,2203402289,1,2019.1
@@ -497,6 +1047,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,totwage,1810184378,1,2014.1
 2013,Northwest,totwage,1734825666,1,2013.1
 2012,Northwest,totwage,1689010562,1,2012.1
+2011,Northwest,totwage,1561094829,1,2011.1
+2010,Northwest,totwage,1491865023,1,2010.1
+2009,Northwest,totwage,1511832557,1,2009.1
+2008,Northwest,totwage,1556482118,1,2008.1
+2007,Northwest,totwage,1474051825,1,2007.1
+2006,Northwest,totwage,1437588272,1,2006.1
+2005,Northwest,totwage,1324446304,1,2005.1
+2004,Northwest,totwage,1302786892,1,2004.1
+2003,Northwest,totwage,1262752545,1,2003.1
+2002,Northwest,totwage,1211531975,1,2002.1
+2001,Northwest,totwage,1172471247,1,2001.1
 2021,Seven County Mpls-St Paul,totwage,30909428003,1,2021.1
 2020,Seven County Mpls-St Paul,totwage,31947838063,1,2020.1
 2019,Seven County Mpls-St Paul,totwage,31139913800,1,2019.1
@@ -507,6 +1068,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,totwage,24879678871,1,2014.1
 2013,Seven County Mpls-St Paul,totwage,23758817886,1,2013.1
 2012,Seven County Mpls-St Paul,totwage,23083039503,1,2012.1
+2011,Seven County Mpls-St Paul,totwage,21347070765,1,2011.1
+2010,Seven County Mpls-St Paul,totwage,19707934034,1,2010.1
+2009,Seven County Mpls-St Paul,totwage,20193776960,1,2009.1
+2008,Seven County Mpls-St Paul,totwage,21827050262,1,2008.1
+2007,Seven County Mpls-St Paul,totwage,20954182746,1,2007.1
+2006,Seven County Mpls-St Paul,totwage,19713089182,1,2006.1
+2005,Seven County Mpls-St Paul,totwage,18197486170,1,2005.1
+2004,Seven County Mpls-St Paul,totwage,17828948621,1,2004.1
+2003,Seven County Mpls-St Paul,totwage,16945221204,1,2003.1
+2002,Seven County Mpls-St Paul,totwage,16722506894,1,2002.1
+2001,Seven County Mpls-St Paul,totwage,17015795984,1,2001.1
 2021,Southeast,totwage,3259485584,1,2021.1
 2020,Southeast,totwage,3254896439,1,2020.1
 2019,Southeast,totwage,3167805001,1,2019.1
@@ -517,6 +1089,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,totwage,2558227386,1,2014.1
 2013,Southeast,totwage,2488183456,1,2013.1
 2012,Southeast,totwage,2432881748,1,2012.1
+2011,Southeast,totwage,2271477140,1,2011.1
+2010,Southeast,totwage,2162589553,1,2010.1
+2009,Southeast,totwage,2232273689,1,2009.1
+2008,Southeast,totwage,2247819522,1,2008.1
+2007,Southeast,totwage,2198671241,1,2007.1
+2006,Southeast,totwage,2159710243,1,2006.1
+2005,Southeast,totwage,1965460902,1,2005.1
+2004,Southeast,totwage,1933303858,1,2004.1
+2003,Southeast,totwage,1817296530,1,2003.1
+2002,Southeast,totwage,1754477552,1,2002.1
+2001,Southeast,totwage,1719949555,1,2001.1
 2021,Southwest,totwage,1864869257,1,2021.1
 2020,Southwest,totwage,1885746833,1,2020.1
 2019,Southwest,totwage,1821103631,1,2019.1
@@ -527,6 +1110,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,totwage,1515908542,1,2014.1
 2013,Southwest,totwage,1463965166,1,2013.1
 2012,Southwest,totwage,1442489112,1,2012.1
+2011,Southwest,totwage,1342582505,1,2011.1
+2010,Southwest,totwage,1276955073,1,2010.1
+2009,Southwest,totwage,1321586160,1,2009.1
+2008,Southwest,totwage,1360000242,1,2008.1
+2007,Southwest,totwage,1279069542,1,2007.1
+2006,Southwest,totwage,1260179071,1,2006.1
+2005,Southwest,totwage,1138548601,1,2005.1
+2004,Southwest,totwage,1115390332,1,2004.1
+2003,Southwest,totwage,1103812552,1,2003.1
+2002,Southwest,totwage,1057018356,1,2002.1
+2001,Southwest,totwage,1043608470,1,2001.1
 2021,Central,totwage,3299720349,2,2021.2
 2020,Central,totwage,2979415244,2,2020.2
 2019,Central,totwage,3062877716,2,2019.2
@@ -537,6 +1131,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,totwage,2460812795,2,2014.2
 2013,Central,totwage,2353217290,2,2013.2
 2012,Central,totwage,2269827907,2,2012.2
+2011,Central,totwage,2182121000,2,2011.2
+2010,Central,totwage,2076239393,2,2010.2
+2009,Central,totwage,2053197695,2,2009.2
+2008,Central,totwage,2143469295,2,2008.2
+2007,Central,totwage,2110177288,2,2007.2
+2006,Central,totwage,2028866177,2,2006.2
+2005,Central,totwage,1913379693,2,2005.2
+2004,Central,totwage,1859166833,2,2004.2
+2003,Central,totwage,1771694868,2,2003.2
+2002,Central,totwage,1708100915,2,2002.2
+2001,Central,totwage,1612823415,2,2001.2
 2021,Northeast,totwage,1717640199,2,2021.2
 2020,Northeast,totwage,1521431122,2,2020.2
 2019,Northeast,totwage,1664624996,2,2019.2
@@ -547,6 +1152,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,totwage,1367741388,2,2014.2
 2013,Northeast,totwage,1350509061,2,2013.2
 2012,Northeast,totwage,1287027764,2,2012.2
+2011,Northeast,totwage,1305852296,2,2011.2
+2010,Northeast,totwage,1262619382,2,2010.2
+2009,Northeast,totwage,1195261052,2,2009.2
+2008,Northeast,totwage,1277045103,2,2008.2
+2007,Northeast,totwage,1263628392,2,2007.2
+2006,Northeast,totwage,1187849967,2,2006.2
+2005,Northeast,totwage,1104147221,2,2005.2
+2004,Northeast,totwage,1075493734,2,2004.2
+2003,Northeast,totwage,1046944903,2,2003.2
+2002,Northeast,totwage,1043738722,2,2002.2
+2001,Northeast,totwage,1002273500,2,2001.2
 2021,Northwest,totwage,2541506408,2,2021.2
 2020,Northwest,totwage,2240857685,2,2020.2
 2019,Northwest,totwage,2310986308,2,2019.2
@@ -557,6 +1173,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,totwage,1895897606,2,2014.2
 2013,Northwest,totwage,1817556218,2,2013.2
 2012,Northwest,totwage,1743422960,2,2012.2
+2011,Northwest,totwage,1670753778,2,2011.2
+2010,Northwest,totwage,1615237960,2,2010.2
+2009,Northwest,totwage,1573136539,2,2009.2
+2008,Northwest,totwage,1609147082,2,2008.2
+2007,Northwest,totwage,1559883884,2,2007.2
+2006,Northwest,totwage,1506861527,2,2006.2
+2005,Northwest,totwage,1434570443,2,2005.2
+2004,Northwest,totwage,1430470057,2,2004.2
+2003,Northwest,totwage,1360888502,2,2003.2
+2002,Northwest,totwage,1315282771,2,2002.2
+2001,Northwest,totwage,1250305357,2,2001.2
 2021,Seven County Mpls-St Paul,totwage,30045777645,2,2021.2
 2020,Seven County Mpls-St Paul,totwage,26861995968,2,2020.2
 2019,Seven County Mpls-St Paul,totwage,28376645829,2,2019.2
@@ -567,6 +1194,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,totwage,22773861930,2,2014.2
 2013,Seven County Mpls-St Paul,totwage,22040609509,2,2013.2
 2012,Seven County Mpls-St Paul,totwage,21264635907,2,2012.2
+2011,Seven County Mpls-St Paul,totwage,20825561008,2,2011.2
+2010,Seven County Mpls-St Paul,totwage,19785375000,2,2010.2
+2009,Seven County Mpls-St Paul,totwage,19158637742,2,2009.2
+2008,Seven County Mpls-St Paul,totwage,20443371279,2,2008.2
+2007,Seven County Mpls-St Paul,totwage,20295611826,2,2007.2
+2006,Seven County Mpls-St Paul,totwage,18997417671,2,2006.2
+2005,Seven County Mpls-St Paul,totwage,18025923856,2,2005.2
+2004,Seven County Mpls-St Paul,totwage,17438490150,2,2004.2
+2003,Seven County Mpls-St Paul,totwage,16806076211,2,2003.2
+2002,Seven County Mpls-St Paul,totwage,16379800321,2,2002.2
+2001,Seven County Mpls-St Paul,totwage,16474801063,2,2001.2
 2021,Southeast,totwage,3479087003,2,2021.2
 2020,Southeast,totwage,3137544762,2,2020.2
 2019,Southeast,totwage,3150319422,2,2019.2
@@ -577,6 +1215,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,totwage,2643400810,2,2014.2
 2013,Southeast,totwage,2601265181,2,2013.2
 2012,Southeast,totwage,2506615093,2,2012.2
+2011,Southeast,totwage,2398297730,2,2011.2
+2010,Southeast,totwage,2317990817,2,2010.2
+2009,Southeast,totwage,2279381474,2,2009.2
+2008,Southeast,totwage,2229965499,2,2008.2
+2007,Southeast,totwage,2140855565,2,2007.2
+2006,Southeast,totwage,2074486944,2,2006.2
+2005,Southeast,totwage,1996843446,2,2005.2
+2004,Southeast,totwage,1903565382,2,2004.2
+2003,Southeast,totwage,1882674590,2,2003.2
+2002,Southeast,totwage,1822510126,2,2002.2
+2001,Southeast,totwage,1757002582,2,2001.2
 2021,Southwest,totwage,1965108709,2,2021.2
 2020,Southwest,totwage,1820959375,2,2020.2
 2019,Southwest,totwage,1852495885,2,2019.2
@@ -587,6 +1236,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,totwage,1569519682,2,2014.2
 2013,Southwest,totwage,1508869846,2,2013.2
 2012,Southwest,totwage,1473703928,2,2012.2
+2011,Southwest,totwage,1409374359,2,2011.2
+2010,Southwest,totwage,1373413601,2,2010.2
+2009,Southwest,totwage,1347096903,2,2009.2
+2008,Southwest,totwage,1370202892,2,2008.2
+2007,Southwest,totwage,1324008637,2,2007.2
+2006,Southwest,totwage,1277854410,2,2006.2
+2005,Southwest,totwage,1213501502,2,2005.2
+2004,Southwest,totwage,1179667028,2,2004.2
+2003,Southwest,totwage,1136768259,2,2003.2
+2002,Southwest,totwage,1107520810,2,2002.2
+2001,Southwest,totwage,1080913754,2,2001.2
 2021,Central,totwage,3449532800,3,2021.3
 2020,Central,totwage,3175693950,3,2020.3
 2019,Central,totwage,3159988064,3,2019.3
@@ -597,6 +1257,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,totwage,2531958777,3,2014.3
 2013,Central,totwage,2392719082,3,2013.3
 2012,Central,totwage,2302546124,3,2012.3
+2011,Central,totwage,2291614172,3,2011.3
+2010,Central,totwage,2150058983,3,2010.3
+2009,Central,totwage,2084686430,3,2009.3
+2008,Central,totwage,2169224797,3,2008.3
+2007,Central,totwage,2125539493,3,2007.3
+2006,Central,totwage,2030451811,3,2006.3
+2005,Central,totwage,2012524315,3,2005.3
+2004,Central,totwage,1882858614,3,2004.3
+2003,Central,totwage,1762370451,3,2003.3
+2002,Central,totwage,1709268558,3,2002.3
+2001,Central,totwage,1608702430,3,2001.3
 2021,Northeast,totwage,1789151425,3,2021.3
 2020,Northeast,totwage,1585203792,3,2020.3
 2019,Northeast,totwage,1675968793,3,2019.3
@@ -607,6 +1278,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,totwage,1485781882,3,2014.3
 2013,Northeast,totwage,1416704589,3,2013.3
 2012,Northeast,totwage,1364273328,3,2012.3
+2011,Northeast,totwage,1376300944,3,2011.3
+2010,Northeast,totwage,1259373065,3,2010.3
+2009,Northeast,totwage,1199797586,3,2009.3
+2008,Northeast,totwage,1273459283,3,2008.3
+2007,Northeast,totwage,1222941706,3,2007.3
+2006,Northeast,totwage,1165653773,3,2006.3
+2005,Northeast,totwage,1183063200,3,2005.3
+2004,Northeast,totwage,1119662987,3,2004.3
+2003,Northeast,totwage,1083419091,3,2003.3
+2002,Northeast,totwage,1075411335,3,2002.3
+2001,Northeast,totwage,1022392759,3,2001.3
 2021,Northwest,totwage,2696947288,3,2021.3
 2020,Northwest,totwage,2361662244,3,2020.3
 2019,Northwest,totwage,2341368673,3,2019.3
@@ -617,6 +1299,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,totwage,1963712679,3,2014.3
 2013,Northwest,totwage,1876411091,3,2013.3
 2012,Northwest,totwage,1783171422,3,2012.3
+2011,Northwest,totwage,1748031278,3,2011.3
+2010,Northwest,totwage,1660598838,3,2010.3
+2009,Northwest,totwage,1592479009,3,2009.3
+2008,Northwest,totwage,1673715897,3,2008.3
+2007,Northwest,totwage,1561881332,3,2007.3
+2006,Northwest,totwage,1506446696,3,2006.3
+2005,Northwest,totwage,1494277421,3,2005.3
+2004,Northwest,totwage,1430495778,3,2004.3
+2003,Northwest,totwage,1359299774,3,2003.3
+2002,Northwest,totwage,1310536719,3,2002.3
+2001,Northwest,totwage,1233283640,3,2001.3
 2021,Seven County Mpls-St Paul,totwage,30075114654,3,2021.3
 2020,Seven County Mpls-St Paul,totwage,27498970938,3,2020.3
 2019,Seven County Mpls-St Paul,totwage,28192799693,3,2019.3
@@ -627,6 +1320,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,totwage,23014316498,3,2014.3
 2013,Seven County Mpls-St Paul,totwage,22269124696,3,2013.3
 2012,Seven County Mpls-St Paul,totwage,21309229573,3,2012.3
+2011,Seven County Mpls-St Paul,totwage,21092673148,3,2011.3
+2010,Seven County Mpls-St Paul,totwage,19753827934,3,2010.3
+2009,Seven County Mpls-St Paul,totwage,18784179200,3,2009.3
+2008,Seven County Mpls-St Paul,totwage,20559729404,3,2008.3
+2007,Seven County Mpls-St Paul,totwage,19784124115,3,2007.3
+2006,Seven County Mpls-St Paul,totwage,18722365644,3,2006.3
+2005,Seven County Mpls-St Paul,totwage,18719140347,3,2005.3
+2004,Seven County Mpls-St Paul,totwage,17460757278,3,2004.3
+2003,Seven County Mpls-St Paul,totwage,16778937964,3,2003.3
+2002,Seven County Mpls-St Paul,totwage,16144046758,3,2002.3
+2001,Seven County Mpls-St Paul,totwage,15909175109,3,2001.3
 2021,Southeast,totwage,3403441408,3,2021.3
 2020,Southeast,totwage,3131043626,3,2020.3
 2019,Southeast,totwage,3317673087,3,2019.3
@@ -637,6 +1341,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,totwage,2679335111,3,2014.3
 2013,Southeast,totwage,2482115253,3,2013.3
 2012,Southeast,totwage,2402019260,3,2012.3
+2011,Southeast,totwage,2383576965,3,2011.3
+2010,Southeast,totwage,2278777117,3,2010.3
+2009,Southeast,totwage,2165366173,3,2009.3
+2008,Southeast,totwage,2333037262,3,2008.3
+2007,Southeast,totwage,2220996448,3,2007.3
+2006,Southeast,totwage,2143837416,3,2006.3
+2005,Southeast,totwage,2082276656,3,2005.3
+2004,Southeast,totwage,1989809321,3,2004.3
+2003,Southeast,totwage,1888455889,3,2003.3
+2002,Southeast,totwage,1777038540,3,2002.3
+2001,Southeast,totwage,1705995111,3,2001.3
 2021,Southwest,totwage,2017500789,3,2021.3
 2020,Southwest,totwage,1887144096,3,2020.3
 2019,Southwest,totwage,1903959314,3,2019.3
@@ -647,6 +1362,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,totwage,1643679311,3,2014.3
 2013,Southwest,totwage,1547879359,3,2013.3
 2012,Southwest,totwage,1491824147,3,2012.3
+2011,Southwest,totwage,1475744006,3,2011.3
+2010,Southwest,totwage,1398626483,3,2010.3
+2009,Southwest,totwage,1329100023,3,2009.3
+2008,Southwest,totwage,1392499314,3,2008.3
+2007,Southwest,totwage,1323865356,3,2007.3
+2006,Southwest,totwage,1264396063,3,2006.3
+2005,Southwest,totwage,1266929900,3,2005.3
+2004,Southwest,totwage,1184018491,3,2004.3
+2003,Southwest,totwage,1126200924,3,2003.3
+2002,Southwest,totwage,1119520254,3,2002.3
+2001,Southwest,totwage,1063902566,3,2001.3
 2020,Central,totwage,3495430788,4,2020.4
 2019,Central,totwage,3277796744,4,2019.4
 2018,Central,totwage,3167013457,4,2018.4
@@ -656,6 +1382,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Central,totwage,2695014271,4,2014.4
 2013,Central,totwage,2579357721,4,2013.4
 2012,Central,totwage,2497368904,4,2012.4
+2011,Central,totwage,2342928089,4,2011.4
+2010,Central,totwage,2316206174,4,2010.4
+2009,Central,totwage,2241209844,4,2009.4
+2008,Central,totwage,2277054031,4,2008.4
+2007,Central,totwage,2248642450,4,2007.4
+2006,Central,totwage,2167848133,4,2006.4
+2005,Central,totwage,2066037642,4,2005.4
+2004,Central,totwage,2108205446,4,2004.4
+2003,Central,totwage,1937694319,4,2003.4
+2002,Central,totwage,1857477650,4,2002.4
+2001,Central,totwage,1756198027,4,2001.4
 2020,Northeast,totwage,1773271101,4,2020.4
 2019,Northeast,totwage,1754861734,4,2019.4
 2018,Northeast,totwage,1710308994,4,2018.4
@@ -665,6 +1402,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northeast,totwage,1488254036,4,2014.4
 2013,Northeast,totwage,1424254012,4,2013.4
 2012,Northeast,totwage,1368996995,4,2012.4
+2011,Northeast,totwage,1330833081,4,2011.4
+2010,Northeast,totwage,1358564442,4,2010.4
+2009,Northeast,totwage,1294504915,4,2009.4
+2008,Northeast,totwage,1346766673,4,2008.4
+2007,Northeast,totwage,1305118057,4,2007.4
+2006,Northeast,totwage,1238288666,4,2006.4
+2005,Northeast,totwage,1199456403,4,2005.4
+2004,Northeast,totwage,1222155540,4,2004.4
+2003,Northeast,totwage,1091556876,4,2003.4
+2002,Northeast,totwage,1077161498,4,2002.4
+2001,Northeast,totwage,1040240302,4,2001.4
 2020,Northwest,totwage,2643740155,4,2020.4
 2019,Northwest,totwage,2460279709,4,2019.4
 2018,Northwest,totwage,2402019801,4,2018.4
@@ -674,6 +1422,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Northwest,totwage,2079736280,4,2014.4
 2013,Northwest,totwage,1960191317,4,2013.4
 2012,Northwest,totwage,1894745876,4,2012.4
+2011,Northwest,totwage,1802113617,4,2011.4
+2010,Northwest,totwage,1781408633,4,2010.4
+2009,Northwest,totwage,1749770156,4,2009.4
+2008,Northwest,totwage,1711866693,4,2008.4
+2007,Northwest,totwage,1668555381,4,2007.4
+2006,Northwest,totwage,1600434150,4,2006.4
+2005,Northwest,totwage,1550169191,4,2005.4
+2004,Northwest,totwage,1562459719,4,2004.4
+2003,Northwest,totwage,1469951448,4,2003.4
+2002,Northwest,totwage,1418495447,4,2002.4
+2001,Northwest,totwage,1340235254,4,2001.4
 2020,Seven County Mpls-St Paul,totwage,31525553226,4,2020.4
 2019,Seven County Mpls-St Paul,totwage,30352777931,4,2019.4
 2018,Seven County Mpls-St Paul,totwage,29237297477,4,2018.4
@@ -683,6 +1442,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Seven County Mpls-St Paul,totwage,24930739112,4,2014.4
 2013,Seven County Mpls-St Paul,totwage,23570203657,4,2013.4
 2012,Seven County Mpls-St Paul,totwage,23357339798,4,2012.4
+2011,Seven County Mpls-St Paul,totwage,21794947822,4,2011.4
+2010,Seven County Mpls-St Paul,totwage,22262723937,4,2010.4
+2009,Seven County Mpls-St Paul,totwage,21088095084,4,2009.4
+2008,Seven County Mpls-St Paul,totwage,21643531464,4,2008.4
+2007,Seven County Mpls-St Paul,totwage,21457667602,4,2007.4
+2006,Seven County Mpls-St Paul,totwage,20257875486,4,2006.4
+2005,Seven County Mpls-St Paul,totwage,19436656309,4,2005.4
+2004,Seven County Mpls-St Paul,totwage,19846014803,4,2004.4
+2003,Seven County Mpls-St Paul,totwage,18067277988,4,2003.4
+2002,Seven County Mpls-St Paul,totwage,17538454613,4,2002.4
+2001,Seven County Mpls-St Paul,totwage,17367739447,4,2001.4
 2020,Southeast,totwage,3694114403,4,2020.4
 2019,Southeast,totwage,3499486270,4,2019.4
 2018,Southeast,totwage,3352954226,4,2018.4
@@ -692,6 +1462,17 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southeast,totwage,2717904133,4,2014.4
 2013,Southeast,totwage,2746511854,4,2013.4
 2012,Southeast,totwage,2689033649,4,2012.4
+2011,Southeast,totwage,2532656476,4,2011.4
+2010,Southeast,totwage,2844515115,4,2010.4
+2009,Southeast,totwage,2427018509,4,2009.4
+2008,Southeast,totwage,2455450089,4,2008.4
+2007,Southeast,totwage,2360003357,4,2007.4
+2006,Southeast,totwage,2190419536,4,2006.4
+2005,Southeast,totwage,2070163580,4,2005.4
+2004,Southeast,totwage,2093505235,4,2004.4
+2003,Southeast,totwage,1948505810,4,2003.4
+2002,Southeast,totwage,1960365312,4,2002.4
+2001,Southeast,totwage,1868815720,4,2001.4
 2020,Southwest,totwage,2155615788,4,2020.4
 2019,Southwest,totwage,2014780302,4,2019.4
 2018,Southwest,totwage,1962605803,4,2018.4
@@ -701,3 +1482,14 @@ periodyear,planning.region,key,value,quarter,year.quarter
 2014,Southwest,totwage,1728826081,4,2014.4
 2013,Southwest,totwage,1695159099,4,2013.4
 2012,Southwest,totwage,1590620222,4,2012.4
+2011,Southwest,totwage,1522487513,4,2011.4
+2010,Southwest,totwage,1515637705,4,2010.4
+2009,Southwest,totwage,1460284859,4,2009.4
+2008,Southwest,totwage,1475410599,4,2008.4
+2007,Southwest,totwage,1421284349,4,2007.4
+2006,Southwest,totwage,1401506662,4,2006.4
+2005,Southwest,totwage,1309372265,4,2005.4
+2004,Southwest,totwage,1318025893,4,2004.4
+2003,Southwest,totwage,1224667814,4,2003.4
+2002,Southwest,totwage,1195386408,4,2002.4
+2001,Southwest,totwage,1143975271,4,2001.4

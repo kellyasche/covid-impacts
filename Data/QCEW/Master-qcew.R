@@ -31,7 +31,6 @@ regions <- read_csv("Data/Join docs/county_regions.csv") %>%
 
 
 # Prep qcew county --------------------------------------------------------
-
 qcew.county <- read_csv("Data/QCEW/qcew-county.csv") %>%
   select(1, area, 12:23) %>%
   gather(key = "key", value = "value", 3:14) %>% 
@@ -87,3 +86,17 @@ qcew.edr <- read_csv("Data/QCEW/qcew-edr.csv") %>%
 
 write_csv(qcew.edr, "Data/QCEW/Master-qcew-edr.csv")
 
+qcew.mn <- read_csv("Data/QCEW/qcew-mn.csv") %>%
+  select(1, areaname, 12:23) %>%
+  gather(key = "key", value = "value", 3:14) %>% 
+  drop_na() %>%
+  mutate(quarter = str_sub(key, -1, -1),
+         key = str_sub(key, 1, -2),
+         key = as_factor(key),
+         year.quarter = paste(periodyear, ".", quarter, sep = ""),
+         year.quarter = as.numeric(year.quarter),
+         areaname = str_replace(areaname, "  ", " ")) 
+
+write_csv(qcew.mn, "Data/QCEW/Master-qcew-mn.csv")
+
+names(qcew.mn)

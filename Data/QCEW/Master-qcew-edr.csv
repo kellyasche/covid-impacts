@@ -9,6 +9,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avgemp,36485,1,2014.1,Northwest
 2013,EDR 1 - Northwest,avgemp,36043,1,2013.1,Northwest
 2012,EDR 1 - Northwest,avgemp,35603,1,2012.1,Northwest
+2011,EDR 1 - Northwest,avgemp,34927,1,2011.1,Northwest
+2010,EDR 1 - Northwest,avgemp,35004,1,2010.1,Northwest
+2009,EDR 1 - Northwest,avgemp,35879,1,2009.1,Northwest
+2008,EDR 1 - Northwest,avgemp,36348,1,2008.1,Northwest
+2007,EDR 1 - Northwest,avgemp,36362,1,2007.1,Northwest
+2006,EDR 1 - Northwest,avgemp,36693,1,2006.1,Northwest
+2005,EDR 1 - Northwest,avgemp,35903,1,2005.1,Northwest
+2004,EDR 1 - Northwest,avgemp,35746,1,2004.1,Northwest
+2003,EDR 1 - Northwest,avgemp,35601,1,2003.1,Northwest
+2002,EDR 1 - Northwest,avgemp,35165,1,2002.1,Northwest
+2001,EDR 1 - Northwest,avgemp,35044,1,2001.1,Northwest
 2021,EDR 2 - Headwaters,avgemp,30011,1,2021.1,Northwest
 2020,EDR 2 - Headwaters,avgemp,31616,1,2020.1,Northwest
 2019,EDR 2 - Headwaters,avgemp,31556,1,2019.1,Northwest
@@ -19,6 +30,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avgemp,29488,1,2014.1,Northwest
 2013,EDR 2 - Headwaters,avgemp,29044,1,2013.1,Northwest
 2012,EDR 2 - Headwaters,avgemp,28228,1,2012.1,Northwest
+2011,EDR 2 - Headwaters,avgemp,27713,1,2011.1,Northwest
+2010,EDR 2 - Headwaters,avgemp,28025,1,2010.1,Northwest
+2009,EDR 2 - Headwaters,avgemp,28055,1,2009.1,Northwest
+2008,EDR 2 - Headwaters,avgemp,28952,1,2008.1,Northwest
+2007,EDR 2 - Headwaters,avgemp,28805,1,2007.1,Northwest
+2006,EDR 2 - Headwaters,avgemp,29578,1,2006.1,Northwest
+2005,EDR 2 - Headwaters,avgemp,28991,1,2005.1,Northwest
+2004,EDR 2 - Headwaters,avgemp,28892,1,2004.1,Northwest
+2003,EDR 2 - Headwaters,avgemp,29365,1,2003.1,Northwest
+2002,EDR 2 - Headwaters,avgemp,28788,1,2002.1,Northwest
+2001,EDR 2 - Headwaters,avgemp,28632,1,2001.1,Northwest
 2021,EDR 3 - Arrowhead,avgemp,129155,1,2021.1,Northeast
 2020,EDR 3 - Arrowhead,avgemp,139919,1,2020.1,Northeast
 2019,EDR 3 - Arrowhead,avgemp,140549,1,2019.1,Northeast
@@ -29,6 +51,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avgemp,137082,1,2014.1,Northeast
 2013,EDR 3 - Arrowhead,avgemp,136475,1,2013.1,Northeast
 2012,EDR 3 - Arrowhead,avgemp,133932,1,2012.1,Northeast
+2011,EDR 3 - Arrowhead,avgemp,133813,1,2011.1,Northeast
+2010,EDR 3 - Arrowhead,avgemp,132836,1,2010.1,Northeast
+2009,EDR 3 - Arrowhead,avgemp,134914,1,2009.1,Northeast
+2008,EDR 3 - Arrowhead,avgemp,139169,1,2008.1,Northeast
+2007,EDR 3 - Arrowhead,avgemp,137990,1,2007.1,Northeast
+2006,EDR 3 - Arrowhead,avgemp,138126,1,2006.1,Northeast
+2005,EDR 3 - Arrowhead,avgemp,134780,1,2005.1,Northeast
+2004,EDR 3 - Arrowhead,avgemp,134008,1,2004.1,Northeast
+2003,EDR 3 - Arrowhead,avgemp,134855,1,2003.1,Northeast
+2002,EDR 3 - Arrowhead,avgemp,134144,1,2002.1,Northeast
+2001,EDR 3 - Arrowhead,avgemp,136256,1,2001.1,Northeast
 2021,EDR 4 - West Central,avgemp,84170,1,2021.1,Northwest
 2020,EDR 4 - West Central,avgemp,87991,1,2020.1,Northwest
 2019,EDR 4 - West Central,avgemp,87315,1,2019.1,Northwest
@@ -39,6 +72,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avgemp,83271,1,2014.1,Northwest
 2013,EDR 4 - West Central,avgemp,82087,1,2013.1,Northwest
 2012,EDR 4 - West Central,avgemp,80881,1,2012.1,Northwest
+2011,EDR 4 - West Central,avgemp,79378,1,2011.1,Northwest
+2010,EDR 4 - West Central,avgemp,78659,1,2010.1,Northwest
+2009,EDR 4 - West Central,avgemp,79704,1,2009.1,Northwest
+2008,EDR 4 - West Central,avgemp,81573,1,2008.1,Northwest
+2007,EDR 4 - West Central,avgemp,80030,1,2007.1,Northwest
+2006,EDR 4 - West Central,avgemp,81248,1,2006.1,Northwest
+2005,EDR 4 - West Central,avgemp,78361,1,2005.1,Northwest
+2004,EDR 4 - West Central,avgemp,77625,1,2004.1,Northwest
+2003,EDR 4 - West Central,avgemp,77038,1,2003.1,Northwest
+2002,EDR 4 - West Central,avgemp,76447,1,2002.1,Northwest
+2001,EDR 4 - West Central,avgemp,75708,1,2001.1,Northwest
 2021,EDR 5 - North Central,avgemp,59992,1,2021.1,Northwest
 2020,EDR 5 - North Central,avgemp,60354,1,2020.1,Northwest
 2019,EDR 5 - North Central,avgemp,59873,1,2019.1,Northwest
@@ -49,6 +93,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avgemp,57281,1,2014.1,Northwest
 2013,EDR 5 - North Central,avgemp,56968,1,2013.1,Northwest
 2012,EDR 5 - North Central,avgemp,55359,1,2012.1,Northwest
+2011,EDR 5 - North Central,avgemp,56703,1,2011.1,Northwest
+2010,EDR 5 - North Central,avgemp,55887,1,2010.1,Northwest
+2009,EDR 5 - North Central,avgemp,57279,1,2009.1,Northwest
+2008,EDR 5 - North Central,avgemp,59172,1,2008.1,Northwest
+2007,EDR 5 - North Central,avgemp,58951,1,2007.1,Northwest
+2006,EDR 5 - North Central,avgemp,59569,1,2006.1,Northwest
+2005,EDR 5 - North Central,avgemp,57973,1,2005.1,Northwest
+2004,EDR 5 - North Central,avgemp,57148,1,2004.1,Northwest
+2003,EDR 5 - North Central,avgemp,56630,1,2003.1,Northwest
+2002,EDR 5 - North Central,avgemp,55872,1,2002.1,Northwest
+2001,EDR 5 - North Central,avgemp,55555,1,2001.1,Northwest
 2021,EDR 6E- Southwest Central,avgemp,49094,1,2021.1,Central
 2020,EDR 6E- Southwest Central,avgemp,51634,1,2020.1,Central
 2019,EDR 6E- Southwest Central,avgemp,52161,1,2019.1,Central
@@ -59,6 +114,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avgemp,50105,1,2014.1,Central
 2013,EDR 6E- Southwest Central,avgemp,49743,1,2013.1,Central
 2012,EDR 6E- Southwest Central,avgemp,49239,1,2012.1,Central
+2011,EDR 6E- Southwest Central,avgemp,49053,1,2011.1,Central
+2010,EDR 6E- Southwest Central,avgemp,48484,1,2010.1,Central
+2009,EDR 6E- Southwest Central,avgemp,50643,1,2009.1,Central
+2008,EDR 6E- Southwest Central,avgemp,52265,1,2008.1,Central
+2007,EDR 6E- Southwest Central,avgemp,52196,1,2007.1,Central
+2006,EDR 6E- Southwest Central,avgemp,52144,1,2006.1,Central
+2005,EDR 6E- Southwest Central,avgemp,50348,1,2005.1,Central
+2004,EDR 6E- Southwest Central,avgemp,49952,1,2004.1,Central
+2003,EDR 6E- Southwest Central,avgemp,50455,1,2003.1,Central
+2002,EDR 6E- Southwest Central,avgemp,50106,1,2002.1,Central
+2001,EDR 6E- Southwest Central,avgemp,50500,1,2001.1,Central
 2021,EDR 6W- Upper Minnesota Valley,avgemp,15738,1,2021.1,Southwest
 2020,EDR 6W- Upper Minnesota Valley,avgemp,16616,1,2020.1,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avgemp,16898,1,2019.1,Southwest
@@ -69,6 +135,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avgemp,16906,1,2014.1,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avgemp,17016,1,2013.1,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avgemp,17576,1,2012.1,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avgemp,17489,1,2011.1,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avgemp,17754,1,2010.1,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avgemp,18278,1,2009.1,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avgemp,18496,1,2008.1,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avgemp,18219,1,2007.1,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avgemp,18274,1,2006.1,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avgemp,17656,1,2005.1,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avgemp,17531,1,2004.1,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avgemp,17726,1,2003.1,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avgemp,17998,1,2002.1,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avgemp,18014,1,2001.1,Southwest
 2021,EDR 7E- East Central,avgemp,45506,1,2021.1,Central
 2020,EDR 7E- East Central,avgemp,47846,1,2020.1,Central
 2019,EDR 7E- East Central,avgemp,47297,1,2019.1,Central
@@ -79,6 +156,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avgemp,45392,1,2014.1,Central
 2013,EDR 7E- East Central,avgemp,44803,1,2013.1,Central
 2012,EDR 7E- East Central,avgemp,43965,1,2012.1,Central
+2011,EDR 7E- East Central,avgemp,43387,1,2011.1,Central
+2010,EDR 7E- East Central,avgemp,42701,1,2010.1,Central
+2009,EDR 7E- East Central,avgemp,43713,1,2009.1,Central
+2008,EDR 7E- East Central,avgemp,45452,1,2008.1,Central
+2007,EDR 7E- East Central,avgemp,45230,1,2007.1,Central
+2006,EDR 7E- East Central,avgemp,45243,1,2006.1,Central
+2005,EDR 7E- East Central,avgemp,44031,1,2005.1,Central
+2004,EDR 7E- East Central,avgemp,44713,1,2004.1,Central
+2003,EDR 7E- East Central,avgemp,44002,1,2003.1,Central
+2002,EDR 7E- East Central,avgemp,43439,1,2002.1,Central
+2001,EDR 7E- East Central,avgemp,42667,1,2001.1,Central
 2021,EDR 7W- Central,avgemp,164789,1,2021.1,Central
 2020,EDR 7W- Central,avgemp,172865,1,2020.1,Central
 2019,EDR 7W- Central,avgemp,171650,1,2019.1,Central
@@ -89,6 +177,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avgemp,159098,1,2014.1,Central
 2013,EDR 7W- Central,avgemp,154982,1,2013.1,Central
 2012,EDR 7W- Central,avgemp,151975,1,2012.1,Central
+2011,EDR 7W- Central,avgemp,148822,1,2011.1,Central
+2010,EDR 7W- Central,avgemp,144817,1,2010.1,Central
+2009,EDR 7W- Central,avgemp,149011,1,2009.1,Central
+2008,EDR 7W- Central,avgemp,155451,1,2008.1,Central
+2007,EDR 7W- Central,avgemp,155241,1,2007.1,Central
+2006,EDR 7W- Central,avgemp,152285,1,2006.1,Central
+2005,EDR 7W- Central,avgemp,146333,1,2005.1,Central
+2004,EDR 7W- Central,avgemp,141736,1,2004.1,Central
+2003,EDR 7W- Central,avgemp,139699,1,2003.1,Central
+2002,EDR 7W- Central,avgemp,139202,1,2002.1,Central
+2001,EDR 7W- Central,avgemp,136855,1,2001.1,Central
 2021,EDR 8 - Southwest,avgemp,50806,1,2021.1,Southwest
 2020,EDR 8 - Southwest,avgemp,52050,1,2020.1,Southwest
 2019,EDR 8 - Southwest,avgemp,52284,1,2019.1,Southwest
@@ -99,6 +198,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avgemp,53370,1,2014.1,Southwest
 2013,EDR 8 - Southwest,avgemp,52893,1,2013.1,Southwest
 2012,EDR 8 - Southwest,avgemp,52424,1,2012.1,Southwest
+2011,EDR 8 - Southwest,avgemp,51870,1,2011.1,Southwest
+2010,EDR 8 - Southwest,avgemp,51517,1,2010.1,Southwest
+2009,EDR 8 - Southwest,avgemp,52838,1,2009.1,Southwest
+2008,EDR 8 - Southwest,avgemp,53156,1,2008.1,Southwest
+2007,EDR 8 - Southwest,avgemp,52892,1,2007.1,Southwest
+2006,EDR 8 - Southwest,avgemp,52955,1,2006.1,Southwest
+2005,EDR 8 - Southwest,avgemp,52063,1,2005.1,Southwest
+2004,EDR 8 - Southwest,avgemp,51343,1,2004.1,Southwest
+2003,EDR 8 - Southwest,avgemp,51745,1,2003.1,Southwest
+2002,EDR 8 - Southwest,avgemp,51348,1,2002.1,Southwest
+2001,EDR 8 - Southwest,avgemp,52623,1,2001.1,Southwest
 2021,EDR 9 - South Central,avgemp,97151,1,2021.1,Southwest
 2020,EDR 9 - South Central,avgemp,103675,1,2020.1,Southwest
 2019,EDR 9 - South Central,avgemp,103120,1,2019.1,Southwest
@@ -109,6 +219,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avgemp,100217,1,2014.1,Southwest
 2013,EDR 9 - South Central,avgemp,100056,1,2013.1,Southwest
 2012,EDR 9 - South Central,avgemp,99433,1,2012.1,Southwest
+2011,EDR 9 - South Central,avgemp,98704,1,2011.1,Southwest
+2010,EDR 9 - South Central,avgemp,96835,1,2010.1,Southwest
+2009,EDR 9 - South Central,avgemp,100026,1,2009.1,Southwest
+2008,EDR 9 - South Central,avgemp,103021,1,2008.1,Southwest
+2007,EDR 9 - South Central,avgemp,102409,1,2007.1,Southwest
+2006,EDR 9 - South Central,avgemp,103241,1,2006.1,Southwest
+2005,EDR 9 - South Central,avgemp,100340,1,2005.1,Southwest
+2004,EDR 9 - South Central,avgemp,99736,1,2004.1,Southwest
+2003,EDR 9 - South Central,avgemp,100601,1,2003.1,Southwest
+2002,EDR 9 - South Central,avgemp,100532,1,2002.1,Southwest
+2001,EDR 9 - South Central,avgemp,101840,1,2001.1,Southwest
 2021,EDR 10 - Southeast,avgemp,231451,1,2021.1,Southeast
 2020,EDR 10 - Southeast,avgemp,243320,1,2020.1,Southeast
 2019,EDR 10 - Southeast,avgemp,241908,1,2019.1,Southeast
@@ -119,6 +240,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avgemp,229874,1,2014.1,Southeast
 2013,EDR 10 - Southeast,avgemp,230054,1,2013.1,Southeast
 2012,EDR 10 - Southeast,avgemp,226730,1,2012.1,Southeast
+2011,EDR 10 - Southeast,avgemp,221638,1,2011.1,Southeast
+2010,EDR 10 - Southeast,avgemp,219015,1,2010.1,Southeast
+2009,EDR 10 - Southeast,avgemp,225195,1,2009.1,Southeast
+2008,EDR 10 - Southeast,avgemp,229569,1,2008.1,Southeast
+2007,EDR 10 - Southeast,avgemp,228239,1,2007.1,Southeast
+2006,EDR 10 - Southeast,avgemp,228325,1,2006.1,Southeast
+2005,EDR 10 - Southeast,avgemp,222606,1,2005.1,Southeast
+2004,EDR 10 - Southeast,avgemp,221420,1,2004.1,Southeast
+2003,EDR 10 - Southeast,avgemp,221626,1,2003.1,Southeast
+2002,EDR 10 - Southeast,avgemp,221409,1,2002.1,Southeast
+2001,EDR 10 - Southeast,avgemp,224276,1,2001.1,Southeast
 2021,EDR 11 - 7 County Twin Cities,avgemp,1631459,1,2021.1,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,avgemp,1757368,1,2020.1,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avgemp,1747831,1,2019.1,Seven County Mpls-St Paul
@@ -129,6 +261,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avgemp,1607516,1,2014.1,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avgemp,1586784,1,2013.1,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avgemp,1555131,1,2012.1,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avgemp,1526363,1,2011.1,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avgemp,1499885,1,2010.1,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avgemp,1542570,1,2009.1,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avgemp,1596258,1,2008.1,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avgemp,1594648,1,2007.1,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avgemp,1586436,1,2006.1,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avgemp,1553776,1,2005.1,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avgemp,1535707,1,2004.1,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avgemp,1537546,1,2003.1,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avgemp,1547183,1,2002.1,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avgemp,1588687,1,2001.1,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,avgemp,35469,2,2021.2,Northwest
 2020,EDR 1 - Northwest,avgemp,33404,2,2020.2,Northwest
 2019,EDR 1 - Northwest,avgemp,36825,2,2019.2,Northwest
@@ -139,6 +282,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avgemp,38374,2,2014.2,Northwest
 2013,EDR 1 - Northwest,avgemp,37635,2,2013.2,Northwest
 2012,EDR 1 - Northwest,avgemp,37170,2,2012.2,Northwest
+2011,EDR 1 - Northwest,avgemp,36710,2,2011.2,Northwest
+2010,EDR 1 - Northwest,avgemp,36446,2,2010.2,Northwest
+2009,EDR 1 - Northwest,avgemp,36509,2,2009.2,Northwest
+2008,EDR 1 - Northwest,avgemp,37383,2,2008.2,Northwest
+2007,EDR 1 - Northwest,avgemp,37413,2,2007.2,Northwest
+2006,EDR 1 - Northwest,avgemp,37882,2,2006.2,Northwest
+2005,EDR 1 - Northwest,avgemp,37766,2,2005.2,Northwest
+2004,EDR 1 - Northwest,avgemp,37745,2,2004.2,Northwest
+2003,EDR 1 - Northwest,avgemp,36849,2,2003.2,Northwest
+2002,EDR 1 - Northwest,avgemp,36380,2,2002.2,Northwest
+2001,EDR 1 - Northwest,avgemp,36417,2,2001.2,Northwest
 2021,EDR 2 - Headwaters,avgemp,31700,2,2021.2,Northwest
 2020,EDR 2 - Headwaters,avgemp,28934,2,2020.2,Northwest
 2019,EDR 2 - Headwaters,avgemp,32803,2,2019.2,Northwest
@@ -149,6 +303,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avgemp,30965,2,2014.2,Northwest
 2013,EDR 2 - Headwaters,avgemp,30367,2,2013.2,Northwest
 2012,EDR 2 - Headwaters,avgemp,29977,2,2012.2,Northwest
+2011,EDR 2 - Headwaters,avgemp,29242,2,2011.2,Northwest
+2010,EDR 2 - Headwaters,avgemp,29094,2,2010.2,Northwest
+2009,EDR 2 - Headwaters,avgemp,28943,2,2009.2,Northwest
+2008,EDR 2 - Headwaters,avgemp,30136,2,2008.2,Northwest
+2007,EDR 2 - Headwaters,avgemp,29944,2,2007.2,Northwest
+2006,EDR 2 - Headwaters,avgemp,30740,2,2006.2,Northwest
+2005,EDR 2 - Headwaters,avgemp,30822,2,2005.2,Northwest
+2004,EDR 2 - Headwaters,avgemp,30926,2,2004.2,Northwest
+2003,EDR 2 - Headwaters,avgemp,30792,2,2003.2,Northwest
+2002,EDR 2 - Headwaters,avgemp,31134,2,2002.2,Northwest
+2001,EDR 2 - Headwaters,avgemp,30354,2,2001.2,Northwest
 2021,EDR 3 - Arrowhead,avgemp,135365,2,2021.2,Northeast
 2020,EDR 3 - Arrowhead,avgemp,123519,2,2020.2,Northeast
 2019,EDR 3 - Arrowhead,avgemp,145575,2,2019.2,Northeast
@@ -159,6 +324,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avgemp,142556,2,2014.2,Northeast
 2013,EDR 3 - Arrowhead,avgemp,141373,2,2013.2,Northeast
 2012,EDR 3 - Arrowhead,avgemp,139413,2,2012.2,Northeast
+2011,EDR 3 - Arrowhead,avgemp,139590,2,2011.2,Northeast
+2010,EDR 3 - Arrowhead,avgemp,138821,2,2010.2,Northeast
+2009,EDR 3 - Arrowhead,avgemp,137404,2,2009.2,Northeast
+2008,EDR 3 - Arrowhead,avgemp,143909,2,2008.2,Northeast
+2007,EDR 3 - Arrowhead,avgemp,143620,2,2007.2,Northeast
+2006,EDR 3 - Arrowhead,avgemp,142556,2,2006.2,Northeast
+2005,EDR 3 - Arrowhead,avgemp,140917,2,2005.2,Northeast
+2004,EDR 3 - Arrowhead,avgemp,139897,2,2004.2,Northeast
+2003,EDR 3 - Arrowhead,avgemp,138848,2,2003.2,Northeast
+2002,EDR 3 - Arrowhead,avgemp,139331,2,2002.2,Northeast
+2001,EDR 3 - Arrowhead,avgemp,139819,2,2001.2,Northeast
 2021,EDR 4 - West Central,avgemp,89642,2,2021.2,Northwest
 2020,EDR 4 - West Central,avgemp,83066,2,2020.2,Northwest
 2019,EDR 4 - West Central,avgemp,92820,2,2019.2,Northwest
@@ -169,6 +345,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avgemp,88768,2,2014.2,Northwest
 2013,EDR 4 - West Central,avgemp,87427,2,2013.2,Northwest
 2012,EDR 4 - West Central,avgemp,86298,2,2012.2,Northwest
+2011,EDR 4 - West Central,avgemp,84523,2,2011.2,Northwest
+2010,EDR 4 - West Central,avgemp,84385,2,2010.2,Northwest
+2009,EDR 4 - West Central,avgemp,84241,2,2009.2,Northwest
+2008,EDR 4 - West Central,avgemp,85929,2,2008.2,Northwest
+2007,EDR 4 - West Central,avgemp,85211,2,2007.2,Northwest
+2006,EDR 4 - West Central,avgemp,85051,2,2006.2,Northwest
+2005,EDR 4 - West Central,avgemp,83627,2,2005.2,Northwest
+2004,EDR 4 - West Central,avgemp,84263,2,2004.2,Northwest
+2003,EDR 4 - West Central,avgemp,82355,2,2003.2,Northwest
+2002,EDR 4 - West Central,avgemp,80937,2,2002.2,Northwest
+2001,EDR 4 - West Central,avgemp,80434,2,2001.2,Northwest
 2021,EDR 5 - North Central,avgemp,63714,2,2021.2,Northwest
 2020,EDR 5 - North Central,avgemp,56138,2,2020.2,Northwest
 2019,EDR 5 - North Central,avgemp,64324,2,2019.2,Northwest
@@ -179,6 +366,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avgemp,61854,2,2014.2,Northwest
 2013,EDR 5 - North Central,avgemp,61220,2,2013.2,Northwest
 2012,EDR 5 - North Central,avgemp,60583,2,2012.2,Northwest
+2011,EDR 5 - North Central,avgemp,61406,2,2011.2,Northwest
+2010,EDR 5 - North Central,avgemp,61246,2,2010.2,Northwest
+2009,EDR 5 - North Central,avgemp,61194,2,2009.2,Northwest
+2008,EDR 5 - North Central,avgemp,63332,2,2008.2,Northwest
+2007,EDR 5 - North Central,avgemp,63647,2,2007.2,Northwest
+2006,EDR 5 - North Central,avgemp,63633,2,2006.2,Northwest
+2005,EDR 5 - North Central,avgemp,63042,2,2005.2,Northwest
+2004,EDR 5 - North Central,avgemp,63106,2,2004.2,Northwest
+2003,EDR 5 - North Central,avgemp,61835,2,2003.2,Northwest
+2002,EDR 5 - North Central,avgemp,60990,2,2002.2,Northwest
+2001,EDR 5 - North Central,avgemp,59717,2,2001.2,Northwest
 2021,EDR 6E- Southwest Central,avgemp,51014,2,2021.2,Central
 2020,EDR 6E- Southwest Central,avgemp,48838,2,2020.2,Central
 2019,EDR 6E- Southwest Central,avgemp,53639,2,2019.2,Central
@@ -189,6 +387,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avgemp,52552,2,2014.2,Central
 2013,EDR 6E- Southwest Central,avgemp,51971,2,2013.2,Central
 2012,EDR 6E- Southwest Central,avgemp,51620,2,2012.2,Central
+2011,EDR 6E- Southwest Central,avgemp,51377,2,2011.2,Central
+2010,EDR 6E- Southwest Central,avgemp,51152,2,2010.2,Central
+2009,EDR 6E- Southwest Central,avgemp,50929,2,2009.2,Central
+2008,EDR 6E- Southwest Central,avgemp,54184,2,2008.2,Central
+2007,EDR 6E- Southwest Central,avgemp,54029,2,2007.2,Central
+2006,EDR 6E- Southwest Central,avgemp,54180,2,2006.2,Central
+2005,EDR 6E- Southwest Central,avgemp,52773,2,2005.2,Central
+2004,EDR 6E- Southwest Central,avgemp,52756,2,2004.2,Central
+2003,EDR 6E- Southwest Central,avgemp,52499,2,2003.2,Central
+2002,EDR 6E- Southwest Central,avgemp,52268,2,2002.2,Central
+2001,EDR 6E- Southwest Central,avgemp,52480,2,2001.2,Central
 2021,EDR 6W- Upper Minnesota Valley,avgemp,16390,2,2021.2,Southwest
 2020,EDR 6W- Upper Minnesota Valley,avgemp,15746,2,2020.2,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avgemp,17460,2,2019.2,Southwest
@@ -199,6 +408,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avgemp,17597,2,2014.2,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avgemp,17825,2,2013.2,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avgemp,18332,2,2012.2,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avgemp,18353,2,2011.2,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avgemp,18444,2,2010.2,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avgemp,18989,2,2009.2,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avgemp,19271,2,2008.2,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avgemp,19103,2,2007.2,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avgemp,19005,2,2006.2,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avgemp,18469,2,2005.2,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avgemp,18567,2,2004.2,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avgemp,18525,2,2003.2,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avgemp,18782,2,2002.2,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avgemp,18916,2,2001.2,Southwest
 2021,EDR 7E- East Central,avgemp,47782,2,2021.2,Central
 2020,EDR 7E- East Central,avgemp,42712,2,2020.2,Central
 2019,EDR 7E- East Central,avgemp,49208,2,2019.2,Central
@@ -209,6 +429,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avgemp,47132,2,2014.2,Central
 2013,EDR 7E- East Central,avgemp,46778,2,2013.2,Central
 2012,EDR 7E- East Central,avgemp,46165,2,2012.2,Central
+2011,EDR 7E- East Central,avgemp,45176,2,2011.2,Central
+2010,EDR 7E- East Central,avgemp,45200,2,2010.2,Central
+2009,EDR 7E- East Central,avgemp,45552,2,2009.2,Central
+2008,EDR 7E- East Central,avgemp,47614,2,2008.2,Central
+2007,EDR 7E- East Central,avgemp,47537,2,2007.2,Central
+2006,EDR 7E- East Central,avgemp,47752,2,2006.2,Central
+2005,EDR 7E- East Central,avgemp,46384,2,2005.2,Central
+2004,EDR 7E- East Central,avgemp,47614,2,2004.2,Central
+2003,EDR 7E- East Central,avgemp,46775,2,2003.2,Central
+2002,EDR 7E- East Central,avgemp,45679,2,2002.2,Central
+2001,EDR 7E- East Central,avgemp,44558,2,2001.2,Central
 2021,EDR 7W- Central,avgemp,172562,2,2021.2,Central
 2020,EDR 7W- Central,avgemp,159617,2,2020.2,Central
 2019,EDR 7W- Central,avgemp,178373,2,2019.2,Central
@@ -219,6 +450,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avgemp,166360,2,2014.2,Central
 2013,EDR 7W- Central,avgemp,161670,2,2013.2,Central
 2012,EDR 7W- Central,avgemp,159019,2,2012.2,Central
+2011,EDR 7W- Central,avgemp,155564,2,2011.2,Central
+2010,EDR 7W- Central,avgemp,152010,2,2010.2,Central
+2009,EDR 7W- Central,avgemp,153120,2,2009.2,Central
+2008,EDR 7W- Central,avgemp,160208,2,2008.2,Central
+2007,EDR 7W- Central,avgemp,162066,2,2007.2,Central
+2006,EDR 7W- Central,avgemp,159093,2,2006.2,Central
+2005,EDR 7W- Central,avgemp,154015,2,2005.2,Central
+2004,EDR 7W- Central,avgemp,149662,2,2004.2,Central
+2003,EDR 7W- Central,avgemp,145987,2,2003.2,Central
+2002,EDR 7W- Central,avgemp,144708,2,2002.2,Central
+2001,EDR 7W- Central,avgemp,142197,2,2001.2,Central
 2021,EDR 8 - Southwest,avgemp,52811,2,2021.2,Southwest
 2020,EDR 8 - Southwest,avgemp,50359,2,2020.2,Southwest
 2019,EDR 8 - Southwest,avgemp,54034,2,2019.2,Southwest
@@ -229,6 +471,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avgemp,55386,2,2014.2,Southwest
 2013,EDR 8 - Southwest,avgemp,55088,2,2013.2,Southwest
 2012,EDR 8 - Southwest,avgemp,54217,2,2012.2,Southwest
+2011,EDR 8 - Southwest,avgemp,54241,2,2011.2,Southwest
+2010,EDR 8 - Southwest,avgemp,54199,2,2010.2,Southwest
+2009,EDR 8 - Southwest,avgemp,54609,2,2009.2,Southwest
+2008,EDR 8 - Southwest,avgemp,55037,2,2008.2,Southwest
+2007,EDR 8 - Southwest,avgemp,54908,2,2007.2,Southwest
+2006,EDR 8 - Southwest,avgemp,54909,2,2006.2,Southwest
+2005,EDR 8 - Southwest,avgemp,54614,2,2005.2,Southwest
+2004,EDR 8 - Southwest,avgemp,53781,2,2004.2,Southwest
+2003,EDR 8 - Southwest,avgemp,53748,2,2003.2,Southwest
+2002,EDR 8 - Southwest,avgemp,53481,2,2002.2,Southwest
+2001,EDR 8 - Southwest,avgemp,54175,2,2001.2,Southwest
 2021,EDR 9 - South Central,avgemp,100628,2,2021.2,Southwest
 2020,EDR 9 - South Central,avgemp,94662,2,2020.2,Southwest
 2019,EDR 9 - South Central,avgemp,106477,2,2019.2,Southwest
@@ -239,6 +492,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avgemp,103194,2,2014.2,Southwest
 2013,EDR 9 - South Central,avgemp,102989,2,2013.2,Southwest
 2012,EDR 9 - South Central,avgemp,102580,2,2012.2,Southwest
+2011,EDR 9 - South Central,avgemp,101882,2,2011.2,Southwest
+2010,EDR 9 - South Central,avgemp,100322,2,2010.2,Southwest
+2009,EDR 9 - South Central,avgemp,101674,2,2009.2,Southwest
+2008,EDR 9 - South Central,avgemp,105896,2,2008.2,Southwest
+2007,EDR 9 - South Central,avgemp,105964,2,2007.2,Southwest
+2006,EDR 9 - South Central,avgemp,106173,2,2006.2,Southwest
+2005,EDR 9 - South Central,avgemp,104661,2,2005.2,Southwest
+2004,EDR 9 - South Central,avgemp,104474,2,2004.2,Southwest
+2003,EDR 9 - South Central,avgemp,103673,2,2003.2,Southwest
+2002,EDR 9 - South Central,avgemp,104282,2,2002.2,Southwest
+2001,EDR 9 - South Central,avgemp,104316,2,2001.2,Southwest
 2021,EDR 10 - Southeast,avgemp,239278,2,2021.2,Southeast
 2020,EDR 10 - Southeast,avgemp,221110,2,2020.2,Southeast
 2019,EDR 10 - Southeast,avgemp,247738,2,2019.2,Southeast
@@ -249,6 +513,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avgemp,237004,2,2014.2,Southeast
 2013,EDR 10 - Southeast,avgemp,236363,2,2013.2,Southeast
 2012,EDR 10 - Southeast,avgemp,234142,2,2012.2,Southeast
+2011,EDR 10 - Southeast,avgemp,229821,2,2011.2,Southeast
+2010,EDR 10 - Southeast,avgemp,226784,2,2010.2,Southeast
+2009,EDR 10 - Southeast,avgemp,228703,2,2009.2,Southeast
+2008,EDR 10 - Southeast,avgemp,235599,2,2008.2,Southeast
+2007,EDR 10 - Southeast,avgemp,235479,2,2007.2,Southeast
+2006,EDR 10 - Southeast,avgemp,235003,2,2006.2,Southeast
+2005,EDR 10 - Southeast,avgemp,230872,2,2005.2,Southeast
+2004,EDR 10 - Southeast,avgemp,229645,2,2004.2,Southeast
+2003,EDR 10 - Southeast,avgemp,227591,2,2003.2,Southeast
+2002,EDR 10 - Southeast,avgemp,227470,2,2002.2,Southeast
+2001,EDR 10 - Southeast,avgemp,228398,2,2001.2,Southeast
 2021,EDR 11 - 7 County Twin Cities,avgemp,1680067,2,2021.2,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,avgemp,1550012,2,2020.2,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avgemp,1783447,2,2019.2,Seven County Mpls-St Paul
@@ -259,6 +534,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avgemp,1649932,2,2014.2,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avgemp,1626683,2,2013.2,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avgemp,1598991,2,2012.2,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avgemp,1572390,2,2011.2,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avgemp,1547799,2,2010.2,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avgemp,1553261,2,2009.2,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avgemp,1624198,2,2008.2,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avgemp,1632008,2,2007.2,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avgemp,1626475,2,2006.2,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avgemp,1598825,2,2005.2,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avgemp,1585091,2,2004.2,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avgemp,1573551,2,2003.2,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avgemp,1573538,2,2002.2,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avgemp,1612162,2,2001.2,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,avgemp,35386,3,2021.3,Northwest
 2020,EDR 1 - Northwest,avgemp,34602,3,2020.3,Northwest
 2019,EDR 1 - Northwest,avgemp,36330,3,2019.3,Northwest
@@ -269,6 +555,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avgemp,38086,3,2014.3,Northwest
 2013,EDR 1 - Northwest,avgemp,37091,3,2013.3,Northwest
 2012,EDR 1 - Northwest,avgemp,36864,3,2012.3,Northwest
+2011,EDR 1 - Northwest,avgemp,36030,3,2011.3,Northwest
+2010,EDR 1 - Northwest,avgemp,35801,3,2010.3,Northwest
+2009,EDR 1 - Northwest,avgemp,35768,3,2009.3,Northwest
+2008,EDR 1 - Northwest,avgemp,37086,3,2008.3,Northwest
+2007,EDR 1 - Northwest,avgemp,36630,3,2007.3,Northwest
+2006,EDR 1 - Northwest,avgemp,37337,3,2006.3,Northwest
+2005,EDR 1 - Northwest,avgemp,37340,3,2005.3,Northwest
+2004,EDR 1 - Northwest,avgemp,36443,3,2004.3,Northwest
+2003,EDR 1 - Northwest,avgemp,36204,3,2003.3,Northwest
+2002,EDR 1 - Northwest,avgemp,35525,3,2002.3,Northwest
+2001,EDR 1 - Northwest,avgemp,35729,3,2001.3,Northwest
 2021,EDR 2 - Headwaters,avgemp,32605,3,2021.3,Northwest
 2020,EDR 2 - Headwaters,avgemp,31491,3,2020.3,Northwest
 2019,EDR 2 - Headwaters,avgemp,33225,3,2019.3,Northwest
@@ -279,6 +576,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avgemp,31243,3,2014.3,Northwest
 2013,EDR 2 - Headwaters,avgemp,30708,3,2013.3,Northwest
 2012,EDR 2 - Headwaters,avgemp,30183,3,2012.3,Northwest
+2011,EDR 2 - Headwaters,avgemp,29494,3,2011.3,Northwest
+2010,EDR 2 - Headwaters,avgemp,29338,3,2010.3,Northwest
+2009,EDR 2 - Headwaters,avgemp,29424,3,2009.3,Northwest
+2008,EDR 2 - Headwaters,avgemp,30627,3,2008.3,Northwest
+2007,EDR 2 - Headwaters,avgemp,30612,3,2007.3,Northwest
+2006,EDR 2 - Headwaters,avgemp,31101,3,2006.3,Northwest
+2005,EDR 2 - Headwaters,avgemp,31223,3,2005.3,Northwest
+2004,EDR 2 - Headwaters,avgemp,31096,3,2004.3,Northwest
+2003,EDR 2 - Headwaters,avgemp,30597,3,2003.3,Northwest
+2002,EDR 2 - Headwaters,avgemp,31482,3,2002.3,Northwest
+2001,EDR 2 - Headwaters,avgemp,30550,3,2001.3,Northwest
 2021,EDR 3 - Arrowhead,avgemp,136500,3,2021.3,Northeast
 2020,EDR 3 - Arrowhead,avgemp,131906,3,2020.3,Northeast
 2019,EDR 3 - Arrowhead,avgemp,144994,3,2019.3,Northeast
@@ -289,6 +597,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avgemp,144431,3,2014.3,Northeast
 2013,EDR 3 - Arrowhead,avgemp,142529,3,2013.3,Northeast
 2012,EDR 3 - Arrowhead,avgemp,140822,3,2012.3,Northeast
+2011,EDR 3 - Arrowhead,avgemp,139958,3,2011.3,Northeast
+2010,EDR 3 - Arrowhead,avgemp,139644,3,2010.3,Northeast
+2009,EDR 3 - Arrowhead,avgemp,137765,3,2009.3,Northeast
+2008,EDR 3 - Arrowhead,avgemp,144527,3,2008.3,Northeast
+2007,EDR 3 - Arrowhead,avgemp,144488,3,2007.3,Northeast
+2006,EDR 3 - Arrowhead,avgemp,143635,3,2006.3,Northeast
+2005,EDR 3 - Arrowhead,avgemp,142755,3,2005.3,Northeast
+2004,EDR 3 - Arrowhead,avgemp,140652,3,2004.3,Northeast
+2003,EDR 3 - Arrowhead,avgemp,139060,3,2003.3,Northeast
+2002,EDR 3 - Arrowhead,avgemp,141631,3,2002.3,Northeast
+2001,EDR 3 - Arrowhead,avgemp,140817,3,2001.3,Northeast
 2021,EDR 4 - West Central,avgemp,90495,3,2021.3,Northwest
 2020,EDR 4 - West Central,avgemp,87775,3,2020.3,Northwest
 2019,EDR 4 - West Central,avgemp,92989,3,2019.3,Northwest
@@ -299,6 +618,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avgemp,89284,3,2014.3,Northwest
 2013,EDR 4 - West Central,avgemp,88364,3,2013.3,Northwest
 2012,EDR 4 - West Central,avgemp,87175,3,2012.3,Northwest
+2011,EDR 4 - West Central,avgemp,85355,3,2011.3,Northwest
+2010,EDR 4 - West Central,avgemp,85122,3,2010.3,Northwest
+2009,EDR 4 - West Central,avgemp,84416,3,2009.3,Northwest
+2008,EDR 4 - West Central,avgemp,86260,3,2008.3,Northwest
+2007,EDR 4 - West Central,avgemp,86246,3,2007.3,Northwest
+2006,EDR 4 - West Central,avgemp,84938,3,2006.3,Northwest
+2005,EDR 4 - West Central,avgemp,84476,3,2005.3,Northwest
+2004,EDR 4 - West Central,avgemp,83543,3,2004.3,Northwest
+2003,EDR 4 - West Central,avgemp,82117,3,2003.3,Northwest
+2002,EDR 4 - West Central,avgemp,81490,3,2002.3,Northwest
+2001,EDR 4 - West Central,avgemp,80328,3,2001.3,Northwest
 2021,EDR 5 - North Central,avgemp,65815,3,2021.3,Northwest
 2020,EDR 5 - North Central,avgemp,60614,3,2020.3,Northwest
 2019,EDR 5 - North Central,avgemp,65046,3,2019.3,Northwest
@@ -309,6 +639,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avgemp,62708,3,2014.3,Northwest
 2013,EDR 5 - North Central,avgemp,62123,3,2013.3,Northwest
 2012,EDR 5 - North Central,avgemp,61197,3,2012.3,Northwest
+2011,EDR 5 - North Central,avgemp,61733,3,2011.3,Northwest
+2010,EDR 5 - North Central,avgemp,61662,3,2010.3,Northwest
+2009,EDR 5 - North Central,avgemp,61159,3,2009.3,Northwest
+2008,EDR 5 - North Central,avgemp,63686,3,2008.3,Northwest
+2007,EDR 5 - North Central,avgemp,63965,3,2007.3,Northwest
+2006,EDR 5 - North Central,avgemp,63722,3,2006.3,Northwest
+2005,EDR 5 - North Central,avgemp,64078,3,2005.3,Northwest
+2004,EDR 5 - North Central,avgemp,63470,3,2004.3,Northwest
+2003,EDR 5 - North Central,avgemp,62089,3,2003.3,Northwest
+2002,EDR 5 - North Central,avgemp,61823,3,2002.3,Northwest
+2001,EDR 5 - North Central,avgemp,60347,3,2001.3,Northwest
 2021,EDR 6E- Southwest Central,avgemp,50993,3,2021.3,Central
 2020,EDR 6E- Southwest Central,avgemp,51025,3,2020.3,Central
 2019,EDR 6E- Southwest Central,avgemp,53629,3,2019.3,Central
@@ -319,6 +660,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avgemp,53261,3,2014.3,Central
 2013,EDR 6E- Southwest Central,avgemp,53023,3,2013.3,Central
 2012,EDR 6E- Southwest Central,avgemp,52016,3,2012.3,Central
+2011,EDR 6E- Southwest Central,avgemp,52087,3,2011.3,Central
+2010,EDR 6E- Southwest Central,avgemp,51189,3,2010.3,Central
+2009,EDR 6E- Southwest Central,avgemp,51058,3,2009.3,Central
+2008,EDR 6E- Southwest Central,avgemp,54833,3,2008.3,Central
+2007,EDR 6E- Southwest Central,avgemp,54349,3,2007.3,Central
+2006,EDR 6E- Southwest Central,avgemp,54205,3,2006.3,Central
+2005,EDR 6E- Southwest Central,avgemp,54017,3,2005.3,Central
+2004,EDR 6E- Southwest Central,avgemp,52646,3,2004.3,Central
+2003,EDR 6E- Southwest Central,avgemp,52714,3,2003.3,Central
+2002,EDR 6E- Southwest Central,avgemp,52616,3,2002.3,Central
+2001,EDR 6E- Southwest Central,avgemp,52839,3,2001.3,Central
 2021,EDR 6W- Upper Minnesota Valley,avgemp,16163,3,2021.3,Southwest
 2020,EDR 6W- Upper Minnesota Valley,avgemp,15994,3,2020.3,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avgemp,17157,3,2019.3,Southwest
@@ -329,6 +681,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avgemp,17221,3,2014.3,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avgemp,17420,3,2013.3,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avgemp,17782,3,2012.3,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avgemp,18025,3,2011.3,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avgemp,18176,3,2010.3,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avgemp,18350,3,2009.3,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avgemp,18834,3,2008.3,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avgemp,18818,3,2007.3,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avgemp,18535,3,2006.3,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avgemp,18484,3,2005.3,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avgemp,18089,3,2004.3,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avgemp,18034,3,2003.3,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avgemp,18340,3,2002.3,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avgemp,18230,3,2001.3,Southwest
 2021,EDR 7E- East Central,avgemp,47829,3,2021.3,Central
 2020,EDR 7E- East Central,avgemp,45805,3,2020.3,Central
 2019,EDR 7E- East Central,avgemp,49356,3,2019.3,Central
@@ -339,6 +702,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avgemp,46900,3,2014.3,Central
 2013,EDR 7E- East Central,avgemp,46420,3,2013.3,Central
 2012,EDR 7E- East Central,avgemp,45540,3,2012.3,Central
+2011,EDR 7E- East Central,avgemp,44999,3,2011.3,Central
+2010,EDR 7E- East Central,avgemp,44460,3,2010.3,Central
+2009,EDR 7E- East Central,avgemp,44708,3,2009.3,Central
+2008,EDR 7E- East Central,avgemp,46749,3,2008.3,Central
+2007,EDR 7E- East Central,avgemp,47396,3,2007.3,Central
+2006,EDR 7E- East Central,avgemp,47220,3,2006.3,Central
+2005,EDR 7E- East Central,avgemp,46375,3,2005.3,Central
+2004,EDR 7E- East Central,avgemp,47167,3,2004.3,Central
+2003,EDR 7E- East Central,avgemp,46194,3,2003.3,Central
+2002,EDR 7E- East Central,avgemp,45859,3,2002.3,Central
+2001,EDR 7E- East Central,avgemp,44189,3,2001.3,Central
 2021,EDR 7W- Central,avgemp,172036,3,2021.3,Central
 2020,EDR 7W- Central,avgemp,167082,3,2020.3,Central
 2019,EDR 7W- Central,avgemp,177644,3,2019.3,Central
@@ -349,6 +723,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avgemp,166357,3,2014.3,Central
 2013,EDR 7W- Central,avgemp,161968,3,2013.3,Central
 2012,EDR 7W- Central,avgemp,158234,3,2012.3,Central
+2011,EDR 7W- Central,avgemp,154526,3,2011.3,Central
+2010,EDR 7W- Central,avgemp,151542,3,2010.3,Central
+2009,EDR 7W- Central,avgemp,150778,3,2009.3,Central
+2008,EDR 7W- Central,avgemp,158364,3,2008.3,Central
+2007,EDR 7W- Central,avgemp,160117,3,2007.3,Central
+2006,EDR 7W- Central,avgemp,157760,3,2006.3,Central
+2005,EDR 7W- Central,avgemp,155039,3,2005.3,Central
+2004,EDR 7W- Central,avgemp,148423,3,2004.3,Central
+2003,EDR 7W- Central,avgemp,144569,3,2003.3,Central
+2002,EDR 7W- Central,avgemp,143687,3,2002.3,Central
+2001,EDR 7W- Central,avgemp,140561,3,2001.3,Central
 2021,EDR 8 - Southwest,avgemp,51926,3,2021.3,Southwest
 2020,EDR 8 - Southwest,avgemp,50988,3,2020.3,Southwest
 2019,EDR 8 - Southwest,avgemp,52934,3,2019.3,Southwest
@@ -359,6 +744,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avgemp,54810,3,2014.3,Southwest
 2013,EDR 8 - Southwest,avgemp,54294,3,2013.3,Southwest
 2012,EDR 8 - Southwest,avgemp,53526,3,2012.3,Southwest
+2011,EDR 8 - Southwest,avgemp,53563,3,2011.3,Southwest
+2010,EDR 8 - Southwest,avgemp,53368,3,2010.3,Southwest
+2009,EDR 8 - Southwest,avgemp,53559,3,2009.3,Southwest
+2008,EDR 8 - Southwest,avgemp,54316,3,2008.3,Southwest
+2007,EDR 8 - Southwest,avgemp,54006,3,2007.3,Southwest
+2006,EDR 8 - Southwest,avgemp,54068,3,2006.3,Southwest
+2005,EDR 8 - Southwest,avgemp,54325,3,2005.3,Southwest
+2004,EDR 8 - Southwest,avgemp,52631,3,2004.3,Southwest
+2003,EDR 8 - Southwest,avgemp,52774,3,2003.3,Southwest
+2002,EDR 8 - Southwest,avgemp,52708,3,2002.3,Southwest
+2001,EDR 8 - Southwest,avgemp,52728,3,2001.3,Southwest
 2021,EDR 9 - South Central,avgemp,100690,3,2021.3,Southwest
 2020,EDR 9 - South Central,avgemp,99063,3,2020.3,Southwest
 2019,EDR 9 - South Central,avgemp,106534,3,2019.3,Southwest
@@ -369,6 +765,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avgemp,102338,3,2014.3,Southwest
 2013,EDR 9 - South Central,avgemp,102330,3,2013.3,Southwest
 2012,EDR 9 - South Central,avgemp,101628,3,2012.3,Southwest
+2011,EDR 9 - South Central,avgemp,101173,3,2011.3,Southwest
+2010,EDR 9 - South Central,avgemp,99683,3,2010.3,Southwest
+2009,EDR 9 - South Central,avgemp,99230,3,2009.3,Southwest
+2008,EDR 9 - South Central,avgemp,104550,3,2008.3,Southwest
+2007,EDR 9 - South Central,avgemp,105235,3,2007.3,Southwest
+2006,EDR 9 - South Central,avgemp,105135,3,2006.3,Southwest
+2005,EDR 9 - South Central,avgemp,104537,3,2005.3,Southwest
+2004,EDR 9 - South Central,avgemp,103339,3,2004.3,Southwest
+2003,EDR 9 - South Central,avgemp,102356,3,2003.3,Southwest
+2002,EDR 9 - South Central,avgemp,103904,3,2002.3,Southwest
+2001,EDR 9 - South Central,avgemp,102885,3,2001.3,Southwest
 2021,EDR 10 - Southeast,avgemp,239798,3,2021.3,Southeast
 2020,EDR 10 - Southeast,avgemp,232583,3,2020.3,Southeast
 2019,EDR 10 - Southeast,avgemp,248200,3,2019.3,Southeast
@@ -379,6 +786,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avgemp,236356,3,2014.3,Southeast
 2013,EDR 10 - Southeast,avgemp,236289,3,2013.3,Southeast
 2012,EDR 10 - Southeast,avgemp,234780,3,2012.3,Southeast
+2011,EDR 10 - Southeast,avgemp,230814,3,2011.3,Southeast
+2010,EDR 10 - Southeast,avgemp,226674,3,2010.3,Southeast
+2009,EDR 10 - Southeast,avgemp,226542,3,2009.3,Southeast
+2008,EDR 10 - Southeast,avgemp,236103,3,2008.3,Southeast
+2007,EDR 10 - Southeast,avgemp,236247,3,2007.3,Southeast
+2006,EDR 10 - Southeast,avgemp,234503,3,2006.3,Southeast
+2005,EDR 10 - Southeast,avgemp,232016,3,2005.3,Southeast
+2004,EDR 10 - Southeast,avgemp,228561,3,2004.3,Southeast
+2003,EDR 10 - Southeast,avgemp,226057,3,2003.3,Southeast
+2002,EDR 10 - Southeast,avgemp,227780,3,2002.3,Southeast
+2001,EDR 10 - Southeast,avgemp,227861,3,2001.3,Southeast
 2021,EDR 11 - 7 County Twin Cities,avgemp,1684839,3,2021.3,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,avgemp,1619247,3,2020.3,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avgemp,1780901,3,2019.3,Seven County Mpls-St Paul
@@ -389,6 +807,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avgemp,1648535,3,2014.3,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avgemp,1623990,3,2013.3,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avgemp,1594686,3,2012.3,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avgemp,1569777,3,2011.3,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avgemp,1541447,3,2010.3,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avgemp,1530193,3,2009.3,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avgemp,1616344,3,2008.3,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avgemp,1626056,3,2007.3,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avgemp,1617248,3,2006.3,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avgemp,1601745,3,2005.3,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avgemp,1574796,3,2004.3,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avgemp,1556304,3,2003.3,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avgemp,1560003,3,2002.3,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avgemp,1591833,3,2001.3,Seven County Mpls-St Paul
 2020,EDR 1 - Northwest,avgemp,35505,4,2020.4,Northwest
 2019,EDR 1 - Northwest,avgemp,37058,4,2019.4,Northwest
 2018,EDR 1 - Northwest,avgemp,37683,4,2018.4,Northwest
@@ -398,6 +827,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avgemp,39081,4,2014.4,Northwest
 2013,EDR 1 - Northwest,avgemp,38477,4,2013.4,Northwest
 2012,EDR 1 - Northwest,avgemp,37945,4,2012.4,Northwest
+2011,EDR 1 - Northwest,avgemp,37286,4,2011.4,Northwest
+2010,EDR 1 - Northwest,avgemp,37003,4,2010.4,Northwest
+2009,EDR 1 - Northwest,avgemp,36960,4,2009.4,Northwest
+2008,EDR 1 - Northwest,avgemp,38321,4,2008.4,Northwest
+2007,EDR 1 - Northwest,avgemp,37821,4,2007.4,Northwest
+2006,EDR 1 - Northwest,avgemp,38252,4,2006.4,Northwest
+2005,EDR 1 - Northwest,avgemp,38317,4,2005.4,Northwest
+2004,EDR 1 - Northwest,avgemp,38102,4,2004.4,Northwest
+2003,EDR 1 - Northwest,avgemp,37523,4,2003.4,Northwest
+2002,EDR 1 - Northwest,avgemp,37040,4,2002.4,Northwest
+2001,EDR 1 - Northwest,avgemp,36915,4,2001.4,Northwest
 2020,EDR 2 - Headwaters,avgemp,30607,4,2020.4,Northwest
 2019,EDR 2 - Headwaters,avgemp,32643,4,2019.4,Northwest
 2018,EDR 2 - Headwaters,avgemp,32538,4,2018.4,Northwest
@@ -407,6 +847,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avgemp,30925,4,2014.4,Northwest
 2013,EDR 2 - Headwaters,avgemp,30288,4,2013.4,Northwest
 2012,EDR 2 - Headwaters,avgemp,29936,4,2012.4,Northwest
+2011,EDR 2 - Headwaters,avgemp,28929,4,2011.4,Northwest
+2010,EDR 2 - Headwaters,avgemp,28812,4,2010.4,Northwest
+2009,EDR 2 - Headwaters,avgemp,29637,4,2009.4,Northwest
+2008,EDR 2 - Headwaters,avgemp,29986,4,2008.4,Northwest
+2007,EDR 2 - Headwaters,avgemp,29730,4,2007.4,Northwest
+2006,EDR 2 - Headwaters,avgemp,29807,4,2006.4,Northwest
+2005,EDR 2 - Headwaters,avgemp,30229,4,2005.4,Northwest
+2004,EDR 2 - Headwaters,avgemp,30517,4,2004.4,Northwest
+2003,EDR 2 - Headwaters,avgemp,30216,4,2003.4,Northwest
+2002,EDR 2 - Headwaters,avgemp,30862,4,2002.4,Northwest
+2001,EDR 2 - Headwaters,avgemp,30097,4,2001.4,Northwest
 2020,EDR 3 - Arrowhead,avgemp,132345,4,2020.4,Northeast
 2019,EDR 3 - Arrowhead,avgemp,143612,4,2019.4,Northeast
 2018,EDR 3 - Arrowhead,avgemp,144057,4,2018.4,Northeast
@@ -416,6 +867,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avgemp,142370,4,2014.4,Northeast
 2013,EDR 3 - Arrowhead,avgemp,140906,4,2013.4,Northeast
 2012,EDR 3 - Arrowhead,avgemp,139840,4,2012.4,Northeast
+2011,EDR 3 - Arrowhead,avgemp,137931,4,2011.4,Northeast
+2010,EDR 3 - Arrowhead,avgemp,138450,4,2010.4,Northeast
+2009,EDR 3 - Arrowhead,avgemp,136892,4,2009.4,Northeast
+2008,EDR 3 - Arrowhead,avgemp,141867,4,2008.4,Northeast
+2007,EDR 3 - Arrowhead,avgemp,143603,4,2007.4,Northeast
+2006,EDR 3 - Arrowhead,avgemp,142229,4,2006.4,Northeast
+2005,EDR 3 - Arrowhead,avgemp,141645,4,2005.4,Northeast
+2004,EDR 3 - Arrowhead,avgemp,139978,4,2004.4,Northeast
+2003,EDR 3 - Arrowhead,avgemp,137332,4,2003.4,Northeast
+2002,EDR 3 - Arrowhead,avgemp,139604,4,2002.4,Northeast
+2001,EDR 3 - Arrowhead,avgemp,139175,4,2001.4,Northeast
 2020,EDR 4 - West Central,avgemp,87131,4,2020.4,Northwest
 2019,EDR 4 - West Central,avgemp,91545,4,2019.4,Northwest
 2018,EDR 4 - West Central,avgemp,91116,4,2018.4,Northwest
@@ -425,6 +887,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avgemp,87432,4,2014.4,Northwest
 2013,EDR 4 - West Central,avgemp,87419,4,2013.4,Northwest
 2012,EDR 4 - West Central,avgemp,85766,4,2012.4,Northwest
+2011,EDR 4 - West Central,avgemp,84089,4,2011.4,Northwest
+2010,EDR 4 - West Central,avgemp,83939,4,2010.4,Northwest
+2009,EDR 4 - West Central,avgemp,83399,4,2009.4,Northwest
+2008,EDR 4 - West Central,avgemp,84749,4,2008.4,Northwest
+2007,EDR 4 - West Central,avgemp,84973,4,2007.4,Northwest
+2006,EDR 4 - West Central,avgemp,84158,4,2006.4,Northwest
+2005,EDR 4 - West Central,avgemp,83893,4,2005.4,Northwest
+2004,EDR 4 - West Central,avgemp,82419,4,2004.4,Northwest
+2003,EDR 4 - West Central,avgemp,81400,4,2003.4,Northwest
+2002,EDR 4 - West Central,avgemp,80630,4,2002.4,Northwest
+2001,EDR 4 - West Central,avgemp,79067,4,2001.4,Northwest
 2020,EDR 5 - North Central,avgemp,59783,4,2020.4,Northwest
 2019,EDR 5 - North Central,avgemp,62807,4,2019.4,Northwest
 2018,EDR 5 - North Central,avgemp,62529,4,2018.4,Northwest
@@ -434,6 +907,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avgemp,60328,4,2014.4,Northwest
 2013,EDR 5 - North Central,avgemp,59652,4,2013.4,Northwest
 2012,EDR 5 - North Central,avgemp,59079,4,2012.4,Northwest
+2011,EDR 5 - North Central,avgemp,59338,4,2011.4,Northwest
+2010,EDR 5 - North Central,avgemp,59805,4,2010.4,Northwest
+2009,EDR 5 - North Central,avgemp,59073,4,2009.4,Northwest
+2008,EDR 5 - North Central,avgemp,61020,4,2008.4,Northwest
+2007,EDR 5 - North Central,avgemp,61903,4,2007.4,Northwest
+2006,EDR 5 - North Central,avgemp,61840,4,2006.4,Northwest
+2005,EDR 5 - North Central,avgemp,61651,4,2005.4,Northwest
+2004,EDR 5 - North Central,avgemp,61371,4,2004.4,Northwest
+2003,EDR 5 - North Central,avgemp,59643,4,2003.4,Northwest
+2002,EDR 5 - North Central,avgemp,59218,4,2002.4,Northwest
+2001,EDR 5 - North Central,avgemp,58661,4,2001.4,Northwest
 2020,EDR 6E- Southwest Central,avgemp,51462,4,2020.4,Central
 2019,EDR 6E- Southwest Central,avgemp,53954,4,2019.4,Central
 2018,EDR 6E- Southwest Central,avgemp,54541,4,2018.4,Central
@@ -443,6 +927,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avgemp,53404,4,2014.4,Central
 2013,EDR 6E- Southwest Central,avgemp,52555,4,2013.4,Central
 2012,EDR 6E- Southwest Central,avgemp,51536,4,2012.4,Central
+2011,EDR 6E- Southwest Central,avgemp,51810,4,2011.4,Central
+2010,EDR 6E- Southwest Central,avgemp,51217,4,2010.4,Central
+2009,EDR 6E- Southwest Central,avgemp,51251,4,2009.4,Central
+2008,EDR 6E- Southwest Central,avgemp,54217,4,2008.4,Central
+2007,EDR 6E- Southwest Central,avgemp,54144,4,2007.4,Central
+2006,EDR 6E- Southwest Central,avgemp,53880,4,2006.4,Central
+2005,EDR 6E- Southwest Central,avgemp,53796,4,2005.4,Central
+2004,EDR 6E- Southwest Central,avgemp,52993,4,2004.4,Central
+2003,EDR 6E- Southwest Central,avgemp,52517,4,2003.4,Central
+2002,EDR 6E- Southwest Central,avgemp,52518,4,2002.4,Central
+2001,EDR 6E- Southwest Central,avgemp,52072,4,2001.4,Central
 2020,EDR 6W- Upper Minnesota Valley,avgemp,16299,4,2020.4,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avgemp,17477,4,2019.4,Southwest
 2018,EDR 6W- Upper Minnesota Valley,avgemp,17724,4,2018.4,Southwest
@@ -452,6 +947,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avgemp,17517,4,2014.4,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avgemp,17754,4,2013.4,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avgemp,18059,4,2012.4,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avgemp,18374,4,2011.4,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avgemp,18458,4,2010.4,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avgemp,18826,4,2009.4,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avgemp,18882,4,2008.4,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avgemp,18948,4,2007.4,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avgemp,18733,4,2006.4,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avgemp,18726,4,2005.4,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avgemp,18521,4,2004.4,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avgemp,18214,4,2003.4,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avgemp,18393,4,2002.4,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avgemp,18442,4,2001.4,Southwest
 2020,EDR 7E- East Central,avgemp,46385,4,2020.4,Central
 2019,EDR 7E- East Central,avgemp,49190,4,2019.4,Central
 2018,EDR 7E- East Central,avgemp,48883,4,2018.4,Central
@@ -461,6 +967,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avgemp,46838,4,2014.4,Central
 2013,EDR 7E- East Central,avgemp,47093,4,2013.4,Central
 2012,EDR 7E- East Central,avgemp,46181,4,2012.4,Central
+2011,EDR 7E- East Central,avgemp,45236,4,2011.4,Central
+2010,EDR 7E- East Central,avgemp,44691,4,2010.4,Central
+2009,EDR 7E- East Central,avgemp,44350,4,2009.4,Central
+2008,EDR 7E- East Central,avgemp,46468,4,2008.4,Central
+2007,EDR 7E- East Central,avgemp,47538,4,2007.4,Central
+2006,EDR 7E- East Central,avgemp,47250,4,2006.4,Central
+2005,EDR 7E- East Central,avgemp,46709,4,2005.4,Central
+2004,EDR 7E- East Central,avgemp,47617,4,2004.4,Central
+2003,EDR 7E- East Central,avgemp,46344,4,2003.4,Central
+2002,EDR 7E- East Central,avgemp,45908,4,2002.4,Central
+2001,EDR 7E- East Central,avgemp,44414,4,2001.4,Central
 2020,EDR 7W- Central,avgemp,168403,4,2020.4,Central
 2019,EDR 7W- Central,avgemp,177807,4,2019.4,Central
 2018,EDR 7W- Central,avgemp,176316,4,2018.4,Central
@@ -470,6 +987,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avgemp,167391,4,2014.4,Central
 2013,EDR 7W- Central,avgemp,164204,4,2013.4,Central
 2012,EDR 7W- Central,avgemp,160437,4,2012.4,Central
+2011,EDR 7W- Central,avgemp,156472,4,2011.4,Central
+2010,EDR 7W- Central,avgemp,153773,4,2010.4,Central
+2009,EDR 7W- Central,avgemp,151954,4,2009.4,Central
+2008,EDR 7W- Central,avgemp,158949,4,2008.4,Central
+2007,EDR 7W- Central,avgemp,162103,4,2007.4,Central
+2006,EDR 7W- Central,avgemp,159704,4,2006.4,Central
+2005,EDR 7W- Central,avgemp,156243,4,2005.4,Central
+2004,EDR 7W- Central,avgemp,151523,4,2004.4,Central
+2003,EDR 7W- Central,avgemp,146311,4,2003.4,Central
+2002,EDR 7W- Central,avgemp,144484,4,2002.4,Central
+2001,EDR 7W- Central,avgemp,143701,4,2001.4,Central
 2020,EDR 8 - Southwest,avgemp,52250,4,2020.4,Southwest
 2019,EDR 8 - Southwest,avgemp,53681,4,2019.4,Southwest
 2018,EDR 8 - Southwest,avgemp,54306,4,2018.4,Southwest
@@ -479,6 +1007,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avgemp,55176,4,2014.4,Southwest
 2013,EDR 8 - Southwest,avgemp,55009,4,2013.4,Southwest
 2012,EDR 8 - Southwest,avgemp,54409,4,2012.4,Southwest
+2011,EDR 8 - Southwest,avgemp,54373,4,2011.4,Southwest
+2010,EDR 8 - Southwest,avgemp,53273,4,2010.4,Southwest
+2009,EDR 8 - Southwest,avgemp,53600,4,2009.4,Southwest
+2008,EDR 8 - Southwest,avgemp,55419,4,2008.4,Southwest
+2007,EDR 8 - Southwest,avgemp,54895,4,2007.4,Southwest
+2006,EDR 8 - Southwest,avgemp,54728,4,2006.4,Southwest
+2005,EDR 8 - Southwest,avgemp,54461,4,2005.4,Southwest
+2004,EDR 8 - Southwest,avgemp,53729,4,2004.4,Southwest
+2003,EDR 8 - Southwest,avgemp,53266,4,2003.4,Southwest
+2002,EDR 8 - Southwest,avgemp,53337,4,2002.4,Southwest
+2001,EDR 8 - Southwest,avgemp,53327,4,2001.4,Southwest
 2020,EDR 9 - South Central,avgemp,101151,4,2020.4,Southwest
 2019,EDR 9 - South Central,avgemp,108355,4,2019.4,Southwest
 2018,EDR 9 - South Central,avgemp,107706,4,2018.4,Southwest
@@ -488,6 +1027,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avgemp,104308,4,2014.4,Southwest
 2013,EDR 9 - South Central,avgemp,104535,4,2013.4,Southwest
 2012,EDR 9 - South Central,avgemp,103447,4,2012.4,Southwest
+2011,EDR 9 - South Central,avgemp,102198,4,2011.4,Southwest
+2010,EDR 9 - South Central,avgemp,102136,4,2010.4,Southwest
+2009,EDR 9 - South Central,avgemp,100486,4,2009.4,Southwest
+2008,EDR 9 - South Central,avgemp,105482,4,2008.4,Southwest
+2007,EDR 9 - South Central,avgemp,105991,4,2007.4,Southwest
+2006,EDR 9 - South Central,avgemp,106177,4,2006.4,Southwest
+2005,EDR 9 - South Central,avgemp,105617,4,2005.4,Southwest
+2004,EDR 9 - South Central,avgemp,104329,4,2004.4,Southwest
+2003,EDR 9 - South Central,avgemp,103073,4,2003.4,Southwest
+2002,EDR 9 - South Central,avgemp,104694,4,2002.4,Southwest
+2001,EDR 9 - South Central,avgemp,103472,4,2001.4,Southwest
 2020,EDR 10 - Southeast,avgemp,235528,4,2020.4,Southeast
 2019,EDR 10 - Southeast,avgemp,249385,4,2019.4,Southeast
 2018,EDR 10 - Southeast,avgemp,246247,4,2018.4,Southeast
@@ -497,6 +1047,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avgemp,238293,4,2014.4,Southeast
 2013,EDR 10 - Southeast,avgemp,237932,4,2013.4,Southeast
 2012,EDR 10 - Southeast,avgemp,236934,4,2012.4,Southeast
+2011,EDR 10 - Southeast,avgemp,231801,4,2011.4,Southeast
+2010,EDR 10 - Southeast,avgemp,227885,4,2010.4,Southeast
+2009,EDR 10 - Southeast,avgemp,227228,4,2009.4,Southeast
+2008,EDR 10 - Southeast,avgemp,235685,4,2008.4,Southeast
+2007,EDR 10 - Southeast,avgemp,236993,4,2007.4,Southeast
+2006,EDR 10 - Southeast,avgemp,235464,4,2006.4,Southeast
+2005,EDR 10 - Southeast,avgemp,233094,4,2005.4,Southeast
+2004,EDR 10 - Southeast,avgemp,230280,4,2004.4,Southeast
+2003,EDR 10 - Southeast,avgemp,226858,4,2003.4,Southeast
+2002,EDR 10 - Southeast,avgemp,228490,4,2002.4,Southeast
+2001,EDR 10 - Southeast,avgemp,227382,4,2001.4,Southeast
 2020,EDR 11 - 7 County Twin Cities,avgemp,1654181,4,2020.4,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avgemp,1793578,4,2019.4,Seven County Mpls-St Paul
 2018,EDR 11 - 7 County Twin Cities,avgemp,1783608,4,2018.4,Seven County Mpls-St Paul
@@ -506,6 +1067,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avgemp,1667501,4,2014.4,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avgemp,1644989,4,2013.4,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avgemp,1615105,4,2012.4,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avgemp,1590132,4,2011.4,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avgemp,1559032,4,2010.4,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avgemp,1541215,4,2009.4,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avgemp,1614384,4,2008.4,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avgemp,1638037,4,2007.4,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avgemp,1630926,4,2006.4,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avgemp,1621500,4,2005.4,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avgemp,1598772,4,2004.4,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avgemp,1576834,4,2003.4,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avgemp,1581433,4,2002.4,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avgemp,1600265,4,2001.4,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,avg_estab,2708,1,2021.1,Northwest
 2020,EDR 1 - Northwest,avg_estab,2729,1,2020.1,Northwest
 2019,EDR 1 - Northwest,avg_estab,2704,1,2019.1,Northwest
@@ -516,6 +1088,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avg_estab,2679,1,2014.1,Northwest
 2013,EDR 1 - Northwest,avg_estab,2722,1,2013.1,Northwest
 2012,EDR 1 - Northwest,avg_estab,2799,1,2012.1,Northwest
+2011,EDR 1 - Northwest,avg_estab,2762,1,2011.1,Northwest
+2010,EDR 1 - Northwest,avg_estab,2726,1,2010.1,Northwest
+2009,EDR 1 - Northwest,avg_estab,2772,1,2009.1,Northwest
+2008,EDR 1 - Northwest,avg_estab,2805,1,2008.1,Northwest
+2007,EDR 1 - Northwest,avg_estab,2812,1,2007.1,Northwest
+2006,EDR 1 - Northwest,avg_estab,2900,1,2006.1,Northwest
+2005,EDR 1 - Northwest,avg_estab,2752,1,2005.1,Northwest
+2004,EDR 1 - Northwest,avg_estab,2729,1,2004.1,Northwest
+2003,EDR 1 - Northwest,avg_estab,2724,1,2003.1,Northwest
+2002,EDR 1 - Northwest,avg_estab,2693,1,2002.1,Northwest
+2001,EDR 1 - Northwest,avg_estab,2711,1,2001.1,Northwest
 2021,EDR 2 - Headwaters,avg_estab,2357,1,2021.1,Northwest
 2020,EDR 2 - Headwaters,avg_estab,2364,1,2020.1,Northwest
 2019,EDR 2 - Headwaters,avg_estab,2338,1,2019.1,Northwest
@@ -526,6 +1109,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avg_estab,2278,1,2014.1,Northwest
 2013,EDR 2 - Headwaters,avg_estab,2344,1,2013.1,Northwest
 2012,EDR 2 - Headwaters,avg_estab,2387,1,2012.1,Northwest
+2011,EDR 2 - Headwaters,avg_estab,2397,1,2011.1,Northwest
+2010,EDR 2 - Headwaters,avg_estab,2362,1,2010.1,Northwest
+2009,EDR 2 - Headwaters,avg_estab,2398,1,2009.1,Northwest
+2008,EDR 2 - Headwaters,avg_estab,2474,1,2008.1,Northwest
+2007,EDR 2 - Headwaters,avg_estab,2451,1,2007.1,Northwest
+2006,EDR 2 - Headwaters,avg_estab,2544,1,2006.1,Northwest
+2005,EDR 2 - Headwaters,avg_estab,2394,1,2005.1,Northwest
+2004,EDR 2 - Headwaters,avg_estab,2368,1,2004.1,Northwest
+2003,EDR 2 - Headwaters,avg_estab,2340,1,2003.1,Northwest
+2002,EDR 2 - Headwaters,avg_estab,2318,1,2002.1,Northwest
+2001,EDR 2 - Headwaters,avg_estab,2292,1,2001.1,Northwest
 2021,EDR 3 - Arrowhead,avg_estab,8788,1,2021.1,Northeast
 2020,EDR 3 - Arrowhead,avg_estab,8824,1,2020.1,Northeast
 2019,EDR 3 - Arrowhead,avg_estab,8730,1,2019.1,Northeast
@@ -536,6 +1130,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avg_estab,8629,1,2014.1,Northeast
 2013,EDR 3 - Arrowhead,avg_estab,8820,1,2013.1,Northeast
 2012,EDR 3 - Arrowhead,avg_estab,9098,1,2012.1,Northeast
+2011,EDR 3 - Arrowhead,avg_estab,9211,1,2011.1,Northeast
+2010,EDR 3 - Arrowhead,avg_estab,9243,1,2010.1,Northeast
+2009,EDR 3 - Arrowhead,avg_estab,9390,1,2009.1,Northeast
+2008,EDR 3 - Arrowhead,avg_estab,9582,1,2008.1,Northeast
+2007,EDR 3 - Arrowhead,avg_estab,9615,1,2007.1,Northeast
+2006,EDR 3 - Arrowhead,avg_estab,9878,1,2006.1,Northeast
+2005,EDR 3 - Arrowhead,avg_estab,9482,1,2005.1,Northeast
+2004,EDR 3 - Arrowhead,avg_estab,9336,1,2004.1,Northeast
+2003,EDR 3 - Arrowhead,avg_estab,9309,1,2003.1,Northeast
+2002,EDR 3 - Arrowhead,avg_estab,9215,1,2002.1,Northeast
+2001,EDR 3 - Arrowhead,avg_estab,9281,1,2001.1,Northeast
 2021,EDR 4 - West Central,avg_estab,6920,1,2021.1,Northwest
 2020,EDR 4 - West Central,avg_estab,6945,1,2020.1,Northwest
 2019,EDR 4 - West Central,avg_estab,6823,1,2019.1,Northwest
@@ -546,6 +1151,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avg_estab,6708,1,2014.1,Northwest
 2013,EDR 4 - West Central,avg_estab,6934,1,2013.1,Northwest
 2012,EDR 4 - West Central,avg_estab,7033,1,2012.1,Northwest
+2011,EDR 4 - West Central,avg_estab,6962,1,2011.1,Northwest
+2010,EDR 4 - West Central,avg_estab,6921,1,2010.1,Northwest
+2009,EDR 4 - West Central,avg_estab,6968,1,2009.1,Northwest
+2008,EDR 4 - West Central,avg_estab,7049,1,2008.1,Northwest
+2007,EDR 4 - West Central,avg_estab,6984,1,2007.1,Northwest
+2006,EDR 4 - West Central,avg_estab,7185,1,2006.1,Northwest
+2005,EDR 4 - West Central,avg_estab,6772,1,2005.1,Northwest
+2004,EDR 4 - West Central,avg_estab,6740,1,2004.1,Northwest
+2003,EDR 4 - West Central,avg_estab,6566,1,2003.1,Northwest
+2002,EDR 4 - West Central,avg_estab,6384,1,2002.1,Northwest
+2001,EDR 4 - West Central,avg_estab,6330,1,2001.1,Northwest
 2021,EDR 5 - North Central,avg_estab,5095,1,2021.1,Northwest
 2020,EDR 5 - North Central,avg_estab,5060,1,2020.1,Northwest
 2019,EDR 5 - North Central,avg_estab,4961,1,2019.1,Northwest
@@ -556,6 +1172,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avg_estab,4792,1,2014.1,Northwest
 2013,EDR 5 - North Central,avg_estab,4834,1,2013.1,Northwest
 2012,EDR 5 - North Central,avg_estab,4929,1,2012.1,Northwest
+2011,EDR 5 - North Central,avg_estab,4934,1,2011.1,Northwest
+2010,EDR 5 - North Central,avg_estab,4904,1,2010.1,Northwest
+2009,EDR 5 - North Central,avg_estab,4978,1,2009.1,Northwest
+2008,EDR 5 - North Central,avg_estab,5100,1,2008.1,Northwest
+2007,EDR 5 - North Central,avg_estab,5078,1,2007.1,Northwest
+2006,EDR 5 - North Central,avg_estab,5216,1,2006.1,Northwest
+2005,EDR 5 - North Central,avg_estab,4964,1,2005.1,Northwest
+2004,EDR 5 - North Central,avg_estab,4898,1,2004.1,Northwest
+2003,EDR 5 - North Central,avg_estab,4815,1,2003.1,Northwest
+2002,EDR 5 - North Central,avg_estab,4710,1,2002.1,Northwest
+2001,EDR 5 - North Central,avg_estab,4657,1,2001.1,Northwest
 2021,EDR 6E- Southwest Central,avg_estab,3536,1,2021.1,Central
 2020,EDR 6E- Southwest Central,avg_estab,3541,1,2020.1,Central
 2019,EDR 6E- Southwest Central,avg_estab,3516,1,2019.1,Central
@@ -566,6 +1193,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avg_estab,3498,1,2014.1,Central
 2013,EDR 6E- Southwest Central,avg_estab,3520,1,2013.1,Central
 2012,EDR 6E- Southwest Central,avg_estab,3544,1,2012.1,Central
+2011,EDR 6E- Southwest Central,avg_estab,3537,1,2011.1,Central
+2010,EDR 6E- Southwest Central,avg_estab,3519,1,2010.1,Central
+2009,EDR 6E- Southwest Central,avg_estab,3599,1,2009.1,Central
+2008,EDR 6E- Southwest Central,avg_estab,3692,1,2008.1,Central
+2007,EDR 6E- Southwest Central,avg_estab,3694,1,2007.1,Central
+2006,EDR 6E- Southwest Central,avg_estab,3853,1,2006.1,Central
+2005,EDR 6E- Southwest Central,avg_estab,3718,1,2005.1,Central
+2004,EDR 6E- Southwest Central,avg_estab,3676,1,2004.1,Central
+2003,EDR 6E- Southwest Central,avg_estab,3598,1,2003.1,Central
+2002,EDR 6E- Southwest Central,avg_estab,3581,1,2002.1,Central
+2001,EDR 6E- Southwest Central,avg_estab,3576,1,2001.1,Central
 2021,EDR 6W- Upper Minnesota Valley,avg_estab,1540,1,2021.1,Southwest
 2020,EDR 6W- Upper Minnesota Valley,avg_estab,1546,1,2020.1,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avg_estab,1546,1,2019.1,Southwest
@@ -576,6 +1214,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avg_estab,1526,1,2014.1,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avg_estab,1560,1,2013.1,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avg_estab,1582,1,2012.1,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avg_estab,1593,1,2011.1,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avg_estab,1580,1,2010.1,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avg_estab,1597,1,2009.1,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avg_estab,1618,1,2008.1,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avg_estab,1627,1,2007.1,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avg_estab,1719,1,2006.1,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avg_estab,1654,1,2005.1,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avg_estab,1625,1,2004.1,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avg_estab,1664,1,2003.1,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avg_estab,1652,1,2002.1,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avg_estab,1654,1,2001.1,Southwest
 2021,EDR 7E- East Central,avg_estab,3790,1,2021.1,Central
 2020,EDR 7E- East Central,avg_estab,3747,1,2020.1,Central
 2019,EDR 7E- East Central,avg_estab,3659,1,2019.1,Central
@@ -586,6 +1235,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avg_estab,3473,1,2014.1,Central
 2013,EDR 7E- East Central,avg_estab,3499,1,2013.1,Central
 2012,EDR 7E- East Central,avg_estab,3589,1,2012.1,Central
+2011,EDR 7E- East Central,avg_estab,3541,1,2011.1,Central
+2010,EDR 7E- East Central,avg_estab,3547,1,2010.1,Central
+2009,EDR 7E- East Central,avg_estab,3633,1,2009.1,Central
+2008,EDR 7E- East Central,avg_estab,3782,1,2008.1,Central
+2007,EDR 7E- East Central,avg_estab,3821,1,2007.1,Central
+2006,EDR 7E- East Central,avg_estab,3907,1,2006.1,Central
+2005,EDR 7E- East Central,avg_estab,3690,1,2005.1,Central
+2004,EDR 7E- East Central,avg_estab,3610,1,2004.1,Central
+2003,EDR 7E- East Central,avg_estab,3505,1,2003.1,Central
+2002,EDR 7E- East Central,avg_estab,3448,1,2002.1,Central
+2001,EDR 7E- East Central,avg_estab,3373,1,2001.1,Central
 2021,EDR 7W- Central,avg_estab,11002,1,2021.1,Central
 2020,EDR 7W- Central,avg_estab,10920,1,2020.1,Central
 2019,EDR 7W- Central,avg_estab,10640,1,2019.1,Central
@@ -596,6 +1256,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avg_estab,10064,1,2014.1,Central
 2013,EDR 7W- Central,avg_estab,10037,1,2013.1,Central
 2012,EDR 7W- Central,avg_estab,10172,1,2012.1,Central
+2011,EDR 7W- Central,avg_estab,10041,1,2011.1,Central
+2010,EDR 7W- Central,avg_estab,9995,1,2010.1,Central
+2009,EDR 7W- Central,avg_estab,10145,1,2009.1,Central
+2008,EDR 7W- Central,avg_estab,10414,1,2008.1,Central
+2007,EDR 7W- Central,avg_estab,10398,1,2007.1,Central
+2006,EDR 7W- Central,avg_estab,10722,1,2006.1,Central
+2005,EDR 7W- Central,avg_estab,9992,1,2005.1,Central
+2004,EDR 7W- Central,avg_estab,9692,1,2004.1,Central
+2003,EDR 7W- Central,avg_estab,9333,1,2003.1,Central
+2002,EDR 7W- Central,avg_estab,8915,1,2002.1,Central
+2001,EDR 7W- Central,avg_estab,8749,1,2001.1,Central
 2021,EDR 8 - Southwest,avg_estab,3934,1,2021.1,Southwest
 2020,EDR 8 - Southwest,avg_estab,3957,1,2020.1,Southwest
 2019,EDR 8 - Southwest,avg_estab,3914,1,2019.1,Southwest
@@ -606,6 +1277,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avg_estab,3950,1,2014.1,Southwest
 2013,EDR 8 - Southwest,avg_estab,3985,1,2013.1,Southwest
 2012,EDR 8 - Southwest,avg_estab,4024,1,2012.1,Southwest
+2011,EDR 8 - Southwest,avg_estab,3998,1,2011.1,Southwest
+2010,EDR 8 - Southwest,avg_estab,3974,1,2010.1,Southwest
+2009,EDR 8 - Southwest,avg_estab,4042,1,2009.1,Southwest
+2008,EDR 8 - Southwest,avg_estab,4111,1,2008.1,Southwest
+2007,EDR 8 - Southwest,avg_estab,4094,1,2007.1,Southwest
+2006,EDR 8 - Southwest,avg_estab,4241,1,2006.1,Southwest
+2005,EDR 8 - Southwest,avg_estab,4039,1,2005.1,Southwest
+2004,EDR 8 - Southwest,avg_estab,3975,1,2004.1,Southwest
+2003,EDR 8 - Southwest,avg_estab,3978,1,2003.1,Southwest
+2002,EDR 8 - Southwest,avg_estab,3968,1,2002.1,Southwest
+2001,EDR 8 - Southwest,avg_estab,3997,1,2001.1,Southwest
 2021,EDR 9 - South Central,avg_estab,6765,1,2021.1,Southwest
 2020,EDR 9 - South Central,avg_estab,6768,1,2020.1,Southwest
 2019,EDR 9 - South Central,avg_estab,6655,1,2019.1,Southwest
@@ -616,6 +1298,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avg_estab,6429,1,2014.1,Southwest
 2013,EDR 9 - South Central,avg_estab,6535,1,2013.1,Southwest
 2012,EDR 9 - South Central,avg_estab,6596,1,2012.1,Southwest
+2011,EDR 9 - South Central,avg_estab,6535,1,2011.1,Southwest
+2010,EDR 9 - South Central,avg_estab,6482,1,2010.1,Southwest
+2009,EDR 9 - South Central,avg_estab,6620,1,2009.1,Southwest
+2008,EDR 9 - South Central,avg_estab,6794,1,2008.1,Southwest
+2007,EDR 9 - South Central,avg_estab,6779,1,2007.1,Southwest
+2006,EDR 9 - South Central,avg_estab,7074,1,2006.1,Southwest
+2005,EDR 9 - South Central,avg_estab,6725,1,2005.1,Southwest
+2004,EDR 9 - South Central,avg_estab,6629,1,2004.1,Southwest
+2003,EDR 9 - South Central,avg_estab,6624,1,2003.1,Southwest
+2002,EDR 9 - South Central,avg_estab,6576,1,2002.1,Southwest
+2001,EDR 9 - South Central,avg_estab,6538,1,2001.1,Southwest
 2021,EDR 10 - Southeast,avg_estab,12682,1,2021.1,Southeast
 2020,EDR 10 - Southeast,avg_estab,12695,1,2020.1,Southeast
 2019,EDR 10 - Southeast,avg_estab,12407,1,2019.1,Southeast
@@ -626,6 +1319,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avg_estab,12044,1,2014.1,Southeast
 2013,EDR 10 - Southeast,avg_estab,12112,1,2013.1,Southeast
 2012,EDR 10 - Southeast,avg_estab,12330,1,2012.1,Southeast
+2011,EDR 10 - Southeast,avg_estab,12279,1,2011.1,Southeast
+2010,EDR 10 - Southeast,avg_estab,12186,1,2010.1,Southeast
+2009,EDR 10 - Southeast,avg_estab,12446,1,2009.1,Southeast
+2008,EDR 10 - Southeast,avg_estab,12715,1,2008.1,Southeast
+2007,EDR 10 - Southeast,avg_estab,12702,1,2007.1,Southeast
+2006,EDR 10 - Southeast,avg_estab,13348,1,2006.1,Southeast
+2005,EDR 10 - Southeast,avg_estab,12640,1,2005.1,Southeast
+2004,EDR 10 - Southeast,avg_estab,12354,1,2004.1,Southeast
+2003,EDR 10 - Southeast,avg_estab,12218,1,2003.1,Southeast
+2002,EDR 10 - Southeast,avg_estab,12026,1,2002.1,Southeast
+2001,EDR 10 - Southeast,avg_estab,11945,1,2001.1,Southeast
 2021,EDR 11 - 7 County Twin Cities,avg_estab,85268,1,2021.1,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,avg_estab,84762,1,2020.1,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avg_estab,82823,1,2019.1,Seven County Mpls-St Paul
@@ -636,6 +1340,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avg_estab,78109,1,2014.1,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avg_estab,78161,1,2013.1,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avg_estab,80295,1,2012.1,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avg_estab,79682,1,2011.1,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avg_estab,79787,1,2010.1,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avg_estab,82548,1,2009.1,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avg_estab,85421,1,2008.1,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avg_estab,85800,1,2007.1,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avg_estab,89552,1,2006.1,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avg_estab,84293,1,2005.1,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avg_estab,82998,1,2004.1,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avg_estab,82033,1,2003.1,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avg_estab,81219,1,2002.1,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avg_estab,81492,1,2001.1,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,avg_estab,2735,2,2021.2,Northwest
 2020,EDR 1 - Northwest,avg_estab,2765,2,2020.2,Northwest
 2019,EDR 1 - Northwest,avg_estab,2739,2,2019.2,Northwest
@@ -646,6 +1361,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avg_estab,2697,2,2014.2,Northwest
 2013,EDR 1 - Northwest,avg_estab,2735,2,2013.2,Northwest
 2012,EDR 1 - Northwest,avg_estab,2749,2,2012.2,Northwest
+2011,EDR 1 - Northwest,avg_estab,2793,2,2011.2,Northwest
+2010,EDR 1 - Northwest,avg_estab,2738,2,2010.2,Northwest
+2009,EDR 1 - Northwest,avg_estab,2754,2,2009.2,Northwest
+2008,EDR 1 - Northwest,avg_estab,2832,2,2008.2,Northwest
+2007,EDR 1 - Northwest,avg_estab,2826,2,2007.2,Northwest
+2006,EDR 1 - Northwest,avg_estab,2928,2,2006.2,Northwest
+2005,EDR 1 - Northwest,avg_estab,2843,2,2005.2,Northwest
+2004,EDR 1 - Northwest,avg_estab,2756,2,2004.2,Northwest
+2003,EDR 1 - Northwest,avg_estab,2747,2,2003.2,Northwest
+2002,EDR 1 - Northwest,avg_estab,2707,2,2002.2,Northwest
+2001,EDR 1 - Northwest,avg_estab,2734,2,2001.2,Northwest
 2021,EDR 2 - Headwaters,avg_estab,2387,2,2021.2,Northwest
 2020,EDR 2 - Headwaters,avg_estab,2389,2,2020.2,Northwest
 2019,EDR 2 - Headwaters,avg_estab,2368,2,2019.2,Northwest
@@ -656,6 +1382,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avg_estab,2283,2,2014.2,Northwest
 2013,EDR 2 - Headwaters,avg_estab,2339,2,2013.2,Northwest
 2012,EDR 2 - Headwaters,avg_estab,2345,2,2012.2,Northwest
+2011,EDR 2 - Headwaters,avg_estab,2407,2,2011.2,Northwest
+2010,EDR 2 - Headwaters,avg_estab,2375,2,2010.2,Northwest
+2009,EDR 2 - Headwaters,avg_estab,2392,2,2009.2,Northwest
+2008,EDR 2 - Headwaters,avg_estab,2502,2,2008.2,Northwest
+2007,EDR 2 - Headwaters,avg_estab,2486,2,2007.2,Northwest
+2006,EDR 2 - Headwaters,avg_estab,2562,2,2006.2,Northwest
+2005,EDR 2 - Headwaters,avg_estab,2479,2,2005.2,Northwest
+2004,EDR 2 - Headwaters,avg_estab,2394,2,2004.2,Northwest
+2003,EDR 2 - Headwaters,avg_estab,2374,2,2003.2,Northwest
+2002,EDR 2 - Headwaters,avg_estab,2356,2,2002.2,Northwest
+2001,EDR 2 - Headwaters,avg_estab,2307,2,2001.2,Northwest
 2021,EDR 3 - Arrowhead,avg_estab,8898,2,2021.2,Northeast
 2020,EDR 3 - Arrowhead,avg_estab,8904,2,2020.2,Northeast
 2019,EDR 3 - Arrowhead,avg_estab,8801,2,2019.2,Northeast
@@ -666,6 +1403,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avg_estab,8637,2,2014.2,Northeast
 2013,EDR 3 - Arrowhead,avg_estab,8870,2,2013.2,Northeast
 2012,EDR 3 - Arrowhead,avg_estab,8923,2,2012.2,Northeast
+2011,EDR 3 - Arrowhead,avg_estab,9255,2,2011.2,Northeast
+2010,EDR 3 - Arrowhead,avg_estab,9299,2,2010.2,Northeast
+2009,EDR 3 - Arrowhead,avg_estab,9345,2,2009.2,Northeast
+2008,EDR 3 - Arrowhead,avg_estab,9643,2,2008.2,Northeast
+2007,EDR 3 - Arrowhead,avg_estab,9709,2,2007.2,Northeast
+2006,EDR 3 - Arrowhead,avg_estab,9949,2,2006.2,Northeast
+2005,EDR 3 - Arrowhead,avg_estab,9754,2,2005.2,Northeast
+2004,EDR 3 - Arrowhead,avg_estab,9446,2,2004.2,Northeast
+2003,EDR 3 - Arrowhead,avg_estab,9391,2,2003.2,Northeast
+2002,EDR 3 - Arrowhead,avg_estab,9336,2,2002.2,Northeast
+2001,EDR 3 - Arrowhead,avg_estab,9346,2,2001.2,Northeast
 2021,EDR 4 - West Central,avg_estab,7056,2,2021.2,Northwest
 2020,EDR 4 - West Central,avg_estab,7032,2,2020.2,Northwest
 2019,EDR 4 - West Central,avg_estab,6936,2,2019.2,Northwest
@@ -676,6 +1424,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avg_estab,6747,2,2014.2,Northwest
 2013,EDR 4 - West Central,avg_estab,6979,2,2013.2,Northwest
 2012,EDR 4 - West Central,avg_estab,6957,2,2012.2,Northwest
+2011,EDR 4 - West Central,avg_estab,7046,2,2011.2,Northwest
+2010,EDR 4 - West Central,avg_estab,6986,2,2010.2,Northwest
+2009,EDR 4 - West Central,avg_estab,6970,2,2009.2,Northwest
+2008,EDR 4 - West Central,avg_estab,7111,2,2008.2,Northwest
+2007,EDR 4 - West Central,avg_estab,7092,2,2007.2,Northwest
+2006,EDR 4 - West Central,avg_estab,7293,2,2006.2,Northwest
+2005,EDR 4 - West Central,avg_estab,7042,2,2005.2,Northwest
+2004,EDR 4 - West Central,avg_estab,6841,2,2004.2,Northwest
+2003,EDR 4 - West Central,avg_estab,6662,2,2003.2,Northwest
+2002,EDR 4 - West Central,avg_estab,6529,2,2002.2,Northwest
+2001,EDR 4 - West Central,avg_estab,6387,2,2001.2,Northwest
 2021,EDR 5 - North Central,avg_estab,5198,2,2021.2,Northwest
 2020,EDR 5 - North Central,avg_estab,5119,2,2020.2,Northwest
 2019,EDR 5 - North Central,avg_estab,5033,2,2019.2,Northwest
@@ -686,6 +1445,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avg_estab,4823,2,2014.2,Northwest
 2013,EDR 5 - North Central,avg_estab,4886,2,2013.2,Northwest
 2012,EDR 5 - North Central,avg_estab,4847,2,2012.2,Northwest
+2011,EDR 5 - North Central,avg_estab,5012,2,2011.2,Northwest
+2010,EDR 5 - North Central,avg_estab,4945,2,2010.2,Northwest
+2009,EDR 5 - North Central,avg_estab,4971,2,2009.2,Northwest
+2008,EDR 5 - North Central,avg_estab,5159,2,2008.2,Northwest
+2007,EDR 5 - North Central,avg_estab,5165,2,2007.2,Northwest
+2006,EDR 5 - North Central,avg_estab,5279,2,2006.2,Northwest
+2005,EDR 5 - North Central,avg_estab,5149,2,2005.2,Northwest
+2004,EDR 5 - North Central,avg_estab,4983,2,2004.2,Northwest
+2003,EDR 5 - North Central,avg_estab,4871,2,2003.2,Northwest
+2002,EDR 5 - North Central,avg_estab,4803,2,2002.2,Northwest
+2001,EDR 5 - North Central,avg_estab,4696,2,2001.2,Northwest
 2021,EDR 6E- Southwest Central,avg_estab,3576,2,2021.2,Central
 2020,EDR 6E- Southwest Central,avg_estab,3580,2,2020.2,Central
 2019,EDR 6E- Southwest Central,avg_estab,3563,2,2019.2,Central
@@ -696,6 +1466,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avg_estab,3482,2,2014.2,Central
 2013,EDR 6E- Southwest Central,avg_estab,3545,2,2013.2,Central
 2012,EDR 6E- Southwest Central,avg_estab,3506,2,2012.2,Central
+2011,EDR 6E- Southwest Central,avg_estab,3565,2,2011.2,Central
+2010,EDR 6E- Southwest Central,avg_estab,3524,2,2010.2,Central
+2009,EDR 6E- Southwest Central,avg_estab,3583,2,2009.2,Central
+2008,EDR 6E- Southwest Central,avg_estab,3715,2,2008.2,Central
+2007,EDR 6E- Southwest Central,avg_estab,3732,2,2007.2,Central
+2006,EDR 6E- Southwest Central,avg_estab,3911,2,2006.2,Central
+2005,EDR 6E- Southwest Central,avg_estab,3813,2,2005.2,Central
+2004,EDR 6E- Southwest Central,avg_estab,3699,2,2004.2,Central
+2003,EDR 6E- Southwest Central,avg_estab,3633,2,2003.2,Central
+2002,EDR 6E- Southwest Central,avg_estab,3614,2,2002.2,Central
+2001,EDR 6E- Southwest Central,avg_estab,3595,2,2001.2,Central
 2021,EDR 6W- Upper Minnesota Valley,avg_estab,1557,2,2021.2,Southwest
 2020,EDR 6W- Upper Minnesota Valley,avg_estab,1556,2,2020.2,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avg_estab,1556,2,2019.2,Southwest
@@ -706,6 +1487,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avg_estab,1512,2,2014.2,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avg_estab,1575,2,2013.2,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avg_estab,1561,2,2012.2,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avg_estab,1606,2,2011.2,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avg_estab,1585,2,2010.2,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avg_estab,1594,2,2009.2,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avg_estab,1624,2,2008.2,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avg_estab,1644,2,2007.2,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avg_estab,1732,2,2006.2,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avg_estab,1692,2,2005.2,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avg_estab,1630,2,2004.2,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avg_estab,1661,2,2003.2,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avg_estab,1662,2,2002.2,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avg_estab,1670,2,2001.2,Southwest
 2021,EDR 7E- East Central,avg_estab,3853,2,2021.2,Central
 2020,EDR 7E- East Central,avg_estab,3797,2,2020.2,Central
 2019,EDR 7E- East Central,avg_estab,3715,2,2019.2,Central
@@ -716,6 +1508,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avg_estab,3471,2,2014.2,Central
 2013,EDR 7E- East Central,avg_estab,3536,2,2013.2,Central
 2012,EDR 7E- East Central,avg_estab,3479,2,2012.2,Central
+2011,EDR 7E- East Central,avg_estab,3575,2,2011.2,Central
+2010,EDR 7E- East Central,avg_estab,3579,2,2010.2,Central
+2009,EDR 7E- East Central,avg_estab,3573,2,2009.2,Central
+2008,EDR 7E- East Central,avg_estab,3823,2,2008.2,Central
+2007,EDR 7E- East Central,avg_estab,3862,2,2007.2,Central
+2006,EDR 7E- East Central,avg_estab,3979,2,2006.2,Central
+2005,EDR 7E- East Central,avg_estab,3818,2,2005.2,Central
+2004,EDR 7E- East Central,avg_estab,3671,2,2004.2,Central
+2003,EDR 7E- East Central,avg_estab,3552,2,2003.2,Central
+2002,EDR 7E- East Central,avg_estab,3505,2,2002.2,Central
+2001,EDR 7E- East Central,avg_estab,3402,2,2001.2,Central
 2021,EDR 7W- Central,avg_estab,11196,2,2021.2,Central
 2020,EDR 7W- Central,avg_estab,11072,2,2020.2,Central
 2019,EDR 7W- Central,avg_estab,10790,2,2019.2,Central
@@ -726,6 +1529,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avg_estab,10028,2,2014.2,Central
 2013,EDR 7W- Central,avg_estab,10137,2,2013.2,Central
 2012,EDR 7W- Central,avg_estab,9950,2,2012.2,Central
+2011,EDR 7W- Central,avg_estab,10129,2,2011.2,Central
+2010,EDR 7W- Central,avg_estab,10056,2,2010.2,Central
+2009,EDR 7W- Central,avg_estab,10047,2,2009.2,Central
+2008,EDR 7W- Central,avg_estab,10516,2,2008.2,Central
+2007,EDR 7W- Central,avg_estab,10513,2,2007.2,Central
+2006,EDR 7W- Central,avg_estab,10852,2,2006.2,Central
+2005,EDR 7W- Central,avg_estab,10391,2,2005.2,Central
+2004,EDR 7W- Central,avg_estab,9817,2,2004.2,Central
+2003,EDR 7W- Central,avg_estab,9496,2,2003.2,Central
+2002,EDR 7W- Central,avg_estab,9107,2,2002.2,Central
+2001,EDR 7W- Central,avg_estab,8856,2,2001.2,Central
 2021,EDR 8 - Southwest,avg_estab,3973,2,2021.2,Southwest
 2020,EDR 8 - Southwest,avg_estab,3976,2,2020.2,Southwest
 2019,EDR 8 - Southwest,avg_estab,3949,2,2019.2,Southwest
@@ -736,6 +1550,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avg_estab,3943,2,2014.2,Southwest
 2013,EDR 8 - Southwest,avg_estab,4016,2,2013.2,Southwest
 2012,EDR 8 - Southwest,avg_estab,3980,2,2012.2,Southwest
+2011,EDR 8 - Southwest,avg_estab,4027,2,2011.2,Southwest
+2010,EDR 8 - Southwest,avg_estab,3995,2,2010.2,Southwest
+2009,EDR 8 - Southwest,avg_estab,4036,2,2009.2,Southwest
+2008,EDR 8 - Southwest,avg_estab,4135,2,2008.2,Southwest
+2007,EDR 8 - Southwest,avg_estab,4127,2,2007.2,Southwest
+2006,EDR 8 - Southwest,avg_estab,4288,2,2006.2,Southwest
+2005,EDR 8 - Southwest,avg_estab,4149,2,2005.2,Southwest
+2004,EDR 8 - Southwest,avg_estab,4016,2,2004.2,Southwest
+2003,EDR 8 - Southwest,avg_estab,3999,2,2003.2,Southwest
+2002,EDR 8 - Southwest,avg_estab,3989,2,2002.2,Southwest
+2001,EDR 8 - Southwest,avg_estab,4007,2,2001.2,Southwest
 2021,EDR 9 - South Central,avg_estab,6836,2,2021.2,Southwest
 2020,EDR 9 - South Central,avg_estab,6824,2,2020.2,Southwest
 2019,EDR 9 - South Central,avg_estab,6744,2,2019.2,Southwest
@@ -746,6 +1571,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avg_estab,6446,2,2014.2,Southwest
 2013,EDR 9 - South Central,avg_estab,6577,2,2013.2,Southwest
 2012,EDR 9 - South Central,avg_estab,6518,2,2012.2,Southwest
+2011,EDR 9 - South Central,avg_estab,6591,2,2011.2,Southwest
+2010,EDR 9 - South Central,avg_estab,6514,2,2010.2,Southwest
+2009,EDR 9 - South Central,avg_estab,6560,2,2009.2,Southwest
+2008,EDR 9 - South Central,avg_estab,6821,2,2008.2,Southwest
+2007,EDR 9 - South Central,avg_estab,6842,2,2007.2,Southwest
+2006,EDR 9 - South Central,avg_estab,7100,2,2006.2,Southwest
+2005,EDR 9 - South Central,avg_estab,6930,2,2005.2,Southwest
+2004,EDR 9 - South Central,avg_estab,6702,2,2004.2,Southwest
+2003,EDR 9 - South Central,avg_estab,6665,2,2003.2,Southwest
+2002,EDR 9 - South Central,avg_estab,6677,2,2002.2,Southwest
+2001,EDR 9 - South Central,avg_estab,6551,2,2001.2,Southwest
 2021,EDR 10 - Southeast,avg_estab,12853,2,2021.2,Southeast
 2020,EDR 10 - Southeast,avg_estab,12827,2,2020.2,Southeast
 2019,EDR 10 - Southeast,avg_estab,12610,2,2019.2,Southeast
@@ -756,6 +1592,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avg_estab,12041,2,2014.2,Southeast
 2013,EDR 10 - Southeast,avg_estab,12211,2,2013.2,Southeast
 2012,EDR 10 - Southeast,avg_estab,12112,2,2012.2,Southeast
+2011,EDR 10 - Southeast,avg_estab,12370,2,2011.2,Southeast
+2010,EDR 10 - Southeast,avg_estab,12261,2,2010.2,Southeast
+2009,EDR 10 - Southeast,avg_estab,12387,2,2009.2,Southeast
+2008,EDR 10 - Southeast,avg_estab,12808,2,2008.2,Southeast
+2007,EDR 10 - Southeast,avg_estab,12806,2,2007.2,Southeast
+2006,EDR 10 - Southeast,avg_estab,13421,2,2006.2,Southeast
+2005,EDR 10 - Southeast,avg_estab,13059,2,2005.2,Southeast
+2004,EDR 10 - Southeast,avg_estab,12459,2,2004.2,Southeast
+2003,EDR 10 - Southeast,avg_estab,12323,2,2003.2,Southeast
+2002,EDR 10 - Southeast,avg_estab,12212,2,2002.2,Southeast
+2001,EDR 10 - Southeast,avg_estab,12010,2,2001.2,Southeast
 2021,EDR 11 - 7 County Twin Cities,avg_estab,86825,2,2021.2,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,avg_estab,85820,2,2020.2,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avg_estab,84120,2,2019.2,Seven County Mpls-St Paul
@@ -766,6 +1613,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avg_estab,77981,2,2014.2,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avg_estab,78736,2,2013.2,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avg_estab,78291,2,2012.2,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avg_estab,80537,2,2011.2,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avg_estab,80280,2,2010.2,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avg_estab,81513,2,2009.2,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avg_estab,86027,2,2008.2,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avg_estab,86559,2,2007.2,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avg_estab,89985,2,2006.2,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avg_estab,87269,2,2005.2,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avg_estab,83957,2,2004.2,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avg_estab,83191,2,2003.2,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avg_estab,82322,2,2002.2,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avg_estab,81884,2,2001.2,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,avg_estab,2760,3,2021.3,Northwest
 2020,EDR 1 - Northwest,avg_estab,2776,3,2020.3,Northwest
 2019,EDR 1 - Northwest,avg_estab,2750,3,2019.3,Northwest
@@ -776,6 +1634,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avg_estab,2687,3,2014.3,Northwest
 2013,EDR 1 - Northwest,avg_estab,2744,3,2013.3,Northwest
 2012,EDR 1 - Northwest,avg_estab,2746,3,2012.3,Northwest
+2011,EDR 1 - Northwest,avg_estab,2802,3,2011.3,Northwest
+2010,EDR 1 - Northwest,avg_estab,2749,3,2010.3,Northwest
+2009,EDR 1 - Northwest,avg_estab,2745,3,2009.3,Northwest
+2008,EDR 1 - Northwest,avg_estab,2808,3,2008.3,Northwest
+2007,EDR 1 - Northwest,avg_estab,2808,3,2007.3,Northwest
+2006,EDR 1 - Northwest,avg_estab,2867,3,2006.3,Northwest
+2005,EDR 1 - Northwest,avg_estab,2878,3,2005.3,Northwest
+2004,EDR 1 - Northwest,avg_estab,2742,3,2004.3,Northwest
+2003,EDR 1 - Northwest,avg_estab,2742,3,2003.3,Northwest
+2002,EDR 1 - Northwest,avg_estab,2709,3,2002.3,Northwest
+2001,EDR 1 - Northwest,avg_estab,2746,3,2001.3,Northwest
 2021,EDR 2 - Headwaters,avg_estab,2411,3,2021.3,Northwest
 2020,EDR 2 - Headwaters,avg_estab,2412,3,2020.3,Northwest
 2019,EDR 2 - Headwaters,avg_estab,2382,3,2019.3,Northwest
@@ -786,6 +1655,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avg_estab,2276,3,2014.3,Northwest
 2013,EDR 2 - Headwaters,avg_estab,2355,3,2013.3,Northwest
 2012,EDR 2 - Headwaters,avg_estab,2341,3,2012.3,Northwest
+2011,EDR 2 - Headwaters,avg_estab,2418,3,2011.3,Northwest
+2010,EDR 2 - Headwaters,avg_estab,2387,3,2010.3,Northwest
+2009,EDR 2 - Headwaters,avg_estab,2383,3,2009.3,Northwest
+2008,EDR 2 - Headwaters,avg_estab,2464,3,2008.3,Northwest
+2007,EDR 2 - Headwaters,avg_estab,2481,3,2007.3,Northwest
+2006,EDR 2 - Headwaters,avg_estab,2488,3,2006.3,Northwest
+2005,EDR 2 - Headwaters,avg_estab,2527,3,2005.3,Northwest
+2004,EDR 2 - Headwaters,avg_estab,2402,3,2004.3,Northwest
+2003,EDR 2 - Headwaters,avg_estab,2380,3,2003.3,Northwest
+2002,EDR 2 - Headwaters,avg_estab,2359,3,2002.3,Northwest
+2001,EDR 2 - Headwaters,avg_estab,2325,3,2001.3,Northwest
 2021,EDR 3 - Arrowhead,avg_estab,8968,3,2021.3,Northeast
 2020,EDR 3 - Arrowhead,avg_estab,8989,3,2020.3,Northeast
 2019,EDR 3 - Arrowhead,avg_estab,8868,3,2019.3,Northeast
@@ -796,6 +1676,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avg_estab,8608,3,2014.3,Northeast
 2013,EDR 3 - Arrowhead,avg_estab,8898,3,2013.3,Northeast
 2012,EDR 3 - Arrowhead,avg_estab,8903,3,2012.3,Northeast
+2011,EDR 3 - Arrowhead,avg_estab,9248,3,2011.3,Northeast
+2010,EDR 3 - Arrowhead,avg_estab,9304,3,2010.3,Northeast
+2009,EDR 3 - Arrowhead,avg_estab,9333,3,2009.3,Northeast
+2008,EDR 3 - Arrowhead,avg_estab,9563,3,2008.3,Northeast
+2007,EDR 3 - Arrowhead,avg_estab,9613,3,2007.3,Northeast
+2006,EDR 3 - Arrowhead,avg_estab,9734,3,2006.3,Northeast
+2005,EDR 3 - Arrowhead,avg_estab,9868,3,2005.3,Northeast
+2004,EDR 3 - Arrowhead,avg_estab,9452,3,2004.3,Northeast
+2003,EDR 3 - Arrowhead,avg_estab,9404,3,2003.3,Northeast
+2002,EDR 3 - Arrowhead,avg_estab,9333,3,2002.3,Northeast
+2001,EDR 3 - Arrowhead,avg_estab,9387,3,2001.3,Northeast
 2021,EDR 4 - West Central,avg_estab,7125,3,2021.3,Northwest
 2020,EDR 4 - West Central,avg_estab,7081,3,2020.3,Northwest
 2019,EDR 4 - West Central,avg_estab,6992,3,2019.3,Northwest
@@ -806,6 +1697,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avg_estab,6738,3,2014.3,Northwest
 2013,EDR 4 - West Central,avg_estab,7013,3,2013.3,Northwest
 2012,EDR 4 - West Central,avg_estab,6978,3,2012.3,Northwest
+2011,EDR 4 - West Central,avg_estab,7079,3,2011.3,Northwest
+2010,EDR 4 - West Central,avg_estab,7003,3,2010.3,Northwest
+2009,EDR 4 - West Central,avg_estab,6971,3,2009.3,Northwest
+2008,EDR 4 - West Central,avg_estab,7096,3,2008.3,Northwest
+2007,EDR 4 - West Central,avg_estab,7059,3,2007.3,Northwest
+2006,EDR 4 - West Central,avg_estab,7098,3,2006.3,Northwest
+2005,EDR 4 - West Central,avg_estab,7146,3,2005.3,Northwest
+2004,EDR 4 - West Central,avg_estab,6863,3,2004.3,Northwest
+2003,EDR 4 - West Central,avg_estab,6668,3,2003.3,Northwest
+2002,EDR 4 - West Central,avg_estab,6576,3,2002.3,Northwest
+2001,EDR 4 - West Central,avg_estab,6437,3,2001.3,Northwest
 2021,EDR 5 - North Central,avg_estab,5233,3,2021.3,Northwest
 2020,EDR 5 - North Central,avg_estab,5171,3,2020.3,Northwest
 2019,EDR 5 - North Central,avg_estab,5089,3,2019.3,Northwest
@@ -816,6 +1718,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avg_estab,4828,3,2014.3,Northwest
 2013,EDR 5 - North Central,avg_estab,4915,3,2013.3,Northwest
 2012,EDR 5 - North Central,avg_estab,4871,3,2012.3,Northwest
+2011,EDR 5 - North Central,avg_estab,5008,3,2011.3,Northwest
+2010,EDR 5 - North Central,avg_estab,4967,3,2010.3,Northwest
+2009,EDR 5 - North Central,avg_estab,4963,3,2009.3,Northwest
+2008,EDR 5 - North Central,avg_estab,5111,3,2008.3,Northwest
+2007,EDR 5 - North Central,avg_estab,5129,3,2007.3,Northwest
+2006,EDR 5 - North Central,avg_estab,5161,3,2006.3,Northwest
+2005,EDR 5 - North Central,avg_estab,5211,3,2005.3,Northwest
+2004,EDR 5 - North Central,avg_estab,5006,3,2004.3,Northwest
+2003,EDR 5 - North Central,avg_estab,4889,3,2003.3,Northwest
+2002,EDR 5 - North Central,avg_estab,4815,3,2002.3,Northwest
+2001,EDR 5 - North Central,avg_estab,4755,3,2001.3,Northwest
 2021,EDR 6E- Southwest Central,avg_estab,3609,3,2021.3,Central
 2020,EDR 6E- Southwest Central,avg_estab,3618,3,2020.3,Central
 2019,EDR 6E- Southwest Central,avg_estab,3590,3,2019.3,Central
@@ -826,6 +1739,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avg_estab,3472,3,2014.3,Central
 2013,EDR 6E- Southwest Central,avg_estab,3569,3,2013.3,Central
 2012,EDR 6E- Southwest Central,avg_estab,3520,3,2012.3,Central
+2011,EDR 6E- Southwest Central,avg_estab,3589,3,2011.3,Central
+2010,EDR 6E- Southwest Central,avg_estab,3548,3,2010.3,Central
+2009,EDR 6E- Southwest Central,avg_estab,3566,3,2009.3,Central
+2008,EDR 6E- Southwest Central,avg_estab,3686,3,2008.3,Central
+2007,EDR 6E- Southwest Central,avg_estab,3713,3,2007.3,Central
+2006,EDR 6E- Southwest Central,avg_estab,3795,3,2006.3,Central
+2005,EDR 6E- Southwest Central,avg_estab,3831,3,2005.3,Central
+2004,EDR 6E- Southwest Central,avg_estab,3719,3,2004.3,Central
+2003,EDR 6E- Southwest Central,avg_estab,3637,3,2003.3,Central
+2002,EDR 6E- Southwest Central,avg_estab,3625,3,2002.3,Central
+2001,EDR 6E- Southwest Central,avg_estab,3622,3,2001.3,Central
 2021,EDR 6W- Upper Minnesota Valley,avg_estab,1571,3,2021.3,Southwest
 2020,EDR 6W- Upper Minnesota Valley,avg_estab,1565,3,2020.3,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avg_estab,1567,3,2019.3,Southwest
@@ -836,6 +1760,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avg_estab,1523,3,2014.3,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avg_estab,1582,3,2013.3,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avg_estab,1558,3,2012.3,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avg_estab,1605,3,2011.3,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avg_estab,1590,3,2010.3,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avg_estab,1590,3,2009.3,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avg_estab,1627,3,2008.3,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avg_estab,1638,3,2007.3,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avg_estab,1687,3,2006.3,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avg_estab,1704,3,2005.3,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avg_estab,1640,3,2004.3,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avg_estab,1656,3,2003.3,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avg_estab,1670,3,2002.3,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avg_estab,1668,3,2001.3,Southwest
 2021,EDR 7E- East Central,avg_estab,3916,3,2021.3,Central
 2020,EDR 7E- East Central,avg_estab,3857,3,2020.3,Central
 2019,EDR 7E- East Central,avg_estab,3769,3,2019.3,Central
@@ -846,6 +1781,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avg_estab,3467,3,2014.3,Central
 2013,EDR 7E- East Central,avg_estab,3558,3,2013.3,Central
 2012,EDR 7E- East Central,avg_estab,3487,3,2012.3,Central
+2011,EDR 7E- East Central,avg_estab,3605,3,2011.3,Central
+2010,EDR 7E- East Central,avg_estab,3585,3,2010.3,Central
+2009,EDR 7E- East Central,avg_estab,3572,3,2009.3,Central
+2008,EDR 7E- East Central,avg_estab,3761,3,2008.3,Central
+2007,EDR 7E- East Central,avg_estab,3832,3,2007.3,Central
+2006,EDR 7E- East Central,avg_estab,3879,3,2006.3,Central
+2005,EDR 7E- East Central,avg_estab,3877,3,2005.3,Central
+2004,EDR 7E- East Central,avg_estab,3685,3,2004.3,Central
+2003,EDR 7E- East Central,avg_estab,3566,3,2003.3,Central
+2002,EDR 7E- East Central,avg_estab,3537,3,2002.3,Central
+2001,EDR 7E- East Central,avg_estab,3432,3,2001.3,Central
 2021,EDR 7W- Central,avg_estab,11318,3,2021.3,Central
 2020,EDR 7W- Central,avg_estab,11193,3,2020.3,Central
 2019,EDR 7W- Central,avg_estab,10904,3,2019.3,Central
@@ -856,6 +1802,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avg_estab,10026,3,2014.3,Central
 2013,EDR 7W- Central,avg_estab,10196,3,2013.3,Central
 2012,EDR 7W- Central,avg_estab,9990,3,2012.3,Central
+2011,EDR 7W- Central,avg_estab,10174,3,2011.3,Central
+2010,EDR 7W- Central,avg_estab,10107,3,2010.3,Central
+2009,EDR 7W- Central,avg_estab,10037,3,2009.3,Central
+2008,EDR 7W- Central,avg_estab,10368,3,2008.3,Central
+2007,EDR 7W- Central,avg_estab,10469,3,2007.3,Central
+2006,EDR 7W- Central,avg_estab,10607,3,2006.3,Central
+2005,EDR 7W- Central,avg_estab,10549,3,2005.3,Central
+2004,EDR 7W- Central,avg_estab,9907,3,2004.3,Central
+2003,EDR 7W- Central,avg_estab,9520,3,2003.3,Central
+2002,EDR 7W- Central,avg_estab,9195,3,2002.3,Central
+2001,EDR 7W- Central,avg_estab,8953,3,2001.3,Central
 2021,EDR 8 - Southwest,avg_estab,4008,3,2021.3,Southwest
 2020,EDR 8 - Southwest,avg_estab,4001,3,2020.3,Southwest
 2019,EDR 8 - Southwest,avg_estab,3982,3,2019.3,Southwest
@@ -866,6 +1823,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avg_estab,3943,3,2014.3,Southwest
 2013,EDR 8 - Southwest,avg_estab,4024,3,2013.3,Southwest
 2012,EDR 8 - Southwest,avg_estab,3999,3,2012.3,Southwest
+2011,EDR 8 - Southwest,avg_estab,4051,3,2011.3,Southwest
+2010,EDR 8 - Southwest,avg_estab,4010,3,2010.3,Southwest
+2009,EDR 8 - Southwest,avg_estab,4024,3,2009.3,Southwest
+2008,EDR 8 - Southwest,avg_estab,4107,3,2008.3,Southwest
+2007,EDR 8 - Southwest,avg_estab,4117,3,2007.3,Southwest
+2006,EDR 8 - Southwest,avg_estab,4197,3,2006.3,Southwest
+2005,EDR 8 - Southwest,avg_estab,4191,3,2005.3,Southwest
+2004,EDR 8 - Southwest,avg_estab,4029,3,2004.3,Southwest
+2003,EDR 8 - Southwest,avg_estab,3997,3,2003.3,Southwest
+2002,EDR 8 - Southwest,avg_estab,4002,3,2002.3,Southwest
+2001,EDR 8 - Southwest,avg_estab,4021,3,2001.3,Southwest
 2021,EDR 9 - South Central,avg_estab,6910,3,2021.3,Southwest
 2020,EDR 9 - South Central,avg_estab,6891,3,2020.3,Southwest
 2019,EDR 9 - South Central,avg_estab,6791,3,2019.3,Southwest
@@ -876,6 +1844,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avg_estab,6443,3,2014.3,Southwest
 2013,EDR 9 - South Central,avg_estab,6613,3,2013.3,Southwest
 2012,EDR 9 - South Central,avg_estab,6553,3,2012.3,Southwest
+2011,EDR 9 - South Central,avg_estab,6593,3,2011.3,Southwest
+2010,EDR 9 - South Central,avg_estab,6523,3,2010.3,Southwest
+2009,EDR 9 - South Central,avg_estab,6561,3,2009.3,Southwest
+2008,EDR 9 - South Central,avg_estab,6749,3,2008.3,Southwest
+2007,EDR 9 - South Central,avg_estab,6809,3,2007.3,Southwest
+2006,EDR 9 - South Central,avg_estab,6964,3,2006.3,Southwest
+2005,EDR 9 - South Central,avg_estab,6993,3,2005.3,Southwest
+2004,EDR 9 - South Central,avg_estab,6713,3,2004.3,Southwest
+2003,EDR 9 - South Central,avg_estab,6657,3,2003.3,Southwest
+2002,EDR 9 - South Central,avg_estab,6707,3,2002.3,Southwest
+2001,EDR 9 - South Central,avg_estab,6591,3,2001.3,Southwest
 2021,EDR 10 - Southeast,avg_estab,12988,3,2021.3,Southeast
 2020,EDR 10 - Southeast,avg_estab,12984,3,2020.3,Southeast
 2019,EDR 10 - Southeast,avg_estab,12737,3,2019.3,Southeast
@@ -886,6 +1865,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avg_estab,12019,3,2014.3,Southeast
 2013,EDR 10 - Southeast,avg_estab,12290,3,2013.3,Southeast
 2012,EDR 10 - Southeast,avg_estab,12117,3,2012.3,Southeast
+2011,EDR 10 - Southeast,avg_estab,12394,3,2011.3,Southeast
+2010,EDR 10 - Southeast,avg_estab,12309,3,2010.3,Southeast
+2009,EDR 10 - Southeast,avg_estab,12362,3,2009.3,Southeast
+2008,EDR 10 - Southeast,avg_estab,12694,3,2008.3,Southeast
+2007,EDR 10 - Southeast,avg_estab,12762,3,2007.3,Southeast
+2006,EDR 10 - Southeast,avg_estab,13094,3,2006.3,Southeast
+2005,EDR 10 - Southeast,avg_estab,13221,3,2005.3,Southeast
+2004,EDR 10 - Southeast,avg_estab,12528,3,2004.3,Southeast
+2003,EDR 10 - Southeast,avg_estab,12320,3,2003.3,Southeast
+2002,EDR 10 - Southeast,avg_estab,12249,3,2002.3,Southeast
+2001,EDR 10 - Southeast,avg_estab,12109,3,2001.3,Southeast
 2021,EDR 11 - 7 County Twin Cities,avg_estab,87786,3,2021.3,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,avg_estab,87368,3,2020.3,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avg_estab,85210,3,2019.3,Seven County Mpls-St Paul
@@ -896,6 +1886,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avg_estab,77913,3,2014.3,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avg_estab,79404,3,2013.3,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avg_estab,78540,3,2012.3,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avg_estab,80969,3,2011.3,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avg_estab,80481,3,2010.3,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avg_estab,81266,3,2009.3,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avg_estab,84595,3,2008.3,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avg_estab,86021,3,2007.3,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avg_estab,87413,3,2006.3,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avg_estab,88599,3,2005.3,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avg_estab,84224,3,2004.3,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avg_estab,83209,3,2003.3,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avg_estab,82729,3,2002.3,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avg_estab,82686,3,2001.3,Seven County Mpls-St Paul
 2020,EDR 1 - Northwest,avg_estab,2802,4,2020.4,Northwest
 2019,EDR 1 - Northwest,avg_estab,2762,4,2019.4,Northwest
 2018,EDR 1 - Northwest,avg_estab,2759,4,2018.4,Northwest
@@ -905,6 +1906,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,avg_estab,2691,4,2014.4,Northwest
 2013,EDR 1 - Northwest,avg_estab,2681,4,2013.4,Northwest
 2012,EDR 1 - Northwest,avg_estab,2738,4,2012.4,Northwest
+2011,EDR 1 - Northwest,avg_estab,2818,4,2011.4,Northwest
+2010,EDR 1 - Northwest,avg_estab,2759,4,2010.4,Northwest
+2009,EDR 1 - Northwest,avg_estab,2748,4,2009.4,Northwest
+2008,EDR 1 - Northwest,avg_estab,2814,4,2008.4,Northwest
+2007,EDR 1 - Northwest,avg_estab,2822,4,2007.4,Northwest
+2006,EDR 1 - Northwest,avg_estab,2894,4,2006.4,Northwest
+2005,EDR 1 - Northwest,avg_estab,2877,4,2005.4,Northwest
+2004,EDR 1 - Northwest,avg_estab,2762,4,2004.4,Northwest
+2003,EDR 1 - Northwest,avg_estab,2738,4,2003.4,Northwest
+2002,EDR 1 - Northwest,avg_estab,2711,4,2002.4,Northwest
+2001,EDR 1 - Northwest,avg_estab,2727,4,2001.4,Northwest
 2020,EDR 2 - Headwaters,avg_estab,2428,4,2020.4,Northwest
 2019,EDR 2 - Headwaters,avg_estab,2406,4,2019.4,Northwest
 2018,EDR 2 - Headwaters,avg_estab,2380,4,2018.4,Northwest
@@ -914,6 +1926,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,avg_estab,2266,4,2014.4,Northwest
 2013,EDR 2 - Headwaters,avg_estab,2290,4,2013.4,Northwest
 2012,EDR 2 - Headwaters,avg_estab,2357,4,2012.4,Northwest
+2011,EDR 2 - Headwaters,avg_estab,2413,4,2011.4,Northwest
+2010,EDR 2 - Headwaters,avg_estab,2373,4,2010.4,Northwest
+2009,EDR 2 - Headwaters,avg_estab,2373,4,2009.4,Northwest
+2008,EDR 2 - Headwaters,avg_estab,2455,4,2008.4,Northwest
+2007,EDR 2 - Headwaters,avg_estab,2481,4,2007.4,Northwest
+2006,EDR 2 - Headwaters,avg_estab,2494,4,2006.4,Northwest
+2005,EDR 2 - Headwaters,avg_estab,2524,4,2005.4,Northwest
+2004,EDR 2 - Headwaters,avg_estab,2412,4,2004.4,Northwest
+2003,EDR 2 - Headwaters,avg_estab,2363,4,2003.4,Northwest
+2002,EDR 2 - Headwaters,avg_estab,2357,4,2002.4,Northwest
+2001,EDR 2 - Headwaters,avg_estab,2330,4,2001.4,Northwest
 2020,EDR 3 - Arrowhead,avg_estab,9061,4,2020.4,Northeast
 2019,EDR 3 - Arrowhead,avg_estab,8931,4,2019.4,Northeast
 2018,EDR 3 - Arrowhead,avg_estab,8916,4,2018.4,Northeast
@@ -923,6 +1946,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,avg_estab,8606,4,2014.4,Northeast
 2013,EDR 3 - Arrowhead,avg_estab,8696,4,2013.4,Northeast
 2012,EDR 3 - Arrowhead,avg_estab,8918,4,2012.4,Northeast
+2011,EDR 3 - Arrowhead,avg_estab,9225,4,2011.4,Northeast
+2010,EDR 3 - Arrowhead,avg_estab,9278,4,2010.4,Northeast
+2009,EDR 3 - Arrowhead,avg_estab,9324,4,2009.4,Northeast
+2008,EDR 3 - Arrowhead,avg_estab,9560,4,2008.4,Northeast
+2007,EDR 3 - Arrowhead,avg_estab,9623,4,2007.4,Northeast
+2006,EDR 3 - Arrowhead,avg_estab,9747,4,2006.4,Northeast
+2005,EDR 3 - Arrowhead,avg_estab,9848,4,2005.4,Northeast
+2004,EDR 3 - Arrowhead,avg_estab,9500,4,2004.4,Northeast
+2003,EDR 3 - Arrowhead,avg_estab,9400,4,2003.4,Northeast
+2002,EDR 3 - Arrowhead,avg_estab,9311,4,2002.4,Northeast
+2001,EDR 3 - Arrowhead,avg_estab,9336,4,2001.4,Northeast
 2020,EDR 4 - West Central,avg_estab,7148,4,2020.4,Northwest
 2019,EDR 4 - West Central,avg_estab,7030,4,2019.4,Northwest
 2018,EDR 4 - West Central,avg_estab,6999,4,2018.4,Northwest
@@ -932,6 +1966,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,avg_estab,6709,4,2014.4,Northwest
 2013,EDR 4 - West Central,avg_estab,6761,4,2013.4,Northwest
 2012,EDR 4 - West Central,avg_estab,7004,4,2012.4,Northwest
+2011,EDR 4 - West Central,avg_estab,7080,4,2011.4,Northwest
+2010,EDR 4 - West Central,avg_estab,6998,4,2010.4,Northwest
+2009,EDR 4 - West Central,avg_estab,6979,4,2009.4,Northwest
+2008,EDR 4 - West Central,avg_estab,7090,4,2008.4,Northwest
+2007,EDR 4 - West Central,avg_estab,7075,4,2007.4,Northwest
+2006,EDR 4 - West Central,avg_estab,7144,4,2006.4,Northwest
+2005,EDR 4 - West Central,avg_estab,7136,4,2005.4,Northwest
+2004,EDR 4 - West Central,avg_estab,6908,4,2004.4,Northwest
+2003,EDR 4 - West Central,avg_estab,6688,4,2003.4,Northwest
+2002,EDR 4 - West Central,avg_estab,6574,4,2002.4,Northwest
+2001,EDR 4 - West Central,avg_estab,6418,4,2001.4,Northwest
 2020,EDR 5 - North Central,avg_estab,5232,4,2020.4,Northwest
 2019,EDR 5 - North Central,avg_estab,5132,4,2019.4,Northwest
 2018,EDR 5 - North Central,avg_estab,5070,4,2018.4,Northwest
@@ -941,6 +1986,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,avg_estab,4820,4,2014.4,Northwest
 2013,EDR 5 - North Central,avg_estab,4798,4,2013.4,Northwest
 2012,EDR 5 - North Central,avg_estab,4847,4,2012.4,Northwest
+2011,EDR 5 - North Central,avg_estab,4997,4,2011.4,Northwest
+2010,EDR 5 - North Central,avg_estab,4967,4,2010.4,Northwest
+2009,EDR 5 - North Central,avg_estab,4958,4,2009.4,Northwest
+2008,EDR 5 - North Central,avg_estab,5118,4,2008.4,Northwest
+2007,EDR 5 - North Central,avg_estab,5117,4,2007.4,Northwest
+2006,EDR 5 - North Central,avg_estab,5175,4,2006.4,Northwest
+2005,EDR 5 - North Central,avg_estab,5216,4,2005.4,Northwest
+2004,EDR 5 - North Central,avg_estab,4996,4,2004.4,Northwest
+2003,EDR 5 - North Central,avg_estab,4885,4,2003.4,Northwest
+2002,EDR 5 - North Central,avg_estab,4798,4,2002.4,Northwest
+2001,EDR 5 - North Central,avg_estab,4746,4,2001.4,Northwest
 2020,EDR 6E- Southwest Central,avg_estab,3638,4,2020.4,Central
 2019,EDR 6E- Southwest Central,avg_estab,3603,4,2019.4,Central
 2018,EDR 6E- Southwest Central,avg_estab,3601,4,2018.4,Central
@@ -950,6 +2006,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,avg_estab,3464,4,2014.4,Central
 2013,EDR 6E- Southwest Central,avg_estab,3495,4,2013.4,Central
 2012,EDR 6E- Southwest Central,avg_estab,3533,4,2012.4,Central
+2011,EDR 6E- Southwest Central,avg_estab,3581,4,2011.4,Central
+2010,EDR 6E- Southwest Central,avg_estab,3542,4,2010.4,Central
+2009,EDR 6E- Southwest Central,avg_estab,3556,4,2009.4,Central
+2008,EDR 6E- Southwest Central,avg_estab,3699,4,2008.4,Central
+2007,EDR 6E- Southwest Central,avg_estab,3714,4,2007.4,Central
+2006,EDR 6E- Southwest Central,avg_estab,3805,4,2006.4,Central
+2005,EDR 6E- Southwest Central,avg_estab,3859,4,2005.4,Central
+2004,EDR 6E- Southwest Central,avg_estab,3723,4,2004.4,Central
+2003,EDR 6E- Southwest Central,avg_estab,3650,4,2003.4,Central
+2002,EDR 6E- Southwest Central,avg_estab,3606,4,2002.4,Central
+2001,EDR 6E- Southwest Central,avg_estab,3613,4,2001.4,Central
 2020,EDR 6W- Upper Minnesota Valley,avg_estab,1572,4,2020.4,Southwest
 2019,EDR 6W- Upper Minnesota Valley,avg_estab,1574,4,2019.4,Southwest
 2018,EDR 6W- Upper Minnesota Valley,avg_estab,1580,4,2018.4,Southwest
@@ -959,6 +2026,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,avg_estab,1525,4,2014.4,Southwest
 2013,EDR 6W- Upper Minnesota Valley,avg_estab,1537,4,2013.4,Southwest
 2012,EDR 6W- Upper Minnesota Valley,avg_estab,1574,4,2012.4,Southwest
+2011,EDR 6W- Upper Minnesota Valley,avg_estab,1601,4,2011.4,Southwest
+2010,EDR 6W- Upper Minnesota Valley,avg_estab,1598,4,2010.4,Southwest
+2009,EDR 6W- Upper Minnesota Valley,avg_estab,1595,4,2009.4,Southwest
+2008,EDR 6W- Upper Minnesota Valley,avg_estab,1626,4,2008.4,Southwest
+2007,EDR 6W- Upper Minnesota Valley,avg_estab,1639,4,2007.4,Southwest
+2006,EDR 6W- Upper Minnesota Valley,avg_estab,1689,4,2006.4,Southwest
+2005,EDR 6W- Upper Minnesota Valley,avg_estab,1712,4,2005.4,Southwest
+2004,EDR 6W- Upper Minnesota Valley,avg_estab,1640,4,2004.4,Southwest
+2003,EDR 6W- Upper Minnesota Valley,avg_estab,1653,4,2003.4,Southwest
+2002,EDR 6W- Upper Minnesota Valley,avg_estab,1666,4,2002.4,Southwest
+2001,EDR 6W- Upper Minnesota Valley,avg_estab,1673,4,2001.4,Southwest
 2020,EDR 7E- East Central,avg_estab,3898,4,2020.4,Central
 2019,EDR 7E- East Central,avg_estab,3795,4,2019.4,Central
 2018,EDR 7E- East Central,avg_estab,3720,4,2018.4,Central
@@ -968,6 +2046,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,avg_estab,3454,4,2014.4,Central
 2013,EDR 7E- East Central,avg_estab,3481,4,2013.4,Central
 2012,EDR 7E- East Central,avg_estab,3495,4,2012.4,Central
+2011,EDR 7E- East Central,avg_estab,3588,4,2011.4,Central
+2010,EDR 7E- East Central,avg_estab,3572,4,2010.4,Central
+2009,EDR 7E- East Central,avg_estab,3570,4,2009.4,Central
+2008,EDR 7E- East Central,avg_estab,3754,4,2008.4,Central
+2007,EDR 7E- East Central,avg_estab,3824,4,2007.4,Central
+2006,EDR 7E- East Central,avg_estab,3903,4,2006.4,Central
+2005,EDR 7E- East Central,avg_estab,3888,4,2005.4,Central
+2004,EDR 7E- East Central,avg_estab,3705,4,2004.4,Central
+2003,EDR 7E- East Central,avg_estab,3597,4,2003.4,Central
+2002,EDR 7E- East Central,avg_estab,3529,4,2002.4,Central
+2001,EDR 7E- East Central,avg_estab,3451,4,2001.4,Central
 2020,EDR 7W- Central,avg_estab,11292,4,2020.4,Central
 2019,EDR 7W- Central,avg_estab,11049,4,2019.4,Central
 2018,EDR 7W- Central,avg_estab,10817,4,2018.4,Central
@@ -977,6 +2066,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,avg_estab,10016,4,2014.4,Central
 2013,EDR 7W- Central,avg_estab,10065,4,2013.4,Central
 2012,EDR 7W- Central,avg_estab,10070,4,2012.4,Central
+2011,EDR 7W- Central,avg_estab,10187,4,2011.4,Central
+2010,EDR 7W- Central,avg_estab,10100,4,2010.4,Central
+2009,EDR 7W- Central,avg_estab,10071,4,2009.4,Central
+2008,EDR 7W- Central,avg_estab,10380,4,2008.4,Central
+2007,EDR 7W- Central,avg_estab,10473,4,2007.4,Central
+2006,EDR 7W- Central,avg_estab,10676,4,2006.4,Central
+2005,EDR 7W- Central,avg_estab,10561,4,2005.4,Central
+2004,EDR 7W- Central,avg_estab,10008,4,2004.4,Central
+2003,EDR 7W- Central,avg_estab,9619,4,2003.4,Central
+2002,EDR 7W- Central,avg_estab,9228,4,2002.4,Central
+2001,EDR 7W- Central,avg_estab,8961,4,2001.4,Central
 2020,EDR 8 - Southwest,avg_estab,4037,4,2020.4,Southwest
 2019,EDR 8 - Southwest,avg_estab,3986,4,2019.4,Southwest
 2018,EDR 8 - Southwest,avg_estab,4015,4,2018.4,Southwest
@@ -986,6 +2086,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,avg_estab,3925,4,2014.4,Southwest
 2013,EDR 8 - Southwest,avg_estab,3943,4,2013.4,Southwest
 2012,EDR 8 - Southwest,avg_estab,3991,4,2012.4,Southwest
+2011,EDR 8 - Southwest,avg_estab,4047,4,2011.4,Southwest
+2010,EDR 8 - Southwest,avg_estab,4002,4,2010.4,Southwest
+2009,EDR 8 - Southwest,avg_estab,4007,4,2009.4,Southwest
+2008,EDR 8 - Southwest,avg_estab,4112,4,2008.4,Southwest
+2007,EDR 8 - Southwest,avg_estab,4125,4,2007.4,Southwest
+2006,EDR 8 - Southwest,avg_estab,4206,4,2006.4,Southwest
+2005,EDR 8 - Southwest,avg_estab,4198,4,2005.4,Southwest
+2004,EDR 8 - Southwest,avg_estab,4033,4,2004.4,Southwest
+2003,EDR 8 - Southwest,avg_estab,4009,4,2003.4,Southwest
+2002,EDR 8 - Southwest,avg_estab,4001,4,2002.4,Southwest
+2001,EDR 8 - Southwest,avg_estab,4013,4,2001.4,Southwest
 2020,EDR 9 - South Central,avg_estab,6976,4,2020.4,Southwest
 2019,EDR 9 - South Central,avg_estab,6867,4,2019.4,Southwest
 2018,EDR 9 - South Central,avg_estab,6807,4,2018.4,Southwest
@@ -995,6 +2106,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,avg_estab,6453,4,2014.4,Southwest
 2013,EDR 9 - South Central,avg_estab,6472,4,2013.4,Southwest
 2012,EDR 9 - South Central,avg_estab,6547,4,2012.4,Southwest
+2011,EDR 9 - South Central,avg_estab,6594,4,2011.4,Southwest
+2010,EDR 9 - South Central,avg_estab,6510,4,2010.4,Southwest
+2009,EDR 9 - South Central,avg_estab,6564,4,2009.4,Southwest
+2008,EDR 9 - South Central,avg_estab,6765,4,2008.4,Southwest
+2007,EDR 9 - South Central,avg_estab,6818,4,2007.4,Southwest
+2006,EDR 9 - South Central,avg_estab,6955,4,2006.4,Southwest
+2005,EDR 9 - South Central,avg_estab,6986,4,2005.4,Southwest
+2004,EDR 9 - South Central,avg_estab,6749,4,2004.4,Southwest
+2003,EDR 9 - South Central,avg_estab,6658,4,2003.4,Southwest
+2002,EDR 9 - South Central,avg_estab,6685,4,2002.4,Southwest
+2001,EDR 9 - South Central,avg_estab,6601,4,2001.4,Southwest
 2020,EDR 10 - Southeast,avg_estab,13119,4,2020.4,Southeast
 2019,EDR 10 - Southeast,avg_estab,12841,4,2019.4,Southeast
 2018,EDR 10 - Southeast,avg_estab,12697,4,2018.4,Southeast
@@ -1004,6 +2126,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,avg_estab,11988,4,2014.4,Southeast
 2013,EDR 10 - Southeast,avg_estab,12111,4,2013.4,Southeast
 2012,EDR 10 - Southeast,avg_estab,12146,4,2012.4,Southeast
+2011,EDR 10 - Southeast,avg_estab,12387,4,2011.4,Southeast
+2010,EDR 10 - Southeast,avg_estab,12293,4,2010.4,Southeast
+2009,EDR 10 - Southeast,avg_estab,12360,4,2009.4,Southeast
+2008,EDR 10 - Southeast,avg_estab,12707,4,2008.4,Southeast
+2007,EDR 10 - Southeast,avg_estab,12776,4,2007.4,Southeast
+2006,EDR 10 - Southeast,avg_estab,13135,4,2006.4,Southeast
+2005,EDR 10 - Southeast,avg_estab,13232,4,2005.4,Southeast
+2004,EDR 10 - Southeast,avg_estab,12617,4,2004.4,Southeast
+2003,EDR 10 - Southeast,avg_estab,12365,4,2003.4,Southeast
+2002,EDR 10 - Southeast,avg_estab,12217,4,2002.4,Southeast
+2001,EDR 10 - Southeast,avg_estab,12097,4,2001.4,Southeast
 2020,EDR 11 - 7 County Twin Cities,avg_estab,88575,4,2020.4,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,avg_estab,86236,4,2019.4,Seven County Mpls-St Paul
 2018,EDR 11 - 7 County Twin Cities,avg_estab,84683,4,2018.4,Seven County Mpls-St Paul
@@ -1013,6 +2146,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,avg_estab,77881,4,2014.4,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,avg_estab,78207,4,2013.4,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,avg_estab,78850,4,2012.4,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,avg_estab,80938,4,2011.4,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,avg_estab,80409,4,2010.4,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,avg_estab,81116,4,2009.4,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,avg_estab,84745,4,2008.4,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,avg_estab,86281,4,2007.4,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,avg_estab,88086,4,2006.4,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,avg_estab,89002,4,2005.4,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,avg_estab,84930,4,2004.4,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,avg_estab,83798,4,2003.4,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,avg_estab,82702,4,2002.4,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,avg_estab,82670,4,2001.4,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,totwage,444766875,1,2021.1,Northwest
 2020,EDR 1 - Northwest,totwage,417752010,1,2020.1,Northwest
 2019,EDR 1 - Northwest,totwage,400030689,1,2019.1,Northwest
@@ -1023,6 +2167,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,totwage,357245296,1,2014.1,Northwest
 2013,EDR 1 - Northwest,totwage,337380652,1,2013.1,Northwest
 2012,EDR 1 - Northwest,totwage,354918265,1,2012.1,Northwest
+2011,EDR 1 - Northwest,totwage,301951608,1,2011.1,Northwest
+2010,EDR 1 - Northwest,totwage,277747602,1,2010.1,Northwest
+2009,EDR 1 - Northwest,totwage,284899482,1,2009.1,Northwest
+2008,EDR 1 - Northwest,totwage,291641184,1,2008.1,Northwest
+2007,EDR 1 - Northwest,totwage,273065188,1,2007.1,Northwest
+2006,EDR 1 - Northwest,totwage,269251415,1,2006.1,Northwest
+2005,EDR 1 - Northwest,totwage,251391874,1,2005.1,Northwest
+2004,EDR 1 - Northwest,totwage,237787416,1,2004.1,Northwest
+2003,EDR 1 - Northwest,totwage,228039596,1,2003.1,Northwest
+2002,EDR 1 - Northwest,totwage,220656788,1,2002.1,Northwest
+2001,EDR 1 - Northwest,totwage,215472383,1,2001.1,Northwest
 2021,EDR 2 - Headwaters,totwage,335000033,1,2021.1,Northwest
 2020,EDR 2 - Headwaters,totwage,331658357,1,2020.1,Northwest
 2019,EDR 2 - Headwaters,totwage,321420268,1,2019.1,Northwest
@@ -1033,6 +2188,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,totwage,248376774,1,2014.1,Northwest
 2013,EDR 2 - Headwaters,totwage,238942722,1,2013.1,Northwest
 2012,EDR 2 - Headwaters,totwage,225604446,1,2012.1,Northwest
+2011,EDR 2 - Headwaters,totwage,210732983,1,2011.1,Northwest
+2010,EDR 2 - Headwaters,totwage,215187728,1,2010.1,Northwest
+2009,EDR 2 - Headwaters,totwage,207420209,1,2009.1,Northwest
+2008,EDR 2 - Headwaters,totwage,214379158,1,2008.1,Northwest
+2007,EDR 2 - Headwaters,totwage,204760027,1,2007.1,Northwest
+2006,EDR 2 - Headwaters,totwage,206194592,1,2006.1,Northwest
+2005,EDR 2 - Headwaters,totwage,189873788,1,2005.1,Northwest
+2004,EDR 2 - Headwaters,totwage,187729378,1,2004.1,Northwest
+2003,EDR 2 - Headwaters,totwage,183700646,1,2003.1,Northwest
+2002,EDR 2 - Headwaters,totwage,174823338,1,2002.1,Northwest
+2001,EDR 2 - Headwaters,totwage,174727942,1,2001.1,Northwest
 2021,EDR 3 - Arrowhead,totwage,1572345273,1,2021.1,Northeast
 2020,EDR 3 - Arrowhead,totwage,1644644548,1,2020.1,Northeast
 2019,EDR 3 - Arrowhead,totwage,1618836280,1,2019.1,Northeast
@@ -1043,6 +2209,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,totwage,1397074587,1,2014.1,Northeast
 2013,EDR 3 - Arrowhead,totwage,1354954113,1,2013.1,Northeast
 2012,EDR 3 - Arrowhead,totwage,1308366563,1,2012.1,Northeast
+2011,EDR 3 - Arrowhead,totwage,1219561600,1,2011.1,Northeast
+2010,EDR 3 - Arrowhead,totwage,1156623873,1,2010.1,Northeast
+2009,EDR 3 - Arrowhead,totwage,1206661077,1,2009.1,Northeast
+2008,EDR 3 - Arrowhead,totwage,1226558456,1,2008.1,Northeast
+2007,EDR 3 - Arrowhead,totwage,1175468193,1,2007.1,Northeast
+2006,EDR 3 - Arrowhead,totwage,1140122850,1,2006.1,Northeast
+2005,EDR 3 - Arrowhead,totwage,1059170657,1,2005.1,Northeast
+2004,EDR 3 - Arrowhead,totwage,1071074451,1,2004.1,Northeast
+2003,EDR 3 - Arrowhead,totwage,1042430035,1,2003.1,Northeast
+2002,EDR 3 - Arrowhead,totwage,1012309990,1,2002.1,Northeast
+2001,EDR 3 - Arrowhead,totwage,1000392523,1,2001.1,Northeast
 2021,EDR 4 - West Central,totwage,935619538,1,2021.1,Northwest
 2020,EDR 4 - West Central,totwage,935641348,1,2020.1,Northwest
 2019,EDR 4 - West Central,totwage,903277513,1,2019.1,Northwest
@@ -1053,6 +2230,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,totwage,737651221,1,2014.1,Northwest
 2013,EDR 4 - West Central,totwage,708595417,1,2013.1,Northwest
 2012,EDR 4 - West Central,totwage,673777937,1,2012.1,Northwest
+2011,EDR 4 - West Central,totwage,621845571,1,2011.1,Northwest
+2010,EDR 4 - West Central,totwage,594289254,1,2010.1,Northwest
+2009,EDR 4 - West Central,totwage,604429874,1,2009.1,Northwest
+2008,EDR 4 - West Central,totwage,611294508,1,2008.1,Northwest
+2007,EDR 4 - West Central,totwage,576625917,1,2007.1,Northwest
+2006,EDR 4 - West Central,totwage,555397126,1,2006.1,Northwest
+2005,EDR 4 - West Central,totwage,506864274,1,2005.1,Northwest
+2004,EDR 4 - West Central,totwage,503305372,1,2004.1,Northwest
+2003,EDR 4 - West Central,totwage,488993092,1,2003.1,Northwest
+2002,EDR 4 - West Central,totwage,465442401,1,2002.1,Northwest
+2001,EDR 4 - West Central,totwage,444086123,1,2001.1,Northwest
 2021,EDR 5 - North Central,totwage,676852183,1,2021.1,Northwest
 2020,EDR 5 - North Central,totwage,606934726,1,2020.1,Northwest
 2019,EDR 5 - North Central,totwage,578673819,1,2019.1,Northwest
@@ -1063,6 +2251,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,totwage,466911087,1,2014.1,Northwest
 2013,EDR 5 - North Central,totwage,449906875,1,2013.1,Northwest
 2012,EDR 5 - North Central,totwage,434709914,1,2012.1,Northwest
+2011,EDR 5 - North Central,totwage,426564667,1,2011.1,Northwest
+2010,EDR 5 - North Central,totwage,404640439,1,2010.1,Northwest
+2009,EDR 5 - North Central,totwage,415082992,1,2009.1,Northwest
+2008,EDR 5 - North Central,totwage,439167268,1,2008.1,Northwest
+2007,EDR 5 - North Central,totwage,419600693,1,2007.1,Northwest
+2006,EDR 5 - North Central,totwage,406745139,1,2006.1,Northwest
+2005,EDR 5 - North Central,totwage,376316368,1,2005.1,Northwest
+2004,EDR 5 - North Central,totwage,373964726,1,2004.1,Northwest
+2003,EDR 5 - North Central,totwage,362019211,1,2003.1,Northwest
+2002,EDR 5 - North Central,totwage,350609448,1,2002.1,Northwest
+2001,EDR 5 - North Central,totwage,338184799,1,2001.1,Northwest
 2021,EDR 6E- Southwest Central,totwage,539814723,1,2021.1,Central
 2020,EDR 6E- Southwest Central,totwage,548954352,1,2020.1,Central
 2019,EDR 6E- Southwest Central,totwage,540797300,1,2019.1,Central
@@ -1073,6 +2272,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,totwage,453943887,1,2014.1,Central
 2013,EDR 6E- Southwest Central,totwage,431945291,1,2013.1,Central
 2012,EDR 6E- Southwest Central,totwage,427566254,1,2012.1,Central
+2011,EDR 6E- Southwest Central,totwage,398220178,1,2011.1,Central
+2010,EDR 6E- Southwest Central,totwage,382845446,1,2010.1,Central
+2009,EDR 6E- Southwest Central,totwage,407481102,1,2009.1,Central
+2008,EDR 6E- Southwest Central,totwage,420324486,1,2008.1,Central
+2007,EDR 6E- Southwest Central,totwage,412128378,1,2007.1,Central
+2006,EDR 6E- Southwest Central,totwage,394640086,1,2006.1,Central
+2005,EDR 6E- Southwest Central,totwage,358039169,1,2005.1,Central
+2004,EDR 6E- Southwest Central,totwage,356229645,1,2004.1,Central
+2003,EDR 6E- Southwest Central,totwage,350310589,1,2003.1,Central
+2002,EDR 6E- Southwest Central,totwage,337386157,1,2002.1,Central
+2001,EDR 6E- Southwest Central,totwage,331196976,1,2001.1,Central
 2021,EDR 6W- Upper Minnesota Valley,totwage,160570561,1,2021.1,Southwest
 2020,EDR 6W- Upper Minnesota Valley,totwage,161108628,1,2020.1,Southwest
 2019,EDR 6W- Upper Minnesota Valley,totwage,160349654,1,2019.1,Southwest
@@ -1083,6 +2293,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,totwage,141555442,1,2014.1,Southwest
 2013,EDR 6W- Upper Minnesota Valley,totwage,136563839,1,2013.1,Southwest
 2012,EDR 6W- Upper Minnesota Valley,totwage,144216315,1,2012.1,Southwest
+2011,EDR 6W- Upper Minnesota Valley,totwage,136793773,1,2011.1,Southwest
+2010,EDR 6W- Upper Minnesota Valley,totwage,129116306,1,2010.1,Southwest
+2009,EDR 6W- Upper Minnesota Valley,totwage,135988781,1,2009.1,Southwest
+2008,EDR 6W- Upper Minnesota Valley,totwage,137319073,1,2008.1,Southwest
+2007,EDR 6W- Upper Minnesota Valley,totwage,128230947,1,2007.1,Southwest
+2006,EDR 6W- Upper Minnesota Valley,totwage,123006495,1,2006.1,Southwest
+2005,EDR 6W- Upper Minnesota Valley,totwage,110789179,1,2005.1,Southwest
+2004,EDR 6W- Upper Minnesota Valley,totwage,107770169,1,2004.1,Southwest
+2003,EDR 6W- Upper Minnesota Valley,totwage,104470533,1,2003.1,Southwest
+2002,EDR 6W- Upper Minnesota Valley,totwage,100699570,1,2002.1,Southwest
+2001,EDR 6W- Upper Minnesota Valley,totwage,97825400,1,2001.1,Southwest
 2021,EDR 7E- East Central,totwage,503913486,1,2021.1,Central
 2020,EDR 7E- East Central,totwage,492764846,1,2020.1,Central
 2019,EDR 7E- East Central,totwage,470249470,1,2019.1,Central
@@ -1093,6 +2314,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,totwage,370987449,1,2014.1,Central
 2013,EDR 7E- East Central,totwage,359244148,1,2013.1,Central
 2012,EDR 7E- East Central,totwage,350007892,1,2012.1,Central
+2011,EDR 7E- East Central,totwage,321282648,1,2011.1,Central
+2010,EDR 7E- East Central,totwage,311487192,1,2010.1,Central
+2009,EDR 7E- East Central,totwage,326695324,1,2009.1,Central
+2008,EDR 7E- East Central,totwage,340299489,1,2008.1,Central
+2007,EDR 7E- East Central,totwage,327268748,1,2007.1,Central
+2006,EDR 7E- East Central,totwage,319962548,1,2006.1,Central
+2005,EDR 7E- East Central,totwage,289305203,1,2005.1,Central
+2004,EDR 7E- East Central,totwage,299021880,1,2004.1,Central
+2003,EDR 7E- East Central,totwage,286323696,1,2003.1,Central
+2002,EDR 7E- East Central,totwage,273133682,1,2002.1,Central
+2001,EDR 7E- East Central,totwage,259577015,1,2001.1,Central
 2021,EDR 7W- Central,totwage,2084704214,1,2021.1,Central
 2020,EDR 7W- Central,totwage,2086605086,1,2020.1,Central
 2019,EDR 7W- Central,totwage,1970715449,1,2019.1,Central
@@ -1103,6 +2335,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,totwage,1530952526,1,2014.1,Central
 2013,EDR 7W- Central,totwage,1468689552,1,2013.1,Central
 2012,EDR 7W- Central,totwage,1418763413,1,2012.1,Central
+2011,EDR 7W- Central,totwage,1327544604,1,2011.1,Central
+2010,EDR 7W- Central,totwage,1241360451,1,2010.1,Central
+2009,EDR 7W- Central,totwage,1295852561,1,2009.1,Central
+2008,EDR 7W- Central,totwage,1355352563,1,2008.1,Central
+2007,EDR 7W- Central,totwage,1312125966,1,2007.1,Central
+2006,EDR 7W- Central,totwage,1242352017,1,2006.1,Central
+2005,EDR 7W- Central,totwage,1093101536,1,2005.1,Central
+2004,EDR 7W- Central,totwage,1062922162,1,2004.1,Central
+2003,EDR 7W- Central,totwage,1023487875,1,2003.1,Central
+2002,EDR 7W- Central,totwage,984161013,1,2002.1,Central
+2001,EDR 7W- Central,totwage,942669376,1,2001.1,Central
 2021,EDR 8 - Southwest,totwage,582350128,1,2021.1,Southwest
 2020,EDR 8 - Southwest,totwage,577309831,1,2020.1,Southwest
 2019,EDR 8 - Southwest,totwage,550585755,1,2019.1,Southwest
@@ -1113,6 +2356,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,totwage,463176788,1,2014.1,Southwest
 2013,EDR 8 - Southwest,totwage,451738867,1,2013.1,Southwest
 2012,EDR 8 - Southwest,totwage,437616399,1,2012.1,Southwest
+2011,EDR 8 - Southwest,totwage,404729179,1,2011.1,Southwest
+2010,EDR 8 - Southwest,totwage,383957207,1,2010.1,Southwest
+2009,EDR 8 - Southwest,totwage,398057571,1,2009.1,Southwest
+2008,EDR 8 - Southwest,totwage,408154574,1,2008.1,Southwest
+2007,EDR 8 - Southwest,totwage,372559020,1,2007.1,Southwest
+2006,EDR 8 - Southwest,totwage,372165338,1,2006.1,Southwest
+2005,EDR 8 - Southwest,totwage,332249133,1,2005.1,Southwest
+2004,EDR 8 - Southwest,totwage,325192611,1,2004.1,Southwest
+2003,EDR 8 - Southwest,totwage,324155024,1,2003.1,Southwest
+2002,EDR 8 - Southwest,totwage,309279800,1,2002.1,Southwest
+2001,EDR 8 - Southwest,totwage,308652723,1,2001.1,Southwest
 2021,EDR 9 - South Central,totwage,1121948568,1,2021.1,Southwest
 2020,EDR 9 - South Central,totwage,1147328374,1,2020.1,Southwest
 2019,EDR 9 - South Central,totwage,1110168222,1,2019.1,Southwest
@@ -1123,6 +2377,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,totwage,911176312,1,2014.1,Southwest
 2013,EDR 9 - South Central,totwage,875662460,1,2013.1,Southwest
 2012,EDR 9 - South Central,totwage,860656398,1,2012.1,Southwest
+2011,EDR 9 - South Central,totwage,801059553,1,2011.1,Southwest
+2010,EDR 9 - South Central,totwage,763881560,1,2010.1,Southwest
+2009,EDR 9 - South Central,totwage,787539808,1,2009.1,Southwest
+2008,EDR 9 - South Central,totwage,814526595,1,2008.1,Southwest
+2007,EDR 9 - South Central,totwage,778279575,1,2007.1,Southwest
+2006,EDR 9 - South Central,totwage,765007238,1,2006.1,Southwest
+2005,EDR 9 - South Central,totwage,695510289,1,2005.1,Southwest
+2004,EDR 9 - South Central,totwage,682427552,1,2004.1,Southwest
+2003,EDR 9 - South Central,totwage,675186995,1,2003.1,Southwest
+2002,EDR 9 - South Central,totwage,647038986,1,2002.1,Southwest
+2001,EDR 9 - South Central,totwage,637130347,1,2001.1,Southwest
 2021,EDR 10 - Southeast,totwage,3259485584,1,2021.1,Southeast
 2020,EDR 10 - Southeast,totwage,3254896439,1,2020.1,Southeast
 2019,EDR 10 - Southeast,totwage,3167805001,1,2019.1,Southeast
@@ -1133,6 +2398,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,totwage,2558227386,1,2014.1,Southeast
 2013,EDR 10 - Southeast,totwage,2488183456,1,2013.1,Southeast
 2012,EDR 10 - Southeast,totwage,2432881748,1,2012.1,Southeast
+2011,EDR 10 - Southeast,totwage,2271477140,1,2011.1,Southeast
+2010,EDR 10 - Southeast,totwage,2162589553,1,2010.1,Southeast
+2009,EDR 10 - Southeast,totwage,2232273689,1,2009.1,Southeast
+2008,EDR 10 - Southeast,totwage,2247819522,1,2008.1,Southeast
+2007,EDR 10 - Southeast,totwage,2198671241,1,2007.1,Southeast
+2006,EDR 10 - Southeast,totwage,2159710243,1,2006.1,Southeast
+2005,EDR 10 - Southeast,totwage,1965460902,1,2005.1,Southeast
+2004,EDR 10 - Southeast,totwage,1933303858,1,2004.1,Southeast
+2003,EDR 10 - Southeast,totwage,1817296530,1,2003.1,Southeast
+2002,EDR 10 - Southeast,totwage,1754477552,1,2002.1,Southeast
+2001,EDR 10 - Southeast,totwage,1719949555,1,2001.1,Southeast
 2021,EDR 11 - 7 County Twin Cities,totwage,30909428003,1,2021.1,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,totwage,31947838063,1,2020.1,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,totwage,31139913800,1,2019.1,Seven County Mpls-St Paul
@@ -1143,6 +2419,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,totwage,24879678871,1,2014.1,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,totwage,23758817886,1,2013.1,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,totwage,23083039503,1,2012.1,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,totwage,21347070765,1,2011.1,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,totwage,19707934034,1,2010.1,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,totwage,20193776960,1,2009.1,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,totwage,21827050262,1,2008.1,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,totwage,20954182746,1,2007.1,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,totwage,19713089182,1,2006.1,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,totwage,18197486170,1,2005.1,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,totwage,17828948621,1,2004.1,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,totwage,16945221204,1,2003.1,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,totwage,16722506894,1,2002.1,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,totwage,17015795984,1,2001.1,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,totwage,426158717,2,2021.2,Northwest
 2020,EDR 1 - Northwest,totwage,371682133,2,2020.2,Northwest
 2019,EDR 1 - Northwest,totwage,390847909,2,2019.2,Northwest
@@ -1153,6 +2440,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,totwage,362870786,2,2014.2,Northwest
 2013,EDR 1 - Northwest,totwage,346434516,2,2013.2,Northwest
 2012,EDR 1 - Northwest,totwage,329344190,2,2012.2,Northwest
+2011,EDR 1 - Northwest,totwage,312197387,2,2011.2,Northwest
+2010,EDR 1 - Northwest,totwage,291236378,2,2010.2,Northwest
+2009,EDR 1 - Northwest,totwage,277812092,2,2009.2,Northwest
+2008,EDR 1 - Northwest,totwage,284449761,2,2008.2,Northwest
+2007,EDR 1 - Northwest,totwage,276338110,2,2007.2,Northwest
+2006,EDR 1 - Northwest,totwage,268586946,2,2006.2,Northwest
+2005,EDR 1 - Northwest,totwage,262898045,2,2005.2,Northwest
+2004,EDR 1 - Northwest,totwage,256977617,2,2004.2,Northwest
+2003,EDR 1 - Northwest,totwage,246607741,2,2003.2,Northwest
+2002,EDR 1 - Northwest,totwage,235752017,2,2002.2,Northwest
+2001,EDR 1 - Northwest,totwage,225810906,2,2001.2,Northwest
 2021,EDR 2 - Headwaters,totwage,370508245,2,2021.2,Northwest
 2020,EDR 2 - Headwaters,totwage,329568024,2,2020.2,Northwest
 2019,EDR 2 - Headwaters,totwage,341173018,2,2019.2,Northwest
@@ -1163,6 +2461,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,totwage,259850835,2,2014.2,Northwest
 2013,EDR 2 - Headwaters,totwage,249133588,2,2013.2,Northwest
 2012,EDR 2 - Headwaters,totwage,239392801,2,2012.2,Northwest
+2011,EDR 2 - Headwaters,totwage,223261381,2,2011.2,Northwest
+2010,EDR 2 - Headwaters,totwage,220255348,2,2010.2,Northwest
+2009,EDR 2 - Headwaters,totwage,216303916,2,2009.2,Northwest
+2008,EDR 2 - Headwaters,totwage,220935778,2,2008.2,Northwest
+2007,EDR 2 - Headwaters,totwage,212848553,2,2007.2,Northwest
+2006,EDR 2 - Headwaters,totwage,214533954,2,2006.2,Northwest
+2005,EDR 2 - Headwaters,totwage,204201668,2,2005.2,Northwest
+2004,EDR 2 - Headwaters,totwage,203729100,2,2004.2,Northwest
+2003,EDR 2 - Headwaters,totwage,197031868,2,2003.2,Northwest
+2002,EDR 2 - Headwaters,totwage,192218472,2,2002.2,Northwest
+2001,EDR 2 - Headwaters,totwage,180727831,2,2001.2,Northwest
 2021,EDR 3 - Arrowhead,totwage,1717640199,2,2021.2,Northeast
 2020,EDR 3 - Arrowhead,totwage,1521431122,2,2020.2,Northeast
 2019,EDR 3 - Arrowhead,totwage,1664624996,2,2019.2,Northeast
@@ -1173,6 +2482,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,totwage,1367741388,2,2014.2,Northeast
 2013,EDR 3 - Arrowhead,totwage,1350509061,2,2013.2,Northeast
 2012,EDR 3 - Arrowhead,totwage,1287027764,2,2012.2,Northeast
+2011,EDR 3 - Arrowhead,totwage,1305852296,2,2011.2,Northeast
+2010,EDR 3 - Arrowhead,totwage,1262619382,2,2010.2,Northeast
+2009,EDR 3 - Arrowhead,totwage,1195261052,2,2009.2,Northeast
+2008,EDR 3 - Arrowhead,totwage,1277045103,2,2008.2,Northeast
+2007,EDR 3 - Arrowhead,totwage,1263628392,2,2007.2,Northeast
+2006,EDR 3 - Arrowhead,totwage,1187849967,2,2006.2,Northeast
+2005,EDR 3 - Arrowhead,totwage,1104147221,2,2005.2,Northeast
+2004,EDR 3 - Arrowhead,totwage,1075493734,2,2004.2,Northeast
+2003,EDR 3 - Arrowhead,totwage,1046944903,2,2003.2,Northeast
+2002,EDR 3 - Arrowhead,totwage,1043738722,2,2002.2,Northeast
+2001,EDR 3 - Arrowhead,totwage,1002273500,2,2001.2,Northeast
 2021,EDR 4 - West Central,totwage,1035237885,2,2021.2,Northwest
 2020,EDR 4 - West Central,totwage,937973869,2,2020.2,Northwest
 2019,EDR 4 - West Central,totwage,953044603,2,2019.2,Northwest
@@ -1183,6 +2503,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,totwage,771681815,2,2014.2,Northwest
 2013,EDR 4 - West Central,totwage,735034472,2,2013.2,Northwest
 2012,EDR 4 - West Central,totwage,708233294,2,2012.2,Northwest
+2011,EDR 4 - West Central,totwage,673150379,2,2011.2,Northwest
+2010,EDR 4 - West Central,totwage,650855596,2,2010.2,Northwest
+2009,EDR 4 - West Central,totwage,636787745,2,2009.2,Northwest
+2008,EDR 4 - West Central,totwage,643024006,2,2008.2,Northwest
+2007,EDR 4 - West Central,totwage,616315097,2,2007.2,Northwest
+2006,EDR 4 - West Central,totwage,587180863,2,2006.2,Northwest
+2005,EDR 4 - West Central,totwage,550079039,2,2005.2,Northwest
+2004,EDR 4 - West Central,totwage,550676309,2,2004.2,Northwest
+2003,EDR 4 - West Central,totwage,519705103,2,2003.2,Northwest
+2002,EDR 4 - West Central,totwage,498561540,2,2002.2,Northwest
+2001,EDR 4 - West Central,totwage,476107635,2,2001.2,Northwest
 2021,EDR 5 - North Central,totwage,709601561,2,2021.2,Northwest
 2020,EDR 5 - North Central,totwage,601633659,2,2020.2,Northwest
 2019,EDR 5 - North Central,totwage,625920778,2,2019.2,Northwest
@@ -1193,6 +2524,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,totwage,501494170,2,2014.2,Northwest
 2013,EDR 5 - North Central,totwage,486953642,2,2013.2,Northwest
 2012,EDR 5 - North Central,totwage,466452675,2,2012.2,Northwest
+2011,EDR 5 - North Central,totwage,462144631,2,2011.2,Northwest
+2010,EDR 5 - North Central,totwage,452890638,2,2010.2,Northwest
+2009,EDR 5 - North Central,totwage,442232786,2,2009.2,Northwest
+2008,EDR 5 - North Central,totwage,460737537,2,2008.2,Northwest
+2007,EDR 5 - North Central,totwage,454382124,2,2007.2,Northwest
+2006,EDR 5 - North Central,totwage,436559764,2,2006.2,Northwest
+2005,EDR 5 - North Central,totwage,417391691,2,2005.2,Northwest
+2004,EDR 5 - North Central,totwage,419087031,2,2004.2,Northwest
+2003,EDR 5 - North Central,totwage,397543790,2,2003.2,Northwest
+2002,EDR 5 - North Central,totwage,388750742,2,2002.2,Northwest
+2001,EDR 5 - North Central,totwage,367658985,2,2001.2,Northwest
 2021,EDR 6E- Southwest Central,totwage,589157040,2,2021.2,Central
 2020,EDR 6E- Southwest Central,totwage,553427099,2,2020.2,Central
 2019,EDR 6E- Southwest Central,totwage,561818300,2,2019.2,Central
@@ -1203,6 +2545,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,totwage,466669811,2,2014.2,Central
 2013,EDR 6E- Southwest Central,totwage,447026530,2,2013.2,Central
 2012,EDR 6E- Southwest Central,totwage,437006852,2,2012.2,Central
+2011,EDR 6E- Southwest Central,totwage,428171840,2,2011.2,Central
+2010,EDR 6E- Southwest Central,totwage,416928945,2,2010.2,Central
+2009,EDR 6E- Southwest Central,totwage,418653617,2,2009.2,Central
+2008,EDR 6E- Southwest Central,totwage,436331668,2,2008.2,Central
+2007,EDR 6E- Southwest Central,totwage,432513371,2,2007.2,Central
+2006,EDR 6E- Southwest Central,totwage,413647978,2,2006.2,Central
+2005,EDR 6E- Southwest Central,totwage,390137191,2,2005.2,Central
+2004,EDR 6E- Southwest Central,totwage,373338391,2,2004.2,Central
+2003,EDR 6E- Southwest Central,totwage,364798074,2,2003.2,Central
+2002,EDR 6E- Southwest Central,totwage,350395726,2,2002.2,Central
+2001,EDR 6E- Southwest Central,totwage,341183872,2,2001.2,Central
 2021,EDR 6W- Upper Minnesota Valley,totwage,179956395,2,2021.2,Southwest
 2020,EDR 6W- Upper Minnesota Valley,totwage,161935436,2,2020.2,Southwest
 2019,EDR 6W- Upper Minnesota Valley,totwage,168981109,2,2019.2,Southwest
@@ -1213,6 +2566,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,totwage,147297776,2,2014.2,Southwest
 2013,EDR 6W- Upper Minnesota Valley,totwage,143017344,2,2013.2,Southwest
 2012,EDR 6W- Upper Minnesota Valley,totwage,144798758,2,2012.2,Southwest
+2011,EDR 6W- Upper Minnesota Valley,totwage,144945722,2,2011.2,Southwest
+2010,EDR 6W- Upper Minnesota Valley,totwage,140894424,2,2010.2,Southwest
+2009,EDR 6W- Upper Minnesota Valley,totwage,141842036,2,2009.2,Southwest
+2008,EDR 6W- Upper Minnesota Valley,totwage,142831473,2,2008.2,Southwest
+2007,EDR 6W- Upper Minnesota Valley,totwage,135449854,2,2007.2,Southwest
+2006,EDR 6W- Upper Minnesota Valley,totwage,128744518,2,2006.2,Southwest
+2005,EDR 6W- Upper Minnesota Valley,totwage,118150012,2,2005.2,Southwest
+2004,EDR 6W- Upper Minnesota Valley,totwage,115318491,2,2004.2,Southwest
+2003,EDR 6W- Upper Minnesota Valley,totwage,110692654,2,2003.2,Southwest
+2002,EDR 6W- Upper Minnesota Valley,totwage,108196420,2,2002.2,Southwest
+2001,EDR 6W- Upper Minnesota Valley,totwage,106467500,2,2001.2,Southwest
 2021,EDR 7E- East Central,totwage,522675524,2,2021.2,Central
 2020,EDR 7E- East Central,totwage,469202294,2,2020.2,Central
 2019,EDR 7E- East Central,totwage,490254518,2,2019.2,Central
@@ -1223,6 +2587,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,totwage,391393256,2,2014.2,Central
 2013,EDR 7E- East Central,totwage,381859850,2,2013.2,Central
 2012,EDR 7E- East Central,totwage,374466307,2,2012.2,Central
+2011,EDR 7E- East Central,totwage,358867696,2,2011.2,Central
+2010,EDR 7E- East Central,totwage,349498734,2,2010.2,Central
+2009,EDR 7E- East Central,totwage,347225347,2,2009.2,Central
+2008,EDR 7E- East Central,totwage,358330646,2,2008.2,Central
+2007,EDR 7E- East Central,totwage,348589088,2,2007.2,Central
+2006,EDR 7E- East Central,totwage,342139836,2,2006.2,Central
+2005,EDR 7E- East Central,totwage,319488193,2,2005.2,Central
+2004,EDR 7E- East Central,totwage,333464513,2,2004.2,Central
+2003,EDR 7E- East Central,totwage,316716739,2,2003.2,Central
+2002,EDR 7E- East Central,totwage,297999377,2,2002.2,Central
+2001,EDR 7E- East Central,totwage,279228437,2,2001.2,Central
 2021,EDR 7W- Central,totwage,2187887785,2,2021.2,Central
 2020,EDR 7W- Central,totwage,1956785851,2,2020.2,Central
 2019,EDR 7W- Central,totwage,2010804898,2,2019.2,Central
@@ -1233,6 +2608,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,totwage,1602749728,2,2014.2,Central
 2013,EDR 7W- Central,totwage,1524330910,2,2013.2,Central
 2012,EDR 7W- Central,totwage,1458354748,2,2012.2,Central
+2011,EDR 7W- Central,totwage,1395081464,2,2011.2,Central
+2010,EDR 7W- Central,totwage,1309811714,2,2010.2,Central
+2009,EDR 7W- Central,totwage,1287318731,2,2009.2,Central
+2008,EDR 7W- Central,totwage,1348806981,2,2008.2,Central
+2007,EDR 7W- Central,totwage,1329074829,2,2007.2,Central
+2006,EDR 7W- Central,totwage,1273078363,2,2006.2,Central
+2005,EDR 7W- Central,totwage,1203754309,2,2005.2,Central
+2004,EDR 7W- Central,totwage,1152363929,2,2004.2,Central
+2003,EDR 7W- Central,totwage,1090180055,2,2003.2,Central
+2002,EDR 7W- Central,totwage,1059705812,2,2002.2,Central
+2001,EDR 7W- Central,totwage,992411106,2,2001.2,Central
 2021,EDR 8 - Southwest,totwage,593438262,2,2021.2,Southwest
 2020,EDR 8 - Southwest,totwage,556460854,2,2020.2,Southwest
 2019,EDR 8 - Southwest,totwage,549336426,2,2019.2,Southwest
@@ -1243,6 +2629,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,totwage,478723769,2,2014.2,Southwest
 2013,EDR 8 - Southwest,totwage,462288530,2,2013.2,Southwest
 2012,EDR 8 - Southwest,totwage,444286804,2,2012.2,Southwest
+2011,EDR 8 - Southwest,totwage,425072439,2,2011.2,Southwest
+2010,EDR 8 - Southwest,totwage,412350244,2,2010.2,Southwest
+2009,EDR 8 - Southwest,totwage,405761445,2,2009.2,Southwest
+2008,EDR 8 - Southwest,totwage,404473722,2,2008.2,Southwest
+2007,EDR 8 - Southwest,totwage,386099770,2,2007.2,Southwest
+2006,EDR 8 - Southwest,totwage,371743059,2,2006.2,Southwest
+2005,EDR 8 - Southwest,totwage,356584180,2,2005.2,Southwest
+2004,EDR 8 - Southwest,totwage,341522159,2,2004.2,Southwest
+2003,EDR 8 - Southwest,totwage,332450128,2,2003.2,Southwest
+2002,EDR 8 - Southwest,totwage,322197082,2,2002.2,Southwest
+2001,EDR 8 - Southwest,totwage,315257555,2,2001.2,Southwest
 2021,EDR 9 - South Central,totwage,1191714052,2,2021.2,Southwest
 2020,EDR 9 - South Central,totwage,1102563085,2,2020.2,Southwest
 2019,EDR 9 - South Central,totwage,1134178350,2,2019.2,Southwest
@@ -1253,6 +2650,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,totwage,943498137,2,2014.2,Southwest
 2013,EDR 9 - South Central,totwage,903563972,2,2013.2,Southwest
 2012,EDR 9 - South Central,totwage,884618366,2,2012.2,Southwest
+2011,EDR 9 - South Central,totwage,839356198,2,2011.2,Southwest
+2010,EDR 9 - South Central,totwage,820168933,2,2010.2,Southwest
+2009,EDR 9 - South Central,totwage,799493422,2,2009.2,Southwest
+2008,EDR 9 - South Central,totwage,822897697,2,2008.2,Southwest
+2007,EDR 9 - South Central,totwage,802459013,2,2007.2,Southwest
+2006,EDR 9 - South Central,totwage,777366833,2,2006.2,Southwest
+2005,EDR 9 - South Central,totwage,738767310,2,2005.2,Southwest
+2004,EDR 9 - South Central,totwage,722826378,2,2004.2,Southwest
+2003,EDR 9 - South Central,totwage,693625477,2,2003.2,Southwest
+2002,EDR 9 - South Central,totwage,677127308,2,2002.2,Southwest
+2001,EDR 9 - South Central,totwage,659188699,2,2001.2,Southwest
 2021,EDR 10 - Southeast,totwage,3479087003,2,2021.2,Southeast
 2020,EDR 10 - Southeast,totwage,3137544762,2,2020.2,Southeast
 2019,EDR 10 - Southeast,totwage,3150319422,2,2019.2,Southeast
@@ -1263,6 +2671,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,totwage,2643400810,2,2014.2,Southeast
 2013,EDR 10 - Southeast,totwage,2601265181,2,2013.2,Southeast
 2012,EDR 10 - Southeast,totwage,2506615093,2,2012.2,Southeast
+2011,EDR 10 - Southeast,totwage,2398297730,2,2011.2,Southeast
+2010,EDR 10 - Southeast,totwage,2317990817,2,2010.2,Southeast
+2009,EDR 10 - Southeast,totwage,2279381474,2,2009.2,Southeast
+2008,EDR 10 - Southeast,totwage,2229965499,2,2008.2,Southeast
+2007,EDR 10 - Southeast,totwage,2140855565,2,2007.2,Southeast
+2006,EDR 10 - Southeast,totwage,2074486944,2,2006.2,Southeast
+2005,EDR 10 - Southeast,totwage,1996843446,2,2005.2,Southeast
+2004,EDR 10 - Southeast,totwage,1903565382,2,2004.2,Southeast
+2003,EDR 10 - Southeast,totwage,1882674590,2,2003.2,Southeast
+2002,EDR 10 - Southeast,totwage,1822510126,2,2002.2,Southeast
+2001,EDR 10 - Southeast,totwage,1757002582,2,2001.2,Southeast
 2021,EDR 11 - 7 County Twin Cities,totwage,30045777645,2,2021.2,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,totwage,26861995968,2,2020.2,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,totwage,28376645829,2,2019.2,Seven County Mpls-St Paul
@@ -1273,6 +2692,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,totwage,22773861930,2,2014.2,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,totwage,22040609509,2,2013.2,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,totwage,21264635907,2,2012.2,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,totwage,20825561008,2,2011.2,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,totwage,19785375000,2,2010.2,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,totwage,19158637742,2,2009.2,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,totwage,20443371279,2,2008.2,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,totwage,20295611826,2,2007.2,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,totwage,18997417671,2,2006.2,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,totwage,18025923856,2,2005.2,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,totwage,17438490150,2,2004.2,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,totwage,16806076211,2,2003.2,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,totwage,16379800321,2,2002.2,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,totwage,16474801063,2,2001.2,Seven County Mpls-St Paul
 2021,EDR 1 - Northwest,totwage,435396754,3,2021.3,Northwest
 2020,EDR 1 - Northwest,totwage,403023023,3,2020.3,Northwest
 2019,EDR 1 - Northwest,totwage,396854657,3,2019.3,Northwest
@@ -1283,6 +2713,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,totwage,359295644,3,2014.3,Northwest
 2013,EDR 1 - Northwest,totwage,352333298,3,2013.3,Northwest
 2012,EDR 1 - Northwest,totwage,327720888,3,2012.3,Northwest
+2011,EDR 1 - Northwest,totwage,318576173,3,2011.3,Northwest
+2010,EDR 1 - Northwest,totwage,299313590,3,2010.3,Northwest
+2009,EDR 1 - Northwest,totwage,276170802,3,2009.3,Northwest
+2008,EDR 1 - Northwest,totwage,286112014,3,2008.3,Northwest
+2007,EDR 1 - Northwest,totwage,271988948,3,2007.3,Northwest
+2006,EDR 1 - Northwest,totwage,262564965,3,2006.3,Northwest
+2005,EDR 1 - Northwest,totwage,261478791,3,2005.3,Northwest
+2004,EDR 1 - Northwest,totwage,246283751,3,2004.3,Northwest
+2003,EDR 1 - Northwest,totwage,227509794,3,2003.3,Northwest
+2002,EDR 1 - Northwest,totwage,219064309,3,2002.3,Northwest
+2001,EDR 1 - Northwest,totwage,212287733,3,2001.3,Northwest
 2021,EDR 2 - Headwaters,totwage,401244861,3,2021.3,Northwest
 2020,EDR 2 - Headwaters,totwage,353993178,3,2020.3,Northwest
 2019,EDR 2 - Headwaters,totwage,348422895,3,2019.3,Northwest
@@ -1293,6 +2734,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,totwage,274810871,3,2014.3,Northwest
 2013,EDR 2 - Headwaters,totwage,263464461,3,2013.3,Northwest
 2012,EDR 2 - Headwaters,totwage,252599203,3,2012.3,Northwest
+2011,EDR 2 - Headwaters,totwage,243110096,3,2011.3,Northwest
+2010,EDR 2 - Headwaters,totwage,232571746,3,2010.3,Northwest
+2009,EDR 2 - Headwaters,totwage,230969149,3,2009.3,Northwest
+2008,EDR 2 - Headwaters,totwage,232794689,3,2008.3,Northwest
+2007,EDR 2 - Headwaters,totwage,220348473,3,2007.3,Northwest
+2006,EDR 2 - Headwaters,totwage,223776226,3,2006.3,Northwest
+2005,EDR 2 - Headwaters,totwage,215292599,3,2005.3,Northwest
+2004,EDR 2 - Headwaters,totwage,207012713,3,2004.3,Northwest
+2003,EDR 2 - Headwaters,totwage,201585896,3,2003.3,Northwest
+2002,EDR 2 - Headwaters,totwage,198606498,3,2002.3,Northwest
+2001,EDR 2 - Headwaters,totwage,182803542,3,2001.3,Northwest
 2021,EDR 3 - Arrowhead,totwage,1789151425,3,2021.3,Northeast
 2020,EDR 3 - Arrowhead,totwage,1585203792,3,2020.3,Northeast
 2019,EDR 3 - Arrowhead,totwage,1675968793,3,2019.3,Northeast
@@ -1303,6 +2755,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,totwage,1485781882,3,2014.3,Northeast
 2013,EDR 3 - Arrowhead,totwage,1416704589,3,2013.3,Northeast
 2012,EDR 3 - Arrowhead,totwage,1364273328,3,2012.3,Northeast
+2011,EDR 3 - Arrowhead,totwage,1376300944,3,2011.3,Northeast
+2010,EDR 3 - Arrowhead,totwage,1259373065,3,2010.3,Northeast
+2009,EDR 3 - Arrowhead,totwage,1199797586,3,2009.3,Northeast
+2008,EDR 3 - Arrowhead,totwage,1273459283,3,2008.3,Northeast
+2007,EDR 3 - Arrowhead,totwage,1222941706,3,2007.3,Northeast
+2006,EDR 3 - Arrowhead,totwage,1165653773,3,2006.3,Northeast
+2005,EDR 3 - Arrowhead,totwage,1183063200,3,2005.3,Northeast
+2004,EDR 3 - Arrowhead,totwage,1119662987,3,2004.3,Northeast
+2003,EDR 3 - Arrowhead,totwage,1083419091,3,2003.3,Northeast
+2002,EDR 3 - Arrowhead,totwage,1075411335,3,2002.3,Northeast
+2001,EDR 3 - Arrowhead,totwage,1022392759,3,2001.3,Northeast
 2021,EDR 4 - West Central,totwage,1054932091,3,2021.3,Northwest
 2020,EDR 4 - West Central,totwage,966928668,3,2020.3,Northwest
 2019,EDR 4 - West Central,totwage,958005232,3,2019.3,Northwest
@@ -1313,6 +2776,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,totwage,811728556,3,2014.3,Northwest
 2013,EDR 4 - West Central,totwage,766329171,3,2013.3,Northwest
 2012,EDR 4 - West Central,totwage,729345985,3,2012.3,Northwest
+2011,EDR 4 - West Central,totwage,706196112,3,2011.3,Northwest
+2010,EDR 4 - West Central,totwage,667162702,3,2010.3,Northwest
+2009,EDR 4 - West Central,totwage,641530090,3,2009.3,Northwest
+2008,EDR 4 - West Central,totwage,697509814,3,2008.3,Northwest
+2007,EDR 4 - West Central,totwage,612246121,3,2007.3,Northwest
+2006,EDR 4 - West Central,totwage,581947255,3,2006.3,Northwest
+2005,EDR 4 - West Central,totwage,580726132,3,2005.3,Northwest
+2004,EDR 4 - West Central,totwage,555914024,3,2004.3,Northwest
+2003,EDR 4 - West Central,totwage,530754009,3,2003.3,Northwest
+2002,EDR 4 - West Central,totwage,505855015,3,2002.3,Northwest
+2001,EDR 4 - West Central,totwage,472515095,3,2001.3,Northwest
 2021,EDR 5 - North Central,totwage,805373582,3,2021.3,Northwest
 2020,EDR 5 - North Central,totwage,637717375,3,2020.3,Northwest
 2019,EDR 5 - North Central,totwage,638085889,3,2019.3,Northwest
@@ -1323,6 +2797,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,totwage,517877608,3,2014.3,Northwest
 2013,EDR 5 - North Central,totwage,494284161,3,2013.3,Northwest
 2012,EDR 5 - North Central,totwage,473505346,3,2012.3,Northwest
+2011,EDR 5 - North Central,totwage,480148897,3,2011.3,Northwest
+2010,EDR 5 - North Central,totwage,461550800,3,2010.3,Northwest
+2009,EDR 5 - North Central,totwage,443808968,3,2009.3,Northwest
+2008,EDR 5 - North Central,totwage,457299380,3,2008.3,Northwest
+2007,EDR 5 - North Central,totwage,457297790,3,2007.3,Northwest
+2006,EDR 5 - North Central,totwage,438158250,3,2006.3,Northwest
+2005,EDR 5 - North Central,totwage,436779899,3,2005.3,Northwest
+2004,EDR 5 - North Central,totwage,421285290,3,2004.3,Northwest
+2003,EDR 5 - North Central,totwage,399450075,3,2003.3,Northwest
+2002,EDR 5 - North Central,totwage,387010897,3,2002.3,Northwest
+2001,EDR 5 - North Central,totwage,365677270,3,2001.3,Northwest
 2021,EDR 6E- Southwest Central,totwage,601928705,3,2021.3,Central
 2020,EDR 6E- Southwest Central,totwage,574075332,3,2020.3,Central
 2019,EDR 6E- Southwest Central,totwage,563733734,3,2019.3,Central
@@ -1333,6 +2818,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,totwage,488659295,3,2014.3,Central
 2013,EDR 6E- Southwest Central,totwage,467228997,3,2013.3,Central
 2012,EDR 6E- Southwest Central,totwage,447704838,3,2012.3,Central
+2011,EDR 6E- Southwest Central,totwage,447327279,3,2011.3,Central
+2010,EDR 6E- Southwest Central,totwage,424295794,3,2010.3,Central
+2009,EDR 6E- Southwest Central,totwage,415475745,3,2009.3,Central
+2008,EDR 6E- Southwest Central,totwage,443364080,3,2008.3,Central
+2007,EDR 6E- Southwest Central,totwage,429324280,3,2007.3,Central
+2006,EDR 6E- Southwest Central,totwage,415897864,3,2006.3,Central
+2005,EDR 6E- Southwest Central,totwage,415010984,3,2005.3,Central
+2004,EDR 6E- Southwest Central,totwage,383850830,3,2004.3,Central
+2003,EDR 6E- Southwest Central,totwage,369544982,3,2003.3,Central
+2002,EDR 6E- Southwest Central,totwage,361986186,3,2002.3,Central
+2001,EDR 6E- Southwest Central,totwage,349521620,3,2001.3,Central
 2021,EDR 6W- Upper Minnesota Valley,totwage,176919068,3,2021.3,Southwest
 2020,EDR 6W- Upper Minnesota Valley,totwage,160458864,3,2020.3,Southwest
 2019,EDR 6W- Upper Minnesota Valley,totwage,163325493,3,2019.3,Southwest
@@ -1343,6 +2839,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,totwage,145631902,3,2014.3,Southwest
 2013,EDR 6W- Upper Minnesota Valley,totwage,141355992,3,2013.3,Southwest
 2012,EDR 6W- Upper Minnesota Valley,totwage,141829814,3,2012.3,Southwest
+2011,EDR 6W- Upper Minnesota Valley,totwage,144334284,3,2011.3,Southwest
+2010,EDR 6W- Upper Minnesota Valley,totwage,138895072,3,2010.3,Southwest
+2009,EDR 6W- Upper Minnesota Valley,totwage,134956456,3,2009.3,Southwest
+2008,EDR 6W- Upper Minnesota Valley,totwage,140635006,3,2008.3,Southwest
+2007,EDR 6W- Upper Minnesota Valley,totwage,131132204,3,2007.3,Southwest
+2006,EDR 6W- Upper Minnesota Valley,totwage,122225340,3,2006.3,Southwest
+2005,EDR 6W- Upper Minnesota Valley,totwage,121379934,3,2005.3,Southwest
+2004,EDR 6W- Upper Minnesota Valley,totwage,114013345,3,2004.3,Southwest
+2003,EDR 6W- Upper Minnesota Valley,totwage,105101427,3,2003.3,Southwest
+2002,EDR 6W- Upper Minnesota Valley,totwage,104824379,3,2002.3,Southwest
+2001,EDR 6W- Upper Minnesota Valley,totwage,100643389,3,2001.3,Southwest
 2021,EDR 7E- East Central,totwage,550469232,3,2021.3,Central
 2020,EDR 7E- East Central,totwage,502039369,3,2020.3,Central
 2019,EDR 7E- East Central,totwage,501476378,3,2019.3,Central
@@ -1353,6 +2860,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,totwage,400447507,3,2014.3,Central
 2013,EDR 7E- East Central,totwage,389419500,3,2013.3,Central
 2012,EDR 7E- East Central,totwage,376614094,3,2012.3,Central
+2011,EDR 7E- East Central,totwage,374442798,3,2011.3,Central
+2010,EDR 7E- East Central,totwage,353653385,3,2010.3,Central
+2009,EDR 7E- East Central,totwage,346736960,3,2009.3,Central
+2008,EDR 7E- East Central,totwage,356088832,3,2008.3,Central
+2007,EDR 7E- East Central,totwage,349752718,3,2007.3,Central
+2006,EDR 7E- East Central,totwage,338550831,3,2006.3,Central
+2005,EDR 7E- East Central,totwage,341655371,3,2005.3,Central
+2004,EDR 7E- East Central,totwage,334579855,3,2004.3,Central
+2003,EDR 7E- East Central,totwage,313756272,3,2003.3,Central
+2002,EDR 7E- East Central,totwage,299566725,3,2002.3,Central
+2001,EDR 7E- East Central,totwage,277433319,3,2001.3,Central
 2021,EDR 7W- Central,totwage,2297134863,3,2021.3,Central
 2020,EDR 7W- Central,totwage,2099579249,3,2020.3,Central
 2019,EDR 7W- Central,totwage,2094777952,3,2019.3,Central
@@ -1363,6 +2881,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,totwage,1642851975,3,2014.3,Central
 2013,EDR 7W- Central,totwage,1536070585,3,2013.3,Central
 2012,EDR 7W- Central,totwage,1478227192,3,2012.3,Central
+2011,EDR 7W- Central,totwage,1469844095,3,2011.3,Central
+2010,EDR 7W- Central,totwage,1372109804,3,2010.3,Central
+2009,EDR 7W- Central,totwage,1322473725,3,2009.3,Central
+2008,EDR 7W- Central,totwage,1369771885,3,2008.3,Central
+2007,EDR 7W- Central,totwage,1346462495,3,2007.3,Central
+2006,EDR 7W- Central,totwage,1276003116,3,2006.3,Central
+2005,EDR 7W- Central,totwage,1255857960,3,2005.3,Central
+2004,EDR 7W- Central,totwage,1164427929,3,2004.3,Central
+2003,EDR 7W- Central,totwage,1079069197,3,2003.3,Central
+2002,EDR 7W- Central,totwage,1047715647,3,2002.3,Central
+2001,EDR 7W- Central,totwage,981747491,3,2001.3,Central
 2021,EDR 8 - Southwest,totwage,595696882,3,2021.3,Southwest
 2020,EDR 8 - Southwest,totwage,566918507,3,2020.3,Southwest
 2019,EDR 8 - Southwest,totwage,549250468,3,2019.3,Southwest
@@ -1373,6 +2902,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,totwage,471143446,3,2014.3,Southwest
 2013,EDR 8 - Southwest,totwage,457657718,3,2013.3,Southwest
 2012,EDR 8 - Southwest,totwage,433614791,3,2012.3,Southwest
+2011,EDR 8 - Southwest,totwage,437542517,3,2011.3,Southwest
+2010,EDR 8 - Southwest,totwage,415631502,3,2010.3,Southwest
+2009,EDR 8 - Southwest,totwage,399274549,3,2009.3,Southwest
+2008,EDR 8 - Southwest,totwage,402029497,3,2008.3,Southwest
+2007,EDR 8 - Southwest,totwage,381246097,3,2007.3,Southwest
+2006,EDR 8 - Southwest,totwage,363535243,3,2006.3,Southwest
+2005,EDR 8 - Southwest,totwage,364940611,3,2005.3,Southwest
+2004,EDR 8 - Southwest,totwage,340945449,3,2004.3,Southwest
+2003,EDR 8 - Southwest,totwage,325423801,3,2003.3,Southwest
+2002,EDR 8 - Southwest,totwage,331721129,3,2002.3,Southwest
+2001,EDR 8 - Southwest,totwage,305654328,3,2001.3,Southwest
 2021,EDR 9 - South Central,totwage,1244884839,3,2021.3,Southwest
 2020,EDR 9 - South Central,totwage,1159766725,3,2020.3,Southwest
 2019,EDR 9 - South Central,totwage,1191383353,3,2019.3,Southwest
@@ -1383,6 +2923,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,totwage,1026903963,3,2014.3,Southwest
 2013,EDR 9 - South Central,totwage,948865649,3,2013.3,Southwest
 2012,EDR 9 - South Central,totwage,916379542,3,2012.3,Southwest
+2011,EDR 9 - South Central,totwage,893867205,3,2011.3,Southwest
+2010,EDR 9 - South Central,totwage,844099909,3,2010.3,Southwest
+2009,EDR 9 - South Central,totwage,794869018,3,2009.3,Southwest
+2008,EDR 9 - South Central,totwage,849834811,3,2008.3,Southwest
+2007,EDR 9 - South Central,totwage,811487055,3,2007.3,Southwest
+2006,EDR 9 - South Central,totwage,778635480,3,2006.3,Southwest
+2005,EDR 9 - South Central,totwage,780609355,3,2005.3,Southwest
+2004,EDR 9 - South Central,totwage,729059697,3,2004.3,Southwest
+2003,EDR 9 - South Central,totwage,695675696,3,2003.3,Southwest
+2002,EDR 9 - South Central,totwage,682974746,3,2002.3,Southwest
+2001,EDR 9 - South Central,totwage,657604849,3,2001.3,Southwest
 2021,EDR 10 - Southeast,totwage,3403441408,3,2021.3,Southeast
 2020,EDR 10 - Southeast,totwage,3131043626,3,2020.3,Southeast
 2019,EDR 10 - Southeast,totwage,3317673087,3,2019.3,Southeast
@@ -1393,6 +2944,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,totwage,2679335111,3,2014.3,Southeast
 2013,EDR 10 - Southeast,totwage,2482115253,3,2013.3,Southeast
 2012,EDR 10 - Southeast,totwage,2402019260,3,2012.3,Southeast
+2011,EDR 10 - Southeast,totwage,2383576965,3,2011.3,Southeast
+2010,EDR 10 - Southeast,totwage,2278777117,3,2010.3,Southeast
+2009,EDR 10 - Southeast,totwage,2165366173,3,2009.3,Southeast
+2008,EDR 10 - Southeast,totwage,2333037262,3,2008.3,Southeast
+2007,EDR 10 - Southeast,totwage,2220996448,3,2007.3,Southeast
+2006,EDR 10 - Southeast,totwage,2143837416,3,2006.3,Southeast
+2005,EDR 10 - Southeast,totwage,2082276656,3,2005.3,Southeast
+2004,EDR 10 - Southeast,totwage,1989809321,3,2004.3,Southeast
+2003,EDR 10 - Southeast,totwage,1888455889,3,2003.3,Southeast
+2002,EDR 10 - Southeast,totwage,1777038540,3,2002.3,Southeast
+2001,EDR 10 - Southeast,totwage,1705995111,3,2001.3,Southeast
 2021,EDR 11 - 7 County Twin Cities,totwage,30075114654,3,2021.3,Seven County Mpls-St Paul
 2020,EDR 11 - 7 County Twin Cities,totwage,27498970938,3,2020.3,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,totwage,28192799693,3,2019.3,Seven County Mpls-St Paul
@@ -1403,6 +2965,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,totwage,23014316498,3,2014.3,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,totwage,22269124696,3,2013.3,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,totwage,21309229573,3,2012.3,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,totwage,21092673148,3,2011.3,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,totwage,19753827934,3,2010.3,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,totwage,18784179200,3,2009.3,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,totwage,20559729404,3,2008.3,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,totwage,19784124115,3,2007.3,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,totwage,18722365644,3,2006.3,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,totwage,18719140347,3,2005.3,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,totwage,17460757278,3,2004.3,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,totwage,16778937964,3,2003.3,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,totwage,16144046758,3,2002.3,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,totwage,15909175109,3,2001.3,Seven County Mpls-St Paul
 2020,EDR 1 - Northwest,totwage,457623294,4,2020.4,Northwest
 2019,EDR 1 - Northwest,totwage,421026589,4,2019.4,Northwest
 2018,EDR 1 - Northwest,totwage,422530838,4,2018.4,Northwest
@@ -1412,6 +2985,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 1 - Northwest,totwage,405495853,4,2014.4,Northwest
 2013,EDR 1 - Northwest,totwage,385223190,4,2013.4,Northwest
 2012,EDR 1 - Northwest,totwage,362808452,4,2012.4,Northwest
+2011,EDR 1 - Northwest,totwage,348321767,4,2011.4,Northwest
+2010,EDR 1 - Northwest,totwage,338480069,4,2010.4,Northwest
+2009,EDR 1 - Northwest,totwage,320321111,4,2009.4,Northwest
+2008,EDR 1 - Northwest,totwage,323537504,4,2008.4,Northwest
+2007,EDR 1 - Northwest,totwage,308587508,4,2007.4,Northwest
+2006,EDR 1 - Northwest,totwage,300002000,4,2006.4,Northwest
+2005,EDR 1 - Northwest,totwage,305976522,4,2005.4,Northwest
+2004,EDR 1 - Northwest,totwage,287811797,4,2004.4,Northwest
+2003,EDR 1 - Northwest,totwage,268841317,4,2003.4,Northwest
+2002,EDR 1 - Northwest,totwage,261159634,4,2002.4,Northwest
+2001,EDR 1 - Northwest,totwage,250368328,4,2001.4,Northwest
 2020,EDR 2 - Headwaters,totwage,379758126,4,2020.4,Northwest
 2019,EDR 2 - Headwaters,totwage,355235670,4,2019.4,Northwest
 2018,EDR 2 - Headwaters,totwage,346974320,4,2018.4,Northwest
@@ -1421,6 +3005,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 2 - Headwaters,totwage,287081950,4,2014.4,Northwest
 2013,EDR 2 - Headwaters,totwage,264409939,4,2013.4,Northwest
 2012,EDR 2 - Headwaters,totwage,256481770,4,2012.4,Northwest
+2011,EDR 2 - Headwaters,totwage,240160205,4,2011.4,Northwest
+2010,EDR 2 - Headwaters,totwage,234745067,4,2010.4,Northwest
+2009,EDR 2 - Headwaters,totwage,261702595,4,2009.4,Northwest
+2008,EDR 2 - Headwaters,totwage,233565241,4,2008.4,Northwest
+2007,EDR 2 - Headwaters,totwage,223996665,4,2007.4,Northwest
+2006,EDR 2 - Headwaters,totwage,221367908,4,2006.4,Northwest
+2005,EDR 2 - Headwaters,totwage,212331037,4,2005.4,Northwest
+2004,EDR 2 - Headwaters,totwage,221440925,4,2004.4,Northwest
+2003,EDR 2 - Headwaters,totwage,210320974,4,2003.4,Northwest
+2002,EDR 2 - Headwaters,totwage,208322721,4,2002.4,Northwest
+2001,EDR 2 - Headwaters,totwage,191744975,4,2001.4,Northwest
 2020,EDR 3 - Arrowhead,totwage,1773271101,4,2020.4,Northeast
 2019,EDR 3 - Arrowhead,totwage,1754861734,4,2019.4,Northeast
 2018,EDR 3 - Arrowhead,totwage,1710308994,4,2018.4,Northeast
@@ -1430,6 +3025,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 3 - Arrowhead,totwage,1488254036,4,2014.4,Northeast
 2013,EDR 3 - Arrowhead,totwage,1424254012,4,2013.4,Northeast
 2012,EDR 3 - Arrowhead,totwage,1368996995,4,2012.4,Northeast
+2011,EDR 3 - Arrowhead,totwage,1330833081,4,2011.4,Northeast
+2010,EDR 3 - Arrowhead,totwage,1358564442,4,2010.4,Northeast
+2009,EDR 3 - Arrowhead,totwage,1294504915,4,2009.4,Northeast
+2008,EDR 3 - Arrowhead,totwage,1346766673,4,2008.4,Northeast
+2007,EDR 3 - Arrowhead,totwage,1305118057,4,2007.4,Northeast
+2006,EDR 3 - Arrowhead,totwage,1238288666,4,2006.4,Northeast
+2005,EDR 3 - Arrowhead,totwage,1199456403,4,2005.4,Northeast
+2004,EDR 3 - Arrowhead,totwage,1222155540,4,2004.4,Northeast
+2003,EDR 3 - Arrowhead,totwage,1091556876,4,2003.4,Northeast
+2002,EDR 3 - Arrowhead,totwage,1077161498,4,2002.4,Northeast
+2001,EDR 3 - Arrowhead,totwage,1040240302,4,2001.4,Northeast
 2020,EDR 4 - West Central,totwage,1095014774,4,2020.4,Northwest
 2019,EDR 4 - West Central,totwage,1031323470,4,2019.4,Northwest
 2018,EDR 4 - West Central,totwage,996645701,4,2018.4,Northwest
@@ -1439,6 +3045,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 4 - West Central,totwage,857411988,4,2014.4,Northwest
 2013,EDR 4 - West Central,totwage,808517682,4,2013.4,Northwest
 2012,EDR 4 - West Central,totwage,783376108,4,2012.4,Northwest
+2011,EDR 4 - West Central,totwage,739941092,4,2011.4,Northwest
+2010,EDR 4 - West Central,totwage,725758793,4,2010.4,Northwest
+2009,EDR 4 - West Central,totwage,698916939,4,2009.4,Northwest
+2008,EDR 4 - West Central,totwage,685390871,4,2008.4,Northwest
+2007,EDR 4 - West Central,totwage,664389382,4,2007.4,Northwest
+2006,EDR 4 - West Central,totwage,619267637,4,2006.4,Northwest
+2005,EDR 4 - West Central,totwage,598460729,4,2005.4,Northwest
+2004,EDR 4 - West Central,totwage,599941647,4,2004.4,Northwest
+2003,EDR 4 - West Central,totwage,568654862,4,2003.4,Northwest
+2002,EDR 4 - West Central,totwage,539830701,4,2002.4,Northwest
+2001,EDR 4 - West Central,totwage,508229439,4,2001.4,Northwest
 2020,EDR 5 - North Central,totwage,711343961,4,2020.4,Northwest
 2019,EDR 5 - North Central,totwage,652693980,4,2019.4,Northwest
 2018,EDR 5 - North Central,totwage,635868942,4,2018.4,Northwest
@@ -1448,6 +3065,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 5 - North Central,totwage,529746489,4,2014.4,Northwest
 2013,EDR 5 - North Central,totwage,502040506,4,2013.4,Northwest
 2012,EDR 5 - North Central,totwage,492079546,4,2012.4,Northwest
+2011,EDR 5 - North Central,totwage,473690553,4,2011.4,Northwest
+2010,EDR 5 - North Central,totwage,482424704,4,2010.4,Northwest
+2009,EDR 5 - North Central,totwage,468829511,4,2009.4,Northwest
+2008,EDR 5 - North Central,totwage,469373077,4,2008.4,Northwest
+2007,EDR 5 - North Central,totwage,471581826,4,2007.4,Northwest
+2006,EDR 5 - North Central,totwage,459796605,4,2006.4,Northwest
+2005,EDR 5 - North Central,totwage,433400903,4,2005.4,Northwest
+2004,EDR 5 - North Central,totwage,453265350,4,2004.4,Northwest
+2003,EDR 5 - North Central,totwage,422134295,4,2003.4,Northwest
+2002,EDR 5 - North Central,totwage,409182391,4,2002.4,Northwest
+2001,EDR 5 - North Central,totwage,389892512,4,2001.4,Northwest
 2020,EDR 6E- Southwest Central,totwage,644811867,4,2020.4,Central
 2019,EDR 6E- Southwest Central,totwage,615925533,4,2019.4,Central
 2018,EDR 6E- Southwest Central,totwage,609295680,4,2018.4,Central
@@ -1457,6 +3085,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6E- Southwest Central,totwage,532570371,4,2014.4,Central
 2013,EDR 6E- Southwest Central,totwage,507529501,4,2013.4,Central
 2012,EDR 6E- Southwest Central,totwage,489904479,4,2012.4,Central
+2011,EDR 6E- Southwest Central,totwage,477369262,4,2011.4,Central
+2010,EDR 6E- Southwest Central,totwage,470892113,4,2010.4,Central
+2009,EDR 6E- Southwest Central,totwage,458969944,4,2009.4,Central
+2008,EDR 6E- Southwest Central,totwage,481536514,4,2008.4,Central
+2007,EDR 6E- Southwest Central,totwage,471977128,4,2007.4,Central
+2006,EDR 6E- Southwest Central,totwage,454211302,4,2006.4,Central
+2005,EDR 6E- Southwest Central,totwage,438438174,4,2005.4,Central
+2004,EDR 6E- Southwest Central,totwage,450404224,4,2004.4,Central
+2003,EDR 6E- Southwest Central,totwage,412920519,4,2003.4,Central
+2002,EDR 6E- Southwest Central,totwage,399310150,4,2002.4,Central
+2001,EDR 6E- Southwest Central,totwage,374135639,4,2001.4,Central
 2020,EDR 6W- Upper Minnesota Valley,totwage,189420533,4,2020.4,Southwest
 2019,EDR 6W- Upper Minnesota Valley,totwage,179141993,4,2019.4,Southwest
 2018,EDR 6W- Upper Minnesota Valley,totwage,185720065,4,2018.4,Southwest
@@ -1466,6 +3105,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 6W- Upper Minnesota Valley,totwage,160792073,4,2014.4,Southwest
 2013,EDR 6W- Upper Minnesota Valley,totwage,158066755,4,2013.4,Southwest
 2012,EDR 6W- Upper Minnesota Valley,totwage,159362436,4,2012.4,Southwest
+2011,EDR 6W- Upper Minnesota Valley,totwage,159501655,4,2011.4,Southwest
+2010,EDR 6W- Upper Minnesota Valley,totwage,157424387,4,2010.4,Southwest
+2009,EDR 6W- Upper Minnesota Valley,totwage,154869406,4,2009.4,Southwest
+2008,EDR 6W- Upper Minnesota Valley,totwage,154222562,4,2008.4,Southwest
+2007,EDR 6W- Upper Minnesota Valley,totwage,157113897,4,2007.4,Southwest
+2006,EDR 6W- Upper Minnesota Valley,totwage,141779754,4,2006.4,Southwest
+2005,EDR 6W- Upper Minnesota Valley,totwage,136372404,4,2005.4,Southwest
+2004,EDR 6W- Upper Minnesota Valley,totwage,132463340,4,2004.4,Southwest
+2003,EDR 6W- Upper Minnesota Valley,totwage,119641264,4,2003.4,Southwest
+2002,EDR 6W- Upper Minnesota Valley,totwage,116870633,4,2002.4,Southwest
+2001,EDR 6W- Upper Minnesota Valley,totwage,113677078,4,2001.4,Southwest
 2020,EDR 7E- East Central,totwage,546336323,4,2020.4,Central
 2019,EDR 7E- East Central,totwage,513716895,4,2019.4,Central
 2018,EDR 7E- East Central,totwage,494079342,4,2018.4,Central
@@ -1475,6 +3125,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7E- East Central,totwage,411898402,4,2014.4,Central
 2013,EDR 7E- East Central,totwage,401150890,4,2013.4,Central
 2012,EDR 7E- East Central,totwage,386697341,4,2012.4,Central
+2011,EDR 7E- East Central,totwage,373811597,4,2011.4,Central
+2010,EDR 7E- East Central,totwage,377089697,4,2010.4,Central
+2009,EDR 7E- East Central,totwage,364829536,4,2009.4,Central
+2008,EDR 7E- East Central,totwage,368933593,4,2008.4,Central
+2007,EDR 7E- East Central,totwage,365092065,4,2007.4,Central
+2006,EDR 7E- East Central,totwage,354782169,4,2006.4,Central
+2005,EDR 7E- East Central,totwage,344304043,4,2005.4,Central
+2004,EDR 7E- East Central,totwage,363932906,4,2004.4,Central
+2003,EDR 7E- East Central,totwage,338443954,4,2003.4,Central
+2002,EDR 7E- East Central,totwage,323419167,4,2002.4,Central
+2001,EDR 7E- East Central,totwage,297807550,4,2001.4,Central
 2020,EDR 7W- Central,totwage,2304282598,4,2020.4,Central
 2019,EDR 7W- Central,totwage,2148154316,4,2019.4,Central
 2018,EDR 7W- Central,totwage,2063638435,4,2018.4,Central
@@ -1484,6 +3145,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 7W- Central,totwage,1750545498,4,2014.4,Central
 2013,EDR 7W- Central,totwage,1670677330,4,2013.4,Central
 2012,EDR 7W- Central,totwage,1620767084,4,2012.4,Central
+2011,EDR 7W- Central,totwage,1491747230,4,2011.4,Central
+2010,EDR 7W- Central,totwage,1468224364,4,2010.4,Central
+2009,EDR 7W- Central,totwage,1417410364,4,2009.4,Central
+2008,EDR 7W- Central,totwage,1426583924,4,2008.4,Central
+2007,EDR 7W- Central,totwage,1411573257,4,2007.4,Central
+2006,EDR 7W- Central,totwage,1358854662,4,2006.4,Central
+2005,EDR 7W- Central,totwage,1283295425,4,2005.4,Central
+2004,EDR 7W- Central,totwage,1293868316,4,2004.4,Central
+2003,EDR 7W- Central,totwage,1186329846,4,2003.4,Central
+2002,EDR 7W- Central,totwage,1134748333,4,2002.4,Central
+2001,EDR 7W- Central,totwage,1084254838,4,2001.4,Central
 2020,EDR 8 - Southwest,totwage,645588400,4,2020.4,Southwest
 2019,EDR 8 - Southwest,totwage,585768419,4,2019.4,Southwest
 2018,EDR 8 - Southwest,totwage,567842687,4,2018.4,Southwest
@@ -1493,6 +3165,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 8 - Southwest,totwage,510030781,4,2014.4,Southwest
 2013,EDR 8 - Southwest,totwage,497367994,4,2013.4,Southwest
 2012,EDR 8 - Southwest,totwage,471819799,4,2012.4,Southwest
+2011,EDR 8 - Southwest,totwage,462112510,4,2011.4,Southwest
+2010,EDR 8 - Southwest,totwage,451298327,4,2010.4,Southwest
+2009,EDR 8 - Southwest,totwage,435195601,4,2009.4,Southwest
+2008,EDR 8 - Southwest,totwage,431350442,4,2008.4,Southwest
+2007,EDR 8 - Southwest,totwage,413623984,4,2007.4,Southwest
+2006,EDR 8 - Southwest,totwage,396382771,4,2006.4,Southwest
+2005,EDR 8 - Southwest,totwage,376294883,4,2005.4,Southwest
+2004,EDR 8 - Southwest,totwage,378545767,4,2004.4,Southwest
+2003,EDR 8 - Southwest,totwage,356602988,4,2003.4,Southwest
+2002,EDR 8 - Southwest,totwage,348281936,4,2002.4,Southwest
+2001,EDR 8 - Southwest,totwage,332408840,4,2001.4,Southwest
 2020,EDR 9 - South Central,totwage,1320606855,4,2020.4,Southwest
 2019,EDR 9 - South Central,totwage,1249869890,4,2019.4,Southwest
 2018,EDR 9 - South Central,totwage,1209043051,4,2018.4,Southwest
@@ -1502,6 +3185,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 9 - South Central,totwage,1058003227,4,2014.4,Southwest
 2013,EDR 9 - South Central,totwage,1039724350,4,2013.4,Southwest
 2012,EDR 9 - South Central,totwage,959437987,4,2012.4,Southwest
+2011,EDR 9 - South Central,totwage,900873348,4,2011.4,Southwest
+2010,EDR 9 - South Central,totwage,906914991,4,2010.4,Southwest
+2009,EDR 9 - South Central,totwage,870219852,4,2009.4,Southwest
+2008,EDR 9 - South Central,totwage,889837595,4,2008.4,Southwest
+2007,EDR 9 - South Central,totwage,850546468,4,2007.4,Southwest
+2006,EDR 9 - South Central,totwage,863344137,4,2006.4,Southwest
+2005,EDR 9 - South Central,totwage,796704978,4,2005.4,Southwest
+2004,EDR 9 - South Central,totwage,807016786,4,2004.4,Southwest
+2003,EDR 9 - South Central,totwage,748423562,4,2003.4,Southwest
+2002,EDR 9 - South Central,totwage,730233839,4,2002.4,Southwest
+2001,EDR 9 - South Central,totwage,697889353,4,2001.4,Southwest
 2020,EDR 10 - Southeast,totwage,3694114403,4,2020.4,Southeast
 2019,EDR 10 - Southeast,totwage,3499486270,4,2019.4,Southeast
 2018,EDR 10 - Southeast,totwage,3352954226,4,2018.4,Southeast
@@ -1511,6 +3205,17 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 10 - Southeast,totwage,2717904133,4,2014.4,Southeast
 2013,EDR 10 - Southeast,totwage,2746511854,4,2013.4,Southeast
 2012,EDR 10 - Southeast,totwage,2689033649,4,2012.4,Southeast
+2011,EDR 10 - Southeast,totwage,2532656476,4,2011.4,Southeast
+2010,EDR 10 - Southeast,totwage,2844515115,4,2010.4,Southeast
+2009,EDR 10 - Southeast,totwage,2427018509,4,2009.4,Southeast
+2008,EDR 10 - Southeast,totwage,2455450089,4,2008.4,Southeast
+2007,EDR 10 - Southeast,totwage,2360003357,4,2007.4,Southeast
+2006,EDR 10 - Southeast,totwage,2190419536,4,2006.4,Southeast
+2005,EDR 10 - Southeast,totwage,2070163580,4,2005.4,Southeast
+2004,EDR 10 - Southeast,totwage,2093505235,4,2004.4,Southeast
+2003,EDR 10 - Southeast,totwage,1948505810,4,2003.4,Southeast
+2002,EDR 10 - Southeast,totwage,1960365312,4,2002.4,Southeast
+2001,EDR 10 - Southeast,totwage,1868815720,4,2001.4,Southeast
 2020,EDR 11 - 7 County Twin Cities,totwage,31525553226,4,2020.4,Seven County Mpls-St Paul
 2019,EDR 11 - 7 County Twin Cities,totwage,30352777931,4,2019.4,Seven County Mpls-St Paul
 2018,EDR 11 - 7 County Twin Cities,totwage,29237297477,4,2018.4,Seven County Mpls-St Paul
@@ -1520,3 +3225,14 @@ periodyear,edr,key,value,quarter,year.quarter,planning.region
 2014,EDR 11 - 7 County Twin Cities,totwage,24930739112,4,2014.4,Seven County Mpls-St Paul
 2013,EDR 11 - 7 County Twin Cities,totwage,23570203657,4,2013.4,Seven County Mpls-St Paul
 2012,EDR 11 - 7 County Twin Cities,totwage,23357339798,4,2012.4,Seven County Mpls-St Paul
+2011,EDR 11 - 7 County Twin Cities,totwage,21794947822,4,2011.4,Seven County Mpls-St Paul
+2010,EDR 11 - 7 County Twin Cities,totwage,22262723937,4,2010.4,Seven County Mpls-St Paul
+2009,EDR 11 - 7 County Twin Cities,totwage,21088095084,4,2009.4,Seven County Mpls-St Paul
+2008,EDR 11 - 7 County Twin Cities,totwage,21643531464,4,2008.4,Seven County Mpls-St Paul
+2007,EDR 11 - 7 County Twin Cities,totwage,21457667602,4,2007.4,Seven County Mpls-St Paul
+2006,EDR 11 - 7 County Twin Cities,totwage,20257875486,4,2006.4,Seven County Mpls-St Paul
+2005,EDR 11 - 7 County Twin Cities,totwage,19436656309,4,2005.4,Seven County Mpls-St Paul
+2004,EDR 11 - 7 County Twin Cities,totwage,19846014803,4,2004.4,Seven County Mpls-St Paul
+2003,EDR 11 - 7 County Twin Cities,totwage,18067277988,4,2003.4,Seven County Mpls-St Paul
+2002,EDR 11 - 7 County Twin Cities,totwage,17538454613,4,2002.4,Seven County Mpls-St Paul
+2001,EDR 11 - 7 County Twin Cities,totwage,17367739447,4,2001.4,Seven County Mpls-St Paul
