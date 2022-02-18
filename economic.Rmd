@@ -154,8 +154,8 @@ master.emp.gender.county <- read_csv("Data/Workforce/Gender/Master-lf-gender-pr.
   mutate(planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
          edr = fct_relevel(edr, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
          edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
+         Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
          sex = ifelse(sex == 1, "Male", "Female")) 
-
 ```
 
 ```{r master qcew, include=FALSE, cache=TRUE}
@@ -198,6 +198,37 @@ master.lost.counties <- read_csv("Data/LOST/master-local-sales-tax-revenue-count
 
 
 ```
+
+<br>
+
+# Summary
+
+<br>
+
+**Job vacancies are still crazy high, maybe even worse than pre-pandemic**
+
+Although there was a slight drop in the job vacancy rate during the pandemic, it continued to still be high across rural Minnesota. And, there was an enormous jump in the job vacancy rate during the first half of 2021 as companies ramped up hiring again. During 2020 the job vacancy rate hovered between 4% and 5.5% (3% is considered healthy), the first half of 2021 saw job vacancy rates increase to between 8% and 10%.
+
+**Drop in people participating in the labor force hit rural regions hardest**
+
+One of the larger negative impacts from the pandemic is the number of people that have left the labor force. Although the drop in the number of people participating in the labor force occurred in all of Minnesota, rural areas were the hardest hit. Rural regions which were already experience little to no growth in their labor force, such as EDRs in the Southwest and Northwest, now have less people participating in the labor force today than they did in 2012!
+
+**The drop in employment worst among females workers in rural areas**
+
+Although employment (note - this isn't labor force) decreased among all genders, the largest decreases occurred among female workers, but only outside of the urban areas. For example, in 2021 the Northwest region had 1% more males employed compared to 2012 yet -3.1% less females employed. And this drop occurred right in 2020 as the previous years saw increases in employment among females. The opposite is true in urban areas where there was a larger drop in male employment compared to female employment.
+
+**This is not a typical economic downturn**
+
+Although the number of people participating in the labor force declines along with overall employment, wages continue to go up significantly. This is not typical of previous economic downturns where employment and wages would decline together. What this tells us is that people are choosing to not work (for many reasons) even though there are plenty of jobs. To try and entice people into the labor pool, employers are increasing wages. Interestingly, the largest decreases in employment have occurred in rural Minnesota while these same regions have experienced the largest wage growth.
+
+**The new remote work fad not occurring as much outside of the seven county metro**
+
+Much has been made about the rise of telecommuting for employment. A report released by MN DEED analyzed job openings and found that there was a rather large disparity in the percentage of jobs allowing telecommuting by region. The seven-county metro had by far the largest percentage of job openings offering telecommuting (13%) followed by Northeast (8.2%) and Southeast (7.5%). It then drops considerably to the remaining regions with Northwest at (2.4%), Central (2.0%), and Southwest (2.0%).
+
+**Significant difference in local options sales tax from Minneapolis**
+
+A sampling of cities that are collecting local option sales tax revenues shows little to no negative impact from the pandemic and in fact may have been helpful. All cities showed rather normal revenue trends in 2021 compared to 2020 while also seeing larger than expected INCREASES in revenues as the pandemic wore on through May and June of 2021. The opposite is true for Minneapolis where LOST fell off a cliff.
+
 
 <br>
 
@@ -702,60 +733,44 @@ kable(format = "html", remote.work.table, escape = F, align = "c") %>%
 
 <br>
 
-# Local Options Sales Tax{.tabset}
+# Local Options Sales Tax
 
-Summary here
+The chart below provides the monthly revenues from local option sales taxes of a few select cities in each planning region.Unfortunately the data from July 2020 - December 2020 have not yet been published so we are still waiting on those.
+
+The cities chosen below have well-established LOST, meaning they have been in implementation for a few years. It was also an attempt to get a sampling of different types of communities - tourist destinations, manufacturing towns, and smaller communities.
+
+What's really interesting about the trend lines is that there doesn't seem to be an enormous impact to revenues in rural Minnesota due to COVID 19. In fact, revenues from March 2021 on wards seem to follow the same trends and revenues as March 2020. On top of this is a rather large increase in revenues across the rural Minnesota as the pandemic continued (May and June, 2021). This may be a sign that folks chose to shop more locally during the pandemic instead of driving to larger communities as well as an increase in Amazon orders which still collects LOST for the shipping destination community.
+
+This is not true for Minneapolis where revenues fell off a cliff once the pandemic began. Not surprising considering all of the events that were cancelled.
 
 <br>
 
 ```{r prep lost, include=FALSE, cache=TRUE}
 lost.cities <- master.lost.cities %>%
   filter(Month != "Total",
-         local.sales.tax.revenue > 0) %>%
-  group_by(city, planning.region, year) %>%
-  mutate(num.months = n()) %>%
-  ungroup() %>%
-  filter(num.months == 12) %>%
-  group_by(city, planning.region, year) %>%
-  summarise(local.sales.tax.revenue = sum(local.sales.tax.revenue)) %>%
-  ungroup() %>%
-  group_by(city, planning.region) %>%
-  mutate(count = n()) %>%
-  ungroup() %>%
-  filter(count > 9) %>%
-  group_by(city, planning.region) %>%
-  mutate(min.year = min(year),
-         local.sales.tax.revenue.index = (local.sales.tax.revenue - local.sales.tax.revenue[year == min.year]) / local.sales.tax.revenue[year == min.year]) %>%
-  ungroup() %>%
-  mutate(data_id = seq(n())) %>%
-  filter(min.year %in% c(2004, 2007))
-
-lost.counties <- master.lost.counties %>%
-  filter(`Year Imposed` == min(.$`Year Imposed`),
-         year >2014) %>%
-  group_by(County, countyfp, year) %>%
-  summarise(local.sales.tax.revenue = sum(local.sales.tax.revenue, na.rm = TRUE)) %>%
-  ungroup() %>%
-  group_by(County, countyfp) %>%
-  mutate(local.sales.tax.revenue.index = (local.sales.tax.revenue - local.sales.tax.revenue[year == min(.$year)]) / local.sales.tax.revenue[year == min(.$year)]) %>%
-  ungroup() %>%
-  mutate(data_id = seq(n()))
+         local.sales.tax.revenue > 0,
+         year %in% c(2019, 2020),
+         city %in% c("Baxter", "Fergus Falls", "Cloquet", "Moose Lake", "New London", "Clearwater", "Minneapolis", "Fairmont", "New Ulm", "Albert Lea", "Austin")) %>%
+  mutate(year.month = paste(year, "-", Month, sep = ""),
+         year.month = ym(year.month),
+         city = as.factor(city),
+         data_id = seq(n())) %>%
+  group_by(year.month, planning.region) %>%
+  distinct(city, .keep_all = TRUE) %>%
+  ungroup()
 
 ```
-
-## Cities
 
 <br>
 
 ```{r chart LOST cities}
-lost.cities.plot <- ggplot(filter(lost.cities, min.year %in% c(2004,2007), city != "Worthington"), aes(year, local.sales.tax.revenue.index, color = city)) +
-  facet_wrap(~planning.region, ncol = 2) +
-  geom_hline(yintercept = 0, color = "black") +
+lost.cities.plot <- ggplot(lost.cities, aes(year.month, local.sales.tax.revenue, color = city)) +
+  facet_wrap(~planning.region, ncol = 2, scales = "free_y") +
   geom_smooth(se = FALSE, size = 3) +
-  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(city, "\nYear: ", year, "\nYear tax was implemented: ", min.year, "\nLocal sales tax revenue: ", dollar(local.sales.tax.revenue), "\nChange in revenue since implementation: ", percent(local.sales.tax.revenue.index, accuracy = .1), sep = ""))) +
-  geom_label(data = filter(lost.cities, year == 2019, city != "Worthington"), aes(label = percent(local.sales.tax.revenue.index, accuracy = .1)), show.legend = FALSE, size = 5) +
-  labs(x="", y = "", color="", title = "Change in local option sales tax revenue since implementation") +
-  scale_y_continuous(labels=scales::percent)+
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(city, "\nYear and month: ", year.month, "\nLocal sales tax revenue: ", dollar(local.sales.tax.revenue), sep = ""))) +
+  geom_label_repel(data = filter(lost.cities, year == 2019, Month == "August"), aes(label = city), size = 4, show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Monthly local option sales tax revenue, 2019 and 2020") +
+  scale_y_continuous(labels=scales::dollar)+
   scale_x_continuous(breaks = seq(1900, 2050, 2),
                      guide = guide_axis(n.dodge = 2)) +
   theme_line+
@@ -770,12 +785,6 @@ lost.cities.plot <- ggplot(filter(lost.cities, min.year %in% c(2004,2007), city 
                    opts_sizing(rescale = FALSE))
 ```
 
-<br>
 
-## Counties
-
-<br>
-
-<br>
 
 
