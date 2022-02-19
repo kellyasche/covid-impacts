@@ -112,6 +112,12 @@ color.pr <- c("Northwest" = 	"#4575b4", "Northeast" = "#e0f3f8", "Central" = "#f
 
 color.edr <- c("EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
 
+color.edr.n = c("EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c")
+
+color.edr.c = c("EDR 6E- Southwest Central" = "#e5f5f9", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
+
+color.edr.s = c("EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f")
+
 color.pr.edr <- c ("Northwest" = "#4575b4","Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59", "Minnesota" = "black", "EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
 
 mn_counties <- st_read("Data/Shapefiles/county shapefiles/MNCounties_MNDOT.shp", quiet = TRUE) %>%
@@ -181,7 +187,32 @@ hosp.cap.pr <- master.hosp.cap %>%
          pct.icu.beds.covid = `staffed_icu_adult_patients_confirmed_and_suspected_covid_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`,
          pct.all.hosp.beds.occ = `inpatient_beds_used_7_day_avg` / `inpatient_beds_7_day_avg`,
          pct.all.icu.beds.occ = `staffed_adult_icu_bed_occupancy_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`) %>% 
-  gather(key = "key", value = "pct", 10:13)
+  gather(key = "key", value = "pct", 10:13) %>%
+  mutate(key = str_replace(key, "pct.all.hosp.beds.occ", "% of all hospital beds occupied"),
+         key = str_replace(key, "pct.all.icu.beds.occ", "% of all ICU beds occupied"),
+         key = str_replace(key, "pct.hosp.beds.covid", "% of hospital beds occupied by COVID patients"),
+         key = str_replace(key, "pct.icu.beds.covid", "% of ICU beds occupied by COVID patients"),
+         key = fct_relevel(key, "% of hospital beds occupied by COVID patients", "% of all hospital beds occupied", "% of ICU beds occupied by COVID patients", "% of all ICU beds occupied"))
+
+
+
+hosp.cap.edr <- master.hosp.cap %>%
+  gather(key = "key", value = "patients", 5:11) %>%
+  filter(patients != -999999) %>%
+  group_by(edr, planning.region, collection_week, key) %>%
+  summarise(patients = sum(patients, na.rm = TRUE)) %>%
+  ungroup() %>%
+  spread(key = key, value = patients) %>%
+  mutate(pct.hosp.beds.covid = (`total_adult_patients_hospitalized_confirmed_and_suspected_covid_7_day_avg` + `total_pediatric_patients_hospitalized_confirmed_and_suspected_covid_7_day_avg`) / `inpatient_beds_7_day_avg`,
+         pct.icu.beds.covid = `staffed_icu_adult_patients_confirmed_and_suspected_covid_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`,
+         pct.all.hosp.beds.occ = `inpatient_beds_used_7_day_avg` / `inpatient_beds_7_day_avg`,
+         pct.all.icu.beds.occ = `staffed_adult_icu_bed_occupancy_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`) %>%
+  gather(key = "key", value = "pct", 11:14) %>%
+  mutate(key = str_replace(key, "pct.all.hosp.beds.occ", "% of all hospital beds occupied"),
+         key = str_replace(key, "pct.all.icu.beds.occ", "% of all ICU beds occupied"),
+         key = str_replace(key, "pct.hosp.beds.covid", "% of hospital beds occupied by COVID patients"),
+         key = str_replace(key, "pct.icu.beds.covid", "% of ICU beds occupied by COVID patients"),
+         key = fct_relevel(key, "% of hospital beds occupied by COVID patients", "% of all hospital beds occupied", "% of ICU beds occupied by COVID patients", "% of all ICU beds occupied"))
 
 ```
 
@@ -194,7 +225,7 @@ hosp.cap.ruca.plot <- ggplot(hosp.cap.ruca, aes(collection_week, pct, color = De
   facet_wrap(~key, ncol = 2) +
   geom_hline(yintercept = 0, color = "black") +
   geom_line(se = FALSE, size = 3) +
-  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "U.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
+  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "\nU.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
   scale_y_continuous(labels=scales::percent) +
   theme_line+
   scale_color_manual(values= color.ruca,
@@ -221,7 +252,7 @@ hosp.cap.pr.plot <- ggplot(hosp.cap.pr, aes(collection_week, pct, color = planni
   facet_wrap(~key, ncol = 2) +
   geom_hline(yintercept = 0, color = "black") +
   geom_line(se = FALSE, size = 3) +
-  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "U.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
+  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "\nU.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
   scale_y_continuous(labels=scales::percent) +
   theme_line+
   scale_color_manual(values= color.pr,
@@ -239,13 +270,89 @@ hosp.cap.pr.plot <- ggplot(hosp.cap.pr, aes(collection_week, pct, color = planni
 
 <br>
 
-## EDR
+## EDR{.tabset .tabset-pills}
 
 <br>
 
+### North
+
+<br>
+
+```{r chart hosp cap edr northwest} 
+hosp.cap.edr.n.plot <- ggplot(data = filter(hosp.cap.edr, planning.region %in% c("Northwest", "Northeast")), aes(collection_week, pct, color = edr)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(se = FALSE, size = 3) +
+  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "\nU.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.edr.n,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = hosp.cap.edr.n.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
+
 <br>
 
 
+### Central
+
+<br>
+
+```{r chart hosp cap edr central} 
+hosp.cap.edr.c.plot <- ggplot(data = filter(hosp.cap.edr, planning.region %in% c("Central", "Seven County Mpls-St Paul")), aes(collection_week, pct, color = edr)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(se = FALSE, size = 3) +
+  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "\nU.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.edr.c,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = hosp.cap.edr.c.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
+
+<br>
+
+### Southwest
+
+<br>
+
+```{r chart hosp cap edr south} 
+hosp.cap.edr.s.plot <- ggplot(data = filter(hosp.cap.edr, planning.region %in% c("Southwest", "Southeast")), aes(collection_week, pct, color = edr)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(se = FALSE, size = 3) +
+  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "\nU.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.edr.s,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = hosp.cap.edr.s.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
 
 <br>
 
@@ -256,7 +363,8 @@ Summary here
 
 ```{r prep margins for each hospital, include = FALSE, cache=TRUE}
 har.margins <- master.har %>%
-  filter(code %in% c(200, 250)) %>%
+  filter(code %in% c(200, 250),
+         year > 2015) %>%
   group_by(hccis_id, year, code, `Hospital Name`) %>%
   distinct(value, .keep_all = TRUE) %>%
   ungroup() %>%
