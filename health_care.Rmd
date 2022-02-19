@@ -1,0 +1,310 @@
+---
+title: "Health Care"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+runtime: shiny
+resource_files:
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.cpg
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.dbf
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.prj
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.sbn
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.sbx
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.shp.xml
+- Data/Shapefiles/County shapefiles/MNCounties_MNDOT.shx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(sf)
+library(ggrepel)
+library(scales)
+library(shiny)
+library(shinycssloaders)
+library(ggiraph)
+library(kableExtra)
+library(rmapshaper)
+library(cowplot)
+library(DT)
+library(htmlwidgets)
+library(RColorBrewer)
+library(extrafont)
+library(readxl)
+library(janitor)
+library(lubridate)
+
+loadfonts()
+```
+
+```{r loading jon docs and shapefiles, cache=TRUE, include=FALSE}
+theme_bar <- theme_bw() +
+  theme(panel.grid.major = element_line(color = "grey70", size = 0.1),
+        panel.grid.minor = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_text(face = "bold"),
+        panel.border = element_blank(),
+        legend.background = element_rect(fill = "transparent", color = "transparent"),
+        legend.key = element_rect(fill = "transparent"),
+        legend.key.size = unit(1, "lines"),
+        legend.margin = margin(0,0,0,0),
+        legend.title = element_blank(),
+        legend.text = element_text(margin = margin(l = 2)),
+        text = element_text(family = "Arial"))
+
+theme_line <- theme_bw() +
+  theme(legend.background = element_rect(fill = "transparent", color = "transparent"),
+        legend.key = element_rect(fill = "transparent"),
+        legend.text = element_text(margin = margin(l = 2)),
+        panel.grid.minor = element_blank(),
+        panel.grid.major = element_line(color = "grey70", size = 0.1),
+        axis.ticks = element_blank(),
+        axis.text = element_text(face = "bold"),
+        panel.border = element_blank(),
+        legend.margin = margin(0,0,0,0),
+        legend.key.size = unit(1, "lines"),
+        text = element_text(family = "Arial"))
+
+
+theme_sf <- theme_bw() +
+  theme(axis.text.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks=element_blank(),
+        panel.background = element_blank(),
+        panel.grid.major = element_line(color = "white"),
+        panel.border = element_blank(),
+        plot.title = element_text(hjust = 0.5),
+        legend.title = element_blank(),
+        legend.text = element_text(margin = margin(l = 2)),
+        legend.margin = margin(0,0,0,0),
+        legend.key.size = unit(1, "lines"),
+        text = element_text(family = "Arial"))
+
+regions <- read_csv("Data/Join docs/county_regions.csv") %>%
+    select(5,6) %>%
+    unique() %>%
+    mutate(edr = str_replace(edr, "  ", " "),
+           planning.region = str_replace(planning.region, " Minnesota", ""),
+           planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+           edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"))
+
+counties.regions <- read_csv("Data/Join docs/county_regions.csv") %>%
+  rename(mif = `MIF Region`) %>%
+  mutate(countyfp = formatC(countyfp, width = 3, flag = "0"),
+         Name = str_to_title(Name),
+         Name = str_replace(Name, "Q", "q"),
+         Name = str_replace(Name, "Of The", "of the"),
+         Name = str_replace(Name, "Mcleod", "McLeod"),
+         edr = ifelse(Name == "Minnesota", "Minnesota", edr) ,
+         edr = str_replace(edr, "  ", " "),
+         planning.region = str_replace(planning.region, " Minnesota", ""),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
+         mif = ifelse(is.na(mif), "TC", mif),
+         mif = as.factor(mif),
+         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"))
+
+color.ruca <- c("Entirely rural" = "#009933", "Town/rural mix" = "#99CC33", "Urban/town/rural mix" = "#CC9966", "Entirely urban" = "#754C29")
+
+color.pr <- c("Northwest" = 	"#4575b4", "Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59")
+
+color.edr <- c("EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
+
+color.pr.edr <- c ("Northwest" = "#4575b4","Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59", "Minnesota" = "black", "EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
+
+mn_counties <- st_read("Data/Shapefiles/county shapefiles/MNCounties_MNDOT.shp", quiet = TRUE) %>%
+  ms_simplify(keep = .01, keep_shapes = TRUE) %>%
+  rename(countyfp = FIPS_CODE)
+
+```
+
+```{r master HAR, include=FALSE, cache=TRUE}
+master.har <- read_csv("Data/Hospitals/HAR/Master-har.csv") %>%
+  mutate(Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota")) %>%
+    rename(year = rpt_year) %>%
+  rename(`Hospital Name` = 5)
+```
+
+```{r master hospital capacity, include=FALSE, cache=TRUE}
+master.hosp.cap <- read_csv("Data/Hospitals/Capacity/hospital-capacity.csv") %>%
+  mutate(Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"))
+
+```
+
+<br>
+
+# Summary
+
+Summary here
+
+<br>
+
+# Hospital capacity and COVID-19{.tabset}
+
+Summary here
+
+<br>
+
+```{r prep hospital capacity, include=FALSE, cache=TRUE}
+hosp.cap.ruca <- master.hosp.cap %>%
+  gather(key = "key", value = "patients", 5:11) %>%
+  filter(patients != -999999) %>%
+  group_by(Dem_Desc, collection_week, key) %>%
+  summarise(patients = sum(patients, na.rm = TRUE)) %>%
+  ungroup() %>%
+  spread(key = key, value = patients) %>%
+  mutate(pct.hosp.beds.covid = (`total_adult_patients_hospitalized_confirmed_and_suspected_covid_7_day_avg` + `total_pediatric_patients_hospitalized_confirmed_and_suspected_covid_7_day_avg`) / `inpatient_beds_7_day_avg`,
+         pct.icu.beds.covid = `staffed_icu_adult_patients_confirmed_and_suspected_covid_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`,
+         pct.all.hosp.beds.occ = `inpatient_beds_used_7_day_avg` / `inpatient_beds_7_day_avg`,
+         pct.all.icu.beds.occ = `staffed_adult_icu_bed_occupancy_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`) %>%
+  gather(key = "key", value = "pct", 10:13) %>%
+  mutate(key = str_replace(key, "pct.all.hosp.beds.occ", "% of all hospital beds occupied"),
+         key = str_replace(key, "pct.all.icu.beds.occ", "% of all ICU beds occupied"),
+         key = str_replace(key, "pct.hosp.beds.covid", "% of hospital beds occupied by COVID patients"),
+         key = str_replace(key, "pct.icu.beds.covid", "% of ICU beds occupied by COVID patients"),
+         key = fct_relevel(key, "% of hospital beds occupied by COVID patients", "% of all hospital beds occupied", "% of ICU beds occupied by COVID patients", "% of all ICU beds occupied"))
+
+hosp.cap.pr <- master.hosp.cap %>%
+  gather(key = "key", value = "patients", 5:11) %>%
+  filter(patients != -999999) %>%
+  group_by(planning.region, collection_week, key) %>%
+  summarise(patients = sum(patients, na.rm = TRUE)) %>%
+  ungroup() %>%
+  spread(key = key, value = patients) %>%
+  mutate(pct.hosp.beds.covid = (`total_adult_patients_hospitalized_confirmed_and_suspected_covid_7_day_avg` + `total_pediatric_patients_hospitalized_confirmed_and_suspected_covid_7_day_avg`) / `inpatient_beds_7_day_avg`,
+         pct.icu.beds.covid = `staffed_icu_adult_patients_confirmed_and_suspected_covid_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`,
+         pct.all.hosp.beds.occ = `inpatient_beds_used_7_day_avg` / `inpatient_beds_7_day_avg`,
+         pct.all.icu.beds.occ = `staffed_adult_icu_bed_occupancy_7_day_avg` / `total_staffed_adult_icu_beds_7_day_avg`) %>% 
+  gather(key = "key", value = "pct", 10:13)
+
+```
+
+## RUCA
+
+<br>
+
+```{r chart hosp cap}
+hosp.cap.ruca.plot <- ggplot(hosp.cap.ruca, aes(collection_week, pct, color = Dem_Desc)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(se = FALSE, size = 3) +
+  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "U.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = hosp.cap.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
+
+<br>
+
+## Planning Region
+
+<br>
+
+```{r chart hosp cap pr} 
+hosp.cap.pr.plot <- ggplot(hosp.cap.pr, aes(collection_week, pct, color = planning.region)) +
+  facet_wrap(~key, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(se = FALSE, size = 3) +
+  labs(x="", y = "", color="", title = "Percent of beds by type", caption = "U.S. Department of Health & Human Services - COVID-19 Reported Patient Impact and Hospital Capacity by Facility")+
+  scale_y_continuous(labels=scales::percent) +
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = hosp.cap.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
+
+<br>
+
+## EDR
+
+<br>
+
+<br>
+
+
+
+<br>
+
+
+# Hospital margins
+
+Summary here
+
+```{r prep margins for each hospital, include = FALSE, cache=TRUE}
+har.margins <- master.har %>%
+  filter(code %in% c(200, 250)) %>%
+  group_by(hccis_id, year, code, `Hospital Name`) %>%
+  distinct(value, .keep_all = TRUE) %>%
+  ungroup() %>%
+  mutate(code = ifelse(code == 200, "income.loss", "total.revenue"),
+         value = as.numeric(value),
+         CAH = ifelse(CAH == "No", "Non-CAH", "CAH")) %>%
+  spread(key = code, value = value) %>%
+  mutate(margins = income.loss / total.revenue,
+         `Hospital Name` = str_replace(`Hospital Name`, "'", ""),
+         data_id = seq(n()))
+
+har.margins.threshold.ruca <- har.margins %>%
+  mutate(below.threshold = ifelse(margins < .04, 1, 0)) %>%
+  group_by(Dem_Desc, year) %>%
+  summarise(below.threshold = sum(below.threshold, na.rm = TRUE),
+            total.n = n()) %>%
+  ungroup() %>%
+  mutate(pct.below.threshold = below.threshold / total.n)
+  
+```
+
+```{r prep average margins, include = FALSE}
+
+har.margins.avg.ruca <- har.margins %>%
+  group_by(year, Dem_Desc) %>%
+  summarise(avg.margins = mean(margins, na.rm = TRUE)) %>%
+  ungroup()
+
+```
+
+```{r chart margins points ruca}
+har.margins.ruca.plot <- ggplot(har.margins, aes(year, margins, color = Dem_Desc)) +
+  facet_wrap(~Dem_Desc, ncol = 2) +
+  geom_point_interactive(size = 5, aes(data_id = margins, tooltip = paste(Dem_Desc, "\nHospital Name: ", `Hospital Name`, "\nType of hospital: ", CAH, "\nTotal revenue: ", dollar(total.revenue), "\nNet income: ", dollar(income.loss), "\nMargin: ", percent(margins), sep = ""))) +
+    geom_label(data = har.margins.threshold.ruca, size = 3, show.legend = FALSE, aes(x = year, y = -.3, label = paste(below.threshold, " hospitals\nunhealthy margins\n", percent(pct.below.threshold, accuracy = .1), " of hospitals", sep = ""))) +
+    geom_label(data = har.margins.avg.ruca, aes(x = year, y = .4, label = paste("Avg margins\n", percent(avg.margins, accuracy = .1), sep = "")), size = 3, show.legend = FALSE) +
+    geom_hline(yintercept = 0.04, color = "black") +
+  labs(x="", y = "", color="", title = "Margins for each hospital", caption = "\nMN Department of Health - Hospital Annual Reports")+
+  scale_y_continuous(labels=scales::percent,
+                     limits = c(-.4, .5))+
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+      
+girafe(ggobj = har.margins.ruca.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
