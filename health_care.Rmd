@@ -147,7 +147,13 @@ master.hosp.cap <- read_csv("Data/Hospitals/Capacity/hospital-capacity.csv") %>%
 
 # Summary
 
-Summary here
+**Hospitals in our urban and regional centers bared the greatest burden in treating COVID patients**
+
+The percentage of beds occupied by COVID patients in rural areas throughout the pandemic were surprisingly low. But this is likely due to coordination among hospitals and within health care systems to transport COVID patients to the larger regional hospitals. We will have to talk to Santo to get a better handle on this.
+
+**Rural hospitals were in a precarious financial state immediately before the pandemic**
+
+Although we don't yet have 2020 financial data, the 2019 hospital annual reports showed that hospitals in our rural areas had average profit losses compared to more metropolitan hospitals. 
 
 <br>
 
@@ -364,9 +370,20 @@ hosp.cap.edr.s.plot <- ggplot(data = filter(hosp.cap.edr, planning.region %in% c
 <br>
 
 
-# Hospital margins
+# Hospital margins{.tabset}
 
-Summary here
+Margins is the net profit or net loss as a percent of total revenue for a hospital. A healthy margin (i.e. profit) is considered 4% which means the hospital was able to pay for all of its expenses and has some money remaining to make further investments in the facility, staff, equipment, etc...
+
+Unfortunately, data for 2020 has not yet been released and, in fact, the 2019 data was just released last month. It's going to be a while before we can see the 2020 data. However, looking at the financial health of our hospitals before the pandemic can set the stage as to why providing funds to our hospitals during the pandemic was essential to their financial standing.
+
+The chart below provides the average margin of all the hospitals within a county group or region. What they show is that typically a hospital located within a more metropolitan region will likely have higher margins. In fact, hospitals within Entirely Urban counties average a 4.5% margin in 2019. However, hospitals operating within entirely rural counties average a net loss margin of 1.2%. 
+
+Interestingly, when viewing these numbers by region we see that the hospital margins in our entirely urban counties was not necessarily led by the seven county metro. The average margins there have been hovering around 4% until 2019 when it dropped to 2.2%. The highest margins are actually at hospitals in Central Minnesota where they had a 6.6% margin in 2019, which was actually down from it's peak in 2016 when it was nearly 10%.
+
+Essentially, the federal dollars that went to our health care institutions during the pandemic were likely a lifeline. Cutting off their source of revenues by not allowing non-life threatening medical procedures to proceed during the beginning of the pandemic would have killed these institutions in our rural areas. They are barely hanging on as it is.
+
+
+<br>
 
 ```{r prep margins for each hospital, include = FALSE, cache=TRUE}
 har.margins <- master.har %>%
@@ -382,14 +399,6 @@ har.margins <- master.har %>%
   mutate(margins = income.loss / total.revenue,
          `Hospital Name` = str_replace(`Hospital Name`, "'", ""),
          data_id = seq(n()))
-
-har.margins.threshold.ruca <- har.margins %>%
-  mutate(below.threshold = ifelse(margins < .04, 1, 0)) %>%
-  group_by(Dem_Desc, year) %>%
-  summarise(below.threshold = sum(below.threshold, na.rm = TRUE),
-            total.n = n()) %>%
-  ungroup() %>%
-  mutate(pct.below.threshold = below.threshold / total.n)
   
 ```
 
@@ -398,28 +407,244 @@ har.margins.threshold.ruca <- har.margins %>%
 har.margins.avg.ruca <- har.margins %>%
   group_by(year, Dem_Desc) %>%
   summarise(avg.margins = mean(margins, na.rm = TRUE)) %>%
-  ungroup()
+  ungroup() %>%
+  mutate(data_id = seq(n()))
+
+har.margins.avg.pr <- har.margins %>%
+  group_by(year, planning.region) %>%
+  summarise(avg.margins = mean(margins, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()),
+         planning.region = str_replace(planning.region, " Minnesota", ""),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"))
+
+har.margins.avg.edr <- har.margins %>%
+  group_by(year, edr, planning.region) %>%
+  summarise(avg.margins = mean(margins, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()),
+         planning.region = str_replace(planning.region, " Minnesota", ""),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = str_replace(edr, "  ", " "),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"))
 
 ```
 
+## RUCA
+
+<br>
+
 ```{r chart margins points ruca}
-har.margins.ruca.plot <- ggplot(har.margins, aes(year, margins, color = Dem_Desc)) +
-  facet_wrap(~Dem_Desc, ncol = 2) +
-  geom_point_interactive(size = 5, aes(data_id = margins, tooltip = paste(Dem_Desc, "\nHospital Name: ", `Hospital Name`, "\nType of hospital: ", CAH, "\nTotal revenue: ", dollar(total.revenue), "\nNet income: ", dollar(income.loss), "\nMargin: ", percent(margins), sep = ""))) +
-    geom_label(data = har.margins.threshold.ruca, size = 3, show.legend = FALSE, aes(x = year, y = -.3, label = paste(below.threshold, " hospitals\nunhealthy margins\n", percent(pct.below.threshold, accuracy = .1), " of hospitals", sep = ""))) +
-    geom_label(data = har.margins.avg.ruca, aes(x = year, y = .4, label = paste("Avg margins\n", percent(avg.margins, accuracy = .1), sep = "")), size = 3, show.legend = FALSE) +
-    geom_hline(yintercept = 0.04, color = "black") +
-  labs(x="", y = "", color="", title = "Margins for each hospital", caption = "\nMN Department of Health - Hospital Annual Reports")+
-  scale_y_continuous(labels=scales::percent,
-                     limits = c(-.4, .5))+
+har.margins.avg.ruca.plot <- ggplot(har.margins.avg.ruca, aes(year, avg.margins, color = Dem_Desc)) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nYear: ", year, "\nAverage margins: ", percent(avg.margins, accuracy = .1), sep = ""))) +
+  geom_smooth(se = FALSE, size = 3) +
+    geom_hline(yintercept = 0.04, color = "red") +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_label_repel(data = filter(har.margins.avg.ruca, year == max(year)), aes(label = percent(avg.margins, accuracy = .1)), show.legend = FALSE, size = 5) +
+  labs(x="", y = "", color="", title = "Average margins of hospitals", caption = "\nMN Department of Health - Hospital Annual Reports")+
+  scale_y_continuous(labels=scales::percent)+
   theme_line+
   scale_color_manual(values= color.ruca,
                      guide = guide_legend(ncol = 3)) +
   theme(legend.position = "bottom",
         text = element_text(size = 18))
       
-girafe(ggobj = har.margins.ruca.plot, width_svg = 10, height_svg = 10) %>%
+girafe(ggobj = har.margins.avg.ruca.plot, width_svg = 10, height_svg = 10) %>%
   girafe_options(opts_selection(type = "none"),
                  opts_sizing(rescale = FALSE))
 
 ```
+
+<br>
+
+## Planning Region
+
+<br>
+
+```{r chart margins points pr}
+har.margins.avg.pr.plot <- ggplot(har.margins.avg.pr, aes(year, avg.margins, color = planning.region)) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nAverage margins: ", percent(avg.margins, accuracy = .1), sep = ""))) +
+  geom_smooth(se = FALSE, size = 3) +
+    geom_hline(yintercept = 0.04, color = "red") +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_label_repel(data = filter(har.margins.avg.pr, year == max(year)), aes(label = percent(avg.margins, accuracy = .1)), show.legend = FALSE, size = 5) +
+  labs(x="", y = "", color="", title = "Average margins of hospitals", caption = "\nMN Department of Health - Hospital Annual Reports")+
+  scale_y_continuous(labels=scales::percent)+
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+      
+girafe(ggobj = har.margins.avg.pr.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## EDR
+
+<br>
+
+```{r chart margins points edr}
+har.margins.avg.edr.plot <- ggplot(har.margins.avg.edr, aes(year, avg.margins, color = edr)) +
+  facet_wrap(~planning.region, ncol = 2) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(edr, "\nYear: ", year, "\nAverage margins: ", percent(avg.margins, accuracy = .1), sep = ""))) +
+  geom_smooth(se = FALSE, size = 3) +
+    geom_hline(yintercept = 0.04, color = "red") +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_label_repel(data = filter(har.margins.avg.edr, year == max(year)), aes(label = percent(avg.margins, accuracy = .1)), show.legend = FALSE, size = 5) +
+  labs(x="", y = "", color="", title = "Average margins of hospitals", caption = "\nMN Department of Health - Hospital Annual Reports")+
+  scale_y_continuous(labels=scales::percent)+
+  theme_line+
+  scale_color_manual(values= color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+      
+girafe(ggobj = har.margins.avg.edr.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+# {.unnumbered .unlisted .toc-ignore .tabset}
+
+The charts below provide the average percentage of hospitals that had a "healthy margin" each year.
+
+Not surprisingly, the more rural a county or region is, the lower the percentage of hospitals that had a healthy margin at the end of the year.
+
+By 2019, 37.5% of hospitals in entirely rural counties ended the year with a profit margin of 4% or more compared to 54.5% of hospitals in entirely urban counties.
+
+When broken down by region, hospitals in Central Minnesota were significantly healthier with 70% of hospitals have a profit margin of 4% or more. The other regions averaged 50% of hospitals (seven county metro) to 33% in Southwest and Northeast.
+
+Again, this illustrates the precarious financial situation many of our hospitals are facing as they were launched into a pandemic that added significant amount of uncertainty regarding their revenue sources.
+
+<br>
+
+```{r prep pct of hospitals with healthy margin, include=FALSE, cache=TRUE}
+har.margins.threshold.ruca <- har.margins %>%
+  mutate(below.threshold = ifelse(margins < .04, 1, 0)) %>%
+  group_by(Dem_Desc, year) %>%
+  summarise(below.threshold = sum(below.threshold, na.rm = TRUE),
+            total.n = n()) %>%
+  ungroup() %>%
+  mutate(above.threshold = total.n - below.threshold,
+         pct.above.threshold = above.threshold / total.n,
+         pct.below.threshold = below.threshold / total.n,
+         data_id = seq(n()))
+
+har.margins.threshold.pr <- har.margins %>%
+  mutate(below.threshold = ifelse(margins < .04, 1, 0)) %>%
+  group_by(planning.region, year) %>%
+  summarise(below.threshold = sum(below.threshold, na.rm = TRUE),
+            total.n = n()) %>%
+  ungroup() %>%
+  mutate(above.threshold = total.n - below.threshold,
+         pct.above.threshold = above.threshold / total.n,
+         pct.below.threshold = below.threshold / total.n,
+         data_id = seq(n()),
+         planning.region = str_replace(planning.region, " Minnesota", ""),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"))
+
+har.margins.threshold.edr <- har.margins %>%
+  mutate(below.threshold = ifelse(margins < .04, 1, 0)) %>%
+  group_by(edr, planning.region, year) %>%
+  summarise(below.threshold = sum(below.threshold, na.rm = TRUE),
+            total.n = n()) %>%
+  ungroup() %>%
+  mutate(above.threshold = total.n - below.threshold,
+         pct.above.threshold = above.threshold / total.n,
+         pct.below.threshold = below.threshold / total.n,
+         data_id = seq(n()),
+         planning.region = str_replace(planning.region, " Minnesota", ""),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = str_replace(edr, "  ", " "),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"))
+```
+
+## RUCA
+
+<br>
+
+```{r chart margins thresholds ruca}
+har.margins.threshold.ruca.plot <- ggplot(har.margins.threshold.ruca, aes(year, pct.above.threshold, color = Dem_Desc)) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nYear: ", year, "\nTotal number of hospitals: ", comma(total.n, accuracy = 1), "\nNumber of hospitals above 4% margins: ", comma(above.threshold, accuracy = .1), "\nPercent of hospitals above 4% margin: ", percent(pct.above.threshold, accuracy = .1), sep = ""))) +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_label_repel(data = filter(har.margins.threshold.ruca, year == max(year)), aes(label = percent(pct.above.threshold, accuracy = .1)), show.legend = FALSE, size = 5) +
+  labs(x="", y = "", color="", title = "Percentage of hospitals above 4% margins", caption = "\nMN Department of Health - Hospital Annual Reports")+
+  scale_y_continuous(labels=scales::percent)+
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+      
+girafe(ggobj = har.margins.threshold.ruca.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+
+<br>
+
+## Planning Region
+
+<br>
+
+```{r chart margins thresholds pr}
+har.margins.threshold.pr.plot <- ggplot(har.margins.threshold.pr, aes(year, pct.above.threshold, color = planning.region)) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "\nTotal number of hospitals: ", comma(total.n, accuracy = 1), "\nNumber of hospitals above 4% margins: ", comma(above.threshold, accuracy = .1), "\nPercent of hospitals above 4% margin: ", percent(pct.above.threshold, accuracy = .1), sep = ""))) +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_label_repel(data = filter(har.margins.threshold.pr, year == max(year)), aes(label = percent(pct.above.threshold, accuracy = .1)), show.legend = FALSE, size = 5) +
+  labs(x="", y = "", color="", title = "Percentage of hospitals above 4% margins", caption = "\nMN Department of Health - Hospital Annual Reports")+
+  scale_y_continuous(labels=scales::percent)+
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+      
+girafe(ggobj = har.margins.threshold.pr.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## EDR 
+
+<br>
+
+```{r chart margins thresholds edr}
+har.margins.threshold.edr.plot <- ggplot(har.margins.threshold.edr, aes(year, pct.above.threshold, color = edr)) +
+  facet_wrap(~planning.region, ncol = 2) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(edr, "\nYear: ", year, "\nTotal number of hospitals: ", comma(total.n, accuracy = 1), "\nNumber of hospitals above 4% margins: ", comma(above.threshold, accuracy = .1), "\nPercent of hospitals above 4% margin: ", percent(pct.above.threshold, accuracy = .1), sep = ""))) +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_label_repel(data = filter(har.margins.threshold.edr, year == max(year)), aes(label = percent(pct.above.threshold, accuracy = .1)), show.legend = FALSE, size = 5) +
+  labs(x="", y = "", color="", title = "Percentage of hospitals above 4% margins", caption = "\nMN Department of Health - Hospital Annual Reports")+
+  scale_y_continuous(labels=scales::percent)+
+  theme_line+
+  scale_color_manual(values= color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+      
+girafe(ggobj = har.margins.threshold.edr.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+

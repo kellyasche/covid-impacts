@@ -157,13 +157,24 @@ master.vaccinations <- read_csv("Data/Vaccinations/Master-vaccinations-counties.
 
 <br>
 
-# Cases
+# Summary
 
-Cases below
+**Infection rate was highest in our more city/rural areas of the state**
+
+Interestingly, the cumulative cases per 100,000 shows that the counties with the highest COVID rates were in our urban/town/rural county group (22,424 per 100,000) and our town/rural county group (21,998 per 100,000). These were following by entirely urban county group (20,324 per 100,000) and our entirely urban group (18,568 per 100,000). One would think that the counties with the densest population would have the highest case rate. However, one theory is that both the urban/town/rural counties and the town/rural counties were just dense enough to spread the virus while also being more reluctant to take precautions to stop the spread.
+
+
+**Highest death rates from COVID are in our rural areas**
+
+Most interesting is that although our most rural areas had the lowest cumulative cases per 100,000, they unfortunately had the highest death rate of all counties. Entirely rural counties had a death rate of 275 per 100,000 throughout the pandemic. The lowest was in our entirely urban counties with 188 deaths per 100,000. This is most likely due to the fact that rural areas have a larger percentage of their population that is older, sicker, and have a higher percentage of people with co-morbidity. In addition, it likely has to do with the fact mentioned in our next highlight....
+
+**Significantly lower vaccination rates in rural areas**
+
+The highest vaccination rate exists in our entirely urban counties with around 75% of their population having the full series of shots. Our rural areas had between 60% and 65% of their population with the full series of shots. The lowest percentages exist in the counties just north of the twin cities metro where many of those counties barely have 50% of their population vaccinated with not even one shot. There were some rural regions that were surprising however. Counties in Southwest and Northeast in particular had some of the highest vaccination rates in Greater Minnesota.
 
 <br>
 
-## Active cases{.tabset}
+# Cases{.tabset}
 
 Active cases are estimates of the current number of people currently infected with COVID-19. This estimate is calculated by subtracting the number of cumulative cases for each day minus the total cumulative cases from two weeks prior. 
 
@@ -206,7 +217,7 @@ active.cases.edr <- active.cases %>%
          data_id = seq(n()))
 ```
 
-### RUCA
+## RUCA
 
 <br>
 
@@ -233,7 +244,7 @@ active.cases.ruca.plot <- ggplot(active.cases.ruca, aes(date, active.cases.per.1
 
 <br>
 
-### Planning Region
+## Planning Region
 
 <br>
 
@@ -260,7 +271,7 @@ active.cases.pr.plot <- ggplot(active.cases.pr, aes(date, active.cases.per.10000
 
 <br>
 
-### EDR
+## EDR
 
 <br>
 
@@ -290,7 +301,7 @@ active.cases.edr.plot <- ggplot(active.cases.edr, aes(date, active.cases.per.100
 
 
 
-## Cumulative cases{.tabset}
+# {.unlisted .toc-ignore .unnumbered .tabset}
 
 <br>
 
@@ -328,7 +339,7 @@ cases.per.100000.edr <- master.cases %>%
          data_id = seq(n()))
 ```
 
-### RUCA
+## RUCA
 
 <br>
 
@@ -355,7 +366,7 @@ cases.per.100000.ruca.plot <- ggplot(cases.per.100000.ruca, aes(date, cases.per.
 
 <br>
 
-### Planning Region
+## Planning Region
 
 <br>
 
@@ -382,7 +393,7 @@ cases.per.100000.pr.plot <- ggplot(cases.per.100000.pr, aes(date, cases.per.1000
 
 <br>
 
-### EDR
+## EDR
 
 <br>
 
@@ -408,11 +419,6 @@ cases.per.100000.edr.plot <- ggplot(cases.per.100000.edr, aes(date, cases.per.10
 
 ```
 
-<br>
-
-# Hospitalizations
-
-Summary here.
 
 <br>
 
