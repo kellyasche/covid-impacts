@@ -153,7 +153,14 @@ Summary here
 
 # Hospital capacity and COVID-19{.tabset}
 
-Summary here
+The charts below provide the following;
+
+* The percentage of beds occupied by COVID patients
+* The percentage of hospital beds occupied (COVID patients plus all other patients)
+* The percentage of ICU beds occupied by COVID patients
+* The percentage of ICU beds occupied (COVID patients plus all other ICU patients)
+
+The percentage of both hospital beds and ICU beds used by COVID patients was highest when a hospital was located in a more urban region. It's likely that how health care operates, and the increasing regionalization of health care plays a role in these trends. A conversation with Santo might be helpful but I'm guessing that many of the larger healthcare systems coordinated so that COVID patients in their system were transported to more regional hospitals instead of outfitting the smaller hospitals with COVID-ready rooms.
 
 <br>
 
