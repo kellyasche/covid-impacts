@@ -7,10 +7,10 @@ navbar:
       href: index.html
     - text: "Infection"
       href: infections.html
-    - text: "Economic"
-      href: economic.html
     - text: "Health Care"
       href: health_care.html
+    - text: "Economic"
+      href: economic.html
     - text: "Childcare"
       href: childcare.html
 output:
