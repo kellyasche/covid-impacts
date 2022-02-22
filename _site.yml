@@ -3,7 +3,7 @@ output_dir: docs
 navbar:
   title: "COVID Impacts"
   left:
-    - text: "Summary and data overview"
+    - text: "Summary"
       href: index.html
     - text: "Infection"
       href: infections.html

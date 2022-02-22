@@ -122,7 +122,7 @@ mn_counties <- st_read("Data/Shapefiles/county shapefiles/MNCounties_MNDOT.shp",
 
 <br>
 
-Below is a summary of each page of this data page.
+Below is a summary of each section. You can navigate to the main sections using the tabs above.
 
 <br>
 
