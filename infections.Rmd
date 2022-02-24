@@ -108,6 +108,9 @@ counties.regions <- read_csv("Data/Join docs/county_regions.csv") %>%
 
 color.ruca <- c("Entirely rural" = "#009933", "Town/rural mix" = "#99CC33", "Urban/town/rural mix" = "#CC9966", "Entirely urban" = "#754C29")
 
+color.ruca.spec <- c("Entirely rural" = "#009933", "Town/rural mix" = "#99CC33", "Urban/town/rural mix" = "#CC9966", "Entirely urban" = "#754C29", "7-County" = "black")
+
+
 color.pr <- c("Northwest" = 	"#4575b4", "Northeast" = "#e0f3f8", "Central" = "#fee090", "Seven County Mpls-St Paul" = "#d73027", "Southwest" = "#91bfdb", "Southeast" = "#fc8d59")
 
 color.edr <- c("EDR 1 - Northwest" = "#b3cde3", "EDR 2 - Headwaters" = "#8c96c6", "EDR 3 - Arrowhead" = "#fe9929", "EDR 4 - West Central" = "#8856a7", "EDR 5 - North Central" = "#810f7c", "EDR 6E- Southwest Central" = "#e5f5f9", "EDR 6W- Upper Minnesota Valley" = "#bdc9e1", "EDR 7E- East Central" = "#99d8c9", "EDR 7W- Central" = "#2ca25f", "EDR 8 - Southwest" = "#74a9cf", "EDR 9 - South Central" = "#0570b0", "EDR 10 - Southeast" = "#d7301f", "EDR 11 - 7 County Twin Cities" = "#d8b365")
@@ -153,6 +156,10 @@ master.vaccinations <- read_csv("Data/Vaccinations/Master-vaccinations-counties.
          mif = as.factor(mif),
          mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"))
 
+master.vaccinations.race <- read_csv("Data/Vaccinations/Vaccinations by Race and Ethnicity_tcm1148-470631.csv") %>%
+  mutate(`Age group` = str_replace(`Age group`, "11-May", "5-11"),
+         `Age group` = str_replace(`Age group`, "18-Dec", "12-18"))
+
 ```
 
 <br>
@@ -161,16 +168,24 @@ master.vaccinations <- read_csv("Data/Vaccinations/Master-vaccinations-counties.
 
 **Infection rate was highest in our more city/rural areas of the state**
 
-Interestingly, the cumulative cases per 100,000 shows that the counties with the highest COVID rates were in our urban/town/rural county group (22,424 per 100,000) and our town/rural county group (21,998 per 100,000). These were following by entirely urban county group (20,324 per 100,000) and our entirely urban group (18,568 per 100,000). One would think that the counties with the densest population would have the highest case rate. However, one theory is that both the urban/town/rural counties and the town/rural counties were just dense enough to spread the virus while also being more reluctant to take precautions to stop the spread.
+Interestingly, the cumulative cases per 100,000 shows that the counties with the highest COVID rates were in our urban/town/rural county group (22,424 per 100,000) and our town/rural county group (21,998 per 100,000). These were following by entirely urban county group (20,324 per 100,000) and our entirely urban group (18,568 per 100,000). One would think that the counties with the densest population would have the highest case rate. However, one theory is that both the urban/town/rural counties and the town/rural counties were just dense enough to spread the virus while also being more reluctant to take precautions to stop the spread. To test this idea, the seven county metro was removed from the "Entirely urban" county group and sure enough, the entirely urban county group (sans 7-county metro) had the highest cases per 100,000. 
+
+**High infection rates in greater Minnesota could be do to industry make-up**
+
+Infections per 100,000 in greater Minnesota were highest in counties that have a large manufacturing employment sector (including food processing). Counties such as Kandiyohi, Roseau, Nobles, and counties surrounding Waseca and Mower had the highest cases per 100,000 in the entire state. However, these counties also have a high employment in manufacturing which were kept open during the beginning of the pandemic due to their "essential" status. Large spreader events occurred in these plants which likely drove up the case count.
 
 
 **Highest death rates from COVID are in our rural areas**
 
-Most interesting is that although our most rural areas had the lowest cumulative cases per 100,000, they unfortunately had the highest death rate of all counties. Entirely rural counties had a death rate of 275 per 100,000 throughout the pandemic. The lowest was in our entirely urban counties with 188 deaths per 100,000. This is most likely due to the fact that rural areas have a larger percentage of their population that is older, sicker, and have a higher percentage of people with co-morbidity. In addition, it likely has to do with the fact mentioned in our next highlight....
+Most interesting is that although our most rural areas had the lowest cumulative cases per 100,000, they unfortunately had the highest death rate of all counties. Entirely rural counties had a death rate of 275 per 100,000 throughout the pandemic. The lowest was in our entirely urban counties with 188 deaths per 100,000. This is most likely due to the fact that rural areas have a larger percentage of their population that is older, sicker, and have a higher percentage of people with co-morbidity. Interestingly, the same counties that had the highest case rates (Kandiyohi, Roseau, etc...) did not have the highest death rates indicating that the virus spread through a healthier population in those counties. In addition to these factors, the higher death rate in our rural areas likely has to do with the fact mentioned in our next highlight....
 
 **Significantly lower vaccination rates in rural areas**
 
 The highest vaccination rate exists in our entirely urban counties with around 75% of their population having the full series of shots. Our rural areas had between 60% and 65% of their population with the full series of shots. The lowest percentages exist in the counties just north of the twin cities metro where many of those counties barely have 50% of their population vaccinated with not even one shot. There were some rural regions that were surprising however. Counties in Southwest and Northeast in particular had some of the highest vaccination rates in Greater Minnesota.
+
+**The lowest vaccination rates are among American Indian populations**
+
+The percentage of American Indians vaccinated with at least one dose was the lowest among all race and ethnicity with 60.3% and only 53.5% with the complete vaccination series. Asian and Pacific Islanders have the highest with over 85% with at least one dose followed by whites and Hispanic with 70.5%.
 
 <br>
 
@@ -419,6 +434,86 @@ cases.per.100000.edr.plot <- ggplot(cases.per.100000.edr, aes(date, cases.per.10
 
 ```
 
+<br>
+
+# {.unnumbered .unlisted .toc-ignore .tabset}
+
+Culture, willingness to believe in preventative measures to stop the spread of COVID, as well as industry/employment makeup (think meat packing plants) in a region all likely played a role in the varied spread of COVID in each region. One way to test this idea is to see if entirely urban counties differed significantly in cases depending on whether the entirely urban county was located in the seven county metro or Greater Minnesota.
+
+The RUCA special chart provides the cumulative cases per 100,000 with the 7-county metro broken away from the "entirely urban" county group. This significantly changes the numbers compared to the traditional RUCA chart in the section above. Instead of entirely urban county group being rather low in terms of cumulative cases per 100,000, it is now the highest with 23,256 cumulative cases per 100,000. The seven-county metro counties are the second LOWEST with 19,889 cases per 100,000.
+
+It's fair to say that culture and following public health guidelines played a role in this, but we also can't ignore some of the other reasons such as industry makeup. There are a lot of counties in Greater Minnesota (including entirely urban ones) that have significant manufacturing employers where CDC guidelines were likely hard to follow. We can all remember some of the breakouts that occurred at the beginning of the pandemic when there were super spreaders events occurring at employers that were "essential" and did not close.
+
+The map below really points this out. There are counties such as Nobles, Kandiyohi, the counties around Waseca and Mower, as well as Roseau which all had very high cases per 100,000. These counties also have plants that never shut down and had super spreader events. 
+
+<br>
+
+```{r prep special ruca cumulative cases per 100,000 ruca with seven county split out, include=FALSE, cache=TRUE}
+cum.cases.ruca.spec <- master.cases %>%
+  mutate(ruca.spec = ifelse(planning.region == "Seven County Mpls-St Paul", "7-County", as.character(Dem_Desc)),
+         ruca.spec = fct_relevel(ruca.spec, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban", "7-County")) %>%
+  group_by(ruca.spec, date) %>%
+  summarise(pop = sum(pop, na.rm = TRUE),
+            cases = sum(cases, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(cases.per.100000 = (cases / pop) * 100000,
+         data_id = seq(n()))
+
+cum.cases.county.map <- master.cases %>%
+  mutate(cases.per.100000 = (cases / pop) * 100000) %>%
+  filter(date == max(date)) %>%
+  mutate(cases.per.100000.bins = cut(cases.per.100000,
+                                     breaks = c(0, 17500, 20000, 22500, 25000, 40000),
+                                     labels = c("Less than 17,500 per 1000,000", "17,500 to 20,000 per 100,000", "20,000 to 22,500 per 100,000", "22,500 to 25,000 per 100,000", "More than 25,000 per 100,000"))) %>%
+  left_join(mn_counties[,c(4,7)], by = "countyfp")
+
+```
+
+## RUCA special
+
+<br>
+
+```{r chart special ruca cum cases per 100,000}
+cum.cases.ruca.spec.plot <- ggplot(cum.cases.ruca.spec, aes(date, cases.per.100000, color = ruca.spec)) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(ruca.spec, "\nDate: ", date, "\nCumulative cases: ", comma(cases, accuracy = 1), "\nCumulative cases per 100,000: ", comma(cases.per.100000, accuracy = 1), sep = "")), show.legend = FALSE) +
+  labs(x="", y = "", color="", title = "Cumulative cases per 100,000", caption = "MN Dept. of Health")+
+  geom_label_repel(data = filter(cum.cases.ruca.spec, date == max(date)), aes(label = comma(cases.per.100000, accuracy = 1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma)+
+  theme_line+
+  scale_color_manual(values= color.ruca.spec,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cum.cases.ruca.spec.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## Map of counties
+
+<br>
+
+```{r map cumulative cases per 100000}
+cum.cases.county.map.plot <- ggplot(cum.cases.county.map) +
+  geom_sf_interactive(color = "grey85", aes(geometry = geometry, fill = cases.per.100000.bins, data_id = countyfp, tooltip = paste(county, "\nDate: ", date, "\nTotal cumulative cases: ", comma(cases, accuracy = 1), "\nCases per 100,000: ", comma(cases.per.100000, accuracy = 1), sep = ""))) +
+  theme_sf+
+  scale_fill_manual(values = brewer.pal(n = 6, "PuBu")) +
+  labs(title = paste("Total cumulative cases per 100,000 by ", max(cum.cases.county.map$date))) +
+  theme(legend.box.margin = margin(50, 0, 0, -100),
+        text = element_text(size = 18))
+
+girafe(ggobj = cum.cases.county.map.plot, height_svg = 10, width_svg = 10) %>%
+  girafe_options(opts_sizing(rescale = FALSE))
+
+```
+
 
 <br>
 
@@ -431,6 +526,8 @@ The deaths per 100,000 by RUCA show a very different story compared to the cases
 When broken down by region, the highest deaths per 100,000 was in Northwest MN with 253 followed by Central with 250 and Southwest at 231.
 
 Even more interesting is by EDR. This very much shows that the more rural a region is, the higher the deaths per 100,000. For example in the Southwest planning region, EDR 6W had the highest deaths per 100,000 with a whopping 323 deaths per 100,000 compared to the more "metro" EDR 9 - South Central which had a 195 deaths per 100,000.
+
+One other thing to point out is that the state map showing the total deaths per 100,000 for each county is very different than the cases per 100,000 map. For example, the counties surrounding Waseca and Mower had very high cumulative cases but that did not equal a high death rate for those counties. Same with Nobles, Roseau and Kandiyohi. This means that a lot of the folks that got sick in those counties were likely due to the spread within relatively healthy, younger folks.
 
 <br>
 
@@ -458,6 +555,15 @@ deaths.edr <- master.deaths %>%
   ungroup() %>%
   mutate(deaths.per.100000 = (deaths / pop) * 100000,
          data_id = seq(n()))
+
+deaths.county.map <- master.deaths %>%
+  mutate(deaths.per.100000 = (deaths / pop) * 100000) %>%
+  filter(date == max(date)) %>%
+  mutate(deaths.per.100000.bins = cut(deaths.per.100000,
+                                      breaks = c(0, 200, 250, 300, 350, 1000),
+                                      labels = c("Less than 200 per 100,000", "200 to 250 per 100,000", "250 to 300 per 100,000", "300 to 350 per 100,000", "More than 350 per 100,000"))) %>%
+  left_join(mn_counties[,c(4,7)], by = "countyfp")
+
 ```
 
 ## RUCA
@@ -537,6 +643,26 @@ deaths.edr.plot <- ggplot(deaths.edr, aes(date, deaths.per.100000, color = edr))
     girafe_options(opts_selection(type = "none"),
                    opts_toolbar(saveaspng = FALSE),
                    opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## County map
+
+<br>
+
+```{r map deaths per 100,000 county}
+deaths.county.map.plot <- ggplot(deaths.county.map) +
+  geom_sf_interactive(color = "grey85", aes(geometry = geometry, fill = deaths.per.100000.bins, data_id = countyfp, tooltip = paste(county, "\nDate: ", date, "\nTotal deaths: ", comma(deaths, accuracy = 1), "\nDeaths per 100,000: ", comma(deaths.per.100000, accuracy = 1), sep = ""))) +
+  theme_sf+
+  scale_fill_manual(values = brewer.pal(n = 6, "PuBu")) +
+  labs(title = paste("Total deaths per 100,000 by ", max(deaths.county.map$date))) +
+  theme(legend.box.margin = margin(50, 0, 0, -100),
+        text = element_text(size = 18))
+
+girafe(ggobj = deaths.county.map.plot, height_svg = 10, width_svg = 10) %>%
+  girafe_options(opts_sizing(rescale = FALSE))
 
 ```
 
@@ -714,3 +840,48 @@ girafe(ggobj = vaccine.county.map.plot, height_svg = 10, width_svg = 10) %>%
 
 <br>
 
+# {.unnumbered .unlisted .toc-ignore}
+
+The chart below provides the percent of the population vaccinated by race and ethnicity as of the beginning of February 2022. There is a pretty wide discrepancy in vaccination rates across race and ethnicity. The highest percentages is people of Asian and Pacific Islander race with 86.2% getting at least one dose. This is followed by white and Hispanic with 70.5% of the population with eat least one does. I'm not entirely certain why multiracial is so low. 
+
+Unfortunately, vaccination among American Indians is also quite low with only 60.3% vaccinated.
+
+<br>
+
+```{r prep vaccination by race and ethnicity, include=FALSE, cache=TRUE}
+vaccinations.race <- master.vaccinations.race %>%
+  filter(year == max(year)) %>%
+  filter(week == max(week)) %>%
+  select(1:10) %>%
+  gather(key = "race.ethnicity", value = "pct.vaccinated", 5:10) %>%
+  group_by(case_definition) %>%
+  arrange(desc(pct.vaccinated)) %>%
+  ungroup() %>%
+  filter(`Age group` == "5+") %>%
+  mutate(data_id = as.character(seq(n())),
+         pct.vaccinated = str_sub(pct.vaccinated, 1, 5),
+         pct.vaccinated = as.numeric(pct.vaccinated),
+         pct.vaccinated = pct.vaccinated / 100,
+         race.ethnicity = fct_relevel(race.ethnicity, "Asian/Pacific Islander", "White", "Hispanic", "Black/African American", "American Indian", "Multiracial"))
+```
+
+```{r chart pct vaccinated by race and ethnicity}
+vaccinations.race.plot <- ggplot(vaccinations.race, aes(race.ethnicity, pct.vaccinated, fill = case_definition, group = case_definition)) +
+  geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(race.ethnicity, "\nYear: ", year, "\nWeek of year: ", week, "\nVaccination dose: ", case_definition, "\nPercent vaccinated: ", percent(pct.vaccinated, accuracy = .1), sep = ""))) +
+    geom_label(aes(label = percent(pct.vaccinated, accuracy = .1)), show.legend = FALSE, color = "white", size = 5, position = position_dodge(width = .9)) +
+    labs(x="", y = "", color="", title = paste("Percent vaccinated as of week ", max(vaccinations.race$week), " of year ", max(vaccinations.race$year), sep = ""), caption = "\nMN Department of Health")+
+    scale_y_continuous(labels=scales::percent)+
+    scale_x_discrete(guide = guide_axis(n.dodge = 3)) +
+    theme_bar+
+    scale_fill_manual(values = brewer.pal(n = 6, "RdYlBu"),
+                       guide = guide_legend(ncol = 3)) +
+    theme(legend.position = "bottom",
+          text = element_text(size = 18))
+
+
+girafe(ggobj = vaccinations.race.plot, width_svg = 10, height_svg = 10) %>%
+  girafe_options(opts_selection(type = "none"),
+                 opts_sizing(rescale = FALSE))
+
+
+```
