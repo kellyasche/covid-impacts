@@ -369,6 +369,64 @@ hosp.cap.edr.s.plot <- ggplot(data = filter(hosp.cap.edr, planning.region %in% c
 
 <br>
 
+# {.unnumbered .unlisted .toc-ignore .tabset}
+
+Variability in bed availability.
+
+<br>
+
+```{r prep number of beds variability, include=FALSE, cache=TRUE}
+bed.var.ruca <- hosp.cap.ruca %>%
+  group_by(Dem_Desc) %>%
+  mutate(inpatient_beds_7_day_avg_index = (inpatient_beds_7_day_avg - inpatient_beds_7_day_avg[collection_week == min(collection_week)]) / inpatient_beds_7_day_avg[collection_week == min(collection_week)],
+         total_staffed_adult_icu_beds_7_day_avg_index = (total_staffed_adult_icu_beds_7_day_avg - total_staffed_adult_icu_beds_7_day_avg[collection_week == min(collection_week)]) / total_staffed_adult_icu_beds_7_day_avg[collection_week == min(collection_week)]) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n())) %>%
+  gather(key = "index.type", value = "index", 12:13)
+
+```
+
+## RUCA
+
+<br>
+
+```{r chart number of beds variability ruca}
+bed.var.ruca.plot <- ggplot(bed.var.ruca, aes(collection_week, index, color = Dem_Desc)) +
+  facet_wrap(~index.type, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_smooth(se = FALSE, size = 3) +
+  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nDate: ", collection_week, "\nBed type: ", index.type, "\nChange in bed type since ", min(bed.var.ruca$collection_week), ": ", percent(index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = paste("Change in values since ", min(bed.var.ruca$collection_week), sep = "")) +
+  geom_label(data = filter(bed.var.ruca, collection_week == max(collection_week)), aes(label = percent(index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent) +
+  theme_line +
+  scale_color_manual(values = color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = bed.var.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+
+```
+
+<br>
+
+## Planning Region
+
+<br>
+
+<br>
+
+## EDR
+
+<br>
+
+<br>
+
 
 # Hospital margins{.tabset}
 

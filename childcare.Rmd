@@ -119,3 +119,229 @@ mn_counties <- st_read("Data/Shapefiles/county shapefiles/MNCounties_MNDOT.shp",
   rename(countyfp = FIPS_CODE)
 
 ```
+
+```{r master child care, include=FALSE, cache=TRUE}
+master.child.care <- read_csv("Data/Child care/Master-child-care.csv") %>%
+  mutate(Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"))
+  
+
+```
+
+<br>
+
+# Child care capacity{.tabset}
+
+The charts below provide the change in child care capacity (by type of care) from 2019 to 2020. 
+
+Interestingly, the RUCA county group chart shows that the largest decline in capacity occurred in the urban/town/rural mix county group with an overall decline of 2.5%, followed by entirely urban county group with a 1% decline. Both of these declines were due to significant declines in family care capacity in those county groups. However, the more rural a county was, the more likely they actually experienced an increase in child care capacity which was largely led by center care.
+
+The change in capacity by region shows significantly declines in Northeast Minnesota. From 2019 to 2020 that region lost 5.3% of it's total child care capacity and they saw declines in both family care capacity (8.4%) and center care (2.8%). The remaining regions all experienced declines in child care capacity (quite a bit lower percentages than Northeast) except for Northwest. This region saw an increase of 0.6% increase in capacity from 2019 to 2020. This was due to an increase in center care capacity and was almost entirely in the EDR 2 Headwaters region.
+
+
+<br>
+
+```{r prep child care capacity, include=FALSE, cache=TRUE}
+
+cc.capacity.county <- master.child.care %>%
+  filter(year %in% c(2019, 2020)) %>%
+  mutate(tot.capacity = fcc.capacity + ccc.capacity) %>%
+  gather(key = "care.type", value = "capacity", 9:11) %>%
+  mutate(care.type = str_replace(care.type, "ccc.capacity", "Center care capacity"),
+         care.type = str_replace(care.type, "fcc.capacity", "Family care capacity"),
+         care.type = str_replace(care.type, "tot.capacity", "Total care capacity")) 
+
+cc.capacity.county.map <- cc.capacity.county %>%
+  group_by(county, care.type) %>%
+  mutate(capacity.annual.change = (capacity - lag(capacity)) / lag(capacity)) %>%
+  ungroup() %>%
+  filter(year != 2019,
+         care.type == "Total care capacity")
+
+ggplot(cc.capacity.county.map, aes(capacity.annual.change)) +
+  geom_histogram()
+
+cc.capacity.ruca <- cc.capacity.county %>%
+  group_by(Dem_Desc, care.type, year) %>%
+  summarise(capacity = sum(capacity)) %>%
+  ungroup() %>%
+  group_by(Dem_Desc, care.type) %>%
+  mutate(capacity.index = (capacity - capacity[year == min(year)]) / capacity[year == min(year)],
+         capacity.annual.change = (capacity - lag(capacity)) / lag(capacity)) %>%
+  ungroup() %>%
+  mutate(data_id = as.character(seq(n())),
+         year = as_factor(year)) %>%
+  filter(year != "2019")
+  
+cc.capacity.pr <- cc.capacity.county %>%
+  group_by(planning.region, care.type, year) %>%
+  summarise(capacity = sum(capacity)) %>%
+  ungroup() %>%
+  group_by(planning.region, care.type) %>%
+  mutate(capacity.index = (capacity - capacity[year == min(year)]) / capacity[year == min(year)],
+         capacity.annual.change = (capacity - lag(capacity)) / lag(capacity)) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()),
+         year = as_factor(year)) %>%
+  filter(year != "2019")
+
+cc.capacity.edr <- cc.capacity.county %>%
+  group_by(edr, planning.region, care.type, year) %>%
+  summarise(capacity = sum(capacity)) %>%
+  ungroup() %>%
+  group_by(edr, planning.region, care.type) %>%
+  mutate(capacity.index = (capacity - capacity[year == min(year)]) / capacity[year == min(year)],
+         capacity.annual.change = (capacity - lag(capacity)) / lag(capacity)) %>%
+  ungroup() %>%
+  mutate(data_id = seq(n()),
+         year = as_factor(year)) %>%
+  filter(year != "2019")
+  
+```
+
+## RUCA
+
+<br>
+
+```{r chart child care capacity index ruca}
+cc.capacity.ruca.plot <- ggplot(cc.capacity.ruca, aes(Dem_Desc, capacity.annual.change, fill = Dem_Desc)) +
+  facet_wrap(~care.type, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nYear: ", year, "Child care type: ", care.type, "\nCare capacity: ", comma(capacity, accuracy = 1), "\nChange in capacity since pervious year: ", percent(capacity.annual.change, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in child care capacity 2019 - 2020", caption = "MN Department of Health")+
+  geom_label(data = cc.capacity.ruca, position = position_dodge(width = .9), aes(label = percent(capacity.annual.change, accuracy = .1)), show.legend = FALSE, size = 3) +
+  scale_y_continuous(labels=scales::percent) +
+  scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_fill_manual(values = color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cc.capacity.ruca.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## Planning Region
+
+<br>
+
+```{r chart child care capacity index pr}
+cc.capacity.pr.plot <- ggplot(cc.capacity.pr, aes(planning.region, capacity.annual.change, fill = planning.region)) +
+  facet_wrap(~care.type, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(planning.region, "\nYear: ", year, "Child care type: ", care.type, "\nCare capacity: ", comma(capacity, accuracy = 1), "\nChange in capacity since pervious year: ", percent(capacity.annual.change, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in child care capacity 2019 - 2020", caption = "MN Department of Health")+
+  geom_label(data = cc.capacity.pr, position = position_dodge(width = .9), aes(label = percent(capacity.annual.change, accuracy = .1)), show.legend = FALSE, size = 3) +
+  scale_y_continuous(labels=scales::percent) +
+  scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_fill_manual(values = color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cc.capacity.pr.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## EDR{.tabset}
+
+<br>
+
+### North
+
+<br>
+
+```{r chart child care capacity index edr}
+cc.capacity.edr.n.plot <- ggplot(filter(cc.capacity.edr, planning.region %in% c("Northwest", "Northeast")), aes(edr, capacity.annual.change, fill = edr)) +
+  facet_wrap(~care.type, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(edr, "\nYear: ", year, "Child care type: ", care.type, "\nCare capacity: ", comma(capacity, accuracy = 1), "\nChange in capacity since pervious year: ", percent(capacity.annual.change, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in child care capacity 2019 - 2020", caption = "MN Department of Health")+
+  geom_label(data = filter(cc.capacity.edr, planning.region %in% c("Northwest", "Northeast")), position = position_dodge(width = .9), aes(label = percent(capacity.annual.change, accuracy = .1)), show.legend = FALSE, size = 3) +
+  scale_y_continuous(labels=scales::percent) +
+  scale_x_discrete(guide = guide_axis(n.dodge = 3)) +
+  theme_line+
+  scale_fill_manual(values = color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cc.capacity.edr.n.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+### Middle
+
+<br>
+
+```{r chart child care capacity index edr middle}
+cc.capacity.edr.m.plot <- ggplot(filter(cc.capacity.edr, planning.region %in% c("Central", "Seven County Mpls-St Paul")), aes(edr, capacity.annual.change, fill = edr)) +
+  facet_wrap(~care.type, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(edr, "\nYear: ", year, "Child care type: ", care.type, "\nCare capacity: ", comma(capacity, accuracy = 1), "\nChange in capacity since pervious year: ", percent(capacity.annual.change, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in child care capacity 2019 - 2020", caption = "MN Department of Health")+
+  geom_label(data = filter(cc.capacity.edr, planning.region %in% c("Central", "Seven County Mpls-St Paul")), position = position_dodge(width = .9), aes(label = percent(capacity.annual.change, accuracy = .1)), show.legend = FALSE, size = 3) +
+  scale_y_continuous(labels=scales::percent) +
+  scale_x_discrete(guide = guide_axis(n.dodge = 3)) +
+  theme_line+
+  scale_fill_manual(values = color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cc.capacity.edr.m.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+### South
+
+
+<br>
+
+```{r chart child care capacity index edr south}
+cc.capacity.edr.s.plot <- ggplot(filter(cc.capacity.edr, planning.region %in% c("Southwest", "Southeast")), aes(edr, capacity.annual.change, fill = edr)) +
+  facet_wrap(~care.type, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_col_interactive(position = "dodge", aes(data_id = data_id, tooltip = paste(edr, "\nYear: ", year, "Child care type: ", care.type, "\nCare capacity: ", comma(capacity, accuracy = 1), "\nChange in capacity since pervious year: ", percent(capacity.annual.change, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Change in child care capacity 2019 - 2020", caption = "MN Department of Health")+
+  geom_label(data = filter(cc.capacity.edr, planning.region %in% c("Southwest", "Southeast")), position = position_dodge(width = .9), aes(label = percent(capacity.annual.change, accuracy = .1)), show.legend = FALSE, size = 3) +
+  scale_y_continuous(labels=scales::percent) +
+  scale_x_discrete(guide = guide_axis(n.dodge = 3)) +
+  theme_line+
+  scale_fill_manual(values = color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+  girafe(ggobj = cc.capacity.edr.s.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
