@@ -151,6 +151,14 @@ master.hosp.cap <- read_csv("Data/Hospitals/Capacity/hospital-capacity.csv") %>%
 
 The percentage of beds occupied by COVID patients in rural areas throughout the pandemic were surprisingly low. But this is likely due to coordination among hospitals and within health care systems to transport COVID patients to the larger regional hospitals. We will have to talk to Santo to get a better handle on this.
 
+**Hospitals were managing resources depending on demand for certain beds**
+
+The consistent percentages of beds being used is surprising due to the wave-like trends in the pandemic. However, the data showing the number of inpatient and ICU beds available shows that hospitals were actively managing their resources by shifting staff to other types of beds depending on the demand. The number of inpatient and ICU beds available changed significantly and showed a wave-like trends that coincided with the trends of the pandemic. 
+
+**The number of inpatient beds available declining significantly in rural areas**
+
+One aspect that is a bit worrisome is the decline in the number of inpatient beds that continues throughout the pandemic. In our more rural hospitals of Minnesota, the number of inpatient beds available is between 30% and 40% less than what it was on July 31, 2020.
+
 **Rural hospitals were in a precarious financial state immediately before the pandemic**
 
 Although we don't yet have 2020 financial data, the 2019 hospital annual reports showed that hospitals in our rural areas had average profit losses compared to more metropolitan hospitals. 
@@ -371,19 +379,61 @@ hosp.cap.edr.s.plot <- ggplot(data = filter(hosp.cap.edr, planning.region %in% c
 
 # {.unnumbered .unlisted .toc-ignore .tabset}
 
-Variability in bed availability.
+One aspect that doesn't get discussed much is how hospitals needed to shift resources and staff to different "beds" depending on staff availability and need. The charts below provide the number of inpatient and ICU beds each week as a percentage of the number of beds that were available at the earliest data point which is July 31, 2020.
+
+The first thing that is noticeable when reviewing the charts is that there were very few ICU beds available in our entirely rural hospitals. The data suppressed information if there was less than 4 beds so it could be that there were 1 to 3 beds available but the data shows 0. 
+
+Another trend is that the number of ICU beds as a percentage of the number on July 31, 2020 is that they went up and down and it seems to coincide with the waves of the virus. Beds would increase as Delta and Omicron waves hit. This indicates that hospitals were actively adjusting resources and staff according to the demand.
+
+Another noticeable trend is that ICU beds staffed in our entirely urban hospitals stayed high and consistent. They never dropped below the number of ICU beds staffed in July 31, 2020. This is not true for hospitals that are more rural. As the pandemic continued the number of ICU beds decreased significantly, particularly in our town/rural mix counties. The reason for this is unknown, but it could be due to hospital systems shifting ICU to their larger hospitals in urban areas as well as staffing issues.
+
+The trend of the number of inpatient beds compared to July 31, 2020 is quite striking. Significant declines in the number of beds available across Minnesota. The declines were most severe in our town/rural mix counties and urban/town/rural mix counties.
+
+When looking at the data by region, we can see that the seven-county mpls-st paul region kept a considerably high number of ICU beds throughout the pandemic. The Southeast hospitals kept a very consistent number as well. Hospitals outside of these regions had a much more fluctuating number of ICU bed and most recently have seen significant decline in the number of ICU beds.
+
+The inpatient beds shows declines throughout all regions but the most severe are in Southwest, Northwest, and Central Minnesota. 
+
+It's challenging to know the exact reasons for these trends. It's likely due to a combination of hospitals managing resources and increasing staffing levels for certain types of beds depending on demand coupled with staffing levels declining due to people dropping out of the workforce in health care. However, what this does make clear is that the percentages of beds taken were not necessarily a good indicator of the severity of the issue since hospitals were actively changing the number of beds available on a weekly basis. This would explain why the percentages were so consistent. As more ICU beds were needed, they increased the staffing of those beds in order to meet the demand.
 
 <br>
 
 ```{r prep number of beds variability, include=FALSE, cache=TRUE}
 bed.var.ruca <- hosp.cap.ruca %>%
+  spread(key = key, value = pct) %>%
+  select(1:3, 9) %>%
+  rename(inpatient.beds = 3,
+         icu.beds = 4) %>%
   group_by(Dem_Desc) %>%
-  mutate(inpatient_beds_7_day_avg_index = (inpatient_beds_7_day_avg - inpatient_beds_7_day_avg[collection_week == min(collection_week)]) / inpatient_beds_7_day_avg[collection_week == min(collection_week)],
-         total_staffed_adult_icu_beds_7_day_avg_index = (total_staffed_adult_icu_beds_7_day_avg - total_staffed_adult_icu_beds_7_day_avg[collection_week == min(collection_week)]) / total_staffed_adult_icu_beds_7_day_avg[collection_week == min(collection_week)]) %>%
+  mutate(inpatient.beds.index = (inpatient.beds - inpatient.beds[collection_week == min(collection_week)]) / inpatient.beds[collection_week == min(collection_week)],
+         icu.beds.index = (icu.beds - icu.beds[collection_week == min(collection_week)]) / icu.beds[collection_week == min(collection_week)]) %>%
   ungroup() %>%
-  mutate(data_id = seq(n())) %>%
-  gather(key = "index.type", value = "index", 12:13)
+  mutate(icu.beds.index = ifelse(Dem_Desc == "Entirely rural", 0, icu.beds.index)) %>%
+  gather(key = "index.type", value = "index", 5:6) %>%
+  mutate(data_id = seq(n()))
 
+bed.var.pr <- hosp.cap.pr %>%
+  spread(key = key, value = pct) %>%
+  select(1:3, 9) %>%
+  rename(inpatient.beds = 3,
+         icu.beds = 4) %>%
+  group_by(planning.region) %>%
+  mutate(inpatient.beds.index = (inpatient.beds - inpatient.beds[collection_week == min(collection_week)]) / inpatient.beds[collection_week == min(collection_week)],
+         icu.beds.index = (icu.beds - icu.beds[collection_week == min(collection_week)]) / icu.beds[collection_week == min(collection_week)]) %>%
+  ungroup() %>%
+  gather(key = "index.type", value = "index", 5:6) %>%
+  mutate(data_id = seq(n()))
+
+bed.var.edr <- hosp.cap.edr %>%
+  spread(key = key, value = pct) %>%
+  select(1:4, 9) %>%
+  rename(inpatient.beds = 4,
+         icu.beds = 5) %>%
+  group_by(edr, planning.region) %>%
+  mutate(inpatient.beds.index = (inpatient.beds - inpatient.beds[collection_week == min(collection_week)]) / inpatient.beds[collection_week == min(collection_week)],
+         icu.beds.index = (icu.beds - icu.beds[collection_week == min(collection_week)]) / icu.beds[collection_week == min(collection_week)]) %>%
+  ungroup() %>%
+  gather(key = "index.type", value = "index", 6:7) %>%
+  mutate(data_id = seq(n()))
 ```
 
 ## RUCA
@@ -394,10 +444,10 @@ bed.var.ruca <- hosp.cap.ruca %>%
 bed.var.ruca.plot <- ggplot(bed.var.ruca, aes(collection_week, index, color = Dem_Desc)) +
   facet_wrap(~index.type, ncol = 2) +
   geom_hline(yintercept = 0, color = "black") +
-  geom_smooth(se = FALSE, size = 3) +
-  geom_point_interactive(size = 5, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nDate: ", collection_week, "\nBed type: ", index.type, "\nChange in bed type since ", min(bed.var.ruca$collection_week), ": ", percent(index, accuracy = .1), sep = ""))) +
+  geom_line(se = FALSE, size = 1.5) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nDate: ", collection_week, "\nNumber of inpatient beds staffed: ", comma(inpatient.beds, accuracy = 1), "\nNumber of icu beds staffed: ", comma(icu.beds, accuracy = 1),"\nChange in ", index.type, " since ", min(bed.var.ruca$collection_week), ": ", percent(index, accuracy = .1), sep = ""))) +
   labs(x="", y = "", color="", title = paste("Change in values since ", min(bed.var.ruca$collection_week), sep = "")) +
-  geom_label(data = filter(bed.var.ruca, collection_week == max(collection_week)), aes(label = percent(index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  geom_label_repel(data = filter(bed.var.ruca, collection_week == max(collection_week)), aes(label = percent(index, accuracy = .1)), show.legend = FALSE, size = 5) +
   scale_y_continuous(labels=scales::percent) +
   theme_line +
   scale_color_manual(values = color.ruca,
@@ -419,11 +469,28 @@ bed.var.ruca.plot <- ggplot(bed.var.ruca, aes(collection_week, index, color = De
 
 <br>
 
-<br>
+```{r chart number of beds variability pr}
+bed.var.pr.plot <- ggplot(bed.var.pr, aes(collection_week, index, color = planning.region)) +
+  facet_wrap(~index.type, ncol = 2) +
+  geom_hline(yintercept = 0, color = "black") +
+  geom_line(se = FALSE, size = 1.5) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(planning.region, "\nDate: ", collection_week, "\nNumber of inpatient beds staffed: ", comma(inpatient.beds, accuracy = 1), "\nNumber of icu beds staffed: ", comma(icu.beds, accuracy = 1),"\nChange in ", index.type, " since ", min(bed.var.ruca$collection_week), ": ", percent(index, accuracy = .1), sep = ""))) +
+  labs(x="", y = "", color="", title = paste("Change in values since ", min(bed.var.pr$collection_week), sep = "")) +
+  geom_label_repel(data = filter(bed.var.pr, collection_week == max(collection_week)), aes(label = percent(index, accuracy = .1)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::percent) +
+  theme_line +
+  scale_color_manual(values = color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
 
-## EDR
+  girafe(ggobj = bed.var.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
 
-<br>
+
+```
 
 <br>
 
