@@ -135,9 +135,15 @@ master.child.care <- read_csv("Data/Child care/Master-child-care.csv") %>%
 
 The charts below provide the change in child care capacity (by type of care) from 2019 to 2020. 
 
-Interestingly, the RUCA county group chart shows that the largest decline in capacity occurred in the urban/town/rural mix county group with an overall decline of 2.5%, followed by entirely urban county group with a 1% decline. Both of these declines were due to significant declines in family care capacity in those county groups. However, the more rural a county was, the more likely they actually experienced an increase in child care capacity which was largely led by center care.
+The first thing you will notice is that family-based care took a beating during COVID with significant declines across the board. Interestingly, the largest declines in family-based care took place in our more urban counties.
 
-The change in capacity by region shows significantly declines in Northeast Minnesota. From 2019 to 2020 that region lost 5.3% of it's total child care capacity and they saw declines in both family care capacity (8.4%) and center care (2.8%). The remaining regions all experienced declines in child care capacity (quite a bit lower percentages than Northeast) except for Northwest. This region saw an increase of 0.6% increase in capacity from 2019 to 2020. This was due to an increase in center care capacity and was almost entirely in the EDR 2 Headwaters region.
+Breaking the data down by RUCA county groups shows that our entirely rural counties had the largest decline in child care capacity between 2019 and 2020. Although these counties experienced declines in both center care and family care capacity, the largest decline was in center care. All other county groups experienced increases in center based care which helped stave off larger declines in total child care capacity.
+
+The hardest hit region was Northeast Minnesota, where they were also the only region to experience a decline in center based care capacity. All other regions experienced declines in total care capacity but were minimized by increases in center based care.
+
+Breaking the data down by EDR shows some interesting nuance. In the northern regions of Minnesota, EDR 2 - Headwaters was able to minimize declines in total child care capacity with an increase in center-based care of 22.6%. EDR 4 - West Central was able to have an increase in child care capacity with a 5.3% increase in center-based care as well. A similar story occurred in EDR 6E - Southwest Central where they were able to have an overal capacity increase of 1.3% thanks to an increase in center based care of 7.5%. Lastly, EDR 6W - Upper MN Valley saw a massive decline in center based care of 24.3%.
+
+Long story short - family care declined throughout Minnesota while in some places an increase in center based care was able to stave off larger total child care declines.
 
 
 <br>
@@ -157,10 +163,12 @@ cc.capacity.county.map <- cc.capacity.county %>%
   mutate(capacity.annual.change = (capacity - lag(capacity)) / lag(capacity)) %>%
   ungroup() %>%
   filter(year != 2019,
-         care.type == "Total care capacity")
+         care.type == "Total care capacity") %>%
+  mutate(capacity.annual.change.bins = cut(capacity.annual.change,
+                                            breaks = c(-1, -.1, -.05, 0, .5, 1),
+                                            labels = c("-10% or more", "-10% to -5%", "-5% to 0%", "0% to 5%", "More than 5%"))) %>%
+  left_join(mn_counties[,c(4,7)], by = "countyfp")
 
-ggplot(cc.capacity.county.map, aes(capacity.annual.change)) +
-  geom_histogram()
 
 cc.capacity.ruca <- cc.capacity.county %>%
   group_by(Dem_Desc, care.type, year) %>%
@@ -340,6 +348,27 @@ cc.capacity.edr.s.plot <- ggplot(filter(cc.capacity.edr, planning.region %in% c(
     girafe_options(opts_selection(type = "none"),
                    opts_toolbar(saveaspng = FALSE),
                    opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## County map
+
+<br>
+
+```{r chart capacity change county map}
+cc.capacity.county.map.plot <- ggplot(cc.capacity.county.map) +
+  geom_sf_interactive(color = "grey85", aes(geometry = geometry, fill = capacity.annual.change.bins, data_id = countyfp, tooltip = paste(county, "\nTotal capacity in 2020: ", comma(capacity, accuracy = 1), "\nChange in capacity from 2019: ", percent(capacity.annual.change, accuracy = .1), sep = ""))) +
+  theme_sf +
+  scale_fill_manual(values = brewer.pal(n = 6, "RdYlBu")) +
+  labs(title = "Change in child care capacity 2019 - 2020", caption = "\nMN Department of Health") +
+  theme(legend.box.margin = margin(50, 0, 0, -100),
+        text = element_text(size = 18))
+
+girafe(ggobj = cc.capacity.county.map.plot, height_svg = 10, width_svg = 10) %>%
+  girafe_options(opts_sizing(rescale = FALSE))
+
 
 ```
 

@@ -193,6 +193,10 @@ A sampling of cities that are collecting local option sales tax revenues shows l
 
 # Child care
 
-**COVID impacted child care capacity more in urban areas**
+**Declines in child care capacity most severe in our most rural areas**
 
-Surprisingly, our most rural areas of the state experienced a 
+Capacity for child care declined across the state but the most severe declines took place in our most rural areas. From 2019 to 2020, child care capacity declined by 4.3% while it declined by 2% or less in other county groups. The severity in rural areas was led by significant declines in center based care in Northeast Minnesota.
+
+**Increases in center based care staved off larger declines**
+
+Family based care declined everywhere in Minnesota. These types of care were definitely the hardest hit. However, some regions of Minnesota were able to stave off larger declines in TOTAL capacity by experiencing increases in center-based care. Regions such as EDR 2 - Headwaters, EDR 4 - West Central, EDR 6E - Southwest Central, EDR 7W - Central and much of Southwest Minnesota were able to increase their center-based care capacity.

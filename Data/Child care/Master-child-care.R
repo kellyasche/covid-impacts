@@ -32,15 +32,18 @@ est.need <- read_xlsx("Data/Child care/_Child Care Count and Capacity by County 
   select(1,2,6,8:11)
 
 ccc.cap <- read_xlsx("Data/Child care/_Child Care Count and Capacity by County 2000-2020.xlsx", sheet = 4) %>%
+  slice(1:87) %>%
   rename(county = 1) %>%
   select(1:22, 25:27) %>%
   gather(key = "year", value = "ccc.capacity", 2:22) %>%
   mutate(year = str_sub(year, - 2, -1),
          year = paste("20", year, sep = ""),
-         year = as.numeric(year)) %>%
+         year = as.numeric(year),
+         county = str_replace(county, "Lac Qui Parle", "Lac qui Parle")) %>%
   left_join(counties.regions[,c(1,2)], by = c("county" = "Name"))
 
 fcc.cap <- read_xlsx("Data/Child care/_Child Care Count and Capacity by County 2000-2020.xlsx", sheet = 6) %>%
+  slice(1:87) %>%
   rename(county = 1) %>%
   drop_na(county) %>%
   select(1:22, 25:27) %>%
