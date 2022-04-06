@@ -162,6 +162,18 @@ master.vaccinations.race <- read_csv("Data/Vaccinations/Vaccinations by Race and
 
 ```
 
+```{r master testing, include=FALSE, cache=TRUE}
+
+master.testing.county <- read_csv("Data/Testing/Master-testing-county.csv") %>%
+  mutate(Dem_Desc = fct_relevel(Dem_Desc, "Entirely rural", "Town/rural mix", "Urban/town/rural mix", "Entirely urban"),
+         edr = fct_relevel(edr, "EDR 1 - Northwest", "EDR 2 - Headwaters", "EDR 3 - Arrowhead", "EDR 4 - West Central", "EDR 5 - North Central", "EDR 6E- Southwest Central", "EDR 6W- Upper Minnesota Valley", "EDR 7E- East Central", "EDR 7W- Central", "EDR 8 - Southwest", "EDR 9 - South Central", "EDR 10 - Southeast", "EDR 11 - 7 County Twin Cities", "Minnesota"),
+         planning.region = fct_relevel(planning.region, "Northwest", "Northeast", "Central", "Seven County Mpls-St Paul", "Southwest", "Southeast"),
+         mif = as.factor(mif),
+         mif = fct_relevel(mif, "NW", "NE", "WC", "EC", "SW", "SE", "TC"),
+         date = ymd(date)) 
+
+```
+
 <br>
 
 # Summary
@@ -885,3 +897,174 @@ girafe(ggobj = vaccinations.race.plot, width_svg = 10, height_svg = 10) %>%
 
 
 ```
+
+# Testing{.tabset}
+
+The charts below is data from the [John Hopkins University & Medicine Coronavirus Resource Center](https://coronavirus.jhu.edu/testing/individual-states/minnesota). It's the cumulative tests for all COVID-19 tests reported by labs and hospital units. Unfortunately, I can't find the data before August 2021 so this will have to do.
+
+The data is quite interesting. The assumption was that the seven-county metro would have some of the highest number of tests per 100,000 population in the state, but this wasn't the case. In fact, some of the higher testing rates occurred in West Central Minnesota. The lowest occurred in the north central lakes and Northwest Minnesota. 
+
+By far, the highest testing per 100,000 population was in Rice County where Rochester and Mayo are located. 
+
+<br>
+
+```{r prep testing cumulative per 100,000, include=FALSE, cache=TRUE}
+cum.testing.100000.county.map <- master.testing.county %>%
+  filter(date == max(date)) %>%
+  mutate(tests.per.100000 = (tests_combined_total / pop) * 100000,
+         tests.per.100000.bins = cut(tests.per.100000,
+                                     breaks = c(0, 250000, 300000, 350000, 400000, 600000),
+                                     labels = c("Less than 250,000", "250,000 to 300,000", "300,000 to 350,000", "350,000 to 400,000", "More than 400,000"))) %>%
+  left_join(mn_counties[,c(4,7)], by = "countyfp")
+
+cum.testing.100000.ruca <- master.testing.county %>%
+  group_by(Dem_Desc, date) %>%
+  summarise(tests = sum(tests_combined_total, na.rm = TRUE),
+            pop = sum(pop)) %>%
+  ungroup() %>%
+  mutate(tests.per.100000 = (tests / pop) * 100000,
+         data_id = seq(n()))
+
+cum.testing.100000.pr <- master.testing.county %>%
+  group_by(planning.region, date) %>%
+  summarise(tests = sum(tests_combined_total, na.rm = TRUE),
+            pop = sum(pop)) %>%
+  ungroup() %>%
+  mutate(tests.per.100000 = (tests / pop) * 100000,
+         data_id = seq(n()))
+
+cum.testing.100000.edr <- master.testing.county %>%
+  group_by(edr, planning.region, date) %>%
+  summarise(tests = sum(tests_combined_total, na.rm = TRUE),
+            pop = sum(pop)) %>%
+  ungroup() %>%
+  mutate(tests.per.100000 = (tests / pop) * 100000,
+         data_id = seq(n()))
+
+```
+
+## RUCA
+
+There's quite a gap between rural and metro areas in the amount of tests performed per 100,000 population. By the beginning og April 2022, our entirely rural and town/rural mix counties were nearly 20,000 to 30,000 cumulative tests per 100,000 less than our urban counties.
+
+Not only is there a gap, but that gap grew significantly starting in 2022.
+
+<br>
+
+```{r chart testing per 100000 ruca}
+cum.testing.100000.ruca.plot <- ggplot(cum.testing.100000.ruca, aes(date, tests.per.100000, color = Dem_Desc)) +
+  geom_line(se = FALSE, size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(Dem_Desc, "\nDate: ", date, "\nCumulative tests to date: ", comma(tests, accuracy = 1), "\nCumulative tests per 100,000:", comma(tests.per.100000, accuracy = 1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Cumulative tests per 100,000")+
+  geom_label(data = filter(cum.testing.100000.ruca, date == max(date)), aes(label = comma(tests.per.100000)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma) +
+  scale_x_date(date_labels = "%Y %b",
+               date_breaks = "1 month",
+               guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_color_manual(values= color.ruca,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+girafe(ggobj = cum.testing.100000.ruca.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## Planning Region
+
+The chart below shows that Northwest Minnesota had significantly lower tests per 100,000 population compared to every other region. Its nearly 90,000 tests per 100,0000 population lower than the highest region - Southeast.
+
+Interestingly, the Southeast and Northeast regions had the highest - even higher than the seven-county metro. The Southeast is likely driven by the presence of the Mayo Clinic, but Northeast is a bit more challenging to identify. Perhaps the presence of Duluth?
+
+<br>
+
+```{r chart testing per 100000 pr}
+cum.testing.100000.pr.plot <- ggplot(cum.testing.100000.pr, aes(date, tests.per.100000, color = planning.region)) +
+  geom_line(se = FALSE, size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(planning.region, "\nDate: ", date, "\nCumulative tests to date: ", comma(tests, accuracy = 1), "\nCumulative tests per 100,000:", comma(tests.per.100000, accuracy = 1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Cumulative tests per 100,000")+
+  geom_label(data = filter(cum.testing.100000.pr, date == max(date)), aes(label = comma(tests.per.100000)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma) +
+  scale_x_date(date_labels = "%Y %b",
+               date_breaks = "1 month",
+               guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_color_manual(values= color.pr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+girafe(ggobj = cum.testing.100000.pr.plot, width_svg = 10, height_svg = 7) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## EDR
+
+What's interesting about this chart is that it doesn't follow our current thinking - the more rural the less tests per 100,000 population. But that isn't the case. Look at Southwest for example. We would think that EDR 6W - Upper MN Valley would have the lowest amount of tests, however they actually had the highest in the Southwest region. The lowest was in EDR 8 - Southwest where Marshall is located.
+
+This trend is the same in Northeast where EDR 2 - Headwaters (Bemidji) which had the lowest tests per 100,000 population in that region. 
+
+<br>
+
+```{r chart testing per 100000 edr}
+cum.testing.100000.edr.plot <- ggplot(cum.testing.100000.edr, aes(date, tests.per.100000, color = edr)) +
+  facet_wrap(~planning.region, ncol = 2) +
+  geom_line(se = FALSE, size = 3) +
+  geom_point_interactive(size = 3, aes(data_id = data_id, tooltip = paste(edr, "\nDate: ", date, "\nCumulative tests to date: ", comma(tests, accuracy = 1), "\nCumulative tests per 100,000:", comma(tests.per.100000, accuracy = 1), sep = ""))) +
+  labs(x="", y = "", color="", title = "Cumulative tests per 100,000")+
+  geom_label(data = filter(cum.testing.100000.edr, date == max(date)), aes(label = comma(tests.per.100000)), show.legend = FALSE, size = 5) +
+  scale_y_continuous(labels=scales::comma) +
+  scale_x_date(date_labels = "%Y %b",
+               date_breaks = "1 month",
+               guide = guide_axis(n.dodge = 2)) +
+  theme_line+
+  scale_color_manual(values= color.edr,
+                     guide = guide_legend(ncol = 3)) +
+  theme(legend.position = "bottom",
+        text = element_text(size = 18))
+
+girafe(ggobj = cum.testing.100000.edr.plot, width_svg = 10, height_svg = 10) %>%
+    girafe_options(opts_selection(type = "none"),
+                   opts_toolbar(saveaspng = FALSE),
+                   opts_sizing(rescale = FALSE))
+
+```
+
+<br>
+
+## County map
+
+The map is quite clear that some of the lowest testing rates occurred in the north central lakes counties and Northwest Minnesota. 
+
+Interestingly, the map also shows that our assumptions of the seven-county metro having the highest testing per 100,000 as incorrect. Those counties are pretty average with some low rates in the western seven-county metro. Actually, some of the highest rates occurred in West Central Minnesota.
+
+The county with the highest was Rice County, which aligns with Rochester and the Mayo leading the charge in that region. 
+
+<br>
+
+```{r chart testing per 100000 county}
+cum.testing.100000.county.map.plot <- ggplot(cum.testing.100000.county.map) +
+  geom_sf_interactive(color = "grey85", aes(geometry = geometry, fill = tests.per.100000.bins, data_id = countyfp, tooltip = paste(Name, "\nDate: ", date, "\nCumulative tests to date: ", comma(tests_combined_total, accuracy = 1), "\nCumulative tests per 100,000 population: ", comma(tests.per.100000, accuracy = 1), sep = ""))) +
+  theme_sf+
+  scale_fill_manual(values = brewer.pal(n = 6, "PuBu")) +
+  labs(title = "Cumulative tests per 100,000 population") +
+  theme(legend.box.margin = margin(50, 0, 0, -100),
+        text = element_text(size = 18))
+
+girafe(ggobj = cum.testing.100000.county.map.plot, height_svg = 10, width_svg = 10) %>%
+  girafe_options(opts_sizing(rescale = FALSE))
+
+
+```
+<br>
